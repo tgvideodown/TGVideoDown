@@ -1,0 +1,252 @@
+{
+  "nav": {
+    "home": "首页",
+    "features": "功能",
+    "pricing": "价格",
+    "about": "关于",
+    "download": "立即下载"
+  },
+  "hero": {
+    "badge": "免费且快速",
+    "title": "即时下载 Telegram 视频",
+    "subtitle": "从 Telegram 下载视频最简单的方法。快速、安全且完全免费。",
+    "ctaPrimary": "开始下载",
+    "ctaSecondary": "了解更多",
+    "stats": {
+      "downloads": "下载量",
+      "users": "活跃用户",
+      "uptime": "正常运行时间"
+    }
+  },
+  "features": {
+    "title": "为什么选择 TGVideoDown？",
+    "subtitle": "快速安全地从 Telegram 下载视频所需的一切",
+    "fast": {
+      "title": "极速下载",
+      "description": "通过我们优化的服务器和高速连接，几秒钟内即可下载视频。"
+    },
+    "secure": {
+      "title": "100% 安全",
+      "description": "您的隐私是我们的首要任务。所有下载都经过加密，我们从不存储您的数据。"
+    },
+    "multiDevice": {
+      "title": "多设备支持",
+      "description": "在桌面、移动设备和平板上无缝工作。随时随地下载。"
+    },
+    "formats": {
+      "title": "多种格式",
+      "description": "以 MP4、MKV 或您喜欢的任何格式下载视频。选择您的质量设置。"
+    },
+    "cloud": {
+      "title": "云存储",
+      "description": "直接保存到您的云存储。与 Google Drive、Dropbox 等集成。"
+    },
+    "support": {
+      "title": "24/7 支持",
+      "description": "我们的支持团队随时准备帮助您解决任何问题。"
+    }
+  },
+  "howItWorks": {
+    "title": "工作原理",
+    "subtitle": "只需 3 个简单步骤即可下载 Telegram 视频",
+    "step1": {
+      "title": "粘贴链接",
+      "description": "复制 Telegram 视频链接并将其粘贴到我们的下载器中。"
+    },
+    "step2": {
+      "title": "选择质量",
+      "description": "从可用选项中选择您喜欢的视频质量和格式。"
+    },
+    "step3": {
+      "title": "下载",
+      "description": "点击下载，您的视频将在几秒钟内准备就绪。就这么简单！"
+    }
+  },
+  "cta": {
+    "title": "准备开始了吗？",
+    "description": "加入数百万信任 TGVideoDown 进行视频下载的用户。",
+    "button": "立即下载",
+    "secondary": "查看价格"
+  },
+  "testimonials": {
+    "title": "用户评价",
+    "subtitle": "不要只听我们说。看看我们社区的评价。",
+    "user1": {
+      "quote": "这是我使用过的最快、最可靠的 Telegram 视频下载器。强烈推荐！"
+    },
+    "user2": {
+      "quote": "界面非常简洁易用。我可以下载任何我需要的格式的视频。"
+    },
+    "user3": {
+      "quote": "最好的部分是它完全免费且安全。无广告，无跟踪，只有纯粹的功能。"
+    }
+  },
+  "footer": {
+    "description": "最值得信赖的 Telegram 视频下载器。快速、安全且免费。",
+    "quickLinks": "快速链接",
+    "support": "支持",
+    "help": "帮助中心",
+    "contact": "联系我们",
+    "privacy": "隐私政策",
+    "copyright": "© {year} TGVideoDown。保留所有权利。"
+  },
+  "about": {
+    "hero": {
+      "title": "关于 TGVideoDown",
+      "subtitle": "我们致力于让 Telegram 视频下载变得简单、快速和安全"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "description": "TGVideoDown 的使命是为全球用户提供最简单、最快速、最安全的 Telegram 视频下载体验。我们相信每个人都应该能够轻松访问和保存他们喜爱的视频内容，而无需复杂的技术知识。"
+    },
+    "values": {
+      "title": "我们的价值观",
+      "simplicity": {
+        "title": "简单易用",
+        "description": "我们相信技术应该简单直观。我们的工具设计得让任何人都能轻松使用，无需学习曲线。"
+      },
+      "security": {
+        "title": "隐私安全",
+        "description": "您的隐私是我们的首要任务。我们采用最先进的安全措施保护您的数据，绝不存储或分享您的个人信息。"
+      },
+      "innovation": {
+        "title": "持续创新",
+        "description": "我们不断改进和更新我们的服务，确保您始终拥有最佳的用户体验和最新的功能。"
+      }
+    },
+    "story": {
+      "title": "我们的故事",
+      "paragraph1": "TGVideoDown 诞生于一个简单的想法：让每个人都能轻松下载 Telegram 视频。",
+      "paragraph2": "我们注意到许多用户需要一种简单的方法来保存他们喜爱的视频内容，但现有的解决方案要么太复杂，要么不够安全。",
+      "paragraph3": "因此，我们创建了 TGVideoDown - 一个快速、安全、完全免费的工具，让视频下载变得前所未有的简单。",
+      "step1": {
+        "title": "识别需求",
+        "description": "发现用户对简单、安全的视频下载工具的需求"
+      },
+      "step2": {
+        "title": "开发解决方案",
+        "description": "构建一个快速、安全且用户友好的平台"
+      },
+      "step3": {
+        "title": "持续改进",
+        "description": "根据用户反馈不断优化和完善服务"
+      }
+    },
+    "cta": {
+      "title": "准备好开始了吗？",
+      "description": "加入我们的社区，体验最简单、最快速的 Telegram 视频下载服务",
+      "button": "立即开始"
+    }
+  },
+  "download": {
+    "hero": {
+      "title": "下载 Telegram 视频",
+      "subtitle": "在下方粘贴您的 Telegram 视频链接开始下载"
+    },
+    "form": {
+      "placeholder": "在此粘贴 Telegram 视频链接...",
+      "button": "下载视频",
+      "loading": "处理中...",
+      "error": "请输入有效的 Telegram 视频链接"
+    },
+    "features": {
+      "title": "为什么使用我们的下载器？",
+      "fast": {
+        "title": "极速下载",
+        "description": "几秒钟内下载视频"
+      },
+      "secure": {
+        "title": "100% 安全",
+        "description": "您的数据永不存储"
+      },
+      "free": {
+        "title": "完全免费",
+        "description": "无隐藏费用或订阅"
+      }
+    },
+    "instructions": {
+      "title": "如何下载",
+      "step1": "从 Telegram 复制视频链接",
+      "step2": "在上方框中粘贴链接",
+      "step3": "点击下载并保存您的视频"
+    }
+  },
+  "privacy": {
+    "hero": {
+      "title": "隐私政策",
+      "lastUpdated": "最后更新"
+    },
+    "sections": {
+      "introduction": {
+        "title": "1. 介绍",
+        "content": "TGVideoDown（\"我们\"、\"我们的\"或\"本服务\"）运营位于本网站的视频下载服务（\"服务\"）。本隐私政策说明我们如何收集、使用、披露和保护用户（\"您\"或\"用户\"）的信息。使用本服务即表示您同意本政策中描述的做法。"
+      },
+      "collection": {
+        "title": "2. 我们收集的信息",
+        "subtitle1": "a. 您提供的信息",
+        "item1": "您请求下载的视频链接（仅用于处理下载所需）",
+        "item2": "可选用户提供的数据（如电子邮件、用户名），如果服务包括反馈、支持联系或注册功能",
+        "subtitle2": "b. 自动收集的信息",
+        "item3": "设备/技术信息（如 IP 地址、浏览器或应用版本、设备类型、操作系统）用于服务运营、调试和防止滥用",
+        "item4": "使用数据（如时间戳、下载次数、错误日志）用于改善性能",
+        "subtitle3": "c. Cookie 和跟踪技术",
+        "cookies": "我们使用必要的 Cookie 来确保网站功能正常。我们不会使用跟踪 Cookie 或广告 Cookie。"
+      },
+      "use": {
+        "title": "3. 信息的使用",
+        "content": "我们使用收集的信息来：",
+        "item1": "提供、维护和优化核心视频下载功能",
+        "item2": "处理下载请求",
+        "item3": "监控和改善用户体验和技术性能",
+        "item4": "防止滥用、欺诈或安全威胁",
+        "item5": "发送可选的服务通知（如服务状态、更新）"
+      },
+      "retention": {
+        "title": "4. 数据保留和存储",
+        "content": "我们保留数据的方式如下：",
+        "item1": "处理后的视频链接会立即删除，不会永久存储",
+        "item2": "日志数据会保留 30 天，用于服务改进和安全目的",
+        "item3": "所有数据都存储在安全的服务器上，并采用加密传输（HTTPS/TLS）"
+      },
+      "sharing": {
+        "title": "5. 共享和披露",
+        "content": "我们不会：",
+        "subtitle1": "我们不会",
+        "item1": "出售个人数据",
+        "item2": "除非必要，否则不会与第三方共享识别数据",
+        "subtitle2": "我们可能会共享数据",
+        "item3": "与服务提供商（分析、托管、CDN）在保密条款下共享数据",
+        "item4": "如果法律要求（如与执法部门）",
+        "item5": "与任何业务交易相关（如合并、收购）"
+      },
+      "security": {
+        "title": "6. 安全",
+        "content": "我们采取以下安全措施保护您的数据：",
+        "item1": "传输加密（HTTPS/TLS）",
+        "item2": "安全存储和访问控制",
+        "item3": "定期安全审计和更新",
+        "note": "请注意，没有任何系统是完全安全的，但我们致力于保护您的数据免受未经授权的访问、更改或披露。"
+      },
+      "rights": {
+        "title": "7. 用户权利",
+        "content": "根据您所在的位置，您可能拥有以下权利：",
+        "item1": "访问：查看我们持有的关于您的信息",
+        "item2": "更正：更新不准确或不完整的数据",
+        "item3": "删除：请求删除个人数据",
+        "item4": "数据可携带性：请求以可移植格式获取数据"
+      },
+      "children": {
+        "title": "8. 儿童隐私",
+        "content": "我们的服务不面向 13 岁以下的儿童。我们不会故意收集 13 岁以下儿童的个人信息。如果我们发现收集了此类信息，我们将立即删除。"
+      },
+      "changes": {
+        "title": "9. 本隐私政策的变更",
+        "content": "我们可能会不时更新本隐私政策。任何变更都会在本页面上发布更新日期。我们建议您定期查看本政策以了解任何变更。"
+      },
+      "contact": {
+        "title": "10. 联系信息",
+        "content": "如果您对本政策有任何问题、疑虑或请求，可以通过以下方式联系我们："
+      }
+    }
+  }
+}

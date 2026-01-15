@@ -18,9 +18,9 @@
           <NuxtLink to="/download" class="bg-cta hover:bg-cta-600 text-white font-semibold py-4 px-8 rounded-lg transition-colors duration-200 cursor-pointer text-lg">
             {{ $t('cta.button') }}
           </NuxtLink>
-          <NuxtLink to="/pricing" class="bg-white/10 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-lg transition-colors duration-200 cursor-pointer text-lg border-2 border-white/30">
+          <!-- <NuxtLink to="/pricing" class="bg-white/10 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-lg transition-colors duration-200 cursor-pointer text-lg border-2 border-white/30">
             {{ $t('cta.secondary') }}
-          </NuxtLink>
+          </NuxtLink> -->
         </div>
       </div>
     </div>

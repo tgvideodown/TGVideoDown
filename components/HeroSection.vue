@@ -28,9 +28,9 @@
           <NuxtLink to="/download" class="btn-primary text-lg px-8 py-4">
             {{ $t('hero.ctaPrimary') }}
           </NuxtLink>
-          <NuxtLink to="/features" class="btn-outline text-lg px-8 py-4">
-            {{ $t('hero.ctaSecondary') }}
-          </NuxtLink>
+          <!-- <NuxtLink to="/features" class="btn-outline text-lg px-8 py-4"> -->
+            <!-- {{ $t('hero.ctaSecondary') }}
+          </NuxtLink> -->
         </div>
 
         <!-- Stats -->

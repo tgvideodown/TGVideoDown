@@ -1,0 +1,252 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "features": "Características",
+    "pricing": "Precios",
+    "about": "Acerca de",
+    "download": "Descargar Ahora"
+  },
+  "hero": {
+    "badge": "Gratis y Rápido",
+    "title": "Descarga Videos de Telegram\nInstantáneamente",
+    "subtitle": "La forma más fácil de descargar videos de Telegram. Rápido, seguro y completamente gratis.",
+    "ctaPrimary": "Comenzar a Descargar",
+    "ctaSecondary": "Saber Más",
+    "stats": {
+      "downloads": "Descargas",
+      "users": "Usuarios Activos",
+      "uptime": "Tiempo Activo"
+    }
+  },
+  "features": {
+    "title": "¿Por Qué Elegir TGVideoDown?",
+    "subtitle": "Todo lo que necesitas para descargar videos de Telegram de forma rápida y segura",
+    "fast": {
+      "title": "Súper Rápido",
+      "description": "Descarga videos en segundos con nuestros servidores optimizados y conexiones de alta velocidad."
+    },
+    "secure": {
+      "title": "100% Seguro",
+      "description": "Tu privacidad es nuestra prioridad. Todas las descargas están encriptadas y nunca almacenamos tus datos."
+    },
+    "multiDevice": {
+      "title": "Soporte Multi-Dispositivo",
+      "description": "Funciona perfectamente en escritorio, móvil y tableta. Descarga desde cualquier lugar, en cualquier momento."
+    },
+    "formats": {
+      "title": "Múltiples Formatos",
+      "description": "Descarga videos en MP4, MKV o cualquier formato que prefieras. Elige tu configuración de calidad."
+    },
+    "cloud": {
+      "title": "Almacenamiento en la Nube",
+      "description": "Guarda directamente en tu almacenamiento en la nube. Integración con Google Drive, Dropbox y más."
+    },
+    "support": {
+      "title": "Soporte 24/7",
+      "description": "Nuestro equipo de soporte está siempre listo para ayudarte con cualquier pregunta o problema."
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Descarga videos de Telegram en solo 3 simples pasos",
+    "step1": {
+      "title": "Pegar Enlace",
+      "description": "Copia el enlace del video de Telegram y pégalo en nuestro descargador."
+    },
+    "step2": {
+      "title": "Elegir Calidad",
+      "description": "Selecciona tu calidad y formato de video preferido de las opciones disponibles."
+    },
+    "step3": {
+      "title": "Descargar",
+      "description": "Haz clic en descargar y tu video estará listo en segundos. ¡Es así de simple!"
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Comenzar?",
+    "description": "Únete a millones de usuarios que confían en TGVideoDown para sus descargas de video.",
+    "button": "Descargar Ahora",
+    "secondary": "Ver Precios"
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Usuarios",
+    "subtitle": "No solo nos creas. Mira lo que dice nuestra comunidad.",
+    "user1": {
+      "quote": "Este es el descargador de videos de Telegram más rápido y confiable que he usado. ¡Muy recomendado!"
+    },
+    "user2": {
+      "quote": "La interfaz es tan limpia y fácil de usar. Puedo descargar videos en cualquier formato que necesite."
+    },
+    "user3": {
+      "quote": "La mejor parte es que es completamente gratis y seguro. Sin anuncios, sin seguimiento, solo funcionalidad pura."
+    }
+  },
+  "footer": {
+    "description": "El descargador de videos de Telegram más confiable. Rápido, seguro y gratis.",
+    "quickLinks": "Enlaces Rápidos",
+    "support": "Soporte",
+    "help": "Centro de Ayuda",
+    "contact": "Contáctanos",
+    "privacy": "Política de Privacidad",
+    "copyright": "© {year} TGVideoDown. Todos los derechos reservados."
+  },
+  "about": {
+    "hero": {
+      "title": "Acerca de TGVideoDown",
+      "subtitle": "Estamos dedicados a hacer que la descarga de videos de Telegram sea simple, rápida y segura"
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "La misión de TGVideoDown es proporcionar la experiencia de descarga de videos de Telegram más simple, rápida y segura para usuarios de todo el mundo. Creemos que todos deberían poder acceder y guardar fácilmente su contenido de video favorito sin conocimientos técnicos complejos."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "simplicity": {
+        "title": "Simplicidad",
+        "description": "Creemos que la tecnología debe ser simple e intuitiva. Nuestras herramientas están diseñadas para ser fáciles de usar para cualquiera, sin curva de aprendizaje."
+      },
+      "security": {
+        "title": "Privacidad y Seguridad",
+        "description": "Tu privacidad es nuestra máxima prioridad. Utilizamos medidas de seguridad de última generación para proteger tus datos y nunca almacenamos o compartimos tu información personal."
+      },
+      "innovation": {
+        "title": "Innovación Continua",
+        "description": "Mejoramos y actualizamos continuamente nuestros servicios para asegurar que siempre tengas la mejor experiencia de usuario y las últimas funciones."
+      }
+    },
+    "story": {
+      "title": "Nuestra Historia",
+      "paragraph1": "TGVideoDown nació de una idea simple: facilitar que todos descarguen videos de Telegram.",
+      "paragraph2": "Notamos que muchos usuarios necesitaban una forma simple de guardar su contenido de video favorito, pero las soluciones existentes eran demasiado complejas o no lo suficientemente seguras.",
+      "paragraph3": "Así que creamos TGVideoDown - una herramienta rápida, segura y completamente gratuita que hace que la descarga de videos sea más simple que nunca.",
+      "step1": {
+        "title": "Identificar Necesidad",
+        "description": "Reconocimos la necesidad de una herramienta de descarga de videos simple y segura"
+      },
+      "step2": {
+        "title": "Desarrollar Solución",
+        "description": "Construimos una plataforma rápida, segura y fácil de usar"
+      },
+      "step3": {
+        "title": "Mejora Continua",
+        "description": "Optimizamos y mejoramos constantemente los servicios basados en los comentarios de los usuarios"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar?",
+      "description": "Únete a nuestra comunidad y experimenta el servicio de descarga de videos de Telegram más simple y rápido",
+      "button": "Comenzar Ahora"
+    }
+  },
+  "download": {
+    "hero": {
+      "title": "Descargar Videos de Telegram",
+      "subtitle": "Pega tu enlace de video de Telegram a continuación para comenzar a descargar"
+    },
+    "form": {
+      "placeholder": "Pega el enlace del video de Telegram aquí...",
+      "button": "Descargar Video",
+      "loading": "Procesando...",
+      "error": "Por favor ingresa un enlace de video de Telegram válido"
+    },
+    "features": {
+      "title": "¿Por Qué Usar Nuestro Descargador?",
+      "fast": {
+        "title": "Súper Rápido",
+        "description": "Descarga videos en segundos"
+      },
+      "secure": {
+        "title": "100% Seguro",
+        "description": "Tus datos nunca se almacenan"
+      },
+      "free": {
+        "title": "Completamente Gratis",
+        "description": "Sin tarifas ocultas ni suscripciones"
+      }
+    },
+    "instructions": {
+      "title": "Cómo Descargar",
+      "step1": "Copia el enlace del video de Telegram",
+      "step2": "Pega el enlace en el cuadro de arriba",
+      "step3": "Haz clic en descargar y guarda tu video"
+    }
+  },
+  "privacy": {
+    "hero": {
+      "title": "Política de Privacidad",
+      "lastUpdated": "Última Actualización"
+    },
+    "sections": {
+      "introduction": {
+        "title": "1. Introducción",
+        "content": "TGVideoDown (\"nosotros\", \"nuestro\" o \"el servicio\") opera el servicio de descarga de videos disponible en este sitio web (el \"Servicio\"). Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos la información de los usuarios (\"usted\" o \"Usuario\"). Al usar el Servicio, usted acepta las prácticas descritas aquí."
+      },
+      "collection": {
+        "title": "2. Información que Recopilamos",
+        "subtitle1": "a. Información que Usted Proporciona",
+        "item1": "URLs de videos que solicita descargar (solo según sea necesario para procesar descargas)",
+        "item2": "Datos opcionales proporcionados por el usuario (p. ej. correo electrónico, nombre de usuario) si el Servicio incluye funciones de comentarios, contacto de soporte o registro",
+        "subtitle2": "b. Información Recopilada Automáticamente",
+        "item3": "Información Técnica/Dispositivo (p. ej. dirección IP, versión del navegador o aplicación, tipo de dispositivo, SO) para operación del servicio, depuración, prevención de abuso",
+        "item4": "Datos de Uso (p. ej. marcas de tiempo, conteos de descarga, registros de errores) para mejorar el rendimiento",
+        "subtitle3": "c. Cookies y Tecnologías de Seguimiento",
+        "cookies": "Utilizamos cookies esenciales para garantizar la funcionalidad del sitio web. No utilizamos cookies de seguimiento o cookies publicitarias."
+      },
+      "use": {
+        "title": "3. Uso de la Información",
+        "content": "Utilizamos la información recopilada para:",
+        "item1": "Proporcionar, mantener y optimizar la funcionalidad principal de descarga de videos",
+        "item2": "Procesar solicitudes de descarga",
+        "item3": "Monitorear y mejorar la experiencia del usuario y el rendimiento técnico",
+        "item4": "Prevenir abuso, fraude o amenazas de seguridad",
+        "item5": "Enviar notificaciones opcionales del servicio (p. ej., sobre el estado del servicio, actualizaciones)"
+      },
+      "retention": {
+        "title": "4. Retención y Almacenamiento de Datos",
+        "content": "Retenemos los datos de la siguiente manera:",
+        "item1": "Las URLs de videos procesadas se eliminan inmediatamente y no se almacenan permanentemente",
+        "item2": "Los datos de registro se retienen durante 30 días para mejoras del servicio y fines de seguridad",
+        "item3": "Todos los datos se almacenan en servidores seguros con transmisión cifrada (HTTPS/TLS)"
+      },
+      "sharing": {
+        "title": "5. Compartir y Divulgación",
+        "content": "No hacemos lo siguiente:",
+        "subtitle1": "No hacemos",
+        "item1": "Vender datos personales",
+        "item2": "Compartir datos de identificación con terceros excepto según sea necesario",
+        "subtitle2": "Podemos compartir datos",
+        "item3": "Con proveedores de servicios (análisis, alojamiento, CDN) bajo términos de confidencialidad",
+        "item4": "Si la ley lo requiere (p. ej. con las fuerzas del orden)",
+        "item5": "En relación con cualquier transacción comercial (p. ej. fusión, adquisición)"
+      },
+      "security": {
+        "title": "6. Seguridad",
+        "content": "Implementamos las siguientes medidas de seguridad para proteger sus datos:",
+        "item1": "Cifrado en tránsito (HTTPS/TLS)",
+        "item2": "Almacenamiento seguro y controles de acceso",
+        "item3": "Auditorías y actualizaciones de seguridad regulares",
+        "note": "Tenga en cuenta que ningún sistema es perfectamente seguro, pero nos comprometemos a proteger sus datos contra acceso, alteración o divulgación no autorizados."
+      },
+      "rights": {
+        "title": "7. Derechos del Usuario",
+        "content": "Dependiendo de su ubicación, puede tener derechos como:",
+        "item1": "Acceso: ver la información que tenemos sobre usted",
+        "item2": "Corrección: actualizar datos inexactos o incompletos",
+        "item3": "Eliminación: solicitar la eliminación de datos personales",
+        "item4": "Portabilidad: solicitar datos en formato portable"
+      },
+      "children": {
+        "title": "8. Privacidad de los Niños",
+        "content": "Nuestro Servicio no está dirigido a niños menores de 13 años. No recopilamos intencionalmente información personal de niños menores de 13 años. Si descubrimos que hemos recopilado dicha información, la eliminaremos inmediatamente."
+      },
+      "changes": {
+        "title": "9. Cambios a Esta Política de Privacidad",
+        "content": "Podemos actualizar esta Política de Privacidad de vez en cuando. Cualquier cambio se publicará en esta página con una fecha actualizada. Le recomendamos que revise esta política periódicamente para estar informado de cualquier cambio."
+      },
+      "contact": {
+        "title": "10. Información de Contacto",
+        "content": "Si tiene preguntas, inquietudes o solicitudes relacionadas con esta política, puede contactarnos en:"
+      }
+    }
+  }
+}

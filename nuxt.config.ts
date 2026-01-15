@@ -50,6 +50,7 @@ export default defineNuxtConfig({
     prerender: {
       autoSubfolderIndex: false,
       crawlLinks: true, // 保持自动爬取以生成所有页面
+      ignore: ['/pricing', '/features', '/cn/pricing', '/cn/features', '/es/pricing', '/es/features']
     }
 }
 })
