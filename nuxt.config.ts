@@ -41,9 +41,15 @@ export default defineNuxtConfig({
       ]
     }
   },
-
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
     configPath: 'tailwind.config'
-  }
+  },
+  nitro: {
+    preset: 'static',
+    prerender: {
+      autoSubfolderIndex: false,
+      crawlLinks: true, // 保持自动爬取以生成所有页面
+    }
+}
 })
