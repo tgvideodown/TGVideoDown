@@ -16,7 +16,7 @@
     "nuxt": "^3.13.0",
     "vue": "^3.4.0"
   },
-  "devDependencies": {
-    "@nuxt/devtools": "latest"
-  }
+"devDependencies": {
+  "@nuxt/devtools": "^1.6.5"
+}
 }
