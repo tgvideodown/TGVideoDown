@@ -4,7 +4,7 @@
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
         <NuxtLink to="/" class="flex items-center space-x-2 cursor-pointer">
-          <img src="~/assets/logo.png" alt="TGVideoDown Logo" class="w-8 h-8 rounded-lg object-contain" />
+          <img src="~/assets/logo.png" alt="TGVideoDown Logo" class="w-12 h-12 rounded-lg object-contain" />
           <span class="font-heading font-bold text-xl text-text">TGVideoDown</span>
         </NuxtLink>
 

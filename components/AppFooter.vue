@@ -5,7 +5,7 @@
         <!-- Brand -->
         <div class="col-span-1 md:col-span-2">
           <div class="flex items-center space-x-2 mb-4">
-            <img src="~/assets/logo.png" alt="TGVideoDown Logo" class="w-8 h-8 rounded-lg object-contain" />
+            <img src="~/assets/logo.png" alt="TGVideoDown Logo" class="w-12 h-12 rounded-lg object-contain" />
             <span class="font-heading font-bold text-xl">TGVideoDown</span>
           </div>
           <p class="text-gray-300 mb-4 max-w-md">

@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-const { locale, locales, setLocale } = useI18n()
+const { locale, locales, setLocale, switchLocalePath } = useI18n()
 const router = useRouter()
 
 const isOpen = ref(false)
@@ -74,23 +74,9 @@ const selectLocale = async (code) => {
   try {
     console.log('🟢 开始切换语言到:', code)
     
-    // 获取当前路径（去掉语言前缀）
-    let currentPath = router.currentRoute.value.path
-    
-    // 移除现有语言前缀
-    if (currentPath.startsWith('/cn/') || currentPath.startsWith('/es/')) {
-      currentPath = currentPath.replace(/^\/[^/]+/, '') || '/'
-    }
-    
-    // 生成新路径
-    let newPath = currentPath
-    if (code === 'en') {
-      // 默认语言不需要前缀
-      newPath = currentPath || '/'
-    } else {
-      // 其他语言需要前缀
-      newPath = `/${code}${currentPath === '/' ? '' : currentPath}`
-    }
+    // 使用 Nuxt i18n 的 switchLocalePath 来获取正确的路径
+    // 这会自动处理语言前缀的添加和移除
+    const newPath = switchLocalePath(code)
     
     console.log('🟢 当前路径:', router.currentRoute.value.path)
     console.log('🟢 新路径:', newPath)
@@ -100,7 +86,7 @@ const selectLocale = async (code) => {
     console.log('🟢 setLocale 完成，新语言:', locale.value)
     
     // 如果路径不同，才导航
-    if (newPath !== router.currentRoute.value.path) {
+    if (newPath && newPath !== router.currentRoute.value.path) {
       await navigateTo(newPath)
       console.log('🟢 导航完成')
     }
