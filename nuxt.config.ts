@@ -70,6 +70,7 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Download videos from Telegram easily and quickly' }
       ],
       link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }
       ]
