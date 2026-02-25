@@ -141,11 +141,14 @@
   "download": {
     "hero": {
       "title": "Descargar Videos de Telegram",
-      "subtitle": "Pega tu enlace de video de Telegram a continuación para comenzar a descargar"
+      "subtitle": "Pega tu enlace de video de Telegram a continuación para comenzar a descargar",
+      "extensionHint": "Instala nuestra extensión gratuita de Chrome para descargar videos, imágenes y archivos de Telegram con un solo clic. No requiere inicio de sesión."
     },
     "form": {
       "placeholder": "Pega el enlace del video de Telegram aquí...",
       "button": "Descargar Video",
+      "installExtension": "Instalar Extensión Chrome",
+      "version": "v",
       "loading": "Procesando...",
       "error": "Por favor ingresa un enlace de video de Telegram válido"
     },

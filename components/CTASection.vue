@@ -15,9 +15,9 @@
           {{ $t('cta.description') }}
         </p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <NuxtLink to="/download" class="bg-cta hover:bg-cta-600 text-white font-semibold py-4 px-8 rounded-lg transition-colors duration-200 cursor-pointer text-lg">
+          <a :href="extensionStoreUrl" target="_blank" rel="noopener noreferrer" class="bg-cta hover:bg-cta-600 text-white font-semibold py-4 px-8 rounded-lg transition-colors duration-200 cursor-pointer text-lg inline-block">
             {{ $t('cta.button') }}
-          </NuxtLink>
+          </a>
           <!-- <NuxtLink to="/pricing" class="bg-white/10 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-lg transition-colors duration-200 cursor-pointer text-lg border-2 border-white/30">
             {{ $t('cta.secondary') }}
           </NuxtLink> -->
@@ -26,3 +26,8 @@
     </div>
   </section>
 </template>
+
+<script setup>
+const config = useRuntimeConfig()
+const extensionStoreUrl = config.public.extensionStoreUrl
+</script>

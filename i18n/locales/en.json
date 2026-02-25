@@ -141,11 +141,14 @@
   "download": {
     "hero": {
       "title": "Download Telegram Videos",
-      "subtitle": "Paste your Telegram video link below to start downloading"
+      "subtitle": "Paste your Telegram video link below to start downloading",
+      "extensionHint": "Install our free Chrome extension to download videos, images, and files from Telegram in one click. No login required."
     },
     "form": {
       "placeholder": "Paste Telegram video link here...",
       "button": "Download Video",
+      "installExtension": "Install Chrome Extension",
+      "version": "v",
       "loading": "Processing...",
       "error": "Please enter a valid Telegram video link"
     },

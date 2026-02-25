@@ -23,9 +23,9 @@
         <!-- Language Switcher & CTA -->
         <div class="flex items-center space-x-4">
           <LanguageSwitcher />
-          <NuxtLink to="/download" class="btn-primary hidden sm:inline-block">
+          <a :href="extensionStoreUrl" target="_blank" rel="noopener noreferrer" class="btn-primary hidden sm:inline-block">
             {{ $t('nav.download') }}
-          </NuxtLink>
+          </a>
           
           <!-- Mobile Menu Button -->
           <button 
@@ -57,19 +57,24 @@
         >
           {{ $t(item.label) }}
         </NuxtLink>
-        <NuxtLink 
-          to="/download" 
+        <a 
+          :href="extensionStoreUrl" 
+          target="_blank"
+          rel="noopener noreferrer"
           @click="mobileMenuOpen = false"
           class="block btn-primary text-center mt-4"
         >
           {{ $t('nav.download') }}
-        </NuxtLink>
+        </a>
       </div>
     </nav>
   </header>
 </template>
 
 <script setup>
+const config = useRuntimeConfig()
+const extensionStoreUrl = config.public.extensionStoreUrl
+
 const mobileMenuOpen = ref(false)
 
 const navItems = [

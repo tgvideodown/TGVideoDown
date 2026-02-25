@@ -11,28 +11,25 @@
             {{ $t('download.hero.subtitle') }}
           </p>
 
-          <!-- Download Form -->
+          <!-- Chrome 扩展安装 -->
           <div class="glass-card p-6 md:p-8">
-            <div class="flex flex-col md:flex-row gap-4">
-              <input
-                v-model="videoUrl"
-                type="text"
-                :placeholder="$t('download.form.placeholder')"
-                class="flex-1 px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-text"
-                @keyup.enter="handleDownload"
-              />
-              <button
-                @click="handleDownload"
-                :disabled="isLoading"
-                class="btn-primary px-8 py-3 whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <span v-if="isLoading">{{ $t('download.form.loading') }}</span>
-                <span v-else>{{ $t('download.form.button') }}</span>
-              </button>
-            </div>
-            <p v-if="errorMessage" class="text-red-500 mt-3 text-sm">
-              {{ errorMessage }}
+            <p class="text-gray-600 mb-6">
+              {{ $t('download.hero.extensionHint') }}
             </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                :href="extensionStoreUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-primary px-8 py-4 text-lg inline-flex items-center gap-2"
+              >
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                {{ $t('download.form.installExtension') }}
+              </a>
+              <span class="text-sm text-gray-500">{{ $t('download.form.version') }} {{ extensionVersion }}</span>
+            </div>
           </div>
         </div>
       </div>
@@ -116,37 +113,9 @@
 </template>
 
 <script setup>
-const { t } = useI18n()
-
-const videoUrl = ref('')
-const isLoading = ref(false)
-const errorMessage = ref('')
-
-const handleDownload = async () => {
-  errorMessage.value = ''
-  
-  if (!videoUrl.value.trim()) {
-    errorMessage.value = t('download.form.error')
-    return
-  }
-  
-  // 简单验证是否为 Telegram 链接
-  const isTelegramLink = videoUrl.value.includes('t.me') || videoUrl.value.includes('telegram')
-  
-  if (!isTelegramLink) {
-    errorMessage.value = t('download.form.error')
-    return
-  }
-  
-  isLoading.value = true
-  
-  // 模拟处理（实际项目中这里会调用后端 API）
-  setTimeout(() => {
-    isLoading.value = false
-    // 这里可以添加实际的下载逻辑
-    alert('Download functionality would be implemented here with a backend API')
-  }, 1500)
-}
+const config = useRuntimeConfig()
+const extensionStoreUrl = config.public.extensionStoreUrl
+const extensionVersion = config.public.extensionVersion
 
 useSeoMeta({
   title: 'Download - TGVideoDown',

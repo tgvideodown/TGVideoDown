@@ -25,9 +25,9 @@
 
         <!-- CTA Buttons -->
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-          <NuxtLink to="/download" class="btn-primary text-lg px-8 py-4">
+          <a :href="extensionStoreUrl" target="_blank" rel="noopener noreferrer" class="btn-primary text-lg px-8 py-4 inline-block">
             {{ $t('hero.ctaPrimary') }}
-          </NuxtLink>
+          </a>
           <!-- <NuxtLink to="/features" class="btn-outline text-lg px-8 py-4"> -->
             <!-- {{ $t('hero.ctaSecondary') }}
           </NuxtLink> -->
@@ -54,6 +54,9 @@
 </template>
 
 <script setup>
+const config = useRuntimeConfig()
+const extensionStoreUrl = config.public.extensionStoreUrl
+
 const stats = [
   { value: '10M+', label: 'hero.stats.downloads' },
   { value: '100K+', label: 'hero.stats.users' },

@@ -141,11 +141,14 @@
   "download": {
     "hero": {
       "title": "下载 Telegram 视频",
-      "subtitle": "在下方粘贴您的 Telegram 视频链接开始下载"
+      "subtitle": "在下方粘贴您的 Telegram 视频链接开始下载",
+      "extensionHint": "安装我们的免费 Chrome 插件，一键下载 Telegram 中的视频、图片和文件。无需登录。"
     },
     "form": {
       "placeholder": "在此粘贴 Telegram 视频链接...",
       "button": "下载视频",
+      "installExtension": "安装 Chrome 插件",
+      "version": "版本",
       "loading": "处理中...",
       "error": "请输入有效的 Telegram 视频链接"
     },
