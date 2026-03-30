@@ -1,1 +1,318 @@
-{"nav":{"home":"Início","features":"Recursos","pricing":"Preços","about":"Sobre","download":"Baixar Agora"},"hero":{"badge":"Grátis e Rápido","title":"Baixe Vídeos do\nTelegram Instantaneamente","subtitle":"A forma mais fácil de baixar vídeos do Telegram. Rápido, seguro e totalmente gratuito.","ctaPrimary":"Começar a Baixar","ctaSecondary":"Saiba Mais","stats":{"downloads":"Downloads","users":"Usuários Ativos","uptime":"Tempo Ativo"}},"features":{"title":"Por Que Escolher o TGVideoDown?","subtitle":"Tudo o que você precisa para baixar vídeos do Telegram de forma rápida e segura","fast":{"title":"Ultra-rápido","description":"Baixe vídeos em segundos com nossos servidores otimizados e conexões de alta velocidade."},"secure":{"title":"100% Seguro","description":"Sua privacidade é nossa prioridade. Todos os downloads são criptografados e nunca armazenamos seus dados."},"multiDevice":{"title":"Suporte Multidispositivo","description":"Funciona perfeitamente em desktop, celular e tablet. Baixe de qualquer lugar."},"formats":{"title":"Múltiplos Formatos","description":"Baixe vídeos em MP4, MKV ou qualquer formato que preferir."},"cloud":{"title":"Armazenamento na Nuvem","description":"Salve diretamente no Google Drive, Dropbox e mais."},"support":{"title":"Suporte 24/7","description":"Nossa equipe de suporte está sempre pronta para ajudar."}},"howItWorks":{"title":"Como Funciona","subtitle":"Baixe vídeos do Telegram em apenas 3 passos simples","step1":{"title":"Cole o Link","description":"Copie o link do vídeo do Telegram e cole em nosso downloader."},"step2":{"title":"Escolha a Qualidade","description":"Selecione sua qualidade e formato de vídeo preferidos."},"step3":{"title":"Baixar","description":"Clique em baixar e seu vídeo estará pronto em segundos. É simples!"}},"cta":{"title":"Pronto para Começar?","description":"Junte-se a milhões de usuários que confiam no TGVideoDown.","button":"Baixar Agora","secondary":"Ver Preços"},"testimonials":{"title":"O Que Nossos Usuários Dizem","subtitle":"Não acredite apenas em nossa palavra. Ouça nossa comunidade.","user1":{"quote":"O downloader de vídeos do Telegram mais rápido e confiável que já usei. Altamente recomendado!"},"user2":{"quote":"A interface é tão limpa e fácil de usar. Posso baixar vídeos em qualquer formato que preciso."},"user3":{"quote":"O melhor é que é completamente gratuito e seguro. Sem anúncios, sem rastreamento, só funcionalidade pura."}},"footer":{"description":"O downloader de vídeos do Telegram mais confiável. Rápido, seguro e gratuito.","quickLinks":"Links Rápidos","support":"Suporte","help":"Central de Ajuda","contact":"Fale Conosco","privacy":"Política de Privacidade","copyright":"© {year} TGVideoDown. Todos os direitos reservados."},"about":{"hero":{"title":"Sobre o TGVideoDown","subtitle":"Dedicados a tornar o download de vídeos do Telegram simples, rápido e seguro"},"mission":{"title":"Nossa Missão","description":"A missão do TGVideoDown é fornecer a experiência de download de vídeos do Telegram mais simples, rápida e segura para usuários em todo o mundo."},"values":{"title":"Nossos Valores","simplicity":{"title":"Simplicidade","description":"Acreditamos que a tecnologia deve ser simples e intuitiva. Nossas ferramentas são feitas para todos."},"security":{"title":"Privacidade e Segurança","description":"Sua privacidade é nossa maior prioridade. Protegemos seus dados com as melhores medidas."},"innovation":{"title":"Inovação Contínua","description":"Melhoramos nosso serviço constantemente para a melhor experiência."}},"story":{"title":"Nossa História","paragraph1":"O TGVideoDown nasceu de uma ideia simples: facilitar o download de vídeos do Telegram para todos.","paragraph2":"Percebemos que muitos usuários precisavam de uma forma simples de salvar seus vídeos favoritos.","paragraph3":"Então criamos o TGVideoDown - uma ferramenta rápida, segura e totalmente gratuita."},"cta":{"title":"Pronto para Começar?","description":"Junte-se à nossa comunidade e experimente o serviço de download mais simples e rápido","button":"Começar Agora"}},"download":{"hero":{"title":"Baixar Vídeos do Telegram","subtitle":"Cole seu link de vídeo do Telegram abaixo para começar","extensionHint":"Instale nossa extensão Chrome gratuita para baixar vídeos, imagens e arquivos do Telegram com um clique. Sem login."},"form":{"placeholder":"Cole o link do vídeo do Telegram aqui...","button":"Baixar Vídeo","installExtension":"Instalar Extensão Chrome","version":"v","loading":"Processando...","error":"Por favor, insira um link de vídeo do Telegram válido"},"features":{"title":"Por Que Usar Nosso Downloader?","fast":{"title":"Ultra-rápido","description":"Baixe vídeos em segundos"},"secure":{"title":"100% Seguro","description":"Seus dados nunca são armazenados"},"free":{"title":"Completamente Grátis","description":"Sem taxas ocultas ou assinaturas"}},"instructions":{"title":"Como Baixar","step1":"Copie o link do vídeo no Telegram","step2":"Cole o link na caixa acima","step3":"Clique em baixar e salve seu vídeo"}},"privacy":{"hero":{"title":"Política de Privacidade","lastUpdated":"Última Atualização"},"sections":{"introduction":{"title":"1. Introdução","content":"O TGVideoDown opera o serviço de download de vídeos disponível neste site (o \"Serviço\"). Esta Política de Privacidade explica como coletamos, usamos e protegemos as informações dos usuários (\"você\"). Ao usar o Serviço, você concorda com as práticas descritas aqui."},"collection":{"title":"2. Informações que Coletamos","subtitle1":"a. Informações que Você Fornece","item1":"URLs dos vídeos que você solicita para baixar","item2":"Dados opcionais (e-mail, nome de usuário) para feedback e suporte","subtitle2":"b. Informações Coletadas Automaticamente","item3":"Informações técnicas (IP, navegador, dispositivo) para operação do serviço","item4":"Dados de uso para melhorar o desempenho","subtitle3":"c. Cookies","cookies":"Usamos cookies essenciais para a funcionalidade do site. Não usamos cookies de rastreamento ou publicidade."},"use":{"title":"3. Uso das Informações","content":"Usamos as informações coletadas para:","item1":"Fornecer e otimizar o serviço de download","item2":"Processar solicitações de download","item3":"Melhorar a experiência do usuário","item4":"Prevenir abusos","item5":"Notificações opcionais sobre o serviço"},"retention":{"title":"4. Retenção de Dados","content":"Retemos os dados da seguinte forma:","item1":"URLs processadas são excluídas imediatamente","item2":"Dados de log são mantidos por 30 dias","item3":"Todos os dados são transmitidos via HTTPS/TLS"},"sharing":{"title":"5. Compartilhamento","content":"Não fazemos:","subtitle1":"Não fazemos","item1":"Venda de dados pessoais","item2":"Compartilhamento com terceiros, exceto quando necessário","subtitle2":"Podemos compartilhar","item3":"Com provedores de serviço sob confidencialidade","item4":"Se exigido por lei","item5":"Em transações comerciais (fusão, aquisição)"},"security":{"title":"6. Segurança","content":"Implementamos:","item1":"Criptografia em trânsito (HTTPS/TLS)","item2":"Armazenamento seguro e controles de acesso","item3":"Auditorias de segurança regulares","note":"Nenhum sistema é perfeitamente seguro, mas estamos comprometidos em proteger seus dados."},"rights":{"title":"7. Direitos do Usuário","content":"Dependendo da sua localização, você pode ter direitos como:","item1":"Acesso: ver as informações que mantemos sobre você","item2":"Correção: atualizar dados inexatos","item3":"Exclusão: solicitar remoção de dados pessoais","item4":"Portabilidade: solicitar dados em formato portátil"},"children":{"title":"8. Privacidade de Crianças","content":"Nosso serviço não é direcionado a crianças menores de 13 anos. Não coletamos intencionalmente informações pessoais de crianças menores de 13 anos."},"changes":{"title":"9. Alterações nesta Política","content":"Podemos atualizar esta política. As alterações serão publicadas nesta página."},"contact":{"title":"10. Informações de Contato","content":"Para questões sobre esta política, entre em contato conosco em:"}}}}
+{
+  "nav": {
+    "home": "Início",
+    "features": "Recursos",
+    "pricing": "Preços",
+    "about": "Sobre",
+    "download": "Obter a extensão",
+    "guideHowTo": "Como usar",
+    "guideAlt": "Guia de download"
+  },
+  "hero": {
+    "badge": "Extensão Chrome · Site complementar",
+    "title": "Filmes e vídeos privados em um clique\nde grupos e canais do Telegram",
+    "h2": "Telegram Media Downloader — grátis e rápido",
+    "subtitle": "Uma extensão Chrome gratuita e rápida que salva vídeos, imagens, áudio e arquivos do Telegram no seu computador. Interface simples, downloads únicos ou em lote, sem login no nosso site. Apenas para backup e organização pessoais — certifique-se de ter permissão para salvar o conteúdo.",
+    "ctaPrimary": "Instalar na Chrome Web Store",
+    "ctaSecondary": "Saiba mais",
+    "trust": {
+      "noLogin": "Grátis — sem login",
+      "noData": "O site é apenas informativo",
+      "safe": "Use o conteúdo com responsabilidade",
+      "safeShort": "Uso autorizado"
+    },
+    "highlights": {
+      "free": {
+        "title": "Grátis para usar",
+        "description": "Não é necessária conta no nosso site para usar a extensão."
+      },
+      "batch": {
+        "title": "Único / lote",
+        "description": "Um arquivo ou vários — seleção rápida no Telegram."
+      },
+      "large": {
+        "title": "1GB+ estável",
+        "description": "Arquivos grandes baixam de forma confiável quando sua conexão permite."
+      }
+    }
+  },
+  "features": {
+    "title": "O que a extensão oferece",
+    "subtitle": "Os mesmos destaques da Chrome Web Store — este site apenas apresenta o produto",
+    "freeNoLogin": {
+      "title": "Grátis — sem login",
+      "description": "Use a extensão sem acessar nosso site."
+    },
+    "batch": {
+      "title": "Um clique e lote",
+      "description": "Baixe um item ou selecione vários para salvar de uma vez."
+    },
+    "mediaTypes": {
+      "title": "Vídeo, imagens e mais",
+      "description": "Suporta vídeo, imagens, GIFs, música, audiolivros e arquivos."
+    },
+    "largeFiles": {
+      "title": "Arquivos grandes",
+      "description": "Downloads estáveis para mídia acima de 1GB quando as condições permitem."
+    },
+    "simpleUI": {
+      "title": "Interface limpa",
+      "description": "Interface mínima — fácil de usar desde o primeiro momento."
+    },
+    "compatible": {
+      "title": "Formatos de canal",
+      "description": "Funciona com layouts comuns de canais e chats do Telegram no navegador."
+    }
+  },
+  "howItWorks": {
+    "title": "Como usar",
+    "subtitle": "Três passos — tudo no Chrome com a extensão",
+    "step1": {
+      "title": "Instale a extensão",
+      "description": "Adicione o Telegram Media Downloader na Chrome Web Store e fixe se quiser."
+    },
+    "step2": {
+      "title": "Abra o Telegram na web",
+      "description": "Use o Telegram Web no Chrome e vá ao canal, grupo ou chat onde a mídia aparece."
+    },
+    "step3": {
+      "title": "Baixe localmente",
+      "description": "Use a extensão para salvar vídeos ou outras mídias no computador — arquivo único ou lote."
+    }
+  },
+  "demo": {
+    "title": "Capturas de tela",
+    "subtitle": "Visuais do fluxo da extensão (este site não processa links ou arquivos).",
+    "step1Label": "Passo 1",
+    "step1Caption": "Instale a extensão na loja e ative no Chrome.",
+    "step2Label": "Passo 2",
+    "step2Caption": "Navegue no Telegram Web e abra a mensagem com a mídia desejada.",
+    "step3Label": "Passo 3",
+    "step3Caption": "Salve no PC — um item ou várias seleções.",
+    "step1Alt": "Passo de instalação na Chrome Web Store",
+    "step2Alt": "Telegram Web com mídia",
+    "step3Alt": "Download no computador"
+  },
+  "cta": {
+    "title": "Obter a extensão",
+    "description": "Esta página complementa a listagem na Chrome Web Store — instale lá para usar o Telegram Media Downloader.",
+    "button": "Abrir Chrome Web Store",
+    "secondary": "Ver preços"
+  },
+  "testimonials": {
+    "title": "O que os usuários dizem",
+    "subtitle": "Feedback sobre a experiência com a extensão Chrome",
+    "user1": {
+      "quote": "Rápido e direto — download em lote economiza muito tempo em canais movimentados."
+    },
+    "user2": {
+      "quote": "Interface limpa e sem complicação. Funciona para vídeos e imagens que preciso arquivar."
+    },
+    "user3": {
+      "quote": "Grátis e sem login no site — exatamente o que eu queria para backups pessoais."
+    }
+  },
+  "footer": {
+    "description": "Site complementar da extensão Chrome TGVideoDown. Não há downloader online aqui — instale a extensão na loja.",
+    "quickLinks": "Links rápidos",
+    "guides": "Guias",
+    "guideHowTo": "Como baixar vídeo do Telegram",
+    "guideAlt": "Guia de download de vídeo Telegram",
+    "guidePrivate": "Vídeos privados / restritos",
+    "support": "Suporte",
+    "help": "Central de ajuda",
+    "contact": "Fale conosco",
+    "privacy": "Política de privacidade",
+    "copyright": "© {year} TGVideoDown. Todos os direitos reservados."
+  },
+  "about": {
+    "hero": {
+      "title": "Sobre o TGVideoDown",
+      "subtitle": "Site complementar da extensão Chrome Telegram Media Downloader"
+    },
+    "mission": {
+      "title": "Nossa missão",
+      "description": "Ajudamos os usuários a encontrar e entender a extensão Telegram Media Downloader: salvamento gratuito e rápido de mídias do Telegram no Chrome, com orientação clara e respeito ao uso autorizado."
+    },
+    "values": {
+      "title": "Nossos valores",
+      "simplicity": {
+        "title": "Simplicidade",
+        "description": "Acreditamos que a tecnologia deve ser simples e intuitiva. Nossas ferramentas são fáceis para qualquer pessoa usar, sem curva de aprendizado."
+      },
+      "security": {
+        "title": "Privacidade e segurança",
+        "description": "Sua privacidade é prioridade. Usamos medidas de segurança modernas para proteger seus dados e nunca armazenamos ou compartilhamos suas informações pessoais."
+      },
+      "innovation": {
+        "title": "Inovação contínua",
+        "description": "Melhoramos e atualizamos nossos serviços para que você sempre tenha a melhor experiência e os recursos mais recentes."
+      }
+    },
+    "story": {
+      "title": "Nossa história",
+      "paragraph1": "O TGVideoDown nasceu de uma ideia simples: facilitar o download de vídeos do Telegram para todos.",
+      "paragraph2": "Percebemos que muitos usuários precisavam de uma forma simples de salvar vídeos favoritos, mas as soluções existentes eram complexas demais ou pouco seguras.",
+      "paragraph3": "Por isso criamos o TGVideoDown — uma ferramenta rápida, segura e totalmente gratuita que torna o download de vídeos mais simples do que nunca.",
+      "step1": {
+        "title": "Identificar a necessidade",
+        "description": "Reconhecida a necessidade de uma ferramenta de download simples e segura"
+      },
+      "step2": {
+        "title": "Desenvolver a solução",
+        "description": "Construímos uma plataforma rápida, segura e fácil de usar"
+      },
+      "step3": {
+        "title": "Melhoria contínua",
+        "description": "Otimizamos constantemente os serviços com base no feedback dos usuários"
+      }
+    },
+    "cta": {
+      "title": "Pronto para começar?",
+      "description": "Junte-se à nossa comunidade e experimente o serviço de download de vídeos do Telegram mais simples e rápido",
+      "button": "Começar agora"
+    }
+  },
+  "download": {
+    "hero": {
+      "title": "Instalar a extensão Chrome",
+      "subtitle": "Este site não analisa nem baixa links do Telegram — use a extensão no Chrome após instalar.",
+      "extensionHint": "O Telegram Media Downloader é grátis e rápido: salve vídeos, imagens, áudio e arquivos do Telegram no computador. Sem login neste site; o download ocorre no navegador pela extensão."
+    },
+    "form": {
+      "placeholder": "Cole o link do vídeo do Telegram aqui…",
+      "button": "Baixar vídeo",
+      "installExtension": "Instalar extensão Chrome",
+      "version": "v",
+      "loading": "Processando…",
+      "error": "Digite um link de vídeo do Telegram válido"
+    },
+    "features": {
+      "title": "Por que esta extensão",
+      "fast": {
+        "title": "Fluxo rápido",
+        "description": "Salvamento com um clique ou em lote pelo Telegram Web"
+      },
+      "secure": {
+        "title": "Sem análise no site",
+        "description": "Este site complementar só aponta para a loja — não há campo de URL aqui"
+      },
+      "free": {
+        "title": "Grátis",
+        "description": "Recursos principais sem assinatura paga"
+      }
+    },
+    "instructions": {
+      "title": "Configuração inicial",
+      "step1": "Clique no botão abaixo e adicione a extensão na Chrome Web Store",
+      "step2": "Abra telegram.org no Chrome e faça login com o fluxo oficial do Telegram Web",
+      "step3": "Abra um chat ou canal e use a extensão para baixar mídia no PC"
+    }
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "subtitle": "Sobre a extensão Chrome e este site complementar",
+    "q1": {
+      "question": "Este site é um downloader online do Telegram?",
+      "answer": "Não. Este site apresenta o produto e aponta para a Chrome Web Store. A análise e os downloads ocorrem no navegador pela extensão, não colando links neste domínio."
+    },
+    "q2": {
+      "question": "Preciso fazer login neste site?",
+      "answer": "Não. Faça login no Telegram apenas no Telegram Web ou app oficial ao usar a extensão — nunca digite sua senha do Telegram em formulários de terceiros desconhecidos."
+    },
+    "q3": {
+      "question": "O que posso baixar?",
+      "answer": "A extensão suporta vídeo, imagens, GIFs, música, audiolivros e arquivos do Telegram no Chrome, conforme o que sua conta acessa e as regras aplicáveis."
+    },
+    "q4": {
+      "question": "Suporta arquivos grandes?",
+      "answer": "Sim — downloads estáveis para arquivos acima de 1GB quando a rede e o Telegram permitem."
+    },
+    "q5": {
+      "question": "Posso usar no celular?",
+      "answer": "Esta extensão é para Chrome no desktop. Use os apps oficiais do Telegram no celular; não instale extensões só de desktop no telefone."
+    },
+    "q6": {
+      "question": "Posso salvar qualquer vídeo?",
+      "answer": "Salve apenas conteúdo que você tenha permissão para manter. A ferramenta é para uso pessoal — respeite direitos autorais e os termos do Telegram."
+    }
+  },
+  "privacy": {
+    "hero": {
+      "title": "Política de privacidade",
+      "lastUpdated": "Última atualização"
+    },
+    "sections": {
+      "introduction": {
+        "title": "1. Introdução",
+        "content": "TGVideoDown («nós») opera este site como complemento à extensão TGVideoDown na Chrome Web Store. Esta política descreve a navegação neste site. Os dados e permissões da extensão estão na listagem da loja e no Chrome. Ao usar o site, você concorda com as práticas aqui descritas."
+      },
+      "collection": {
+        "title": "2. Informações que coletamos",
+        "subtitle1": "a. Informações que você fornece",
+        "item1": "URLs dos vídeos que você solicita baixar (somente conforme necessário para processar os downloads)",
+        "item2": "Dados opcionais (ex.: e-mail, nome de usuário) se o serviço incluir feedback, suporte ou cadastro",
+        "subtitle2": "b. Informações coletadas automaticamente",
+        "item3": "Informações do dispositivo/técnicas (ex.: IP, versão do navegador ou app, tipo de dispositivo, SO) para operação, depuração e prevenção de abusos",
+        "item4": "Dados de uso (ex.: carimbos de data/hora, contagens de download, logs de erro) para melhorar o desempenho",
+        "subtitle3": "c. Cookies e tecnologias de rastreamento",
+        "cookies": "Usamos cookies essenciais para o funcionamento do site. Não usamos cookies de rastreamento ou publicidade."
+      },
+      "use": {
+        "title": "3. Uso das informações",
+        "content": "Usamos as informações coletadas para:",
+        "item1": "Fornecer, manter e otimizar a funcionalidade principal de download de vídeo",
+        "item2": "Processar solicitações de download",
+        "item3": "Monitorar e melhorar a experiência do usuário e o desempenho técnico",
+        "item4": "Prevenir abusos, fraudes ou ameaças à segurança",
+        "item5": "Enviar notificações opcionais do serviço (ex.: status, atualizações)"
+      },
+      "retention": {
+        "title": "4. Retenção e armazenamento",
+        "content": "Retemos os dados da seguinte forma:",
+        "item1": "URLs de vídeo processadas são excluídas imediatamente e não armazenadas permanentemente",
+        "item2": "Dados de log são mantidos por 30 dias para melhoria do serviço e segurança",
+        "item3": "Todos os dados são armazenados em servidores seguros com transmissão criptografada (HTTPS/TLS)"
+      },
+      "sharing": {
+        "title": "5. Compartilhamento e divulgação",
+        "content": "Nós não:",
+        "subtitle1": "Nós não",
+        "item1": "Vendemos dados pessoais",
+        "item2": "Compartilhamos dados identificáveis com terceiros exceto quando necessário",
+        "subtitle2": "Podemos compartilhar dados",
+        "item3": "Com prestadores (análise, hospedagem, CDN) sob confidencialidade",
+        "item4": "Se exigido por lei (ex.: autoridades)",
+        "item5": "Em conexão com transações comerciais (ex.: fusão, aquisição)"
+      },
+      "security": {
+        "title": "6. Segurança",
+        "content": "Implementamos as seguintes medidas para proteger seus dados:",
+        "item1": "Criptografia em trânsito (HTTPS/TLS)",
+        "item2": "Armazenamento seguro e controles de acesso",
+        "item3": "Auditorias e atualizações de segurança regulares",
+        "note": "Nenhum sistema é perfeitamente seguro, mas nos comprometemos a proteger seus dados contra acesso, alteração ou divulgação não autorizados."
+      },
+      "rights": {
+        "title": "7. Direitos do usuário",
+        "content": "Dependendo da sua localização, você pode ter direitos como:",
+        "item1": "Acesso: ver as informações que mantemos sobre você",
+        "item2": "Correção: atualizar dados imprecisos ou incompletos",
+        "item3": "Exclusão: solicitar a remoção de dados pessoais",
+        "item4": "Portabilidade: solicitar dados em formato portável"
+      },
+      "children": {
+        "title": "8. Privacidade infantil",
+        "content": "Nosso serviço não é dirigido a crianças menores de 13 anos. Não coletamos intencionalmente dados pessoais de menores de 13. Se descobrirmos que coletamos, excluiremos imediatamente."
+      },
+      "changes": {
+        "title": "9. Alterações desta política",
+        "content": "Podemos atualizar esta política periodicamente. As alterações serão publicadas nesta página com data atualizada. Recomendamos revisá-la de tempos em tempos."
+      },
+      "contact": {
+        "title": "10. Contato",
+        "content": "Se tiver dúvidas, preocupações ou solicitações relacionadas a esta política, entre em contato em:"
+      }
+    }
+  }
+}

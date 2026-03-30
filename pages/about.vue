@@ -122,7 +122,7 @@
         <p class="text-xl mb-8 text-primary-100">
           {{ $t('about.cta.description') }}
         </p>
-        <NuxtLink to="/" class="btn-secondary bg-white text-primary hover:bg-gray-100 inline-block">
+        <NuxtLink :to="localePath('/')" class="btn-secondary bg-white text-primary hover:bg-gray-100 inline-block">
           {{ $t('about.cta.button') }}
         </NuxtLink>
       </div>
@@ -131,6 +131,8 @@
 </template>
 
 <script setup>
+const localePath = useLocalePath()
+
 const values = [
   {
     key: 'simplicity',

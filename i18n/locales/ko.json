@@ -1,1 +1,318 @@
-{"nav":{"home":"홈","features":"기능","pricing":"가격","about":"소개","download":"지금 다운로드"},"hero":{"badge":"무료 및 빠름","title":"Telegram 동영상\n즉시 다운로드","subtitle":"Telegram에서 동영상을 다운로드하는 가장 쉬운 방법. 빠르고, 안전하며, 완전 무료.","ctaPrimary":"다운로드 시작","ctaSecondary":"자세히 알아보기","stats":{"downloads":"다운로드","users":"활성 사용자","uptime":"가동 시간"}},"features":{"title":"TGVideoDown을 선택하는 이유","subtitle":"Telegram에서 빠르고 안전하게 동영상을 다운로드하는 데 필요한 모든 것","fast":{"title":"초고속","description":"최적화된 서버와 고속 연결로 몇 초 만에 동영상을 다운로드하세요."},"secure":{"title":"100% 안전","description":"귀하의 개인정보를 최우선으로 합니다. 모든 다운로드는 암호화되며 데이터를 저장하지 않습니다."},"multiDevice":{"title":"멀티 디바이스 지원","description":"데스크톱, 모바일, 태블릿에서 원활하게 작동. 어디서든 다운로드하세요."},"formats":{"title":"다양한 형식","description":"MP4, MKV 또는 원하는 형식으로 동영상을 다운로드하세요."},"cloud":{"title":"클라우드 저장소","description":"Google Drive, Dropbox 등에 직접 저장."},"support":{"title":"24/7 지원","description":"지원팀이 항상 도움을 드립니다."}},"howItWorks":{"title":"작동 방식","subtitle":"간단한 3단계로 Telegram 동영상 다운로드","step1":{"title":"링크 붙여넣기","description":"Telegram 동영상 링크를 복사하여 다운로더에 붙여넣으세요."},"step2":{"title":"화질 선택","description":"사용 가능한 옵션에서 원하는 화질과 형식을 선택하세요."},"step3":{"title":"다운로드","description":"다운로드를 클릭하면 몇 초 만에 준비됩니다. 간단해요!"}},"cta":{"title":"시작할 준비가 되셨나요?","description":"수백만 명의 사용자가 TGVideoDown을 신뢰합니다.","button":"지금 다운로드","secondary":"가격 보기"},"testimonials":{"title":"사용자 후기","subtitle":"저희 말만 믿지 마세요. 커뮤니티의 의견을 들어보세요.","user1":{"quote":"지금까지 사용한 것 중 가장 빠르고 안정적인 Telegram 동영상 다운로더입니다. 강력 추천!"},"user2":{"quote":"인터페이스가 매우 깔끔하고 사용하기 쉽습니다. 필요한 형식으로 동영상을 다운로드할 수 있어요."},"user3":{"quote":"완전 무료이고 안전한 것이 최고예요. 광고나 추적 없이 순수한 기능만."}},"footer":{"description":"가장 신뢰할 수 있는 Telegram 동영상 다운로더. 빠르고, 안전하며, 무료.","quickLinks":"빠른 링크","support":"지원","help":"고객센터","contact":"문의하기","privacy":"개인정보처리방침","copyright":"© {year} TGVideoDown. All rights reserved."},"about":{"hero":{"title":"TGVideoDown 소개","subtitle":"Telegram 동영상 다운로드를 간단하고, 빠르며, 안전하게"},"mission":{"title":"우리의 미션","description":"TGVideoDown의 미션은 전 세계 사용자에게 가장 간단하고 빠르며 안전한 Telegram 동영상 다운로드 경험을 제공하는 것입니다."},"values":{"title":"우리의 가치","simplicity":{"title":"간편함","description":"기술은 간단하고 직관적이어야 합니다. 누구나 쉽게 사용할 수 있는 도구를 설계했습니다."},"security":{"title":"개인정보 및 보안","description":"귀하의 개인정보를 최우선으로 합니다. 최신 보안 조치로 데이터를 보호합니다."},"innovation":{"title":"지속적인 혁신","description":"최고의 경험을 제공하기 위해 서비스를 지속적으로 개선합니다."}},"story":{"title":"우리의 이야기","paragraph1":"TGVideoDown은 단순한 아이디어에서 시작되었습니다: 모두가 쉽게 Telegram 동영상을 다운로드할 수 있도록.","paragraph2":"많은 사용자가 좋아하는 동영상을 저장하는 쉬운 방법이 필요하다는 것을 알게 되었습니다.","paragraph3":"그래서 TGVideoDown을 만들었습니다. 빠르고, 안전하며, 완전 무료인 도구입니다."},"cta":{"title":"시작할 준비가 되셨나요?","description":"가장 간단하고 빠른 Telegram 동영상 다운로드 서비스를 경험해보세요","button":"지금 시작하기"}},"download":{"hero":{"title":"Telegram 동영상 다운로드","subtitle":"아래에 Telegram 동영상 링크를 붙여넣어 다운로드를 시작하세요","extensionHint":"무료 Chrome 확장 프로그램을 설치하여 Telegram의 동영상, 이미지, 파일을 클릭 한 번에 다운로드. 로그인 불필요."},"form":{"placeholder":"Telegram 동영상 링크를 여기에 붙여넣기...","button":"동영상 다운로드","installExtension":"Chrome 확장 프로그램 설치","version":"v","loading":"처리 중...","error":"유효한 Telegram 동영상 링크를 입력하세요"},"features":{"title":"우리 다운로더를 사용하는 이유","fast":{"title":"초고속","description":"몇 초 만에 동영상 다운로드"},"secure":{"title":"100% 안전","description":"데이터가 저장되지 않습니다"},"free":{"title":"완전 무료","description":"숨겨진 비용이나 구독 없음"}},"instructions":{"title":"다운로드 방법","step1":"Telegram에서 동영상 링크 복사","step2":"위 상자에 링크 붙여넣기","step3":"다운로드 클릭하고 동영상 저장"}},"privacy":{"hero":{"title":"개인정보처리방침","lastUpdated":"최종 업데이트"},"sections":{"introduction":{"title":"1. 소개","content":"TGVideoDown은 본 웹사이트에서 제공하는 동영상 다운로드 서비스(「서비스」)를 운영합니다. 본 개인정보처리방침은 사용자(「귀하」)의 정보 수집, 사용, 공개, 보호 방법을 설명합니다. 서비스를 이용하면 여기에 설명된 관행에 동의하는 것으로 간주됩니다."},"collection":{"title":"2. 수집하는 정보","subtitle1":"a. 귀하가 제공하는 정보","item1":"다운로드를 요청하는 동영상의 URL(다운로드 처리를 위해 필요한 경우에만)","item2":"서비스에 피드백, 지원 연락처 등이 포함된 경우 선택적 사용자 제공 데이터(이메일, 사용자명 등)","subtitle2":"b. 자동 수집 정보","item3":"서비스 운영, 디버깅, 남용 방지를 위한 기기/기술 정보(IP 주소, 브라우저 버전 등)","item4":"성능 개선을 위한 사용 데이터(타임스탬프, 다운로드 수, 오류 로그)","subtitle3":"c. Cookie 및 추적 기술","cookies":"웹사이트 기능을 보장하기 위해 필수 쿠키를 사용합니다. 추적 쿠키나 광고 쿠키는 사용하지 않습니다."},"use":{"title":"3. 정보 사용","content":"수집한 정보는 다음에 사용합니다:","item1":"핵심 동영상 다운로드 기능 제공, 유지, 최적화","item2":"다운로드 요청 처리","item3":"사용자 경험 및 기술 성능 모니터링 및 개선","item4":"남용, 사기, 보안 위협 방지","item5":"서비스 상태, 업데이트에 관한 선택적 알림 발송"},"retention":{"title":"4. 데이터 보존 및 저장","content":"데이터는 다음과 같이 보존합니다:","item1":"처리된 동영상 URL은 즉시 삭제되며 영구적으로 저장하지 않습니다","item2":"로그 데이터는 30일간 보존하여 서비스 개선 및 보안 목적으로 사용","item3":"모든 데이터는 암호화 전송(HTTPS/TLS)으로 안전한 서버에 저장"},"sharing":{"title":"5. 공유 및 공개","content":"다음과 같이 하지 않습니다:","subtitle1":"하지 않는 것","item1":"개인 데이터 판매","item2":"필요한 경우를 제외하고 제3자와 식별 데이터 공유","subtitle2":"공유할 수 있는 경우","item3":"기밀 조건 하에 서비스 제공업체(분석, 호스팅, CDN)와","item4":"법적 요구가 있는 경우(예: 법 집행 기관과)","item5":"사업 거래(합병, 인수 등)와 관련하여"},"security":{"title":"6. 보안","content":"귀하의 데이터를 보호하기 위해 다음 보안 조치를 시행합니다:","item1":"전송 중 암호화(HTTPS/TLS)","item2":"안전한 저장소 및 액세스 제어","item3":"정기적인 보안 감사 및 업데이트","note":"완벽하게 안전한 시스템은 없지만, 귀하의 데이터가 무단 액세스, 변조 또는 공개로부터 보호되도록 최선을 다합니다."},"rights":{"title":"7. 사용자 권리","content":"귀하의 위치에 따라 다음과 같은 권리가 있을 수 있습니다:","item1":"접근: 당사가 보유한 정보 조회","item2":"정정: 부정확하거나 불완전한 데이터 업데이트","item3":"삭제: 개인 데이터 삭제 요청","item4":"이식성: 휴대 가능한 형식으로 데이터 요청"},"children":{"title":"8. 아동의 개인정보","content":"당사 서비스는 13세 미만 아동을 대상으로 하지 않습니다. 13세 미만 아동으로부터 고의로 개인정보를 수집하지 않습니다. 그러한 정보를 수집한 것을 발견하면 즉시 삭제합니다."},"changes":{"title":"9. 본 개인정보처리방침 변경","content":"본 개인정보처리방침은 수시로 업데이트할 수 있습니다. 변경사항은 이 페이지에 업데이트된 날짜와 함께 게시됩니다. 변경사항을 파악하기 위해 정기적으로 검토할 것을 권장합니다."},"contact":{"title":"10. 연락처","content":"본 정책에 관한 질문, 우려사항 또는 요청이 있으시면 다음으로 연락해 주세요:"}}}}
+{
+  "nav": {
+    "home": "홈",
+    "features": "기능",
+    "pricing": "가격",
+    "about": "소개",
+    "download": "확장 프로그램 받기",
+    "guideHowTo": "사용 방법",
+    "guideAlt": "다운로드 가이드"
+  },
+  "hero": {
+    "badge": "Chrome 확장 프로그램 · 동반 사이트",
+    "title": "원클릭으로 영화·비공개 동영상\nTelegram 그룹·채널에서",
+    "h2": "Telegram Media Downloader — 무료이고 빠름",
+    "subtitle": "Telegram 동영상, 이미지, 오디오, 파일을 컴퓨터에 저장하는 무료·빠른 Chrome 확장 프로그램입니다. 간단한 UI, 단일 또는 일괄 다운로드, 당사 사이트 로그인은 필요 없습니다. 개인 백업 및 정리 전용 — 저장 권한이 있는지 확인하세요.",
+    "ctaPrimary": "Chrome 웹스토어에서 설치",
+    "ctaSecondary": "자세히 알아보기",
+    "trust": {
+      "noLogin": "무료 — 로그인 불필요",
+      "noData": "사이트는 정보만 제공",
+      "safe": "콘텐츠를 책임 있게 이용하세요",
+      "safeShort": "허가된 이용"
+    },
+    "highlights": {
+      "free": {
+        "title": "무료 이용",
+        "description": "확장 프로그램 사용에 당사 웹사이트 계정이 필요 없습니다."
+      },
+      "batch": {
+        "title": "단일 / 일괄",
+        "description": "파일 하나 또는 여러 개 선택 — Telegram에서 빠르게 선택합니다."
+      },
+      "large": {
+        "title": "1GB 이상 안정적",
+        "description": "연결 상태가 허용하면 대용량 파일도 안정적으로 다운로드됩니다."
+      }
+    }
+  },
+  "features": {
+    "title": "확장 프로그램이 제공하는 것",
+    "subtitle": "Chrome 웹스토어와 동일한 하이라이트 — 이 사이트는 제품 소개만 합니다",
+    "freeNoLogin": {
+      "title": "무료 — 로그인 불필요",
+      "description": "당사 웹사이트에 가입하지 않고 확장 프로그램을 사용할 수 있습니다."
+    },
+    "batch": {
+      "title": "원클릭 및 일괄",
+      "description": "한 항목을 다운로드하거나 여러 항목을 한 번에 선택해 저장합니다."
+    },
+    "mediaTypes": {
+      "title": "동영상, 이미지 등",
+      "description": "동영상, 이미지, GIF, 음악, 오디오북, 파일을 지원합니다."
+    },
+    "largeFiles": {
+      "title": "대용량 파일",
+      "description": "조건이 맞으면 1GB 이상 미디어도 안정적으로 다운로드됩니다."
+    },
+    "simpleUI": {
+      "title": "깔끔한 UI",
+      "description": "최소한의 인터페이스 — 바로 시작할 수 있습니다."
+    },
+    "compatible": {
+      "title": "채널 형식",
+      "description": "브라우저에서 일반적인 Telegram 채널 및 채팅 레이아웃과 호환됩니다."
+    }
+  },
+  "howItWorks": {
+    "title": "사용 방법",
+    "subtitle": "세 단계 — 모두 Chrome과 확장 프로그램 안에서",
+    "step1": {
+      "title": "확장 프로그램 설치",
+      "description": "Chrome 웹스토어에서 Telegram Media Downloader를 추가하고 원하면 고정합니다."
+    },
+    "step2": {
+      "title": "웹에서 Telegram 열기",
+      "description": "Chrome에서 Telegram Web을 사용하고 미디어가 있는 채널, 그룹 또는 채팅으로 이동합니다."
+    },
+    "step3": {
+      "title": "로컬로 다운로드",
+      "description": "확장 프로그램으로 동영상 등 미디어를 컴퓨터에 저장 — 단일 또는 일괄."
+    }
+  },
+  "demo": {
+    "title": "스크린샷",
+    "subtitle": "확장 프로그램 워크플로의 제품 화면(이 사이트는 링크나 파일을 처리하지 않습니다).",
+    "step1Label": "1단계",
+    "step1Caption": "스토어에서 확장 프로그램을 설치하고 Chrome에서 활성화합니다.",
+    "step2Label": "2단계",
+    "step2Caption": "Telegram Web을 탐색하고 원하는 미디어가 있는 메시지를 엽니다.",
+    "step3Label": "3단계",
+    "step3Caption": "PC에 저장 — 한 항목 또는 여러 선택.",
+    "step1Alt": "Chrome 웹스토어 설치 단계",
+    "step2Alt": "미디어가 있는 Telegram Web",
+    "step3Alt": "컴퓨터로 다운로드"
+  },
+  "cta": {
+    "title": "확장 프로그램 받기",
+    "description": "이 페이지는 Chrome 웹스토어 목록의 보조 사이트입니다 — Telegram Media Downloader를 사용하려면 해당 스토어에서 설치하세요.",
+    "button": "Chrome 웹스토어 열기",
+    "secondary": "가격 보기"
+  },
+  "testimonials": {
+    "title": "사용자 후기",
+    "subtitle": "Chrome 확장 프로그램 경험에 대한 피드백",
+    "user1": {
+      "quote": "빠르고 직관적입니다 — 일괄 다운로드로 바쁜 채널에서 시간을 많이 절약합니다."
+    },
+    "user2": {
+      "quote": "UI가 깔끔하고 번거로움이 없습니다. 보관하려는 동영상과 이미지에 잘 맞습니다."
+    },
+    "user3": {
+      "quote": "무료이고 웹사이트 로그인이 없습니다 — 개인 백업에 딱 원하던 것입니다."
+    }
+  },
+  "footer": {
+    "description": "TGVideoDown Chrome 확장 프로그램 동반 사이트입니다. 여기에는 온라인 다운로더가 없습니다 — 스토어에서 확장 프로그램을 설치하세요.",
+    "quickLinks": "빠른 링크",
+    "guides": "가이드",
+    "guideHowTo": "Telegram 동영상 다운로드 방법",
+    "guideAlt": "Telegram 동영상 다운로드 가이드",
+    "guidePrivate": "비공개 / 제한된 동영상",
+    "support": "지원",
+    "help": "고객센터",
+    "contact": "문의하기",
+    "privacy": "개인정보 처리방침",
+    "copyright": "© {year} TGVideoDown. All rights reserved."
+  },
+  "about": {
+    "hero": {
+      "title": "TGVideoDown 소개",
+      "subtitle": "Telegram Media Downloader Chrome 확장 프로그램 동반 사이트"
+    },
+    "mission": {
+      "title": "미션",
+      "description": "사용자가 Telegram Media Downloader 확장 프로그램을 찾고 이해하도록 돕습니다: Chrome에서 Telegram 미디어를 무료로 빠르게 저장하고, 명확한 안내와 허가된 사용을 존중합니다."
+    },
+    "values": {
+      "title": "가치",
+      "simplicity": {
+        "title": "단순함",
+        "description": "기술은 단순하고 직관적이어야 한다고 믿습니다. 누구나 쉽게 사용할 수 있도록 설계했으며 학습 곡선이 거의 없습니다."
+      },
+      "security": {
+        "title": "개인정보 보호 및 보안",
+        "description": "귀하의 개인정보가 최우선입니다. 최신 보안 조치로 데이터를 보호하며 개인 정보를 저장하거나 공유하지 않습니다."
+      },
+      "innovation": {
+        "title": "지속적인 혁신",
+        "description": "항상 최상의 사용자 경험과 최신 기능을 제공하기 위해 서비스를 지속적으로 개선하고 업데이트합니다."
+      }
+    },
+    "story": {
+      "title": "이야기",
+      "paragraph1": "TGVideoDown은 간단한 아이디어에서 시작되었습니다: 모든 사람이 Telegram 동영상을 쉽게 다운로드할 수 있게 하는 것.",
+      "paragraph2": "많은 사용자가 좋아하는 동영상을 저장할 간단한 방법이 필요했지만, 기존 솔루션은 너무 복잡하거나 안전하지 않은 경우가 많았습니다.",
+      "paragraph3": "그래서 TGVideoDown을 만들었습니다 — 빠르고 안전하며 완전 무료인 도구로, 동영상 다운로드를 그 어느 때보다 쉽게 합니다.",
+      "step1": {
+        "title": "필요 파악",
+        "description": "간단하고 안전한 동영상 다운로드 도구의 필요성 인식"
+      },
+      "step2": {
+        "title": "솔루션 개발",
+        "description": "빠르고 안전하며 사용하기 쉬운 플랫폼 구축"
+      },
+      "step3": {
+        "title": "지속적 개선",
+        "description": "사용자 피드백을 바탕으로 서비스를 지속적으로 최적화·강화"
+      }
+    },
+    "cta": {
+      "title": "시작할 준비가 되셨나요?",
+      "description": "커뮤니티에 참여하여 가장 간단하고 빠른 Telegram 동영상 다운로드 서비스를 경험하세요",
+      "button": "지금 시작하기"
+    }
+  },
+  "download": {
+    "hero": {
+      "title": "Chrome 확장 프로그램 설치",
+      "subtitle": "이 웹사이트는 Telegram 링크를 분석하거나 다운로드하지 않습니다 — 설치 후 Chrome에서 확장 프로그램을 사용하세요.",
+      "extensionHint": "Telegram Media Downloader는 무료이고 빠릅니다: Telegram의 동영상, 이미지, 오디오, 파일을 컴퓨터에 저장. 이 사이트 로그인 불필요; 다운로드는 브라우저의 확장 프로그램으로 이루어집니다."
+    },
+    "form": {
+      "placeholder": "Telegram 동영상 링크를 여기에 붙여넣기…",
+      "button": "동영상 다운로드",
+      "installExtension": "Chrome 확장 프로그램 설치",
+      "version": "v",
+      "loading": "처리 중…",
+      "error": "유효한 Telegram 동영상 링크를 입력하세요"
+    },
+    "features": {
+      "title": "이 확장 프로그램을 선택하는 이유",
+      "fast": {
+        "title": "빠른 워크플로",
+        "description": "Telegram Web에서 원클릭 또는 일괄 저장"
+      },
+      "secure": {
+        "title": "사이트에서 링크 분석 없음",
+        "description": "이 동반 사이트는 스토어로만 연결 — 여기에는 URL 입력란이 없습니다"
+      },
+      "free": {
+        "title": "무료",
+        "description": "유료 구독 없이 핵심 기능"
+      }
+    },
+    "instructions": {
+      "title": "첫 설정",
+      "step1": "아래 버튼을 눌러 Chrome 웹스토어에서 확장 프로그램 추가",
+      "step2": "Chrome에서 telegram.org를 열고 공식 Telegram Web 절차로 로그인",
+      "step3": "채팅 또는 채널을 열고 확장 프로그램으로 미디어를 PC에 다운로드"
+    }
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "subtitle": "Chrome 확장 프로그램 및 이 동반 사이트에 대해",
+    "q1": {
+      "question": "이 웹사이트가 온라인 Telegram 다운로더인가요?",
+      "answer": "아닙니다. 이 사이트는 제품을 소개하고 Chrome 웹스토어로 연결합니다. 분석과 다운로드는 확장 프로그램을 통해 브라우저에서 이루어지며, 이 도메인에 링크를 붙여넣는 방식이 아닙니다."
+    },
+    "q2": {
+      "question": "이 웹사이트에 로그인해야 하나요?",
+      "answer": "아닙니다. 확장 프로그램 사용 시 공식 Telegram Web 또는 앱에서만 Telegram에 로그인하세요 — 출처 불명의 제3자 양식에 Telegram 비밀번호를 입력하지 마세요."
+    },
+    "q3": {
+      "question": "무엇을 다운로드할 수 있나요?",
+      "answer": "확장 프로그램은 Chrome에서 Telegram의 동영상, 이미지, GIF, 음악, 오디오북, 파일을 지원하며, 계정에서 접근 가능한 범위와 적용 규칙을 따릅니다."
+    },
+    "q4": {
+      "question": "대용량 파일을 지원하나요?",
+      "answer": "예 — 네트워크와 Telegram이 허용하면 1GB 이상 파일도 안정적으로 다운로드됩니다."
+    },
+    "q5": {
+      "question": "모바일에서 사용할 수 있나요?",
+      "answer": "이 확장 프로그램은 데스크톱 Chrome용입니다. 모바일에서는 Telegram 공식 앱을 사용하세요; 데스크톱 전용 확장 프로그램을 휴대전화에 설치하지 마세요."
+    },
+    "q6": {
+      "question": "아무 동영상이나 저장해도 되나요?",
+      "answer": "보관이 허용된 콘텐츠만 저장하세요. 이 도구는 개인 사용 및 정리용입니다 — 저작권과 Telegram 약관을 준수하세요."
+    }
+  },
+  "privacy": {
+    "hero": {
+      "title": "개인정보 처리방침",
+      "lastUpdated": "최종 업데이트"
+    },
+    "sections": {
+      "introduction": {
+        "title": "1. 소개",
+        "content": "TGVideoDown(「당사」)은 Chrome 웹스토어의 TGVideoDown 확장 프로그램에 부수하여 이 웹사이트를 운영합니다. 본 방침은 이 사이트 탐색에 대해 설명합니다. 확장 프로그램의 권한 및 데이터 관행은 스토어 목록과 Chrome에 설명되어 있습니다. 사이트를 사용하면 여기 설명된 관행에 동의하는 것입니다."
+      },
+      "collection": {
+        "title": "2. 수집하는 정보",
+        "subtitle1": "a. 귀하가 제공하는 정보",
+        "item1": "다운로드를 요청한 동영상의 URL(다운로드 처리에 필요한 경우에만)",
+        "item2": "서비스에 피드백, 지원 문의, 등록 기능이 포함된 경우 선택적으로 제공되는 데이터(예: 이메일, 사용자 이름)",
+        "subtitle2": "b. 자동 수집 정보",
+        "item3": "기기/기술 정보(예: IP 주소, 브라우저 또는 앱 버전, 기기 유형, OS) — 서비스 운영, 디버깅, 악용 방지",
+        "item4": "사용 데이터(예: 타임스탬프, 다운로드 횟수, 오류 로그) — 성능 개선",
+        "subtitle3": "c. 쿠키 및 추적 기술",
+        "cookies": "웹사이트 기능을 위해 필수 쿠키를 사용합니다. 추적 쿠키나 광고 쿠키는 사용하지 않습니다."
+      },
+      "use": {
+        "title": "3. 정보 사용",
+        "content": "수집한 정보는 다음 목적으로 사용합니다:",
+        "item1": "핵심 동영상 다운로드 기능 제공, 유지 및 최적화",
+        "item2": "다운로드 요청 처리",
+        "item3": "사용자 경험 및 기술 성능 모니터링 및 개선",
+        "item4": "악용, 사기 또는 보안 위협 방지",
+        "item5": "선택적 서비스 알림 전송(예: 서비스 상태, 업데이트)"
+      },
+      "retention": {
+        "title": "4. 데이터 보관 및 저장",
+        "content": "데이터는 다음과 같이 보관합니다:",
+        "item1": "처리된 동영상 URL은 즉시 삭제되며 영구 저장하지 않습니다",
+        "item2": "로그 데이터는 서비스 개선 및 보안 목적으로 30일간 보관",
+        "item3": "모든 데이터는 암호화된 전송(HTTPS/TLS)으로 안전한 서버에 저장"
+      },
+      "sharing": {
+        "title": "5. 공유 및 공개",
+        "content": "당사는 다음을 하지 않습니다:",
+        "subtitle1": "당사는 하지 않습니다",
+        "item1": "개인 데이터 판매",
+        "item2": "필요한 경우를 제외하고 식별 가능한 데이터를 제3자와 공유",
+        "subtitle2": "데이터를 공유할 수 있는 경우",
+        "item3": "기밀 유지 조건 하에 서비스 제공업체(분석, 호스팅, CDN)와",
+        "item4": "법률에 의해 요구되는 경우(예: 집행 기관)",
+        "item5": "사업 거래와 관련된 경우(예: 합병, 인수)"
+      },
+      "security": {
+        "title": "6. 보안",
+        "content": "데이터를 보호하기 위해 다음 조치를 시행합니다:",
+        "item1": "전송 중 암호화(HTTPS/TLS)",
+        "item2": "안전한 저장 및 접근 제어",
+        "item3": "정기적인 보안 감사 및 업데이트",
+        "note": "어떤 시스템도 완벽하게 안전하지는 않지만, 무단 접근, 변경 또는 공개로부터 데이터를 보호하기 위해 최선을 다합니다."
+      },
+      "rights": {
+        "title": "7. 사용자 권리",
+        "content": "거주 지역에 따라 다음과 같은 권리가 있을 수 있습니다:",
+        "item1": "접근: 당사가 보유한 귀하에 관한 정보 열람",
+        "item2": "정정: 부정확하거나 불완전한 데이터 업데이트",
+        "item3": "삭제: 개인 데이터 삭제 요청",
+        "item4": "이동성: 휴대 가능한 형식으로 데이터 요청"
+      },
+      "children": {
+        "title": "8. 아동 개인정보",
+        "content": "당사 서비스는 13세 미만 아동을 대상으로 하지 않습니다. 13세 미만 아동으로부터 고의로 개인정보를 수집하지 않습니다. 수집한 사실을 알게 되면 즉시 삭제합니다."
+      },
+      "changes": {
+        "title": "9. 본 개인정보 처리방침의 변경",
+        "content": "본 방침을 수시로 업데이트할 수 있습니다. 변경 사항은 업데이트된 날짜와 함께 이 페이지에 게시됩니다. 정기적으로 본 방침을 확인하시기 바랍니다."
+      },
+      "contact": {
+        "title": "10. 연락처",
+        "content": "본 방침에 관한 질문, 우려 또는 요청이 있으시면 다음으로 연락하세요:"
+      }
+    }
+  }
+}

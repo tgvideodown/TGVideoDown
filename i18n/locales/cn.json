@@ -4,174 +4,237 @@
     "features": "功能",
     "pricing": "价格",
     "about": "关于",
-    "download": "立即下载"
+    "download": "获取扩展",
+    "guideHowTo": "使用说明",
+    "guideAlt": "下载指南"
   },
   "hero": {
-    "badge": "免费且快速",
-    "title": "即时下载 Telegram 视频",
-    "subtitle": "从 Telegram 下载视频最简单的方法。快速、安全且完全免费。",
-    "ctaPrimary": "开始下载",
+    "badge": "Chrome 扩展 · 配套网站",
+    "title": "一键保存电影与私密视频\n来自 Telegram 群组与频道",
+    "h2": "Telegram Media Downloader — 免费且快速",
+    "subtitle": "免费、快速的 Chrome 扩展，可将 Telegram 视频、图片、音频和文件保存到电脑。界面简洁，支持单个或批量下载，无需在本站登录。仅供个人备份与整理 — 请确保您有权保存相关内容。",
+    "ctaPrimary": "从 Chrome 网上应用店安装",
     "ctaSecondary": "了解更多",
-    "stats": {
-      "downloads": "下载量",
-      "users": "活跃用户",
-      "uptime": "正常运行时间"
+    "trust": {
+      "noLogin": "免费 — 无需登录",
+      "noData": "本站仅提供信息",
+      "safe": "请负责任地使用内容",
+      "safeShort": "授权使用"
+    },
+    "highlights": {
+      "free": {
+        "title": "免费使用",
+        "description": "使用扩展无需在本站注册账号。"
+      },
+      "batch": {
+        "title": "单个 / 批量",
+        "description": "选一个或多个文件 — 在 Telegram 中快速选择。"
+      },
+      "large": {
+        "title": "1GB+ 稳定",
+        "description": "在网络条件允许时，大文件可稳定下载。"
+      }
     }
   },
   "features": {
-    "title": "为什么选择 TGVideoDown？",
-    "subtitle": "快速安全地从 Telegram 下载视频所需的一切",
-    "fast": {
-      "title": "极速下载",
-      "description": "通过我们优化的服务器和高速连接，几秒钟内即可下载视频。"
+    "title": "扩展能做什么",
+    "subtitle": "与 Chrome 网上应用店介绍一致 — 本站仅作产品说明",
+    "freeNoLogin": {
+      "title": "免费 — 无需登录",
+      "description": "使用扩展无需登录我们的网站。"
     },
-    "secure": {
-      "title": "100% 安全",
-      "description": "您的隐私是我们的首要任务。所有下载都经过加密，我们从不存储您的数据。"
+    "batch": {
+      "title": "一键与批量",
+      "description": "下载单个项目或一次选择多个项目保存。"
     },
-    "multiDevice": {
-      "title": "多设备支持",
-      "description": "在桌面、移动设备和平板上无缝工作。随时随地下载。"
+    "mediaTypes": {
+      "title": "视频、图片等",
+      "description": "支持视频、图片、GIF、音乐、有声读物和文件。"
     },
-    "formats": {
-      "title": "多种格式",
-      "description": "以 MP4、MKV 或您喜欢的任何格式下载视频。选择您的质量设置。"
+    "largeFiles": {
+      "title": "大文件",
+      "description": "在条件允许时，支持 1GB 以上媒体的稳定下载。"
     },
-    "cloud": {
-      "title": "云存储",
-      "description": "直接保存到您的云存储。与 Google Drive、Dropbox 等集成。"
+    "simpleUI": {
+      "title": "简洁界面",
+      "description": "极简界面 — 上手即用。"
     },
-    "support": {
-      "title": "24/7 支持",
-      "description": "我们的支持团队随时准备帮助您解决任何问题。"
+    "compatible": {
+      "title": "频道格式",
+      "description": "兼容浏览器中常见的 Telegram 频道与聊天布局。"
     }
   },
   "howItWorks": {
-    "title": "工作原理",
-    "subtitle": "只需 3 个简单步骤即可下载 Telegram 视频",
+    "title": "如何使用",
+    "subtitle": "三步完成 — 均在 Chrome 内通过扩展操作",
     "step1": {
-      "title": "粘贴链接",
-      "description": "复制 Telegram 视频链接并将其粘贴到我们的下载器中。"
+      "title": "安装扩展",
+      "description": "从 Chrome 网上应用店添加 Telegram Media Downloader，可按需固定到工具栏。"
     },
     "step2": {
-      "title": "选择质量",
-      "description": "从可用选项中选择您喜欢的视频质量和格式。"
+      "title": "在网页中打开 Telegram",
+      "description": "在 Chrome 中使用 Telegram 网页版，进入出现媒体的频道、群组或聊天。"
     },
     "step3": {
-      "title": "下载",
-      "description": "点击下载，您的视频将在几秒钟内准备就绪。就这么简单！"
+      "title": "本地下载",
+      "description": "使用扩展将视频或其他媒体保存到电脑 — 单个或批量。"
     }
   },
+  "demo": {
+    "title": "截图",
+    "subtitle": "扩展使用流程中的产品画面（本站不处理链接或文件）。",
+    "step1Label": "步骤 1",
+    "step1Caption": "从应用店安装扩展并在 Chrome 中启用。",
+    "step2Label": "步骤 2",
+    "step2Caption": "浏览 Telegram 网页版并打开含所需媒体的消息。",
+    "step3Label": "步骤 3",
+    "step3Caption": "保存到电脑 — 单个或多个选择。",
+    "step1Alt": "Chrome 网上应用店安装步骤",
+    "step2Alt": "含媒体的 Telegram 网页版",
+    "step3Alt": "下载到电脑"
+  },
   "cta": {
-    "title": "准备开始了吗？",
-    "description": "加入数百万信任 TGVideoDown 进行视频下载的用户。",
-    "button": "立即下载",
+    "title": "获取扩展",
+    "description": "本页为 Chrome 网上应用店列表的配套说明 — 请在那里安装以使用 Telegram Media Downloader。",
+    "button": "打开 Chrome 网上应用店",
     "secondary": "查看价格"
   },
   "testimonials": {
     "title": "用户评价",
-    "subtitle": "不要只听我们说。看看我们社区的评价。",
+    "subtitle": "关于 Chrome 扩展体验的反馈",
     "user1": {
-      "quote": "这是我使用过的最快、最可靠的 Telegram 视频下载器。强烈推荐！"
+      "quote": "快速直接 — 批量下载在繁忙频道里省了很多时间。"
     },
     "user2": {
-      "quote": "界面非常简洁易用。我可以下载任何我需要的格式的视频。"
+      "quote": "界面干净不啰嗦。我要归档的视频和图片都能用。"
     },
     "user3": {
-      "quote": "最好的部分是它完全免费且安全。无广告，无跟踪，只有纯粹的功能。"
+      "quote": "免费且不用登录网站 — 正是我用来做个人备份想要的。"
     }
   },
   "footer": {
-    "description": "最值得信赖的 Telegram 视频下载器。快速、安全且免费。",
+    "description": "TGVideoDown Chrome 扩展的配套网站。此处无在线解析下载 — 请从应用店安装扩展。",
     "quickLinks": "快速链接",
+    "guides": "指南",
+    "guideHowTo": "如何下载 Telegram 视频",
+    "guideAlt": "Telegram 视频下载指南",
+    "guidePrivate": "私密 / 受限视频",
     "support": "支持",
     "help": "帮助中心",
     "contact": "联系我们",
     "privacy": "隐私政策",
-    "copyright": "© {year} TGVideoDown。保留所有权利。"
+    "copyright": "© {year} TGVideoDown. 保留所有权利。"
   },
   "about": {
     "hero": {
       "title": "关于 TGVideoDown",
-      "subtitle": "我们致力于让 Telegram 视频下载变得简单、快速和安全"
+      "subtitle": "Telegram Media Downloader Chrome 扩展的配套网站"
     },
     "mission": {
       "title": "我们的使命",
-      "description": "TGVideoDown 的使命是为全球用户提供最简单、最快速、最安全的 Telegram 视频下载体验。我们相信每个人都应该能够轻松访问和保存他们喜爱的视频内容，而无需复杂的技术知识。"
+      "description": "我们帮助用户发现与理解 Telegram Media Downloader 扩展：在 Chrome 中免费、快速地保存 Telegram 媒体，提供清晰指引并尊重授权使用。"
     },
     "values": {
       "title": "我们的价值观",
       "simplicity": {
-        "title": "简单易用",
-        "description": "我们相信技术应该简单直观。我们的工具设计得让任何人都能轻松使用，无需学习曲线。"
+        "title": "简洁",
+        "description": "我们相信技术应简单直观。我们的工具对任何人都易于使用，几乎无需学习。"
       },
       "security": {
-        "title": "隐私安全",
-        "description": "您的隐私是我们的首要任务。我们采用最先进的安全措施保护您的数据，绝不存储或分享您的个人信息。"
+        "title": "隐私与安全",
+        "description": "您的隐私是我们的首要任务。我们采用先进安全措施保护您的数据，绝不存储或分享您的个人信息。"
       },
       "innovation": {
         "title": "持续创新",
-        "description": "我们不断改进和更新我们的服务，确保您始终拥有最佳的用户体验和最新的功能。"
+        "description": "我们不断改进与更新服务，确保您始终获得最佳体验与最新功能。"
       }
     },
     "story": {
       "title": "我们的故事",
-      "paragraph1": "TGVideoDown 诞生于一个简单的想法：让每个人都能轻松下载 Telegram 视频。",
-      "paragraph2": "我们注意到许多用户需要一种简单的方法来保存他们喜爱的视频内容，但现有的解决方案要么太复杂，要么不够安全。",
-      "paragraph3": "因此，我们创建了 TGVideoDown - 一个快速、安全、完全免费的工具，让视频下载变得前所未有的简单。",
+      "paragraph1": "TGVideoDown 源于一个简单的想法：让每个人都能轻松下载 Telegram 视频。",
+      "paragraph2": "我们发现许多用户需要简单的方式保存喜欢的视频内容，但现有方案要么过于复杂，要么不够安全。",
+      "paragraph3": "因此我们创建了 TGVideoDown — 快速、安全且完全免费的工具，让视频下载比以往更简单。",
       "step1": {
-        "title": "识别需求",
-        "description": "发现用户对简单、安全的视频下载工具的需求"
+        "title": "发现需求",
+        "description": "认识到需要简单、安全的视频下载工具"
       },
       "step2": {
-        "title": "开发解决方案",
-        "description": "构建一个快速、安全且用户友好的平台"
+        "title": "开发方案",
+        "description": "打造快速、安全且易用的平台"
       },
       "step3": {
         "title": "持续改进",
-        "description": "根据用户反馈不断优化和完善服务"
+        "description": "根据用户反馈不断优化与增强服务"
       }
     },
     "cta": {
-      "title": "准备好开始了吗？",
+      "title": "准备开始了吗？",
       "description": "加入我们的社区，体验最简单、最快速的 Telegram 视频下载服务",
       "button": "立即开始"
     }
   },
   "download": {
     "hero": {
-      "title": "下载 Telegram 视频",
-      "subtitle": "在下方粘贴您的 Telegram 视频链接开始下载",
-      "extensionHint": "安装我们的免费 Chrome 插件，一键下载 Telegram 中的视频、图片和文件。无需登录。"
+      "title": "安装 Chrome 扩展",
+      "subtitle": "本网站不会解析或下载 Telegram 链接 — 安装后请在 Chrome 中使用扩展。",
+      "extensionHint": "Telegram Media Downloader 免费且快速：将 Telegram 中的视频、图片、音频和文件保存到电脑。本站无需登录；下载通过扩展在浏览器中完成。"
     },
     "form": {
-      "placeholder": "在此粘贴 Telegram 视频链接...",
+      "placeholder": "在此粘贴 Telegram 视频链接…",
       "button": "下载视频",
-      "installExtension": "安装 Chrome 插件",
-      "version": "版本",
-      "loading": "处理中...",
+      "installExtension": "安装 Chrome 扩展",
+      "version": "v",
+      "loading": "处理中…",
       "error": "请输入有效的 Telegram 视频链接"
     },
     "features": {
-      "title": "为什么使用我们的下载器？",
+      "title": "为什么选择此扩展",
       "fast": {
-        "title": "极速下载",
-        "description": "几秒钟内下载视频"
+        "title": "高效流程",
+        "description": "在 Telegram 网页版中一键或批量保存"
       },
       "secure": {
-        "title": "100% 安全",
-        "description": "您的数据永不存储"
+        "title": "本站不解析链接",
+        "description": "本配套站仅链接到应用店 — 此处无输入框"
       },
       "free": {
-        "title": "完全免费",
-        "description": "无隐藏费用或订阅"
+        "title": "免费",
+        "description": "核心功能无需付费订阅"
       }
     },
     "instructions": {
-      "title": "如何下载",
-      "step1": "从 Telegram 复制视频链接",
-      "step2": "在上方框中粘贴链接",
-      "step3": "点击下载并保存您的视频"
+      "title": "首次设置",
+      "step1": "点击下方按钮，从 Chrome 网上应用店添加扩展",
+      "step2": "在 Chrome 中打开 telegram.org，使用官方 Telegram 网页版流程登录",
+      "step3": "打开聊天或频道，使用扩展将媒体下载到电脑"
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "关于 Chrome 扩展与本配套网站",
+    "q1": {
+      "question": "本网站是在线 Telegram 下载器吗？",
+      "answer": "不是。本站介绍产品并链接到 Chrome 网上应用店。解析与下载在浏览器中通过扩展完成，而非在本域名粘贴链接。"
+    },
+    "q2": {
+      "question": "我需要在网站上登录吗？",
+      "answer": "不需要。使用扩展时仅在官方 Telegram 网页版或应用中登录 Telegram — 切勿在不明第三方表单中输入 Telegram 密码。"
+    },
+    "q3": {
+      "question": "可以下载什么？",
+      "answer": "扩展在 Chrome 中支持 Telegram 的视频、图片、GIF、音乐、有声读物和文件，具体取决于您账号可访问的内容及适用规则。"
+    },
+    "q4": {
+      "question": "支持大文件吗？",
+      "answer": "支持 — 在网络与 Telegram 允许时，可稳定下载 1GB 以上的文件。"
+    },
+    "q5": {
+      "question": "能在手机上用吗？",
+      "answer": "此扩展适用于桌面版 Chrome。请在手机上使用 Telegram 官方应用；勿在手机上安装仅支持桌面的扩展。"
+    },
+    "q6": {
+      "question": "可以随便保存任何视频吗？",
+      "answer": "仅保存您有权保留的内容。本工具供个人使用与整理 — 请尊重版权与 Telegram 条款。"
     }
   },
   "privacy": {
@@ -181,74 +244,74 @@
     },
     "sections": {
       "introduction": {
-        "title": "1. 介绍",
-        "content": "TGVideoDown（\"我们\"、\"我们的\"或\"本服务\"）运营位于本网站的视频下载服务（\"服务\"）。本隐私政策说明我们如何收集、使用、披露和保护用户（\"您\"或\"用户\"）的信息。使用本服务即表示您同意本政策中描述的做法。"
+        "title": "1. 简介",
+        "content": "TGVideoDown（「我们」）运营本网站，作为 Chrome 网上应用店中 TGVideoDown 扩展的配套站点。本政策说明浏览本站时的做法。扩展的权限与数据实践请参阅应用店说明与 Chrome 中的描述。使用本站即表示您同意本文所述做法。"
       },
       "collection": {
         "title": "2. 我们收集的信息",
         "subtitle1": "a. 您提供的信息",
-        "item1": "您请求下载的视频链接（仅用于处理下载所需）",
-        "item2": "可选用户提供的数据（如电子邮件、用户名），如果服务包括反馈、支持联系或注册功能",
+        "item1": "您请求下载的视频 URL（仅在处理下载所需范围内）",
+        "item2": "若服务包含反馈、支持联系或注册功能，则可能包含您自愿提供的数据（如邮箱、用户名）",
         "subtitle2": "b. 自动收集的信息",
-        "item3": "设备/技术信息（如 IP 地址、浏览器或应用版本、设备类型、操作系统）用于服务运营、调试和防止滥用",
-        "item4": "使用数据（如时间戳、下载次数、错误日志）用于改善性能",
-        "subtitle3": "c. Cookie 和跟踪技术",
-        "cookies": "我们使用必要的 Cookie 来确保网站功能正常。我们不会使用跟踪 Cookie 或广告 Cookie。"
+        "item3": "设备/技术信息（如 IP、浏览器或应用版本、设备类型、操作系统），用于服务运行、调试与防止滥用",
+        "item4": "使用数据（如时间戳、下载次数、错误日志）以改进性能",
+        "subtitle3": "c. Cookie 与跟踪技术",
+        "cookies": "我们使用必要 Cookie 以保证网站功能。我们不使用跟踪 Cookie 或广告 Cookie。"
       },
       "use": {
-        "title": "3. 信息的使用",
-        "content": "我们使用收集的信息来：",
-        "item1": "提供、维护和优化核心视频下载功能",
+        "title": "3. 信息用途",
+        "content": "我们使用所收集的信息用于：",
+        "item1": "提供、维护并优化核心视频下载功能",
         "item2": "处理下载请求",
-        "item3": "监控和改善用户体验和技术性能",
+        "item3": "监测并改进用户体验与技术性能",
         "item4": "防止滥用、欺诈或安全威胁",
         "item5": "发送可选的服务通知（如服务状态、更新）"
       },
       "retention": {
-        "title": "4. 数据保留和存储",
-        "content": "我们保留数据的方式如下：",
-        "item1": "处理后的视频链接会立即删除，不会永久存储",
-        "item2": "日志数据会保留 30 天，用于服务改进和安全目的",
-        "item3": "所有数据都存储在安全的服务器上，并采用加密传输（HTTPS/TLS）"
+        "title": "4. 数据保留与存储",
+        "content": "我们按以下方式保留数据：",
+        "item1": "处理过的视频 URL 立即删除，不作永久存储",
+        "item2": "日志数据保留 30 天，用于改进服务与安全",
+        "item3": "所有数据存储在安全服务器上，传输经加密（HTTPS/TLS）"
       },
       "sharing": {
-        "title": "5. 共享和披露",
+        "title": "5. 共享与披露",
         "content": "我们不会：",
         "subtitle1": "我们不会",
         "item1": "出售个人数据",
-        "item2": "除非必要，否则不会与第三方共享识别数据",
-        "subtitle2": "我们可能会共享数据",
-        "item3": "与服务提供商（分析、托管、CDN）在保密条款下共享数据",
-        "item4": "如果法律要求（如与执法部门）",
-        "item5": "与任何业务交易相关（如合并、收购）"
+        "item2": "除必要情况外与第三方共享可识别数据",
+        "subtitle2": "我们可能共享数据",
+        "item3": "在保密条款下与服务提供商（分析、托管、CDN）",
+        "item4": "法律要求时（如执法部门）",
+        "item5": "与任何商业交易相关（如合并、收购）"
       },
       "security": {
         "title": "6. 安全",
-        "content": "我们采取以下安全措施保护您的数据：",
+        "content": "我们采取以下措施保护您的数据：",
         "item1": "传输加密（HTTPS/TLS）",
-        "item2": "安全存储和访问控制",
-        "item3": "定期安全审计和更新",
-        "note": "请注意，没有任何系统是完全安全的，但我们致力于保护您的数据免受未经授权的访问、更改或披露。"
+        "item2": "安全存储与访问控制",
+        "item3": "定期安全审计与更新",
+        "note": "请注意没有任何系统绝对安全，但我们致力于保护您的数据免受未经授权的访问、更改或披露。"
       },
       "rights": {
         "title": "7. 用户权利",
-        "content": "根据您所在的位置，您可能拥有以下权利：",
+        "content": "根据您所在地区，您可能享有以下权利：",
         "item1": "访问：查看我们持有的关于您的信息",
         "item2": "更正：更新不准确或不完整的数据",
         "item3": "删除：请求删除个人数据",
-        "item4": "数据可携带性：请求以可移植格式获取数据"
+        "item4": "可携带性：以可移植格式请求数据"
       },
       "children": {
         "title": "8. 儿童隐私",
-        "content": "我们的服务不面向 13 岁以下的儿童。我们不会故意收集 13 岁以下儿童的个人信息。如果我们发现收集了此类信息，我们将立即删除。"
+        "content": "我们的服务不面向 13 岁以下儿童。我们不会故意收集 13 岁以下儿童的个人信息。若发现已收集，将立即删除。"
       },
       "changes": {
         "title": "9. 本隐私政策的变更",
-        "content": "我们可能会不时更新本隐私政策。任何变更都会在本页面上发布更新日期。我们建议您定期查看本政策以了解任何变更。"
+        "content": "我们可能不时更新本隐私政策。任何变更将发布在本页并更新日期。建议您定期查阅以了解变更。"
       },
       "contact": {
-        "title": "10. 联系信息",
-        "content": "如果您对本政策有任何问题、疑虑或请求，可以通过以下方式联系我们："
+        "title": "10. 联系方式",
+        "content": "若对本政策有疑问、顾虑或请求，可通过以下方式联系我们："
       }
     }
   }

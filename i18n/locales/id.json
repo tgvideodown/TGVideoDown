@@ -1,1 +1,318 @@
-{"nav":{"home":"Beranda","features":"Fitur","pricing":"Harga","about":"Tentang","download":"Unduh Sekarang"},"hero":{"badge":"Gratis & Cepat","title":"Unduh Video Telegram\nSecara Instan","subtitle":"Cara termudah mengunduh video dari Telegram. Cepat, aman, dan sepenuhnya gratis.","ctaPrimary":"Mulai Mengunduh","ctaSecondary":"Pelajari Lebih Lanjut","stats":{"downloads":"Unduhan","users":"Pengguna Aktif","uptime":"Waktu Aktif"}},"features":{"title":"Mengapa Memilih TGVideoDown?","subtitle":"Semua yang Anda butuhkan untuk mengunduh video dari Telegram dengan cepat dan aman","fast":{"title":"Sangat Cepat","description":"Unduh video dalam hitungan detik dengan server yang dioptimalkan."},"secure":{"title":"100% Aman","description":"Privasi Anda adalah prioritas kami. Semua unduhan dienkripsi dan kami tidak pernah menyimpan data Anda."},"multiDevice":{"title":"Dukungan Multi-Perangkat","description":"Bekerja di desktop, ponsel, dan tablet. Unduh dari mana saja."},"formats":{"title":"Berbagai Format","description":"Unduh video dalam MP4, MKV, atau format pilihan Anda."},"cloud":{"title":"Penyimpanan Cloud","description":"Simpan langsung ke Google Drive, Dropbox, dan lainnya."},"support":{"title":"Dukungan 24/7","description":"Tim dukungan kami selalu siap membantu."}},"howItWorks":{"title":"Cara Kerjanya","subtitle":"Unduh video Telegram hanya dalam 3 langkah sederhana","step1":{"title":"Tempel Link","description":"Salin link video Telegram dan tempel ke pengunduh kami."},"step2":{"title":"Pilih Kualitas","description":"Pilih kualitas dan format video yang Anda inginkan."},"step3":{"title":"Unduh","description":"Klik unduh dan video Anda siap dalam hitungan detik. Sangat mudah!"}},"cta":{"title":"Siap Memulai?","description":"Bergabung dengan jutaan pengguna yang mempercayai TGVideoDown.","button":"Unduh Sekarang","secondary":"Lihat Harga"},"testimonials":{"title":"Apa Kata Pengguna Kami","subtitle":"Jangan percaya kata kami saja. Dengarkan komunitas kami.","user1":{"quote":"Pengunduh video Telegram tercepat dan paling andal yang pernah saya gunakan. Sangat direkomendasikan!"},"user2":{"quote":"Antarmukanya sangat bersih dan mudah digunakan. Saya bisa mengunduh video dalam format apa pun."},"user3":{"quote":"Yang terbaik adalah sepenuhnya gratis dan aman. Tanpa iklan, tanpa pelacakan – hanya fungsionalitas murni."}},"footer":{"description":"Pengunduh video Telegram paling terpercaya. Cepat, aman, dan gratis.","quickLinks":"Tautan Cepat","support":"Dukungan","help":"Pusat Bantuan","contact":"Hubungi Kami","privacy":"Kebijakan Privasi","copyright":"© {year} TGVideoDown. Hak cipta dilindungi."},"about":{"hero":{"title":"Tentang TGVideoDown","subtitle":"Kami berdedikasi menjadikan pengunduhan video Telegram sederhana, cepat, dan aman"},"mission":{"title":"Misi Kami","description":"Misi TGVideoDown adalah menyediakan pengalaman pengunduhan video Telegram paling sederhana, cepat, dan aman untuk pengguna di seluruh dunia."},"values":{"title":"Nilai Kami","simplicity":{"title":"Kesederhanaan","description":"Kami percaya teknologi harus sederhana dan intuitif. Alat kami dirancang untuk siapa saja."},"security":{"title":"Privasi & Keamanan","description":"Privasi Anda adalah prioritas tertinggi kami. Kami melindungi data Anda."},"innovation":{"title":"Inovasi Berkelanjutan","description":"Kami terus meningkatkan layanan untuk pengalaman terbaik."}},"story":{"title":"Cerita Kami","paragraph1":"TGVideoDown lahir dari ide sederhana: memudahkan semua orang mengunduh video Telegram.","paragraph2":"Kami melihat banyak pengguna membutuhkan cara sederhana untuk menyimpan video favorit mereka.","paragraph3":"Jadi kami membuat TGVideoDown – alat yang cepat, aman, dan sepenuhnya gratis."},"cta":{"title":"Siap Memulai?","description":"Bergabung dengan komunitas kami dan rasakan layanan pengunduhan video Telegram paling sederhana dan cepat","button":"Mulai Sekarang"}},"download":{"hero":{"title":"Unduh Video Telegram","subtitle":"Tempel link video Telegram Anda di bawah untuk memulai pengunduhan","extensionHint":"Pasang ekstensi Chrome gratis kami untuk mengunduh video, gambar, dan file dari Telegram dalam satu klik. Tanpa login."},"form":{"placeholder":"Tempel link video Telegram di sini...","button":"Unduh Video","installExtension":"Pasang Ekstensi Chrome","version":"v","loading":"Memproses...","error":"Silakan masukkan link video Telegram yang valid"},"features":{"title":"Mengapa Menggunakan Pengunduh Kami?","fast":{"title":"Sangat Cepat","description":"Unduh video dalam hitungan detik"},"secure":{"title":"100% Aman","description":"Data Anda tidak pernah disimpan"},"free":{"title":"Sepenuhnya Gratis","description":"Tanpa biaya tersembunyi atau langganan"}},"instructions":{"title":"Cara Mengunduh","step1":"Salin link video dari Telegram","step2":"Tempel link di kotak atas","step3":"Klik unduh dan simpan video Anda"}},"privacy":{"hero":{"title":"Kebijakan Privasi","lastUpdated":"Terakhir Diperbarui"},"sections":{"introduction":{"title":"1. Pengenalan","content":"TGVideoDown mengoperasikan layanan pengunduh video yang tersedia di situs web ini (\"Layanan\"). Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pengguna (\"Anda\"). Dengan menggunakan Layanan, Anda menyetujui praktik yang dijelaskan di sini."},"collection":{"title":"2. Informasi yang Kami Kumpulkan","subtitle1":"a. Informasi yang Anda Berikan","item1":"URL video yang Anda minta unduh","item2":"Data opsional (email, nama pengguna) untuk umpan balik dan dukungan","subtitle2":"b. Informasi yang Dikumpulkan Otomatis","item3":"Informasi teknis (IP, browser, perangkat) untuk operasi layanan","item4":"Data penggunaan untuk peningkatan performa","subtitle3":"c. Cookie","cookies":"Kami menggunakan cookie esensial untuk fungsionalitas situs. Kami tidak menggunakan cookie pelacakan atau iklan."},"use":{"title":"3. Penggunaan Informasi","content":"Kami menggunakan informasi yang dikumpulkan untuk:","item1":"Menyediakan dan mengoptimalkan layanan pengunduhan","item2":"Memproses permintaan unduhan","item3":"Meningkatkan pengalaman pengguna","item4":"Mencegah penyalahgunaan","item5":"Notifikasi opsional tentang layanan"},"retention":{"title":"4. Penyimpanan Data","content":"Kami menyimpan data sebagai berikut:","item1":"URL yang diproses dihapus segera","item2":"Data log disimpan 30 hari","item3":"Semua data ditransmisikan dengan HTTPS/TLS"},"sharing":{"title":"5. Berbagi","content":"Kami tidak:","subtitle1":"Kami tidak","item1":"Menjual data pribadi","item2":"Berbagi data dengan pihak ketiga kecuali diperlukan","subtitle2":"Kami dapat berbagi","item3":"Dengan penyedia layanan di bawah kerahasiaan","item4":"Jika diwajibkan hukum","item5":"Dalam transaksi bisnis (merger, akuisisi)"},"security":{"title":"6. Keamanan","content":"Kami menerapkan:","item1":"Enkripsi saat transit (HTTPS/TLS)","item2":"Penyimpanan aman dan kontrol akses","item3":"Audit keamanan rutin","note":"Tidak ada sistem yang sempurna aman, tetapi kami berkomitmen melindungi data Anda."},"rights":{"title":"7. Hak Pengguna","content":"Tergantung lokasi Anda, Anda mungkin memiliki hak seperti:","item1":"Akses: melihat informasi yang kami simpan tentang Anda","item2":"Koreksi: memperbarui data yang tidak akurat","item3":"Penghapusan: meminta penghapusan data pribadi","item4":"Portabilitas: meminta data dalam format portabel"},"children":{"title":"8. Privasi Anak","content":"Layanan kami tidak ditujukan untuk anak di bawah 13 tahun. Kami tidak sengaja mengumpulkan informasi pribadi dari anak di bawah 13 tahun."},"changes":{"title":"9. Perubahan Kebijakan Ini","content":"Kami dapat memperbarui kebijakan ini. Perubahan akan dipublikasikan di halaman ini."},"contact":{"title":"10. Informasi Kontak","content":"Untuk pertanyaan tentang kebijakan ini, hubungi kami di:"}}}}
+{
+  "nav": {
+    "home": "Beranda",
+    "features": "Fitur",
+    "pricing": "Harga",
+    "about": "Tentang",
+    "download": "Dapatkan ekstensi",
+    "guideHowTo": "Cara pakai",
+    "guideAlt": "Panduan unduh"
+  },
+  "hero": {
+    "badge": "Ekstensi Chrome · Situs pendamping",
+    "title": "Film & video privat sekali klik\ndari grup & saluran Telegram",
+    "h2": "Telegram Media Downloader — gratis & cepat",
+    "subtitle": "Ekstensi Chrome gratis dan cepat yang menyimpan video, gambar, audio, dan file Telegram ke komputer Anda. UI sederhana, unduhan tunggal atau batch, tanpa login di situs kami. Hanya untuk cadangan dan pengaturan pribadi — pastikan Anda berhak menyimpan konten tersebut.",
+    "ctaPrimary": "Pasang dari Chrome Web Store",
+    "ctaSecondary": "Pelajari lebih lanjut",
+    "trust": {
+      "noLogin": "Gratis — tanpa login",
+      "noData": "Situs hanya informasi",
+      "safe": "Gunakan konten secara bertanggung jawab",
+      "safeShort": "Penggunaan sah"
+    },
+    "highlights": {
+      "free": {
+        "title": "Gratis digunakan",
+        "description": "Tidak perlu akun di situs kami untuk memakai ekstensi."
+      },
+      "batch": {
+        "title": "Tunggal / batch",
+        "description": "Satu file atau banyak — pilih cepat di Telegram."
+      },
+      "large": {
+        "title": "1GB+ stabil",
+        "description": "File besar terunduh andal saat koneksi memungkinkan."
+      }
+    }
+  },
+  "features": {
+    "title": "Yang ditawarkan ekstensi",
+    "subtitle": "Sama seperti di Chrome Web Store — situs ini hanya memperkenalkan produk",
+    "freeNoLogin": {
+      "title": "Gratis — tanpa login",
+      "description": "Gunakan ekstensi tanpa masuk ke situs kami."
+    },
+    "batch": {
+      "title": "Satu klik & batch",
+      "description": "Unduh satu item atau pilih banyak sekaligus."
+    },
+    "mediaTypes": {
+      "title": "Video, gambar & lainnya",
+      "description": "Mendukung video, gambar, GIF, musik, buku audio, dan file."
+    },
+    "largeFiles": {
+      "title": "File besar",
+      "description": "Unduhan stabil untuk media 1GB+ bila kondisi memungkinkan."
+    },
+    "simpleUI": {
+      "title": "UI bersih",
+      "description": "Antarmuka minimal — langsung bisa dipakai."
+    },
+    "compatible": {
+      "title": "Format saluran",
+      "description": "Berfungsi dengan tata letak saluran dan chat Telegram umum di browser."
+    }
+  },
+  "howItWorks": {
+    "title": "Cara memakai",
+    "subtitle": "Tiga langkah — semua di Chrome dengan ekstensi",
+    "step1": {
+      "title": "Pasang ekstensi",
+      "description": "Tambahkan Telegram Media Downloader dari Chrome Web Store dan sematkan jika mau."
+    },
+    "step2": {
+      "title": "Buka Telegram di web",
+      "description": "Gunakan Telegram Web di Chrome dan buka saluran, grup, atau chat tempat medianya."
+    },
+    "step3": {
+      "title": "Unduh ke lokal",
+      "description": "Simpan video atau media lain ke komputer dengan ekstensi — satu file atau batch."
+    }
+  },
+  "demo": {
+    "title": "Tangkapan layar",
+    "subtitle": "Visual produk dari alur ekstensi (situs ini tidak memproses tautan atau file).",
+    "step1Label": "Langkah 1",
+    "step1Caption": "Pasang ekstensi dari toko dan aktifkan di Chrome.",
+    "step2Label": "Langkah 2",
+    "step2Caption": "Jelajahi Telegram Web dan buka pesan yang berisi media yang diinginkan.",
+    "step3Label": "Langkah 3",
+    "step3Caption": "Simpan ke PC — satu item atau banyak pilihan.",
+    "step1Alt": "Langkah pasang Chrome Web Store",
+    "step2Alt": "Telegram Web dengan media",
+    "step3Alt": "Unduh ke komputer"
+  },
+  "cta": {
+    "title": "Dapatkan ekstensi",
+    "description": "Halaman ini melengkapi daftar Chrome Web Store — pasang di sana untuk memakai Telegram Media Downloader.",
+    "button": "Buka Chrome Web Store",
+    "secondary": "Lihat harga"
+  },
+  "testimonials": {
+    "title": "Kata pengguna",
+    "subtitle": "Masukan tentang pengalaman ekstensi Chrome",
+    "user1": {
+      "quote": "Cepat dan lugas — unduhan batch menghemat banyak waktu di saluran ramai."
+    },
+    "user2": {
+      "quote": "UI bersih tanpa ribet. Cocok untuk video dan gambar yang ingin saya arsipkan."
+    },
+    "user3": {
+      "quote": "Gratis dan tanpa login situs — persis yang saya inginkan untuk cadangan pribadi."
+    }
+  },
+  "footer": {
+    "description": "Situs pendamping ekstensi Chrome TGVideoDown. Tidak ada pengunduh online di sini — pasang ekstensi dari toko.",
+    "quickLinks": "Tautan cepat",
+    "guides": "Panduan",
+    "guideHowTo": "Cara mengunduh video Telegram",
+    "guideAlt": "Panduan unduh video Telegram",
+    "guidePrivate": "Video privat / terbatas",
+    "support": "Dukungan",
+    "help": "Pusat bantuan",
+    "contact": "Hubungi kami",
+    "privacy": "Kebijakan privasi",
+    "copyright": "© {year} TGVideoDown. Hak cipta dilindungi."
+  },
+  "about": {
+    "hero": {
+      "title": "Tentang TGVideoDown",
+      "subtitle": "Situs pendamping ekstensi Chrome Telegram Media Downloader"
+    },
+    "mission": {
+      "title": "Misi kami",
+      "description": "Kami membantu pengguna menemukan dan memahami ekstensi Telegram Media Downloader: penyimpanan media Telegram di Chrome yang gratis dan cepat, dengan panduan jelas dan menghormati penggunaan yang sah."
+    },
+    "values": {
+      "title": "Nilai kami",
+      "simplicity": {
+        "title": "Kesederhanaan",
+        "description": "Kami percaya teknologi harus sederhana dan intuitif. Alat kami mudah dipakai siapa pun tanpa kurva belajar."
+      },
+      "security": {
+        "title": "Privasi & keamanan",
+        "description": "Privasi Anda prioritas utama. Kami melindungi data dengan langkah keamanan terkini dan tidak menyimpan atau membagikan informasi pribadi Anda."
+      },
+      "innovation": {
+        "title": "Inovasi berkelanjutan",
+        "description": "Kami terus meningkatkan layanan agar Anda selalu mendapat pengalaman terbaik dan fitur terbaru."
+      }
+    },
+    "story": {
+      "title": "Cerita kami",
+      "paragraph1": "TGVideoDown lahir dari ide sederhana: memudahkan semua orang mengunduh video Telegram.",
+      "paragraph2": "Banyak pengguna membutuhkan cara sederhana menyimpan video favorit, tetapi solusi yang ada terlalu rumit atau kurang aman.",
+      "paragraph3": "Maka kami membuat TGVideoDown — alat cepat, aman, dan sepenuhnya gratis yang membuat unduhan video lebih mudah dari sebelumnya.",
+      "step1": {
+        "title": "Mengenali kebutuhan",
+        "description": "Mengakui kebutuhan alat unduh video yang sederhana dan aman"
+      },
+      "step2": {
+        "title": "Mengembangkan solusi",
+        "description": "Membangun platform cepat, aman, dan ramah pengguna"
+      },
+      "step3": {
+        "title": "Peningkatan berkelanjutan",
+        "description": "Terus mengoptimalkan layanan berdasarkan masukan pengguna"
+      }
+    },
+    "cta": {
+      "title": "Siap memulai?",
+      "description": "Bergabunglah dengan komunitas kami dan rasakan layanan unduh video Telegram paling sederhana dan cepat",
+      "button": "Mulai sekarang"
+    }
+  },
+  "download": {
+    "hero": {
+      "title": "Pasang ekstensi Chrome",
+      "subtitle": "Situs ini tidak mengurai atau mengunduh tautan Telegram — gunakan ekstensi di Chrome setelah memasang.",
+      "extensionHint": "Telegram Media Downloader gratis dan cepat: simpan video, gambar, audio, dan file dari Telegram ke komputer. Tanpa login di situs ini; unduhan terjadi di browser lewat ekstensi."
+    },
+    "form": {
+      "placeholder": "Tempel tautan video Telegram di sini…",
+      "button": "Unduh video",
+      "installExtension": "Pasang ekstensi Chrome",
+      "version": "v",
+      "loading": "Memproses…",
+      "error": "Masukkan tautan video Telegram yang valid"
+    },
+    "features": {
+      "title": "Mengapa ekstensi ini",
+      "fast": {
+        "title": "Alur cepat",
+        "description": "Simpan sekali klik atau batch dari Telegram Web"
+      },
+      "secure": {
+        "title": "Tidak ada penguraian di situs",
+        "description": "Situs pendamping ini hanya menaut ke toko — tidak ada kotak URL di sini"
+      },
+      "free": {
+        "title": "Gratis",
+        "description": "Fitur inti tanpa langganan berbayar"
+      }
+    },
+    "instructions": {
+      "title": "Pengaturan pertama",
+      "step1": "Klik tombol di bawah dan tambahkan ekstensi dari Chrome Web Store",
+      "step2": "Buka telegram.org di Chrome dan masuk dengan alur Telegram Web resmi",
+      "step3": "Buka chat atau saluran dan gunakan ekstensi untuk mengunduh media ke PC"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Tentang ekstensi Chrome dan situs pendamping ini",
+    "q1": {
+      "question": "Apakah situs ini pengunduh Telegram online?",
+      "answer": "Tidak. Situs ini memperkenalkan produk dan menaut ke Chrome Web Store. Penguraian dan unduhan berjalan di browser lewat ekstensi, bukan dengan menempel tautan di domain ini."
+    },
+    "q2": {
+      "question": "Apakah saya harus login di situs ini?",
+      "answer": "Tidak. Login ke Telegram hanya lewat Telegram Web atau aplikasi resmi saat memakai ekstensi — jangan masukkan kata sandi Telegram di formulir pihak ketiga yang mencurigakan."
+    },
+    "q3": {
+      "question": "Apa yang bisa saya unduh?",
+      "answer": "Ekstensi mendukung video, gambar, GIF, musik, buku audio, dan file dari Telegram di Chrome, sesuai akses akun Anda dan aturan yang berlaku."
+    },
+    "q4": {
+      "question": "Apakah mendukung file besar?",
+      "answer": "Ya — unduhan stabil untuk file 1GB+ bila jaringan dan Telegram mengizinkan."
+    },
+    "q5": {
+      "question": "Bisakah dipakai di ponsel?",
+      "answer": "Ekstensi ini untuk Chrome desktop. Gunakan aplikasi resmi Telegram di ponsel; jangan pasang ekstensi khusus desktop di ponsel."
+    },
+    "q6": {
+      "question": "Bolehkah menyimpan sembarang video?",
+      "answer": "Simpan hanya konten yang Anda diizinkan simpan. Alat ini untuk penggunaan pribadi — hormati hak cipta dan ketentuan Telegram."
+    }
+  },
+  "privacy": {
+    "hero": {
+      "title": "Kebijakan privasi",
+      "lastUpdated": "Terakhir diperbarui"
+    },
+    "sections": {
+      "introduction": {
+        "title": "1. Pengantar",
+        "content": "TGVideoDown («kami») mengoperasikan situs ini sebagai pendamping ekstensi TGVideoDown di Chrome Web Store. Kebijakan ini menjelaskan penjelajahan situs. Izin dan praktik data ekstensi dijelaskan di daftar toko dan di Chrome. Dengan menggunakan situs, Anda menyetujui praktik yang dijelaskan di sini."
+      },
+      "collection": {
+        "title": "2. Informasi yang kami kumpulkan",
+        "subtitle1": "a. Informasi yang Anda berikan",
+        "item1": "URL video yang Anda minta unduh (hanya seperlunya untuk memproses unduhan)",
+        "item2": "Data opsional (mis. email, nama pengguna) jika layanan mencakup umpan balik, dukungan, atau pendaftaran",
+        "subtitle2": "b. Informasi yang dikumpulkan otomatis",
+        "item3": "Informasi perangkat/teknis (mis. alamat IP, versi browser atau aplikasi, jenis perangkat, OS) untuk operasi layanan, debugging, pencegahan penyalahgunaan",
+        "item4": "Data penggunaan (mis. stempel waktu, jumlah unduhan, log kesalahan) untuk meningkatkan kinerja",
+        "subtitle3": "c. Cookie dan teknologi pelacakan",
+        "cookies": "Kami menggunakan cookie penting untuk fungsi situs. Kami tidak menggunakan cookie pelacakan atau iklan."
+      },
+      "use": {
+        "title": "3. Penggunaan informasi",
+        "content": "Kami menggunakan informasi yang dikumpulkan untuk:",
+        "item1": "Menyediakan, memelihara, dan mengoptimalkan fungsi unduh video inti",
+        "item2": "Memproses permintaan unduhan",
+        "item3": "Memantau dan meningkatkan pengalaman pengguna serta kinerja teknis",
+        "item4": "Mencegah penyalahgunaan, penipuan, atau ancaman keamanan",
+        "item5": "Mengirim pemberitahuan layanan opsional (mis. status layanan, pembaruan)"
+      },
+      "retention": {
+        "title": "4. Penyimpanan data",
+        "content": "Kami menyimpan data sebagai berikut:",
+        "item1": "URL video yang diproses dihapus segera dan tidak disimpan permanen",
+        "item2": "Data log disimpan 30 hari untuk peningkatan layanan dan keamanan",
+        "item3": "Semua data disimpan di server aman dengan transmisi terenkripsi (HTTPS/TLS)"
+      },
+      "sharing": {
+        "title": "5. Berbagi & pengungkapan",
+        "content": "Kami tidak:",
+        "subtitle1": "Kami tidak",
+        "item1": "Menjual data pribadi",
+        "item2": "Membagikan data identifikasi ke pihak ketiga kecuali diperlukan",
+        "subtitle2": "Kami dapat membagikan data",
+        "item3": "Dengan penyedia layanan (analitik, hosting, CDN) dengan kerahasiaan",
+        "item4": "Jika diwajibkan hukum (mis. penegak hukum)",
+        "item5": "Sehubungan dengan transaksi bisnis (mis. merger, akuisisi)"
+      },
+      "security": {
+        "title": "6. Keamanan",
+        "content": "Kami menerapkan langkah-langkah berikut untuk melindungi data Anda:",
+        "item1": "Enkripsi saat transit (HTTPS/TLS)",
+        "item2": "Penyimpanan aman dan kontrol akses",
+        "item3": "Audit keamanan dan pembaruan rutin",
+        "note": "Tidak ada sistem yang sepenuhnya aman, namun kami berkomitmen melindungi data Anda dari akses, perubahan, atau pengungkapan tidak sah."
+      },
+      "rights": {
+        "title": "7. Hak pengguna",
+        "content": "Tergantung lokasi Anda, Anda mungkin memiliki hak seperti:",
+        "item1": "Akses: melihat informasi yang kami simpan tentang Anda",
+        "item2": "Perbaikan: memperbarui data yang tidak akurat atau tidak lengkap",
+        "item3": "Penghapusan: meminta penghapusan data pribadi",
+        "item4": "Portabilitas: meminta data dalam format portabel"
+      },
+      "children": {
+        "title": "8. Privasi anak",
+        "content": "Layanan kami tidak ditujukan untuk anak di bawah 13 tahun. Kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak di bawah 13. Jika kami menemukannya, kami akan segera menghapusnya."
+      },
+      "changes": {
+        "title": "9. Perubahan kebijakan privasi",
+        "content": "Kami dapat memperbarui kebijakan ini dari waktu ke waktu. Perubahan akan diposting di halaman ini dengan tanggal terbaru. Kami menyarankan Anda meninjau kebijakan ini secara berkala."
+      },
+      "contact": {
+        "title": "10. Informasi kontak",
+        "content": "Jika Anda memiliki pertanyaan, kekhawatiran, atau permintaan terkait kebijakan ini, hubungi kami di:"
+      }
+    }
+  }
+}

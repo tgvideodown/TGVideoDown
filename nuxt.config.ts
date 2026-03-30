@@ -2,11 +2,17 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
+  routeRules: {
+    '/how-to-download-telegram-videos': { redirect: '/how-to-download-telegram-video' }
+  },
+
   runtimeConfig: {
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://tgvideodown.com',
       extensionStoreUrl: 'https://chromewebstore.google.com/detail/tgvideodowncom-free-teleg/lmblmgpljbjhkbicffecgngnfnkckopm',
-      extensionVersion: '5.2.0'
+      extensionVersion: '5.2.0',
+      /** Google Analytics 4 Measurement ID (gtag.js) */
+      gaId: process.env.NUXT_PUBLIC_GA_ID || 'G-DSKQVQZQY6'
     }
   },
 
@@ -42,6 +48,7 @@ export default defineNuxtConfig({
       { code: 'vi', language: 'vi-VN', name: 'Tiếng Việt', file: 'vi.json' }
     ],
     defaultLocale: 'en',
+    fallbackLocale: 'en',
     strategy: 'prefix_except_default',
     langDir: 'locales',  // 使用根目录 locales/
     lazy: true,
@@ -67,7 +74,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Download videos from Telegram easily and quickly' }
+        { name: 'description', content: 'Companion site for the Telegram Media Downloader Chrome extension — install from the Chrome Web Store.' }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

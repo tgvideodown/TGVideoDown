@@ -1,1 +1,318 @@
-{"nav":{"home":"Ana Sayfa","features":"Özellikler","pricing":"Fiyatlar","about":"Hakkımızda","download":"Şimdi İndir"},"hero":{"badge":"Ücretsiz ve Hızlı","title":"Telegram Videolarını\nAnında İndirin","subtitle":"Telegram'dan video indirmenin en kolay yolu. Hızlı, güvenli ve tamamen ücretsiz.","ctaPrimary":"İndirmeye Başla","ctaSecondary":"Daha Fazla Bilgi","stats":{"downloads":"İndirmeler","users":"Aktif Kullanıcılar","uptime":"Çalışma Süresi"}},"features":{"title":"Neden TGVideoDown?","subtitle":"Telegram'dan hızlı ve güvenli video indirmek için ihtiyacınız olan her şey","fast":{"title":"Yıldırım Hızında","description":"Optimize edilmiş sunucularımızla saniyeler içinde video indirin."},"secure":{"title":"%100 Güvenli","description":"Gizliliğiniz önceliğimiz. Tüm indirmeler şifrelidir ve verilerinizi asla saklamıyoruz."},"multiDevice":{"title":"Çoklu Cihaz Desteği","description":"Masaüstü, mobil ve tablette sorunsuz çalışır. Her yerden indirin."},"formats":{"title":"Birden Fazla Format","description":"MP4, MKV veya tercih ettiğiniz herhangi bir formatta video indirin."},"cloud":{"title":"Bulut Depolama","description":"Google Drive, Dropbox ve daha fazlasına doğrudan kaydedin."},"support":{"title":"7/24 Destek","description":"Destek ekibimiz her zaman yardıma hazır."}},"howItWorks":{"title":"Nasıl Çalışır","subtitle":"Telegram videolarını sadece 3 basit adımda indirin","step1":{"title":"Bağlantıyı Yapıştır","description":"Telegram video bağlantısını kopyalayıp indiricimize yapıştırın."},"step2":{"title":"Kalite Seç","description":"Mevcut seçeneklerden tercih ettiğiniz video kalitesi ve formatını seçin."},"step3":{"title":"İndir","description":"İndir'e tıklayın ve videonuz saniyeler içinde hazır. Bu kadar basit!"}},"cta":{"title":"Başlamaya Hazır mısınız?","description":"TGVideoDown'a güvenen milyonlarca kullanıcıya katılın.","button":"Şimdi İndir","secondary":"Fiyatları Görüntüle"},"testimonials":{"title":"Kullanıcılarımız Ne Diyor","subtitle":"Sadece bize inanmayın. Topluluğumuzu dinleyin.","user1":{"quote":"Kullandığım en hızlı ve güvenilir Telegram video indirici. Kesinlikle tavsiye ederim!"},"user2":{"quote":"Arayüz çok temiz ve kullanımı kolay. İhtiyacım olan her formatta video indirebiliyorum."},"user3":{"quote":"En iyisi tamamen ücretsiz ve güvenli. Reklam yok, takip yok - sadece işlevsellik."}},"footer":{"description":"En güvenilir Telegram video indirici. Hızlı, güvenli ve ücretsiz.","quickLinks":"Hızlı Bağlantılar","support":"Destek","help":"Yardım Merkezi","contact":"İletişim","privacy":"Gizlilik Politikası","copyright":"© {year} TGVideoDown. Tüm hakları saklıdır."},"about":{"hero":{"title":"TGVideoDown Hakkında","subtitle":"Telegram video indirmeyi basit, hızlı ve güvenli hale getirmeye adadık"},"mission":{"title":"Misyonumuz","description":"TGVideoDown'ın misyonu, dünya genelindeki kullanıcılara en basit, hızlı ve güvenli Telegram video indirme deneyimini sunmaktır."},"values":{"title":"Değerlerimiz","simplicity":{"title":"Basitlik","description":"Teknolojinin basit ve sezgisel olması gerektiğine inanıyoruz. Araçlarımız herkes için tasarlandı."},"security":{"title":"Gizlilik ve Güvenlik","description":"Gizliliğiniz en büyük önceliğimiz. Verilerinizi en son önlemlerle koruyoruz."},"innovation":{"title":"Sürekli İnovasyon","description":"En iyi deneyimi sunmak için hizmetimizi sürekli iyileştiriyoruz."}},"story":{"title":"Hikayemiz","paragraph1":"TGVideoDown basit bir fikirden doğdu: Herkesin kolayca Telegram videoları indirmesini sağlamak.","paragraph2":"Birçok kullanıcının favori videolarını kaydetmek için basit bir yola ihtiyacı olduğunu fark ettik.","paragraph3":"Bu yüzden TGVideoDown'ı yarattık - hızlı, güvenli ve tamamen ücretsiz bir araç."},"cta":{"title":"Başlamaya Hazır mısınız?","description":"Topluluğumuza katılın ve en basit, en hızlı Telegram video indirme servisini deneyimleyin","button":"Şimdi Başla"}},"download":{"hero":{"title":"Telegram Videolarını İndir","subtitle":"İndirmeye başlamak için Telegram video bağlantınızı aşağıya yapıştırın","extensionHint":"Telegram'dan videoları, resimleri ve dosyaları tek tıkla indirmek için ücretsiz Chrome eklentimizi kurun. Giriş gerekmez."},"form":{"placeholder":"Telegram video bağlantısını buraya yapıştırın...","button":"Video İndir","installExtension":"Chrome Eklentisi Yükle","version":"v","loading":"İşleniyor...","error":"Lütfen geçerli bir Telegram video bağlantısı girin"},"features":{"title":"Neden İndiricimizi Kullanalım?","fast":{"title":"Yıldırım Hızında","description":"Saniyeler içinde video indirin"},"secure":{"title":"%100 Güvenli","description":"Verileriniz asla saklanmaz"},"free":{"title":"Tamamen Ücretsiz","description":"Gizli ücret veya abonelik yok"}},"instructions":{"title":"Nasıl İndirilir","step1":"Telegram'dan video bağlantısını kopyalayın","step2":"Bağlantıyı yukarıdaki kutuya yapıştırın","step3":"İndir'e tıklayın ve videonuzu kaydedin"}},"privacy":{"hero":{"title":"Gizlilik Politikası","lastUpdated":"Son Güncelleme"},"sections":{"introduction":{"title":"1. Giriş","content":"TGVideoDown, bu sitede mevcut video indirme hizmetini (\"Hizmet\") işletmektedir. Bu Gizlilik Politikası, kullanıcıların (\"siz\") bilgilerini nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar. Hizmeti kullanarak burada açıklanan uygulamaları kabul etmiş olursunuz."},"collection":{"title":"2. Topladığımız Bilgiler","subtitle1":"a. Sağladığınız Bilgiler","item1":"İndirmek istediğiniz videoların URL'leri","item2":"Geri bildirim ve destek için isteğe bağlı veriler (e-posta, kullanıcı adı)","subtitle2":"b. Otomatik Toplanan Bilgiler","item3":"Hizmet işlemi için teknik bilgiler (IP, tarayıcı, cihaz)","item4":"Performans iyileştirmesi için kullanım verileri","subtitle3":"c. Çerezler","cookies":"Site işlevselliği için gerekli çerezleri kullanıyoruz. İzleme veya reklam çerezleri kullanmıyoruz."},"use":{"title":"3. Bilgilerin Kullanımı","content":"Topladığımız bilgileri şunlar için kullanıyoruz:","item1":"İndirme hizmetini sağlama ve optimize etme","item2":"İndirme taleplerini işleme","item3":"Kullanıcı deneyimini iyileştirme","item4":"Kötüye kullanımı önleme","item5":"Hizmet hakkında isteğe bağlı bildirimler"},"retention":{"title":"4. Veri Saklama","content":"Verileri şu şekilde saklıyoruz:","item1":"İşlenen URL'ler hemen silinir","item2":"Günlük verileri 30 gün tutulur","item3":"Tüm veriler HTTPS/TLS ile iletilir"},"sharing":{"title":"5. Paylaşım","content":"Şunları yapmıyoruz:","subtitle1":"Yapmıyoruz","item1":"Kişisel veri satışı","item2":"Gereklilik dışında üçüncü taraflarla paylaşım","subtitle2":"Paylaşabiliriz","item3":"Gizlilik koşulları altında hizmet sağlayıcılarla","item4":"Yasa gerektirdiğinde","item5":"İş işlemlerinde (birleşme, devralma)"},"security":{"title":"6. Güvenlik","content":"Uyguluyoruz:","item1":"Aktarımda şifreleme (HTTPS/TLS)","item2":"Güvenli depolama ve erişim kontrolleri","item3":"Düzenli güvenlik denetimleri","note":"Hiçbir sistem mükemmel güvenli değildir, ancak verilerinizi korumaya kararlıyız."},"rights":{"title":"7. Kullanıcı Hakları","content":"Konumunuza bağlı olarak şu haklara sahip olabilirsiniz:","item1":"Erişim: sizinle ilgili bilgileri görüntüleme","item2":"Düzeltme: yanlış verileri güncelleme","item3":"Silme: kişisel verilerin kaldırılmasını talep etme","item4":"Taşınabilirlik: verileri taşınabilir formatta talep etme"},"children":{"title":"8. Çocuk Gizliliği","content":"Hizmetimiz 13 yaşından küçük çocuklara yönelik değildir. 13 yaşından küçük çocuklardan bilerek kişisel bilgi toplamıyoruz."},"changes":{"title":"9. Bu Politikadaki Değişiklikler","content":"Bu politikayı güncelleyebiliriz. Değişiklikler bu sayfada yayınlanacaktır."},"contact":{"title":"10. İletişim Bilgileri","content":"Bu politika hakkında sorularınız için bize şu adresten ulaşın:"}}}}
+{
+  "nav": {
+    "home": "Ana sayfa",
+    "features": "Özellikler",
+    "pricing": "Fiyatlandırma",
+    "about": "Hakkında",
+    "download": "Uzantıyı al",
+    "guideHowTo": "Nasıl kullanılır",
+    "guideAlt": "İndirme kılavuzu"
+  },
+  "hero": {
+    "badge": "Chrome uzantısı · Yardımcı site",
+    "title": "Tek tıkla film ve özel videolar\nTelegram grupları ve kanallarından",
+    "h2": "Telegram Media Downloader — ücretsiz ve hızlı",
+    "subtitle": "Telegram videolarını, görsellerini, seslerini ve dosyalarını bilgisayarınıza kaydeden ücretsiz ve hızlı bir Chrome uzantısı. Basit arayüz, tekli veya toplu indirme, sitemizde hesap gerekmez. Yalnızca kişisel yedekleme ve düzenleme için — içeriği kaydetme izniniz olduğundan emin olun.",
+    "ctaPrimary": "Chrome Web Mağazası'ndan yükle",
+    "ctaSecondary": "Daha fazla bilgi",
+    "trust": {
+      "noLogin": "Ücretsiz — giriş yok",
+      "noData": "Site yalnızca bilgilendirme amaçlıdır",
+      "safe": "İçeriği sorumlu kullanın",
+      "safeShort": "İzinli kullanım"
+    },
+    "highlights": {
+      "free": {
+        "title": "Ücretsiz kullanım",
+        "description": "Uzantıyı kullanmak için sitemizde hesap gerekmez."
+      },
+      "batch": {
+        "title": "Tekli / toplu",
+        "description": "Bir dosya veya birden fazlası — Telegram'da hızlı seçim."
+      },
+      "large": {
+        "title": "1GB+ stabil",
+        "description": "Bağlantınız izin verdiğinde büyük dosyalar güvenilir şekilde indirilir."
+      }
+    }
+  },
+  "features": {
+    "title": "Uzantının sundukları",
+    "subtitle": "Chrome Web Mağazası'ndakiyle aynı öne çıkanlar — bu site yalnızca ürünü tanıtır",
+    "freeNoLogin": {
+      "title": "Ücretsiz — giriş yok",
+      "description": "Uzantıyı sitemize giriş yapmadan kullanın."
+    },
+    "batch": {
+      "title": "Tek tık ve toplu",
+      "description": "Tek öğe indirin veya birden fazlasını seçip kaydedin."
+    },
+    "mediaTypes": {
+      "title": "Video, görseller ve daha fazlası",
+      "description": "Video, görsel, GIF, müzik, sesli kitap ve dosyaları destekler."
+    },
+    "largeFiles": {
+      "title": "Büyük dosyalar",
+      "description": "Koşullar uygun olduğunda 1GB üzeri medya için stabil indirmeler."
+    },
+    "simpleUI": {
+      "title": "Sade arayüz",
+      "description": "Minimal arayüz — hemen kullanıma hazır."
+    },
+    "compatible": {
+      "title": "Kanal düzenleri",
+      "description": "Tarayıcıda yaygın Telegram kanal ve sohbet düzenleriyle çalışır."
+    }
+  },
+  "howItWorks": {
+    "title": "Nasıl kullanılır",
+    "subtitle": "Üç adım — hepsi Chrome uzantısıyla",
+    "step1": {
+      "title": "Uzantıyı yükleyin",
+      "description": "Chrome Web Mağazası'ndan Telegram Media Downloader ekleyin ve isterseniz sabitleyin."
+    },
+    "step2": {
+      "title": "Telegram'ı web'de açın",
+      "description": "Chrome'da Telegram Web kullanın ve medyanın geldiği kanal, grup veya sohbete gidin."
+    },
+    "step3": {
+      "title": "Yerel indirme",
+      "description": "Uzantıyla videoları veya diğer medyayı bilgisayarınıza kaydedin — tek dosya veya toplu."
+    }
+  },
+  "demo": {
+    "title": "Ekran görüntüleri",
+    "subtitle": "Uzantı akışından ürün görselleri (bu site bağlantı veya dosya işlemez).",
+    "step1Label": "Adım 1",
+    "step1Caption": "Uzantıyı mağazadan yükleyin ve Chrome'da etkinleştirin.",
+    "step2Label": "Adım 2",
+    "step2Caption": "Telegram Web'de gezinin ve istediğiniz medyanın olduğu mesajı açın.",
+    "step3Label": "Adım 3",
+    "step3Caption": "Bilgisayarınıza kaydedin — tek öğe veya birden fazla seçim.",
+    "step1Alt": "Chrome Web Mağazası yükleme adımı",
+    "step2Alt": "Telegram Web ve medya",
+    "step3Alt": "Bilgisayara indirme"
+  },
+  "cta": {
+    "title": "Uzantıyı al",
+    "description": "Bu sayfa Chrome Web Mağazası listesine eşlik eder — Telegram Media Downloader kullanmak için oradan yükleyin.",
+    "button": "Chrome Web Mağazası'nı aç",
+    "secondary": "Fiyatları gör"
+  },
+  "testimonials": {
+    "title": "Kullanıcılar ne diyor",
+    "subtitle": "Chrome uzantısı deneyimi hakkında geri bildirim",
+    "user1": {
+      "quote": "Hızlı ve doğrudan — toplu indirme yoğun kanallarda çok zaman kazandırıyor."
+    },
+    "user2": {
+      "quote": "Sade arayüz, gereksiz yok. Arşivlemek istediğim videolar ve görseller için uygun."
+    },
+    "user3": {
+      "quote": "Ücretsiz ve site girişi yok — kişisel yedekler için tam istediğim şey."
+    }
+  },
+  "footer": {
+    "description": "TGVideoDown Chrome uzantısı için yardımcı site. Burada çevrimiçi indirici yok — uzantıyı mağazadan yükleyin.",
+    "quickLinks": "Hızlı bağlantılar",
+    "guides": "Kılavuzlar",
+    "guideHowTo": "Telegram videosu nasıl indirilir",
+    "guideAlt": "Telegram video indirme kılavuzu",
+    "guidePrivate": "Özel / kısıtlı videolar",
+    "support": "Destek",
+    "help": "Yardım merkezi",
+    "contact": "Bize ulaşın",
+    "privacy": "Gizlilik politikası",
+    "copyright": "© {year} TGVideoDown. Tüm hakları saklıdır."
+  },
+  "about": {
+    "hero": {
+      "title": "TGVideoDown hakkında",
+      "subtitle": "Telegram Media Downloader Chrome uzantısı yardımcı sitesi"
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Kullanıcıların Telegram Media Downloader uzantısını bulmasına ve anlamasına yardımcı oluyoruz: Chrome'da Telegram medyasını ücretsiz ve hızlı kaydetme, net rehberlik ve izinli kullanıma saygı."
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "simplicity": {
+        "title": "Basitlik",
+        "description": "Teknolojinin basit ve sezgisel olması gerektiğine inanıyoruz. Araçlarımız herkes için kolay, öğrenme eğrisi yok."
+      },
+      "security": {
+        "title": "Gizlilik ve güvenlik",
+        "description": "Gizliliğiniz önceliğimiz. Verilerinizi güncel güvenlik önlemleriyle koruruz; kişisel bilgilerinizi saklamaz veya paylaşmayız."
+      },
+      "innovation": {
+        "title": "Sürekli yenilik",
+        "description": "Hizmetlerimizi sürekli geliştirip güncelliyoruz; en iyi deneyim ve en yeni özellikler sizinle olsun."
+      }
+    },
+    "story": {
+      "title": "Hikayemiz",
+      "paragraph1": "TGVideoDown basit bir fikirden doğdu: Telegram videolarını herkesin kolayca indirebilmesi.",
+      "paragraph2": "Birçok kullanıcı favori videolarını kaydetmek için basit bir yola ihtiyaç duyuyordu; mevcut çözümler ya karmaşıktı ya da yeterince güvenli değildi.",
+      "paragraph3": "Bu yüzden TGVideoDown'u oluşturduk — hızlı, güvenli ve tamamen ücretsiz; video indirmeyi her zamankinden daha kolaylaştıran bir araç.",
+      "step1": {
+        "title": "İhtiyacı tanıma",
+        "description": "Basit ve güvenli bir video indirme aracına duyulan ihtiyacın fark edilmesi"
+      },
+      "step2": {
+        "title": "Çözüm geliştirme",
+        "description": "Hızlı, güvenli ve kullanıcı dostu bir platform oluşturulması"
+      },
+      "step3": {
+        "title": "Sürekli iyileştirme",
+        "description": "Kullanıcı geri bildirimlerine göre hizmetlerin sürekli optimize edilmesi"
+      }
+    },
+    "cta": {
+      "title": "Başlamaya hazır mısınız?",
+      "description": "Topluluğumuza katılın ve en basit, en hızlı Telegram video indirme hizmetini deneyin",
+      "button": "Şimdi başla"
+    }
+  },
+  "download": {
+    "hero": {
+      "title": "Chrome uzantısını yükle",
+      "subtitle": "Bu web sitesi Telegram bağlantılarını ayrıştırmaz veya indirmez — yükledikten sonra Chrome'da uzantıyı kullanın.",
+      "extensionHint": "Telegram Media Downloader ücretsiz ve hızlıdır: Telegram'dan videoları, görselleri, sesleri ve dosyaları bilgisayarınıza kaydedin. Bu sitede giriş yok; indirme tarayıcıdaki uzantıyla yapılır."
+    },
+    "form": {
+      "placeholder": "Telegram video bağlantısını buraya yapıştırın…",
+      "button": "Videoyu indir",
+      "installExtension": "Chrome uzantısını yükle",
+      "version": "v",
+      "loading": "İşleniyor…",
+      "error": "Geçerli bir Telegram video bağlantısı girin"
+    },
+    "features": {
+      "title": "Neden bu uzantı",
+      "fast": {
+        "title": "Hızlı iş akışı",
+        "description": "Telegram Web'den tek tıkla veya toplu kaydetme"
+      },
+      "secure": {
+        "title": "Sitede ayrıştırma yok",
+        "description": "Bu yardımcı site yalnızca mağazaya bağlanır — burada URL kutusu yok"
+      },
+      "free": {
+        "title": "Ücretsiz",
+        "description": "Ücretli abonelik olmadan temel özellikler"
+      }
+    },
+    "instructions": {
+      "title": "İlk kurulum",
+      "step1": "Aşağıdaki düğmeye tıklayıp Chrome Web Mağazası'ndan uzantıyı ekleyin",
+      "step2": "Chrome'da telegram.org adresini açın ve resmi Telegram Web akışıyla giriş yapın",
+      "step3": "Bir sohbet veya kanal açın ve uzantıyla medyayı PC'nize indirin"
+    }
+  },
+  "faq": {
+    "title": "SSS",
+    "subtitle": "Chrome uzantısı ve bu yardımcı site hakkında",
+    "q1": {
+      "question": "Bu site çevrimiçi bir Telegram indiricisi mi?",
+      "answer": "Hayır. Site ürünü tanıtır ve Chrome Web Mağazası'na bağlanır. Ayrıştırma ve indirmeler tarayıcınızda uzantıyla yapılır; bu alan adına bağlantı yapıştırarak değil."
+    },
+    "q2": {
+      "question": "Bu sitede giriş yapmam gerekir mi?",
+      "answer": "Hayır. Uzantıyı kullanırken yalnızca resmi Telegram Web veya uygulamasında Telegram'a giriş yapın — rastgele üçüncü taraf formlarına Telegram şifrenizi yazmayın."
+    },
+    "q3": {
+      "question": "Ne indirebilirim?",
+      "answer": "Uzantı Chrome'da Telegram'dan video, görsel, GIF, müzik, sesli kitap ve dosyaları destekler; hesabınızın erişebildiği ve geçerli kurallara tabidir."
+    },
+    "q4": {
+      "question": "Büyük dosyalar destekleniyor mu?",
+      "answer": "Evet — ağ ve Telegram izin verdiğinde 1GB üzeri dosyalar için stabil indirmeler."
+    },
+    "q5": {
+      "question": "Mobilde kullanabilir miyim?",
+      "answer": "Bu uzantı masaüstü Chrome içindir. Mobilde Telegram'ın resmi uygulamalarını kullanın; yalnızca masaüstü uzantılarını telefona yüklemeyin."
+    },
+    "q6": {
+      "question": "Herhangi bir videoyu kaydedebilir miyim?",
+      "answer": "Yalnızca saklamanıza izin verilen içeriği kaydedin. Araç kişisel kullanım içindir — telif hakkı ve Telegram kurallarına uyun."
+    }
+  },
+  "privacy": {
+    "hero": {
+      "title": "Gizlilik politikası",
+      "lastUpdated": "Son güncelleme"
+    },
+    "sections": {
+      "introduction": {
+        "title": "1. Giriş",
+        "content": "TGVideoDown («biz») bu web sitesini Chrome Web Mağazası'ndaki TGVideoDown uzantısına eşlik eden bir site olarak işletir. Bu politika bu siteyi gezinmeyi açıklar. Uzantının izinleri ve veri uygulamaları mağaza listesinde ve Chrome'da anlatılır. Siteyi kullanarak burada açıklanan uygulamaları kabul etmiş olursunuz."
+      },
+      "collection": {
+        "title": "2. Topladığımız bilgiler",
+        "subtitle1": "a. Sağladığınız bilgiler",
+        "item1": "İndirmek istediğiniz videoların URL'leri (yalnızca indirmeleri işlemek için gerekli olduğu kadar)",
+        "item2": "Hizmet geri bildirim, destek veya kayıt içeriyorsa isteğe bağlı kullanıcı verileri (ör. e-posta, kullanıcı adı)",
+        "subtitle2": "b. Otomatik toplanan bilgiler",
+        "item3": "Cihaz/teknik bilgiler (ör. IP adresi, tarayıcı veya uygulama sürümü, cihaz türü, işletim sistemi) hizmet işletimi, hata ayıklama ve kötüye kullanım önleme için",
+        "item4": "Kullanım verileri (ör. zaman damgaları, indirme sayıları, hata günlükleri) performansı iyileştirmek için",
+        "subtitle3": "c. Çerezler ve izleme teknolojileri",
+        "cookies": "Site işlevselliği için gerekli çerezler kullanıyoruz. İzleme veya reklam çerezleri kullanmıyoruz."
+      },
+      "use": {
+        "title": "3. Bilgilerin kullanımı",
+        "content": "Toplanan bilgileri şunlar için kullanıyoruz:",
+        "item1": "Temel video indirme işlevini sağlamak, sürdürmek ve optimize etmek",
+        "item2": "İndirme isteklerini işlemek",
+        "item3": "Kullanıcı deneyimini ve teknik performansı izlemek ve iyileştirmek",
+        "item4": "Kötüye kullanım, dolandırıcılık veya güvenlik tehditlerini önlemek",
+        "item5": "İsteğe bağlı hizmet bildirimleri göndermek (ör. hizmet durumu, güncellemeler)"
+      },
+      "retention": {
+        "title": "4. Veri saklama ve depolama",
+        "content": "Verileri şu şekilde saklıyoruz:",
+        "item1": "İşlenen video URL'leri hemen silinir ve kalıcı olarak saklanmaz",
+        "item2": "Günlük verileri hizmet iyileştirme ve güvenlik için 30 gün saklanır",
+        "item3": "Tüm veriler şifreli iletimle (HTTPS/TLS) güvenli sunucularda saklanır"
+      },
+      "sharing": {
+        "title": "5. Paylaşım ve ifşa",
+        "content": "Biz:",
+        "subtitle1": "Yapmıyoruz",
+        "item1": "Kişisel veri satmıyoruz",
+        "item2": "Gerekli olmadıkça tanımlayıcı verileri üçüncü taraflarla paylaşmıyoruz",
+        "subtitle2": "Veri paylaşabiliriz",
+        "item3": "Gizlilik koşulları altında hizmet sağlayıcılarla (analitik, barındırma, CDN)",
+        "item4": "Yasa gereği (ör. kolluk kuvvetleri)",
+        "item5": "Herhangi bir ticari işlemle bağlantılı olarak (ör. birleşme, devralma)"
+      },
+      "security": {
+        "title": "6. Güvenlik",
+        "content": "Verilerinizi korumak için şu önlemleri uyguluyoruz:",
+        "item1": "Aktarımda şifreleme (HTTPS/TLS)",
+        "item2": "Güvenli depolama ve erişim kontrolleri",
+        "item3": "Düzenli güvenlik denetimleri ve güncellemeler",
+        "note": "Hiçbir sistem mükemmel şekilde güvenli değildir; ancak verilerinizi yetkisiz erişim, değişiklik veya ifşadan korumaya kararlıyız."
+      },
+      "rights": {
+        "title": "7. Kullanıcı hakları",
+        "content": "Konumunuza bağlı olarak şu gibi haklara sahip olabilirsiniz:",
+        "item1": "Erişim: sizin hakkınızda tuttuğumuz bilgileri görme",
+        "item2": "Düzeltme: yanlış veya eksik verileri güncelleme",
+        "item3": "Silme: kişisel verilerin kaldırılmasını talep etme",
+        "item4": "Taşınabilirlik: verileri taşınabilir formatta talep etme"
+      },
+      "children": {
+        "title": "8. Çocukların gizliliği",
+        "content": "Hizmetimiz 13 yaşın altındaki çocuklara yönelik değildir. 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamıyoruz. Topladığımızı fark edersek hemen sileriz."
+      },
+      "changes": {
+        "title": "9. Bu gizlilik politikasının değişiklikleri",
+        "content": "Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Değişiklikler güncellenmiş tarihle bu sayfada yayınlanır. Politikayı periyodik olarak gözden geçirmenizi öneririz."
+      },
+      "contact": {
+        "title": "10. İletişim bilgileri",
+        "content": "Bu politika ile ilgili soru, endişe veya talepleriniz için bize şu adresten ulaşabilirsiniz:"
+      }
+    }
+  }
+}

@@ -118,9 +118,10 @@ const extensionStoreUrl = config.public.extensionStoreUrl
 const extensionVersion = config.public.extensionVersion
 
 useSeoMeta({
-  title: 'Download - TGVideoDown',
-  description: 'Download videos from Telegram easily and quickly. Free, fast, and secure video downloader.',
-  ogTitle: 'Download Telegram Videos - TGVideoDown',
-  ogDescription: 'Download videos from Telegram easily and quickly.',
+  title: 'Install Chrome Extension | TGVideoDown',
+  description:
+    'Install Telegram Media Downloader from the Chrome Web Store. This page does not offer an online link parser — use the extension in Chrome with Telegram Web.',
+  ogTitle: 'Install Telegram Media Downloader',
+  ogDescription: 'Chrome Web Store install page for the TGVideoDown companion site.',
 })
 </script>

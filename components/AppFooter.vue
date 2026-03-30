@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-text text-white">
     <div class="container-custom section-padding">
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
         <!-- Brand -->
         <div class="col-span-1 md:col-span-2">
           <div class="flex items-center space-x-2 mb-4">
@@ -28,8 +28,30 @@
               </NuxtLink>
             </li> -->
             <li>
-              <NuxtLink to="/about" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+              <NuxtLink :to="localePath('/about')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
                 {{ $t('nav.about') }}
+              </NuxtLink>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Guides (SEO) -->
+        <div>
+          <h3 class="font-heading font-semibold mb-4">{{ $t('footer.guides') }}</h3>
+          <ul class="space-y-2">
+            <li>
+              <NuxtLink :to="localePath('/how-to-download-telegram-video')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                {{ $t('footer.guideHowTo') }}
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink :to="localePath('/telegram-video-download-guide')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                {{ $t('footer.guideAlt') }}
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink :to="localePath('/download-telegram-private-video')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                {{ $t('footer.guidePrivate') }}
               </NuxtLink>
             </li>
           </ul>
@@ -45,7 +67,7 @@
               </a>
             </li>
             <li>
-              <NuxtLink to="/privacy" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+              <NuxtLink :to="localePath('/privacy')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
                 {{ $t('footer.privacy') }}
               </NuxtLink>
             </li>
@@ -73,3 +95,7 @@
     </div>
   </footer>
 </template>
+
+<script setup>
+const localePath = useLocalePath()
+</script>

@@ -3,7 +3,7 @@
     <nav class="container-custom">
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
-        <NuxtLink to="/" class="flex items-center space-x-2 cursor-pointer">
+        <NuxtLink :to="localePath('/')" class="flex items-center space-x-2 cursor-pointer">
           <img src="~/assets/logo.png" alt="TGVideoDown Logo" class="w-12 h-12 rounded-lg object-contain" />
           <span class="font-heading font-bold text-xl text-text">TGVideoDown</span>
         </NuxtLink>
@@ -13,7 +13,7 @@
           <NuxtLink 
             v-for="item in navItems" 
             :key="item.path"
-            :to="item.path"
+            :to="localePath(item.path)"
             class="text-text hover:text-primary transition-colors duration-200 cursor-pointer"
           >
             {{ $t(item.label) }}
@@ -51,7 +51,7 @@
         <NuxtLink 
           v-for="item in navItems" 
           :key="item.path"
-          :to="item.path"
+          :to="localePath(item.path)"
           @click="mobileMenuOpen = false"
           class="block py-2 text-text hover:text-primary transition-colors cursor-pointer"
         >
@@ -74,6 +74,7 @@
 <script setup>
 const config = useRuntimeConfig()
 const extensionStoreUrl = config.public.extensionStoreUrl
+const localePath = useLocalePath()
 
 const mobileMenuOpen = ref(false)
 
@@ -81,6 +82,7 @@ const navItems = [
   { path: '/', label: 'nav.home' },
   // { path: '/features', label: 'nav.features' },
   // { path: '/pricing', label: 'nav.pricing' },
-  { path: '/about', label: 'nav.about' }
+  { path: '/about', label: 'nav.about' },
+  { path: '/how-to-download-telegram-video', label: 'nav.guideHowTo' }
 ]
 </script>

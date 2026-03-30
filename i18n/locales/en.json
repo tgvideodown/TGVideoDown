@@ -4,86 +4,121 @@
     "features": "Features",
     "pricing": "Pricing",
     "about": "About",
-    "download": "Download Now"
+    "download": "Get the extension",
+    "guideHowTo": "How to use",
+    "guideAlt": "Download guide"
   },
   "hero": {
-    "badge": "Free & Fast",
-    "title": "Download Telegram Videos\nInstantly",
-    "subtitle": "The easiest way to download videos from Telegram. Fast, secure, and completely free.",
-    "ctaPrimary": "Start Downloading",
-    "ctaSecondary": "Learn More",
-    "stats": {
-      "downloads": "Downloads",
-      "users": "Active Users",
-      "uptime": "Uptime"
+    "badge": "Chrome extension · Companion site",
+    "title": "One-click movies & private videos\nfrom Telegram groups & channels",
+    "h2": "Telegram Media Downloader — free & fast",
+    "subtitle": "A free, fast Chrome extension that saves Telegram videos, images, audio, and files to your computer. Simple UI, single or batch downloads, no account login on our site. For personal backup and organizing only — please ensure you have permission to save the content.",
+    "ctaPrimary": "Install from Chrome Web Store",
+    "ctaSecondary": "Learn more",
+    "trust": {
+      "noLogin": "Free — no login",
+      "noData": "Site is info only",
+      "safe": "Use content responsibly",
+      "safeShort": "Authorized use"
+    },
+    "highlights": {
+      "free": {
+        "title": "Free to use",
+        "description": "No account required to get started with the extension."
+      },
+      "batch": {
+        "title": "Single / batch",
+        "description": "Pick one file or many — quick selection in Telegram."
+      },
+      "large": {
+        "title": "1GB+ stable",
+        "description": "Large files download reliably when your connection allows."
+      }
     }
   },
   "features": {
-    "title": "Why Choose TGVideoDown?",
-    "subtitle": "Everything you need to download videos from Telegram quickly and safely",
-    "fast": {
-      "title": "Lightning Fast",
-      "description": "Download videos in seconds with our optimized servers and high-speed connections."
+    "title": "What the extension offers",
+    "subtitle": "Same highlights as on the Chrome Web Store — this site only introduces the product",
+    "freeNoLogin": {
+      "title": "Free — no login",
+      "description": "Use the extension without signing into our website."
     },
-    "secure": {
-      "title": "100% Secure",
-      "description": "Your privacy is our priority. All downloads are encrypted and we never store your data."
+    "batch": {
+      "title": "One-click & batch",
+      "description": "Download a single item or select multiple items to save at once."
     },
-    "multiDevice": {
-      "title": "Multi-Device Support",
-      "description": "Works seamlessly on desktop, mobile, and tablet. Download from anywhere, anytime."
+    "mediaTypes": {
+      "title": "Video, images & more",
+      "description": "Supports video, images, GIFs, music, audiobooks, and files."
     },
-    "formats": {
-      "title": "Multiple Formats",
-      "description": "Download videos in MP4, MKV, or any format you prefer. Choose your quality settings."
+    "largeFiles": {
+      "title": "Large files",
+      "description": "Stable downloads for 1GB+ media when conditions allow."
     },
-    "cloud": {
-      "title": "Cloud Storage",
-      "description": "Save directly to your cloud storage. Integration with Google Drive, Dropbox, and more."
+    "simpleUI": {
+      "title": "Clean UI",
+      "description": "Minimal interface — easy to pick up immediately."
     },
-    "support": {
-      "title": "24/7 Support",
-      "description": "Our support team is always ready to help you with any questions or issues."
+    "compatible": {
+      "title": "Channel formats",
+      "description": "Works with common Telegram channel and chat layouts in the browser."
     }
   },
   "howItWorks": {
-    "title": "How It Works",
-    "subtitle": "Download Telegram videos in just 3 simple steps",
+    "title": "How to use it",
+    "subtitle": "Three steps — all inside Chrome with the extension",
     "step1": {
-      "title": "Paste Link",
-      "description": "Copy the Telegram video link and paste it into our downloader."
+      "title": "Install the extension",
+      "description": "Add Telegram Media Downloader from the Chrome Web Store and pin it if you like."
     },
     "step2": {
-      "title": "Choose Quality",
-      "description": "Select your preferred video quality and format from the available options."
+      "title": "Open Telegram on the web",
+      "description": "Use Telegram Web in Chrome and go to the channel, group, or chat where the media appears."
     },
     "step3": {
-      "title": "Download",
-      "description": "Click download and your video will be ready in seconds. It's that simple!"
+      "title": "Download locally",
+      "description": "Use the extension to save videos or other media to your computer — single file or batch."
     }
   },
+  "demo": {
+    "title": "Screenshots",
+    "subtitle": "Product visuals from the extension workflow (this site does not process links or files).",
+    "step1Label": "Step 1",
+    "step1Caption": "Install the extension from the store and enable it in Chrome.",
+    "step2Label": "Step 2",
+    "step2Caption": "Browse Telegram Web and open the message with the media you want.",
+    "step3Label": "Step 3",
+    "step3Caption": "Save to your PC — one item or multiple selections.",
+    "step1Alt": "Chrome Web Store install step",
+    "step2Alt": "Telegram Web with media",
+    "step3Alt": "Download to computer"
+  },
   "cta": {
-    "title": "Ready to Get Started?",
-    "description": "Join millions of users who trust TGVideoDown for their video downloads.",
-    "button": "Download Now",
+    "title": "Get the extension",
+    "description": "This page is a companion to the Chrome Web Store listing — install there to use Telegram Media Downloader.",
+    "button": "Open Chrome Web Store",
     "secondary": "View Pricing"
   },
   "testimonials": {
-    "title": "What Our Users Say",
-    "subtitle": "Don't just take our word for it. See what our community has to say.",
+    "title": "What users say",
+    "subtitle": "Feedback about the Chrome extension experience",
     "user1": {
-      "quote": "This is the fastest and most reliable Telegram video downloader I've ever used. Highly recommended!"
+      "quote": "Fast and straightforward — batch download saves a lot of time in busy channels."
     },
     "user2": {
-      "quote": "The interface is so clean and easy to use. I can download videos in any format I need."
+      "quote": "Clean UI and no fuss. Works for videos and images I need to archive."
     },
     "user3": {
-      "quote": "Best part is it's completely free and secure. No ads, no tracking, just pure functionality."
+      "quote": "Free and no website login — exactly what I wanted for personal backups."
     }
   },
   "footer": {
-    "description": "The most trusted Telegram video downloader. Fast, secure, and free.",
+    "description": "Companion site for the TGVideoDown Chrome extension. No online downloader here — install the extension from the store.",
     "quickLinks": "Quick Links",
+    "guides": "Guides",
+    "guideHowTo": "How to download Telegram video",
+    "guideAlt": "Telegram video download guide",
+    "guidePrivate": "Private / restricted videos",
     "support": "Support",
     "help": "Help Center",
     "contact": "Contact Us",
@@ -93,11 +128,11 @@
   "about": {
     "hero": {
       "title": "About TGVideoDown",
-      "subtitle": "We're dedicated to making Telegram video downloading simple, fast, and secure"
+      "subtitle": "Companion site for the Telegram Media Downloader Chrome extension"
     },
     "mission": {
       "title": "Our Mission",
-      "description": "TGVideoDown's mission is to provide the simplest, fastest, and most secure Telegram video downloading experience for users worldwide. We believe everyone should be able to easily access and save their favorite video content without complex technical knowledge."
+      "description": "We help users find and understand the Telegram Media Downloader extension: free, fast saving of Telegram media in Chrome, with clear guidance and respect for authorized use."
     },
     "values": {
       "title": "Our Values",
@@ -140,38 +175,66 @@
   },
   "download": {
     "hero": {
-      "title": "Download Telegram Videos",
-      "subtitle": "Paste your Telegram video link below to start downloading",
-      "extensionHint": "Install our free Chrome extension to download videos, images, and files from Telegram in one click. No login required."
+      "title": "Install the Chrome extension",
+      "subtitle": "This website does not parse or download Telegram links — use the extension in Chrome after you install it.",
+      "extensionHint": "Telegram Media Downloader is free and fast: save videos, images, audio, and files from Telegram to your computer. No login on this site; downloading happens in the browser via the extension."
     },
     "form": {
       "placeholder": "Paste Telegram video link here...",
       "button": "Download Video",
-      "installExtension": "Install Chrome Extension",
+      "installExtension": "Install Chrome extension",
       "version": "v",
       "loading": "Processing...",
       "error": "Please enter a valid Telegram video link"
     },
     "features": {
-      "title": "Why Use Our Downloader?",
+      "title": "Why this extension",
       "fast": {
-        "title": "Lightning Fast",
-        "description": "Download videos in seconds"
+        "title": "Fast workflow",
+        "description": "One-click or batch saves from Telegram Web"
       },
       "secure": {
-        "title": "100% Secure",
-        "description": "Your data is never stored"
+        "title": "No site-side parsing",
+        "description": "This companion site only links to the store — no URL box here"
       },
       "free": {
-        "title": "Completely Free",
-        "description": "No hidden fees or subscriptions"
+        "title": "Free",
+        "description": "Core features without a paid subscription"
       }
     },
     "instructions": {
-      "title": "How to Download",
-      "step1": "Copy the video link from Telegram",
-      "step2": "Paste the link in the box above",
-      "step3": "Click download and save your video"
+      "title": "First-time setup",
+      "step1": "Click the button below and add the extension from the Chrome Web Store",
+      "step2": "Open telegram.org in Chrome and log in with the official Telegram Web flow",
+      "step3": "Open a chat or channel and use the extension to download media to your PC"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "About the Chrome extension and this companion site",
+    "q1": {
+      "question": "Is this website an online Telegram downloader?",
+      "answer": "No. This site introduces the product and links to the Chrome Web Store. Parsing and downloads run in your browser through the extension, not by pasting links into this domain."
+    },
+    "q2": {
+      "question": "Do I need to log in on this website?",
+      "answer": "No. You may log in to Telegram only on the official Telegram Web or app when using the extension — never enter your Telegram password on random third-party forms."
+    },
+    "q3": {
+      "question": "What can I download?",
+      "answer": "The extension supports video, images, GIFs, music, audiobooks, and files from Telegram in Chrome, subject to what you can access in your account and applicable rules."
+    },
+    "q4": {
+      "question": "Does it handle large files?",
+      "answer": "Yes — stable downloads for 1GB+ files are supported when your network and Telegram allow."
+    },
+    "q5": {
+      "question": "Can I use it on mobile?",
+      "answer": "This extension is for desktop Chrome. Use Telegram’s official apps on mobile; do not install desktop-only extensions on phones."
+    },
+    "q6": {
+      "question": "Is it OK to save any video?",
+      "answer": "Only save content you are allowed to keep. The tool is for personal use and organization — respect copyright and Telegram’s terms."
     }
   },
   "privacy": {
@@ -182,7 +245,7 @@
     "sections": {
       "introduction": {
         "title": "1. Introduction",
-        "content": "TGVideoDown (\"we\", \"us\", or \"our\") operates the video downloader service available at this website (the \"Service\"). This Privacy Policy explains how we collect, use, disclose, and protect information from users (\"you\" or \"User\"). By using the Service, you agree to the practices described here."
+        "content": "TGVideoDown (\"we\", \"us\", or \"our\") operates this website as a companion to the TGVideoDown Chrome extension on the Chrome Web Store. This policy describes browsing this site. The extension’s permissions and data practices are described in the store listing and in Chrome. By using the site, you agree to the practices described here."
       },
       "collection": {
         "title": "2. Information We Collect",
