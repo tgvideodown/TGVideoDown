@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "Chrome extension · Companion site",
-    "title": "One-click movies & private videos\nfrom Telegram groups & channels",
+    "title": "Telegram Video Downloader — Chrome Extension | TGVideoDown",
     "h2": "Telegram Media Downloader — free & fast",
     "subtitle": "A free, fast Chrome extension that saves Telegram videos, images, audio, and files to your computer. Simple UI, single or batch downloads, no account login on our site. For personal backup and organizing only — please ensure you have permission to save the content.",
     "ctaPrimary": "Install from Chrome Web Store",
@@ -65,8 +65,8 @@
     }
   },
   "howItWorks": {
-    "title": "How to use it",
-    "subtitle": "Three steps — all inside Chrome with the extension",
+    "title": "How to use",
+    "subtitle": "Three steps in Chrome with the extension — screenshots below. This site does not process links or files.",
     "step1": {
       "title": "Install the extension",
       "description": "Add Telegram Media Downloader from the Chrome Web Store and pin it if you like."
@@ -211,30 +211,30 @@
   },
   "faq": {
     "title": "FAQ",
-    "subtitle": "About the Chrome extension and this companion site",
+    "subtitle": "Telegram video downloader, Chrome extension, and this companion site",
     "q1": {
-      "question": "Is this website an online Telegram downloader?",
-      "answer": "No. This site introduces the product and links to the Chrome Web Store. Parsing and downloads run in your browser through the extension, not by pasting links into this domain."
+      "question": "Is this site an online Telegram video downloader or Telegram downloader?",
+      "answer": "No — this domain is informational only. The real Telegram downloader works as a Chrome extension after you install it from the Chrome Web Store: you use Telegram Web in Chrome, and download Telegram video and other media in the browser, not by pasting links here."
     },
     "q2": {
-      "question": "Do I need to log in on this website?",
-      "answer": "No. You may log in to Telegram only on the official Telegram Web or app when using the extension — never enter your Telegram password on random third-party forms."
+      "question": "Do I need to log in on this website to download Telegram videos?",
+      "answer": "No login on our site. To download Telegram video or files from private groups and channels you already joined, sign in only through official Telegram Web or the Telegram app — never enter your password on unrelated third-party forms."
     },
     "q3": {
-      "question": "What can I download?",
-      "answer": "The extension supports video, images, GIFs, music, audiobooks, and files from Telegram in Chrome, subject to what you can access in your account and applicable rules."
+      "question": "Can I use this Telegram video downloader in private groups and channels?",
+      "answer": "Yes, for chats you can open in Telegram Web in Chrome — including many private groups and public channels — the extension can help you save video, images, GIFs, audio, and files you are allowed to access, subject to Telegram’s rules and your permissions."
     },
     "q4": {
-      "question": "Does it handle large files?",
-      "answer": "Yes — stable downloads for 1GB+ files are supported when your network and Telegram allow."
+      "question": "Does it handle large Telegram downloads (e.g. long HD video)?",
+      "answer": "Yes — stable downloads for 1GB+ files are supported when your network and Telegram allow, so large channel or group files often work fine."
     },
     "q5": {
-      "question": "Can I use it on mobile?",
-      "answer": "This extension is for desktop Chrome. Use Telegram’s official apps on mobile; do not install desktop-only extensions on phones."
+      "question": "Is there a mobile Telegram channel downloader or Telegram group video downloader?",
+      "answer": "This product is a desktop Chrome extension, not a mobile Telegram video downloader app. On phones, use Telegram’s official apps; do not try to run desktop-only extensions on mobile browsers."
     },
     "q6": {
-      "question": "Is it OK to save any video?",
-      "answer": "Only save content you are allowed to keep. The tool is for personal use and organization — respect copyright and Telegram’s terms."
+      "question": "Is it OK to save any Telegram video from a group or channel?",
+      "answer": "Only save content you are legally and ethically allowed to keep. Use this Telegram media downloader for personal backup and organization — respect copyright, creators, and Telegram’s terms of service."
     }
   },
   "privacy": {

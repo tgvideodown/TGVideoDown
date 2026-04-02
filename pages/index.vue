@@ -6,11 +6,8 @@
     <!-- Features Section -->
     <FeaturesSection />
     
-    <!-- How It Works -->
-    <HowItWorksSection />
-
-    <!-- Demo / screenshots -->
-    <DemoSection />
+    <!-- How to use (steps + screenshots) -->
+    <HowToUseSection />
 
     <!-- FAQ -->
     <FAQSection />
@@ -28,15 +25,16 @@ const config = useRuntimeConfig()
 const ogImageUrl = `${config.public.siteUrl}/og-image.png`
 
 useSeoMeta({
-  title: 'Telegram Media Downloader — Chrome Extension | TGVideoDown',
+  title: 'Telegram Video Downloader — Chrome Extension | TGVideoDown',
   description:
-    'Companion site for the free Telegram Media Downloader Chrome extension: save Telegram videos, images, audio, and files locally. One-click and batch, no login on this site.',
-  ogTitle: 'Telegram Media Downloader — Chrome Extension',
+    'Telegram video downloader for private groups, channels, and chats: save videos, images, audio, and files locally with our free Chrome extension. One-click and batch downloads — no login on this site.',
+  ogTitle: 'Telegram Video Downloader — Chrome Extension | TGVideoDown',
   ogDescription:
-    'Free, fast Chrome extension for Telegram groups and channels. This site is informational and links to the Chrome Web Store.',
+    'Telegram downloader for private groups and channels: download Telegram videos and media fast. Chrome extension — one-click, batch, local saves. Info site linking to Chrome Web Store.',
   ogImage: ogImageUrl,
   twitterCard: 'summary_large_image',
-  keywords: 'telegram video downloader, telegram chrome extension, download telegram video, telegram media downloader'
+  keywords:
+    'telegram video downloader, telegram downloader, telegram private group, telegram channel, download telegram video, telegram media download, chrome extension'
 })
 
 useHead({

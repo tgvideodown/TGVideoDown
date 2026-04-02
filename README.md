@@ -59,7 +59,7 @@ npm run generate
 │   ├── LanguageSwitcher.vue  # Language switcher
 │   ├── HeroSection.vue       # Hero section
 │   ├── FeaturesSection.vue   # Features section
-│   ├── HowItWorksSection.vue # How it works
+│   ├── HowToUseSection.vue   # How to use (steps + screenshots)
 │   ├── CTASection.vue        # Call to action
 │   └── TestimonialsSection.vue # Testimonials
 ├── layouts/
