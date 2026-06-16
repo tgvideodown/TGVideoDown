@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://tgvideodown.com',
-      extensionStoreUrl: 'https://chromewebstore.google.com/detail/tgvideodowncom-free-teleg/lmblmgpljbjhkbicffecgngnfnkckopm',
+      extensionStoreUrl: 'https://chromewebstore.google.com/detail/telegram-video-downloader/lmblmgpljbjhkbicffecgngnfnkckopm',
       extensionVersion: '5.2.0',
       /** Google Analytics 4 Measurement ID (gtag.js) */
       gaId: process.env.NUXT_PUBLIC_GA_ID || 'G-DSKQVQZQY6'
