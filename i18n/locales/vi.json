@@ -123,7 +123,8 @@
     "help": "Trung tâm trợ giúp",
     "contact": "Liên hệ",
     "privacy": "Chính sách quyền riêng tư",
-    "copyright": "© {year} TGVideoDown. Bảo lưu mọi quyền."
+    "copyright": "© {year} TGVideoDown. Bảo lưu mọi quyền.",
+    "guideFacebook": "Trình tải video Facebook"
   },
   "about": {
     "hero": {
@@ -313,6 +314,117 @@
         "title": "10. Thông tin liên hệ",
         "content": "Nếu có câu hỏi, lo ngại hoặc yêu cầu liên quan chính sách này, liên hệ tại:"
       }
+    }
+  },
+  "facebookPage": {
+    "badge": "Tiện ích Chrome",
+    "title": "Trình tải video Facebook — Tiện ích Chrome",
+    "heroLead": "Trình tải video Facebook — Lưu và sắp xếp video, hình ảnh và ảnh chỉ với một cú nhấp. Tiện ích Chrome nhanh, miễn phí và dễ dùng cho trang, nhóm, bảng tin, Watch, Reels và trình phát nhúng.",
+    "heroSub": "Trình tải nhẹ này được xây dựng cho duyệt web hàng ngày. Thêm điều khiển tải xuống rõ ràng ngay trên trang, để bạn lưu video và hình ảnh mà không rời khỏi trang.",
+    "ctaInstall": "Cài từ Chrome Web Store",
+    "ctaGet": "Tải Trình tải video Facebook",
+    "intro": "Dù bạn ở Bảng tin, trang công khai, nhóm, Watch, Reels hay tab video hồ sơ, giúp bạn giữ nội dung muốn xem lại — hướng dẫn, clip trực tiếp, kỷ niệm và hơn thế.",
+    "heroImgAlt": "Giao diện tiện ích Trình tải video Facebook cho Chrome",
+    "whyTitle": "Vì sao chọn tiện ích này?",
+    "whyIntro": "Nền tảng đầy video đáng lưu — phát trực tiếp, reel, hướng dẫn và khoảnh khắc cá nhân. Quy trình tải đơn giản ngay trong Chrome:",
+    "whyItems": [
+      "Lưu video và hình ảnh phát hiện được bằng một cú nhấp",
+      "Tự phát hiện phương tiện mới khi cuộn (Bảng tin, Watch, Reels và hơn thế)",
+      "Hoạt động trên các mục chính",
+      "Trình phát nhúng trên trang web bên ngoài",
+      "Miễn phí — không cần đăng ký tài khoản"
+    ],
+    "featuresTitle": "Tính năng chính",
+    "videosTitle": "Tải video trên toàn nền tảng",
+    "videosIntro": "Lưu clip từ:",
+    "videoSources": [
+      "Hồ sơ và dòng thời gian",
+      "Nhóm và cộng đồng",
+      "Trang công khai và trang người sáng tạo",
+      "Bài đăng Bảng tin",
+      "Watch (gồm trang xem và bài đăng video)",
+      "Reels",
+      "Thư viện video người dùng và liên kết video cố định"
+    ],
+    "imagesTitle": "Tải hình ảnh & ảnh",
+    "imagesBody": "Ngoài video, tiện ích còn hỗ trợ tải hình ảnh trong bài đăng bảng tin — lưu ảnh hiển thị trong bài để tham khảo cá nhân và xem ngoại tuyến.",
+    "embeddedTitle": "Hỗ trợ video nhúng",
+    "embeddedBody": "Đang duyệt trang có trình phát nhúng? Tiện ích phát hiện video nhúng và cung cấp thao tác tải tiện lợi tương tự khi bạn duyệt.",
+    "qualityTitle": "Chất lượng do bạn kiểm soát",
+    "qualityIntro": "Mở cửa sổ tiện ích để đặt chất lượng video ưa thích:",
+    "qualityOptions": [
+      "Mặc định (thấp nhất có sẵn, tiết kiệm dữ liệu)",
+      "360p / 480p / 720p / 1080p khi có sẵn"
+    ],
+    "qualityOutro": "Chọn mức phù hợp nhất với cài đặt để cân bằng chất lượng và kích thước tệp.",
+    "progressTitle": "Tiến trình tải rõ ràng",
+    "progressBody": "Với video dạng stream, xem tiến trình thời gian thực trên nút tải. Tải trực tiếp bắt đầu nhanh qua trình quản lý tích hợp của Chrome — đơn giản và quen thuộc.",
+    "designedTitle": "Thiết kế cho mọi người",
+    "designedIntro": "Không cần dòng lệnh. Không cài đặt phức tạp. Tiện ích Chrome miễn phí cho mọi người:",
+    "designedTags": "Nhanh · Tập trung quyền riêng tư · Dễ dùng · Không cần kỹ năng kỹ thuật",
+    "whoTitle": "Dành cho ai?",
+    "whoIntro": "Lý tưởng nếu bạn cần trình tải video FB đáng tin cho:",
+    "whoItems": [
+      "Người sưu tập lưu trữ clip thú vị",
+      "Người dùng sắp xếp nội dung xã hội yêu thích",
+      "Người sáng tạo thu thập tài liệu tham khảo",
+      "Học sinh lưu video giáo dục",
+      "Gia đình giữ khoảnh khắc đáng nhớ"
+    ],
+    "benefitsTitle": "Lợi ích tóm tắt",
+    "benefitsItems": [
+      "Video, hình ảnh và ảnh",
+      "Hỗ trợ Bảng tin, Watch, Reels, trang, nhóm và nhúng",
+      "Tự phát hiện khi duyệt",
+      "Nút một cú nhấp trên phương tiện được hỗ trợ",
+      "Chất lượng HD tùy chọn lên đến 1080p khi có",
+      "Tiện ích web Chrome nhẹ Manifest V3",
+      "Giao diện đa ngôn ngữ (hỗ trợ locale rộng)"
+    ],
+    "howTitle": "Cách sử dụng",
+    "howSteps": [
+      "Cài từ Chrome Web Store",
+      "Mở facebook.com hoặc trang có video nhúng",
+      "Duyệt như bình thường — tiện ích quét video và hình ảnh",
+      "Nhấn Tải xuống trên mục bạn muốn",
+      "Tệp lưu qua Chrome vào thiết bị (quản lý trong Tải xuống Chrome)"
+    ],
+    "howTip": "Mẹo:",
+    "howTipBody": "Dùng cửa sổ thanh công cụ để đặt chất lượng video trước khi tải.",
+    "steps": {
+      "1": {
+        "alt": "Cài Trình tải video Facebook từ Chrome Web Store",
+        "caption": "Bước 1 — Cài tiện ích"
+      },
+      "2": {
+        "alt": "Duyệt Facebook với điều khiển tải trên video",
+        "caption": "Bước 2 — Duyệt Facebook như thường"
+      },
+      "3": {
+        "alt": "Nhấn tải và lưu vào thiết bị",
+        "caption": "Bước 3 — Lưu vào thiết bị"
+      }
+    },
+    "privacyTitle": "Quyền riêng tư & bảo mật",
+    "privacyIntro": "Được xây dựng với quyền riêng tư trong tâm trí:",
+    "privacyItems": [
+      "Tải xuống xử lý qua trình duyệt của bạn",
+      "Không cần chia sẻ mật khẩu với máy chủ bên thứ ba",
+      "Thiết kế lưu cục bộ trên thiết bị qua Chrome",
+      "Không mô tả phân tích ẩn trong quy trình tiện ích"
+    ],
+    "privacyOutro": "Duyệt web vẫn do bạn kiểm soát. Luôn sử dụng nội dung đã tải một cách có trách nhiệm.",
+    "noticeTitle": "Thông báo quan trọng",
+    "noticeBody1": "Facebook Video Downloader là tiện ích Chrome độc lập. Không liên kết, được chứng thực hay tài trợ bởi Meta Platforms, Inc. hoặc Facebook.",
+    "noticeBody2": "Tôn trọng bản quyền, quyền người sáng tạo và Điều khoản Dịch vụ của nền tảng. Chỉ tải nội dung bạn có quyền lưu cho mục đích cá nhân.",
+    "storeLink": "Chrome Web Store — Trình tải video Facebook",
+    "homeLink": "Trang chủ TGVideoDown",
+    "seo": {
+      "title": "Trình tải video Facebook — Tiện ích Chrome | TGVideoDown",
+      "description": "Trình tải video Facebook — lưu video, hình ảnh và ảnh từ Facebook một cú nhấp. Tiện ích Chrome miễn phí cho Bảng tin, Watch, Reels, trang, nhóm và trình phát nhúng.",
+      "ogTitle": "Trình tải video Facebook — Tiện ích Chrome | TGVideoDown",
+      "ogDescription": "Lưu và sắp xếp video, hình ảnh và ảnh Facebook. Tiện ích Chrome nhanh miễn phí cho trang, nhóm, bảng tin, Watch, Reels và nhúng.",
+      "keywords": "trình tải video facebook, trình tải facebook, tải video facebook, tiện ích chrome facebook, tải reels facebook, tải watch facebook"
     }
   }
 }

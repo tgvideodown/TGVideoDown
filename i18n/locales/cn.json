@@ -119,6 +119,7 @@
     "guideHowTo": "如何下载 Telegram 视频",
     "guideAlt": "Telegram 视频下载指南",
     "guidePrivate": "私密 / 受限视频",
+    "guideFacebook": "Facebook 视频下载器",
     "support": "支持",
     "help": "帮助中心",
     "contact": "联系我们",
@@ -313,6 +314,117 @@
         "title": "10. 联系方式",
         "content": "若对本政策有疑问、顾虑或请求，可通过以下方式联系我们："
       }
+    }
+  },
+  "facebookPage": {
+    "badge": "Chrome 网页扩展",
+    "title": "Facebook 视频下载器 — Chrome 扩展",
+    "heroLead": "Facebook 视频下载器 — 轻松免费地从 Facebook 下载视频、图片和照片，一键保存与整理。适用于主页、群组、动态、Watch、Reels 及嵌入式播放器的快速免费 Chrome 扩展。",
+    "heroSub": "这款轻量下载器面向日常浏览：在网页上直接显示清晰的下载控件，无需离开页面即可保存视频与图片。",
+    "ctaInstall": "从 Chrome 网上应用店安装",
+    "ctaGet": "获取 Facebook 视频下载器",
+    "intro": "无论您在动态、公共主页、群组、Watch、Reels 还是个人视频标签页，都能帮您留存想再次观看的内容 — 教程、直播片段、回忆等。",
+    "heroImgAlt": "Facebook 视频下载器 Chrome 扩展界面",
+    "whyTitle": "为何选择本扩展？",
+    "whyIntro": "平台上值得保存的视频很多 — 直播、Reels、教程与个人瞬间。在 Chrome 内即可获得简洁的下载流程：",
+    "whyItems": [
+      "检测到的视频与图片一键保存",
+      "滚动浏览时自动识别新媒体（动态、Watch、Reels 等）",
+      "覆盖主要版块",
+      "支持外部网站中的嵌入式播放器",
+      "免费 — 无需注册账号"
+    ],
+    "featuresTitle": "核心功能",
+    "videosTitle": "全平台视频下载",
+    "videosIntro": "可从以下位置保存视频：",
+    "videoSources": [
+      "个人资料与时间线",
+      "群组与社区",
+      "公共主页与创作者主页",
+      "动态帖子",
+      "Watch（含观看页与视频帖）",
+      "Reels",
+      "用户视频库与视频永久链接"
+    ],
+    "imagesTitle": "下载图片与照片",
+    "imagesBody": "除视频外，扩展还支持动态帖子中的图片下载 — 将帖子中的照片保存到本地，便于个人查阅与离线查看。",
+    "embeddedTitle": "嵌入式视频支持",
+    "embeddedBody": "浏览带有嵌入式播放器的网站？扩展可识别嵌入式视频，并在浏览时提供同样便捷的下载操作。",
+    "qualityTitle": "画质由您掌控",
+    "qualityIntro": "打开扩展弹窗设置首选视频画质：",
+    "qualityOptions": [
+      "默认（当前可用最低画质，省流量）",
+      "可用时支持 360p / 480p / 720p / 1080p"
+    ],
+    "qualityOutro": "扩展会按您的设置选择最匹配的画质，在清晰度与文件大小之间取得平衡。",
+    "progressTitle": "清晰的下载进度",
+    "progressBody": "对流媒体视频，下载按钮上可显示实时进度；直链下载则通过 Chrome 内置下载管理器快速开始 — 简单熟悉。",
+    "designedTitle": "人人可用",
+    "designedIntro": "无需命令行，无需复杂配置。人人可用的免费 Chrome 扩展：",
+    "designedTags": "快速 · 注重隐私 · 易于使用 · 无需技术背景",
+    "whoTitle": "适合谁使用？",
+    "whoIntro": "若您需要可靠的 Facebook 视频下载工具，适合：",
+    "whoItems": [
+      "收藏有趣片段的爱好者",
+      "整理喜爱社交内容的用户",
+      "收集参考素材的创作者",
+      "保存教学视频的学生",
+      "留存珍贵回忆的家庭用户"
+    ],
+    "benefitsTitle": "功能一览",
+    "benefitsItems": [
+      "视频、图片与照片",
+      "支持动态、Watch、Reels、主页、群组与嵌入内容",
+      "浏览时自动检测",
+      "在支持的媒体上注入一键下载按钮",
+      "可选最高 1080p 高清（视可用性而定）",
+      "轻量 Manifest V3 Chrome 扩展",
+      "多语言界面（广泛语言支持）"
+    ],
+    "howTitle": "使用方法",
+    "howSteps": [
+      "从 Chrome 网上应用店安装",
+      "打开 facebook.com 或含嵌入式视频的页面",
+      "照常浏览 — 扩展会扫描视频与图片",
+      "在目标内容上点击下载",
+      "文件通过 Chrome 保存到设备（在 Chrome 下载管理中查看）"
+    ],
+    "howTip": "提示：",
+    "howTipBody": "下载前可通过工具栏弹窗设置视频画质。",
+    "steps": {
+      "1": {
+        "alt": "从 Chrome 网上应用店安装 Facebook 视频下载器",
+        "caption": "步骤 1 — 安装扩展"
+      },
+      "2": {
+        "alt": "在 Facebook 上浏览并显示下载控件",
+        "caption": "步骤 2 — 照常浏览 Facebook"
+      },
+      "3": {
+        "alt": "点击下载并保存到设备",
+        "caption": "步骤 3 — 保存到设备"
+      }
+    },
+    "privacyTitle": "隐私与安全",
+    "privacyIntro": "以隐私为设计原则：",
+    "privacyItems": [
+      "通过浏览器处理下载",
+      "无需向第三方服务器提供密码",
+      "通过 Chrome 在本地设备保存",
+      "扩展流程中未描述隐藏分析追踪"
+    ],
+    "privacyOutro": "浏览由您掌控。请负责任地使用已下载内容。",
+    "noticeTitle": "重要声明",
+    "noticeBody1": "Facebook Video Downloader 为独立 Chrome 扩展，与 Meta Platforms, Inc. 或 Facebook 无关联、未获认可或赞助。",
+    "noticeBody2": "请尊重版权、创作者权利及平台服务条款。仅下载您有权为个人用途保存的内容。",
+    "storeLink": "Chrome 网上应用店 — Facebook 视频下载器",
+    "homeLink": "TGVideoDown 首页",
+    "seo": {
+      "title": "Facebook 视频下载器 — Chrome 扩展 | TGVideoDown",
+      "description": "Facebook 视频下载器 — 一键保存 Facebook 视频、图片与照片。适用于动态、Watch、Reels、主页、群组与嵌入式播放器的免费 Chrome 扩展。",
+      "ogTitle": "Facebook 视频下载器 — Chrome 扩展 | TGVideoDown",
+      "ogDescription": "保存与整理 Facebook 视频、图片与照片。适用于主页、群组、动态、Watch、Reels 与嵌入内容的快速免费 Chrome 扩展。",
+      "keywords": "facebook 视频下载器, facebook 下载器, 下载 facebook 视频, facebook chrome 扩展, facebook reels 下载, facebook watch 下载"
     }
   }
 }

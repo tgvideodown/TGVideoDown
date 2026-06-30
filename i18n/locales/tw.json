@@ -123,7 +123,8 @@
     "help": "說明中心",
     "contact": "聯絡我們",
     "privacy": "隱私權政策",
-    "copyright": "© {year} TGVideoDown. 保留所有權利。"
+    "copyright": "© {year} TGVideoDown. 保留所有權利。",
+    "guideFacebook": "Facebook 影片下載器"
   },
   "about": {
     "hero": {
@@ -313,6 +314,117 @@
         "title": "10. 聯絡方式",
         "content": "若對本政策有疑問、顧慮或請求，可透過以下方式聯絡我們："
       }
+    }
+  },
+  "facebookPage": {
+    "badge": "Chrome 網頁擴充功能",
+    "title": "Facebook 影片下載器 — Chrome 擴充功能",
+    "heroLead": "Facebook 影片下載器 — 輕鬆免費地從 Facebook 下載影片、圖片與照片，一鍵儲存與整理。適用於粉絲專頁、社團、動態、Watch、Reels 及嵌入式播放器的快速免費 Chrome 擴充功能。",
+    "heroSub": "這款輕量下載工具專為日常瀏覽設計，在網頁上直接顯示清楚的下載控制項，無需離開頁面即可儲存影片與圖片。",
+    "ctaInstall": "從 Chrome 線上應用程式商店安裝",
+    "ctaGet": "取得 Facebook 影片下載器",
+    "intro": "無論您在動態消息、公開粉絲專頁、社團、Watch、Reels 或個人影片分頁，都能幫您保留想再次觀看的內容 — 教學、直播片段、回憶等。",
+    "heroImgAlt": "Facebook 影片下載器 Chrome 擴充功能介面",
+    "whyTitle": "為何選擇此擴充功能？",
+    "whyIntro": "平台上值得保存的影片很多 — 直播、Reels、教學與個人時刻。在 Chrome 內即可獲得簡潔的下載流程：",
+    "whyItems": [
+      "偵測到的影片與圖片一鍵儲存",
+      "捲動瀏覽時自動辨識新媒體（動態、Watch、Reels 等）",
+      "涵蓋主要區塊",
+      "支援外部網站中的嵌入式播放器",
+      "免費 — 無需註冊帳號"
+    ],
+    "featuresTitle": "主要功能",
+    "videosTitle": "全平台影片下載",
+    "videosIntro": "可從以下位置儲存影片：",
+    "videoSources": [
+      "個人檔案與時間軸",
+      "社團與社群",
+      "公開粉絲專頁與創作者專頁",
+      "動態消息貼文",
+      "Watch（含觀看頁與影片貼文）",
+      "Reels",
+      "使用者影片庫與影片永久連結"
+    ],
+    "imagesTitle": "下載圖片與照片",
+    "imagesBody": "除影片外，擴充功能也支援動態貼文中的圖片下載 — 將貼文中的照片儲存到本機，便於個人查閱與離線檢視。",
+    "embeddedTitle": "嵌入式影片支援",
+    "embeddedBody": "瀏覽含有嵌入式播放器的網站？擴充功能可辨識嵌入式影片，並在瀏覽時提供同樣便捷的下載操作。",
+    "qualityTitle": "畫質由您掌控",
+    "qualityIntro": "開啟擴充功能彈出視窗設定偏好的影片畫質：",
+    "qualityOptions": [
+      "預設（目前可用最低畫質，省流量）",
+      "可用時支援 360p / 480p / 720p / 1080p"
+    ],
+    "qualityOutro": "擴充功能會依您的設定選擇最匹配的畫質，在清晰度與檔案大小之間取得平衡。",
+    "progressTitle": "清楚的下載進度",
+    "progressBody": "對串流影片，下載按鈕上可顯示即時進度；直連下載則透過 Chrome 內建下載管理器快速開始 — 簡單熟悉。",
+    "designedTitle": "人人可用",
+    "designedIntro": "無需命令列，無需複雜設定。人人可用的免費 Chrome 擴充功能：",
+    "designedTags": "快速 · 注重隱私 · 易於使用 · 無需技術背景",
+    "whoTitle": "適合誰使用？",
+    "whoIntro": "若您需要可靠的 Facebook 影片下載工具，適合：",
+    "whoItems": [
+      "收藏有趣片段的愛好者",
+      "整理喜愛社群內容的使用者",
+      "收集參考素材的創作者",
+      "儲存教學影片的學生",
+      "留存珍貴回憶的家庭使用者"
+    ],
+    "benefitsTitle": "功能一覽",
+    "benefitsItems": [
+      "影片、圖片與照片",
+      "支援動態、Watch、Reels、專頁、社團與嵌入內容",
+      "瀏覽時自動偵測",
+      "在支援的媒體上注入一鍵下載按鈕",
+      "可選最高 1080p 高畫質（視可用性而定）",
+      "輕量 Manifest V3 Chrome 擴充功能",
+      "多語言介面（廣泛語言支援）"
+    ],
+    "howTitle": "使用方法",
+    "howSteps": [
+      "從 Chrome 線上應用程式商店安裝",
+      "開啟 facebook.com 或含嵌入式影片的頁面",
+      "照常瀏覽 — 擴充功能會掃描影片與圖片",
+      "在目標內容上點擊下載",
+      "檔案透過 Chrome 儲存到裝置（在 Chrome 下載管理中查看）"
+    ],
+    "howTip": "提示：",
+    "howTipBody": "下載前可透過工具列彈出視窗設定影片畫質。",
+    "steps": {
+      "1": {
+        "alt": "從 Chrome 線上應用程式商店安裝 Facebook 影片下載器",
+        "caption": "步驟 1 — 安裝擴充功能"
+      },
+      "2": {
+        "alt": "在 Facebook 上瀏覽並顯示下載控制項",
+        "caption": "步驟 2 — 照常瀏覽 Facebook"
+      },
+      "3": {
+        "alt": "點擊下載並儲存到裝置",
+        "caption": "步驟 3 — 儲存到裝置"
+      }
+    },
+    "privacyTitle": "隱私與安全",
+    "privacyIntro": "以隱私為設計原則：",
+    "privacyItems": [
+      "透過瀏覽器處理下載",
+      "無需向第三方伺服器提供密碼",
+      "透過 Chrome 在本機裝置儲存",
+      "擴充功能流程中未描述隱藏分析追蹤"
+    ],
+    "privacyOutro": "瀏覽由您掌控。請負責任地使用已下載內容。",
+    "noticeTitle": "重要聲明",
+    "noticeBody1": "Facebook Video Downloader 為獨立 Chrome 擴充功能，與 Meta Platforms, Inc. 或 Facebook 無關聯、未獲認可或贊助。",
+    "noticeBody2": "請尊重版權、創作者權利及平台服務條款。僅下載您有權為個人用途儲存的內容。",
+    "storeLink": "Chrome 線上應用程式商店 — Facebook 影片下載器",
+    "homeLink": "TGVideoDown 首頁",
+    "seo": {
+      "title": "Facebook 影片下載器 — Chrome 擴充功能 | TGVideoDown",
+      "description": "Facebook 影片下載器 — 一鍵儲存 Facebook 影片、圖片與照片。適用於動態、Watch、Reels、專頁、社團與嵌入式播放器的免費 Chrome 擴充功能。",
+      "ogTitle": "Facebook 影片下載器 — Chrome 擴充功能 | TGVideoDown",
+      "ogDescription": "儲存與整理 Facebook 影片、圖片與照片。適用於專頁、社團、動態、Watch、Reels 與嵌入內容的快速免費 Chrome 擴充功能。",
+      "keywords": "facebook 影片下載器, facebook 下載器, 下載 facebook 影片, facebook chrome 擴充功能, facebook reels 下載, facebook watch 下載"
     }
   }
 }

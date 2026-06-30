@@ -123,7 +123,8 @@
     "help": "Centro de ayuda",
     "contact": "Contacto",
     "privacy": "Política de privacidad",
-    "copyright": "© {year} TGVideoDown. Todos los derechos reservados."
+    "copyright": "© {year} TGVideoDown. Todos los derechos reservados.",
+    "guideFacebook": "Descargador de videos de Facebook"
   },
   "about": {
     "hero": {
@@ -313,6 +314,117 @@
         "title": "10. Contacto",
         "content": "Si tienes preguntas, inquietudes o solicitudes relacionadas con esta política, puedes contactarnos en:"
       }
+    }
+  },
+  "facebookPage": {
+    "badge": "Extensión de Chrome",
+    "title": "Descargador de videos de Facebook — Extensión de Chrome",
+    "heroLead": "Descargador de videos de Facebook — Guarda y organiza videos, imágenes y fotos con un clic. Extensión de Chrome rápida, gratuita y fácil de usar para páginas, grupos, feeds, Watch, Reels y reproductores integrados.",
+    "heroSub": "Este descargador ligero está pensado para la navegación diaria. Añade controles de descarga claros directamente en el sitio, para guardar videos e imágenes sin salir de la página.",
+    "ctaInstall": "Instalar desde Chrome Web Store",
+    "ctaGet": "Obtener Descargador de videos de Facebook",
+    "intro": "Ya sea en tu Feed, una página pública, un grupo, Watch, Reels o la pestaña de videos de un perfil, te ayuda a conservar el contenido que quieres volver a ver: tutoriales, clips en vivo, recuerdos y más.",
+    "heroImgAlt": "Interfaz de la extensión Descargador de videos de Facebook para Chrome",
+    "whyTitle": "¿Por qué elegir esta extensión?",
+    "whyIntro": "La plataforma está llena de videos que vale la pena guardar: transmisiones en vivo, reels, guías y momentos personales. Obtienes un flujo de descarga simple dentro de Chrome:",
+    "whyItems": [
+      "Guardado con un clic en videos e imágenes detectados",
+      "Detección automática de nuevos medios al desplazarte (Feed, Watch, Reels y más)",
+      "Funciona en las secciones principales",
+      "Reproductores integrados en sitios externos",
+      "Gratis — sin registro de cuenta"
+    ],
+    "featuresTitle": "Funciones clave",
+    "videosTitle": "Descargar videos en toda la plataforma",
+    "videosIntro": "Guarda clips de:",
+    "videoSources": [
+      "Perfiles y cronologías",
+      "Grupos y comunidades",
+      "Páginas públicas y de creadores",
+      "Publicaciones del Feed",
+      "Watch (incluidas páginas de visualización y publicaciones de video)",
+      "Reels",
+      "Bibliotecas de video de usuarios y enlaces permanentes"
+    ],
+    "imagesTitle": "Descargar imágenes y fotos",
+    "imagesBody": "Además del video, la extensión admite la descarga de imágenes en publicaciones del feed: guarda fotos mostradas en publicaciones para referencia personal y visualización sin conexión.",
+    "embeddedTitle": "Soporte de video integrado",
+    "embeddedBody": "¿Navegas por un sitio con un reproductor integrado? La extensión puede detectar videos integrados y ofrecer la misma acción de descarga conveniente mientras navegas.",
+    "qualityTitle": "Calidad bajo tu control",
+    "qualityIntro": "Abre la ventana emergente de la extensión para establecer la calidad de video preferida:",
+    "qualityOptions": [
+      "Predeterminada (la más baja disponible, ahorra datos)",
+      "360p / 480p / 720p / 1080p cuando estén disponibles"
+    ],
+    "qualityOutro": "Elige la mejor coincidencia para tu configuración y equilibra calidad y tamaño de archivo.",
+    "progressTitle": "Progreso de descarga claro",
+    "progressBody": "Para videos basados en streaming, ve el progreso en tiempo real en el botón de descarga. Las descargas directas comienzan rápidamente con el administrador de Chrome: simple y familiar.",
+    "designedTitle": "Diseñado para todos",
+    "designedIntro": "Sin línea de comandos. Sin configuración complicada. Una extensión gratuita de Chrome para cualquiera:",
+    "designedTags": "Rápido · Enfocado en privacidad · Fácil de usar · Sin conocimientos técnicos",
+    "whoTitle": "¿Para quién es?",
+    "whoIntro": "Ideal si quieres un descargador de video de FB confiable para:",
+    "whoItems": [
+      "Coleccionistas que archivan clips interesantes",
+      "Usuarios que organizan contenido social favorito",
+      "Creadores que reúnen material de referencia",
+      "Estudiantes que guardan videos educativos",
+      "Familias que conservan momentos memorables"
+    ],
+    "benefitsTitle": "Beneficios de un vistazo",
+    "benefitsItems": [
+      "Videos, imágenes y fotos",
+      "Compatible con Feed, Watch, Reels, páginas, grupos e integraciones",
+      "Detección automática mientras navegas",
+      "Botones de un clic en medios compatibles",
+      "Calidad HD opcional hasta 1080p cuando esté disponible",
+      "Extensión web de Chrome ligera Manifest V3",
+      "Interfaz multilingüe (amplio soporte de idiomas)"
+    ],
+    "howTitle": "Cómo usar",
+    "howSteps": [
+      "Instalar desde Chrome Web Store",
+      "Abrir facebook.com o una página con video integrado",
+      "Navegar como siempre: la extensión escanea videos e imágenes",
+      "Hacer clic en Descargar en el elemento deseado",
+      "Los archivos se guardan en tu dispositivo a través de Chrome (gestionar en Descargas de Chrome)"
+    ],
+    "howTip": "Consejo:",
+    "howTipBody": "Usa la ventana emergente de la barra de herramientas para establecer la calidad de video antes de descargar.",
+    "steps": {
+      "1": {
+        "alt": "Instalar Descargador de videos de Facebook desde Chrome Web Store",
+        "caption": "Paso 1 — Instalar la extensión"
+      },
+      "2": {
+        "alt": "Navegar por Facebook con controles de descarga en videos",
+        "caption": "Paso 2 — Navegar por Facebook con normalidad"
+      },
+      "3": {
+        "alt": "Hacer clic en descargar y guardar en el dispositivo",
+        "caption": "Paso 3 — Guardar en el dispositivo"
+      }
+    },
+    "privacyTitle": "Privacidad y seguridad",
+    "privacyIntro": "Diseñado pensando en la privacidad:",
+    "privacyItems": [
+      "Descargas gestionadas a través de tu navegador",
+      "No es necesario compartir contraseñas con servidores de terceros",
+      "Diseñado para guardar localmente en el dispositivo vía Chrome",
+      "Sin analíticas ocultas descritas en el flujo de la extensión"
+    ],
+    "privacyOutro": "Tu navegación permanece bajo tu control. Usa siempre el contenido descargado de forma responsable.",
+    "noticeTitle": "Aviso importante",
+    "noticeBody1": "Facebook Video Downloader es una extensión independiente de Chrome. No está afiliada, respaldada ni patrocinada por Meta Platforms, Inc. o Facebook.",
+    "noticeBody2": "Respeta los derechos de autor, los derechos de los creadores y los Términos de servicio de la plataforma. Solo descarga contenido que tengas derecho a guardar para uso personal.",
+    "storeLink": "Chrome Web Store — Descargador de videos de Facebook",
+    "homeLink": "Inicio TGVideoDown",
+    "seo": {
+      "title": "Descargador de videos de Facebook — Extensión Chrome | TGVideoDown",
+      "description": "Descargador de videos de Facebook — guarda videos, imágenes y fotos de Facebook con un clic. Extensión gratuita de Chrome para Feed, Watch, Reels, páginas, grupos y reproductores integrados.",
+      "ogTitle": "Descargador de videos de Facebook — Extensión Chrome | TGVideoDown",
+      "ogDescription": "Guarda y organiza videos, imágenes y fotos de Facebook. Extensión rápida y gratuita para páginas, grupos, feeds, Watch, Reels e integraciones.",
+      "keywords": "descargador de videos de facebook, descargador facebook, descargar video facebook, extensión chrome facebook, descargar reels facebook, descargar watch facebook"
     }
   }
 }

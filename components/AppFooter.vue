@@ -54,6 +54,11 @@
                 {{ $t('footer.guidePrivate') }}
               </NuxtLink>
             </li>
+            <li>
+              <NuxtLink :to="localePath('/facebook-video-download')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                {{ $t('footer.guideFacebook') }}
+              </NuxtLink>
+            </li>
           </ul>
         </div>
 

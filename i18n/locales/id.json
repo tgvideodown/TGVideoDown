@@ -123,7 +123,8 @@
     "help": "Pusat bantuan",
     "contact": "Hubungi kami",
     "privacy": "Kebijakan privasi",
-    "copyright": "© {year} TGVideoDown. Hak cipta dilindungi."
+    "copyright": "© {year} TGVideoDown. Hak cipta dilindungi.",
+    "guideFacebook": "Pengunduh Video Facebook"
   },
   "about": {
     "hero": {
@@ -313,6 +314,117 @@
         "title": "10. Informasi kontak",
         "content": "Jika Anda memiliki pertanyaan, kekhawatiran, atau permintaan terkait kebijakan ini, hubungi kami di:"
       }
+    }
+  },
+  "facebookPage": {
+    "badge": "Ekstensi Chrome",
+    "title": "Pengunduh Video Facebook — Ekstensi Chrome",
+    "heroLead": "Pengunduh Video Facebook — Simpan dan atur video, gambar, dan foto dalam satu klik. Ekstensi Chrome cepat, gratis, dan mudah untuk halaman, grup, feed, Watch, Reels, dan pemutar tersemat.",
+    "heroSub": "Pengunduh ringan ini dibuat untuk penjelajahan sehari-hari. Menambahkan kontrol unduhan yang jelas langsung di situs, sehingga Anda dapat menyimpan video dan gambar tanpa meninggalkan halaman.",
+    "ctaInstall": "Instal dari Chrome Web Store",
+    "ctaGet": "Dapatkan Pengunduh Video Facebook",
+    "intro": "Baik di Feed, halaman publik, grup, Watch, Reels, atau tab video profil, membantu Anda menyimpan konten yang ingin ditonton ulang — tutorial, klip live, kenangan, dan lainnya.",
+    "heroImgAlt": "Antarmuka ekstensi Pengunduh Video Facebook untuk Chrome",
+    "whyTitle": "Mengapa memilih ekstensi ini?",
+    "whyIntro": "Platform penuh video yang layak disimpan — siaran langsung, reel, panduan, dan momen pribadi. Alur unduhan sederhana langsung di Chrome:",
+    "whyItems": [
+      "Simpan video dan gambar terdeteksi dengan satu klik",
+      "Deteksi otomatis media baru saat menggulir (Feed, Watch, Reels, dan lainnya)",
+      "Berfungsi di bagian utama",
+      "Pemutar tersemat di situs eksternal",
+      "Gratis — tanpa pendaftaran akun"
+    ],
+    "featuresTitle": "Fitur utama",
+    "videosTitle": "Unduh video di seluruh platform",
+    "videosIntro": "Simpan klip dari:",
+    "videoSources": [
+      "Profil dan linimasa",
+      "Grup dan komunitas",
+      "Halaman publik dan halaman kreator",
+      "Postingan Feed",
+      "Watch (termasuk halaman tonton dan postingan video)",
+      "Reels",
+      "Perpustakaan video pengguna dan permalink video"
+    ],
+    "imagesTitle": "Unduh gambar & foto",
+    "imagesBody": "Selain video, ekstensi juga mendukung unduhan gambar di postingan feed — simpan foto yang ditampilkan untuk referensi pribadi dan tampilan offline.",
+    "embeddedTitle": "Dukungan video tersemat",
+    "embeddedBody": "Menjelajahi situs dengan pemutar tersemat? Ekstensi dapat mendeteksi video tersemat dan menawarkan aksi unduhan yang sama saat Anda menjelajah.",
+    "qualityTitle": "Kualitas yang Anda kendalikan",
+    "qualityIntro": "Buka popup ekstensi untuk mengatur kualitas video pilihan:",
+    "qualityOptions": [
+      "Default (terendah yang tersedia, hemat data)",
+      "360p / 480p / 720p / 1080p jika tersedia"
+    ],
+    "qualityOutro": "Memilih kecocokan terbaik untuk pengaturan Anda agar seimbang antara kualitas dan ukuran file.",
+    "progressTitle": "Progres unduhan yang jelas",
+    "progressBody": "Untuk video berbasis streaming, lihat progres waktu nyata pada tombol unduh. Unduhan langsung dimulai cepat melalui pengelola bawaan Chrome — sederhana dan familiar.",
+    "designedTitle": "Dirancang untuk semua orang",
+    "designedIntro": "Tanpa baris perintah. Tanpa pengaturan rumit. Ekstensi Chrome gratis untuk siapa saja:",
+    "designedTags": "Cepat · Fokus privasi · Mudah digunakan · Tanpa keahlian teknis",
+    "whoTitle": "Untuk siapa?",
+    "whoIntro": "Ideal jika Anda membutuhkan pengunduh video FB yang andal untuk:",
+    "whoItems": [
+      "Kolektor yang mengarsipkan klip menarik",
+      "Pengguna yang mengatur konten sosial favorit",
+      "Kreator yang mengumpulkan materi referensi",
+      "Pelajar yang menyimpan video edukasi",
+      "Keluarga yang menyimpan momen berharga"
+    ],
+    "benefitsTitle": "Manfaat sekilas",
+    "benefitsItems": [
+      "Video, gambar, dan foto",
+      "Mendukung Feed, Watch, Reels, halaman, grup, dan tersemat",
+      "Deteksi otomatis saat menjelajah",
+      "Tombol satu klik pada media yang didukung",
+      "Kualitas HD opsional hingga 1080p jika tersedia",
+      "Ekstensi web Chrome ringan Manifest V3",
+      "Antarmuka multibahasa (dukungan lokal luas)"
+    ],
+    "howTitle": "Cara menggunakan",
+    "howSteps": [
+      "Instal dari Chrome Web Store",
+      "Buka facebook.com atau halaman dengan video tersemat",
+      "Jelajahi seperti biasa — ekstensi memindai video dan gambar",
+      "Klik Unduh pada item yang diinginkan",
+      "File disimpan ke perangkat melalui Chrome (kelola di Unduhan Chrome)"
+    ],
+    "howTip": "Tips:",
+    "howTipBody": "Gunakan popup toolbar untuk mengatur kualitas video sebelum mengunduh.",
+    "steps": {
+      "1": {
+        "alt": "Instal Pengunduh Video Facebook dari Chrome Web Store",
+        "caption": "Langkah 1 — Instal ekstensi"
+      },
+      "2": {
+        "alt": "Jelajahi Facebook dengan kontrol unduhan pada video",
+        "caption": "Langkah 2 — Jelajahi Facebook seperti biasa"
+      },
+      "3": {
+        "alt": "Klik unduh dan simpan ke perangkat",
+        "caption": "Langkah 3 — Simpan ke perangkat"
+      }
+    },
+    "privacyTitle": "Privasi & keamanan",
+    "privacyIntro": "Dibangun dengan memperhatikan privasi:",
+    "privacyItems": [
+      "Unduhan ditangani melalui browser Anda",
+      "Tidak perlu membagikan kata sandi ke server pihak ketiga",
+      "Dirancang untuk penyimpanan lokal di perangkat via Chrome",
+      "Tidak ada analitik tersembunyi yang dijelaskan dalam alur ekstensi"
+    ],
+    "privacyOutro": "Penjelajahan tetap di bawah kendali Anda. Selalu gunakan konten yang diunduh secara bertanggung jawab.",
+    "noticeTitle": "Pemberitahuan penting",
+    "noticeBody1": "Facebook Video Downloader adalah ekstensi Chrome independen. Tidak berafiliasi, didukung, atau disponsori oleh Meta Platforms, Inc. atau Facebook.",
+    "noticeBody2": "Hormati hak cipta, hak kreator, dan Ketentuan Layanan platform. Unduh hanya konten yang Anda berhak simpan untuk penggunaan pribadi.",
+    "storeLink": "Chrome Web Store — Pengunduh Video Facebook",
+    "homeLink": "Beranda TGVideoDown",
+    "seo": {
+      "title": "Pengunduh Video Facebook — Ekstensi Chrome | TGVideoDown",
+      "description": "Pengunduh Video Facebook — simpan video, gambar, dan foto dari Facebook dalam satu klik. Ekstensi Chrome gratis untuk Feed, Watch, Reels, halaman, grup, dan pemutar tersemat.",
+      "ogTitle": "Pengunduh Video Facebook — Ekstensi Chrome | TGVideoDown",
+      "ogDescription": "Simpan dan atur video, gambar, dan foto Facebook. Ekstensi Chrome cepat dan gratis untuk halaman, grup, feed, Watch, Reels, dan tersemat.",
+      "keywords": "pengunduh video facebook, pengunduh facebook, unduh video facebook, ekstensi chrome facebook, unduh reels facebook, unduh watch facebook"
     }
   }
 }

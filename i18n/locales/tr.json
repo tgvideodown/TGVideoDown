@@ -123,7 +123,8 @@
     "help": "Yardım merkezi",
     "contact": "Bize ulaşın",
     "privacy": "Gizlilik politikası",
-    "copyright": "© {year} TGVideoDown. Tüm hakları saklıdır."
+    "copyright": "© {year} TGVideoDown. Tüm hakları saklıdır.",
+    "guideFacebook": "Facebook Video İndirici"
   },
   "about": {
     "hero": {
@@ -313,6 +314,117 @@
         "title": "10. İletişim bilgileri",
         "content": "Bu politika ile ilgili soru, endişe veya talepleriniz için bize şu adresten ulaşabilirsiniz:"
       }
+    }
+  },
+  "facebookPage": {
+    "badge": "Chrome uzantısı",
+    "title": "Facebook Video İndirici — Chrome Uzantısı",
+    "heroLead": "Facebook Video İndirici — Videoları, görselleri ve fotoğrafları tek tıkla kaydedin ve düzenleyin. Sayfalar, gruplar, akış, Watch, Reels ve gömülü oynatıcılar için hızlı, ücretsiz ve kullanımı kolay Chrome uzantısı.",
+    "heroSub": "Bu hafif indirici günlük gezinti için tasarlandı. Sitede doğrudan net indirme kontrolleri ekler; sayfadan ayrılmadan video ve görselleri kaydedebilirsiniz.",
+    "ctaInstall": "Chrome Web Mağazası'ndan yükle",
+    "ctaGet": "Facebook Video İndirici'yi edinin",
+    "intro": "Haber akışında, herkese açık sayfada, grupta, Watch'ta, Reels'te veya profil video sekmesinde olun — tekrar izlemek istediğiniz içeriği saklamanıza yardımcı olur: eğitimler, canlı klipler, anılar ve daha fazlası.",
+    "heroImgAlt": "Facebook Video İndirici Chrome uzantısı arayüzü",
+    "whyTitle": "Neden bu uzantı?",
+    "whyIntro": "Platform kaydedilmeye değer videolarla dolu — canlı yayınlar, reel'ler, rehberler ve kişisel anlar. Chrome içinde basit bir indirme akışı:",
+    "whyItems": [
+      "Algılanan video ve görsellerde tek tıkla kaydetme",
+      "Kaydırırken yeni medyayı otomatik algılama (Akış, Watch, Reels ve daha fazlası)",
+      "Ana bölümlerde çalışır",
+      "Harici sitelerdeki gömülü oynatıcılar",
+      "Ücretsiz — hesap kaydı gerekmez"
+    ],
+    "featuresTitle": "Temel özellikler",
+    "videosTitle": "Platform genelinde video indirme",
+    "videosIntro": "Şuradan klipleri kaydedin:",
+    "videoSources": [
+      "Profiller ve zaman çizelgeleri",
+      "Gruplar ve topluluklar",
+      "Herkese açık sayfalar ve içerik üretici sayfaları",
+      "Haber akışı gönderileri",
+      "Watch (izleme sayfaları ve video gönderileri dahil)",
+      "Reels",
+      "Kullanıcı video kitaplıkları ve video kalıcı bağlantıları"
+    ],
+    "imagesTitle": "Görsel ve fotoğraf indirme",
+    "imagesBody": "Videonun ötesinde, uzantı akış gönderilerindeki görsel indirmeyi de destekler — gönderilerde görünen fotoğrafları kişisel referans ve çevrimdışı görüntüleme için kaydedin.",
+    "embeddedTitle": "Gömülü video desteği",
+    "embeddedBody": "Gömülü oynatıcılı bir sitede mi geziniyorsunuz? Uzantı gömülü videoları algılar ve gezinirken aynı kullanışlı indirme işlemini sunar.",
+    "qualityTitle": "Kaliteyi siz belirleyin",
+    "qualityIntro": "Tercih ettiğiniz video kalitesini ayarlamak için uzantı açılır penceresini açın:",
+    "qualityOptions": [
+      "Varsayılan (mevcut en düşük, veri tasarrufu)",
+      "Mevcut olduğunda 360p / 480p / 720p / 1080p"
+    ],
+    "qualityOutro": "Kalite ve dosya boyutunu dengelemek için ayarınıza en uygun eşleşmeyi seçer.",
+    "progressTitle": "Net indirme ilerlemesi",
+    "progressBody": "Akış tabanlı videolarda indirme düğmesinde gerçek zamanlı ilerleme görün. Doğrudan indirmeler Chrome'un yerleşik yöneticisiyle hızla başlar — basit ve tanıdık.",
+    "designedTitle": "Herkes için tasarlandı",
+    "designedIntro": "Komut satırı yok. Karmaşık kurulum yok. Herkesin kullanabileceği ücretsiz Chrome uzantısı:",
+    "designedTags": "Hızlı · Gizlilik odaklı · Kullanımı kolay · Teknik bilgi gerekmez",
+    "whoTitle": "Kimler için?",
+    "whoIntro": "Güvenilir bir FB video indiricisi istiyorsanız ideal:",
+    "whoItems": [
+      "İlginç klipleri arşivleyen koleksiyoncular",
+      "Favori sosyal içeriği düzenleyen kullanıcılar",
+      "Referans materyali toplayan içerik üreticileri",
+      "Eğitim videoları kaydeden öğrenciler",
+      "Unutulmaz anıları saklayan aileler"
+    ],
+    "benefitsTitle": "Özet avantajlar",
+    "benefitsItems": [
+      "Videolar, görseller ve fotoğraflar",
+      "Akış, Watch, Reels, sayfalar, gruplar ve gömülü içerik desteği",
+      "Gezinirken otomatik algılama",
+      "Desteklenen medyada tek tık düğmeler",
+      "Mevcut olduğunda 1080p'ye kadar isteğe bağlı HD",
+      "Hafif Manifest V3 Chrome web uzantısı",
+      "Çok dilli arayüz (geniş yerel destek)"
+    ],
+    "howTitle": "Nasıl kullanılır",
+    "howSteps": [
+      "Chrome Web Mağazası'ndan yükleyin",
+      "facebook.com veya gömülü videolu bir sayfa açın",
+      "Her zamanki gibi gezinin — uzantı video ve görselleri tarar",
+      "İstediğiniz öğede İndir'e tıklayın",
+      "Dosyalar Chrome ile cihazınıza kaydedilir (Chrome İndirilenler'de yönetin)"
+    ],
+    "howTip": "İpucu:",
+    "howTipBody": "İndirmeden önce video kalitesini ayarlamak için araç çubuğu açılır penceresini kullanın.",
+    "steps": {
+      "1": {
+        "alt": "Chrome Web Mağazası'ndan Facebook Video İndirici yükleyin",
+        "caption": "Adım 1 — Uzantıyı yükleyin"
+      },
+      "2": {
+        "alt": "Facebook'ta videolarda indirme kontrolleriyle gezinin",
+        "caption": "Adım 2 — Facebook'ta her zamanki gibi gezinin"
+      },
+      "3": {
+        "alt": "İndir'e tıklayın ve cihaza kaydedin",
+        "caption": "Adım 3 — Cihaza kaydedin"
+      }
+    },
+    "privacyTitle": "Gizlilik ve güvenlik",
+    "privacyIntro": "Gizlilik gözetilerek tasarlandı:",
+    "privacyItems": [
+      "İndirmeler tarayıcınız üzerinden işlenir",
+      "Üçüncü taraf sunucularla şifre paylaşma zorunluluğu yok",
+      "Chrome ile yerel cihazda kaydetme için tasarlandı",
+      "Uzantı akışında gizli analitik açıklanmamıştır"
+    ],
+    "privacyOutro": "Gezinme sizin kontrolünüzde kalır. İndirilen içeriği her zaman sorumlu kullanın.",
+    "noticeTitle": "Önemli uyarı",
+    "noticeBody1": "Facebook Video İndirici bağımsız bir Chrome uzantısıdır. Meta Platforms, Inc. veya Facebook ile bağlantılı, onaylı veya sponsorlu değildir.",
+    "noticeBody2": "Telif hakkına, içerik üretici haklarına ve platform Hizmet Şartları'na saygı gösterin. Yalnızca kişisel kullanım için kaydetme hakkınız olan içeriği indirin.",
+    "storeLink": "Chrome Web Mağazası — Facebook Video İndirici",
+    "homeLink": "TGVideoDown Ana Sayfa",
+    "seo": {
+      "title": "Facebook Video İndirici — Chrome Uzantısı | TGVideoDown",
+      "description": "Facebook Video İndirici — Facebook videolarını, görsellerini ve fotoğraflarını tek tıkla kaydedin. Akış, Watch, Reels, sayfalar, gruplar ve gömülü oynatıcılar için ücretsiz Chrome uzantısı.",
+      "ogTitle": "Facebook Video İndirici — Chrome Uzantısı | TGVideoDown",
+      "ogDescription": "Facebook videolarını, görsellerini ve fotoğraflarını kaydedin ve düzenleyin. Sayfalar, gruplar, akış, Watch, Reels ve gömülü içerik için hızlı ücretsiz Chrome uzantısı.",
+      "keywords": "facebook video indirici, facebook indirici, facebook video indir, facebook chrome uzantısı, facebook reels indir, facebook watch indir"
     }
   }
 }

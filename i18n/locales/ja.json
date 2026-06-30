@@ -123,7 +123,8 @@
     "help": "ヘルプセンター",
     "contact": "お問い合わせ",
     "privacy": "プライバシーポリシー",
-    "copyright": "© {year} TGVideoDown. All rights reserved."
+    "copyright": "© {year} TGVideoDown. All rights reserved.",
+    "guideFacebook": "Facebook 動画ダウンローダー"
   },
   "about": {
     "hero": {
@@ -313,6 +314,117 @@
         "title": "10. お問い合わせ",
         "content": "本ポリシーに関するご質問、ご懸念、ご請求は次までご連絡ください："
       }
+    }
+  },
+  "facebookPage": {
+    "badge": "Chrome 拡張機能",
+    "title": "Facebook 動画ダウンローダー — Chrome 拡張機能",
+    "heroLead": "Facebook 動画ダウンローダー — 動画・画像・写真をワンクリックで保存・整理。ページ、グループ、フィード、Watch、Reels、埋め込みプレーヤー向けの高速無料 Chrome 拡張機能。",
+    "heroSub": "日常のブラウジング向けの軽量ダウンローダー。サイト上に明確なダウンロード操作を表示し、ページを離れずに動画と画像を保存できます。",
+    "ctaInstall": "Chrome ウェブストアからインストール",
+    "ctaGet": "Facebook 動画ダウンローダーを入手",
+    "intro": "ニュースフィード、公開ページ、グループ、Watch、Reels、プロフィールの動画タブなど、再訪したいコンテンツ — チュートリアル、ライブクリップ、思い出など — を残すのに役立ちます。",
+    "heroImgAlt": "Facebook 動画ダウンローダー Chrome 拡張機能の画面",
+    "whyTitle": "この拡張機能を選ぶ理由",
+    "whyIntro": "保存に値する動画が満載 — ライブ配信、リール、ハウツー、個人的な瞬間。Chrome 内でシンプルなダウンロードワークフローを利用できます：",
+    "whyItems": [
+      "検出された動画・画像をワンクリック保存",
+      "スクロール中に新しいメディアを自動検出（フィード、Watch、Reels など）",
+      "主要セクションに対応",
+      "外部サイトの埋め込みプレーヤー",
+      "無料 — アカウント登録不要"
+    ],
+    "featuresTitle": "主な機能",
+    "videosTitle": "プラットフォーム全体で動画をダウンロード",
+    "videosIntro": "以下からクリップを保存：",
+    "videoSources": [
+      "プロフィールとタイムライン",
+      "グループとコミュニティ",
+      "公開ページとクリエイターページ",
+      "ニュースフィードの投稿",
+      "Watch（視聴ページと動画投稿を含む）",
+      "Reels",
+      "ユーザーの動画ライブラリと動画のパーマリンク"
+    ],
+    "imagesTitle": "画像・写真のダウンロード",
+    "imagesBody": "動画以外にも、フィード投稿の画像ダウンロードに対応 — 投稿内の写真を個人参照やオフライン閲覧用に保存できます。",
+    "embeddedTitle": "埋め込み動画のサポート",
+    "embeddedBody": "埋め込みプレーヤーのあるサイトを閲覧中？拡張機能が埋め込み動画を検出し、同じ便利なダウンロード操作を提供します。",
+    "qualityTitle": "画質を自分で選択",
+    "qualityIntro": "拡張機能のポップアップで希望の動画画質を設定：",
+    "qualityOptions": [
+      "デフォルト（利用可能な最低画質、データ節約）",
+      "利用可能時 360p / 480p / 720p / 1080p"
+    ],
+    "qualityOutro": "設定に最も合う画質を選び、品質とファイルサイズのバランスを取れます。",
+    "progressTitle": "わかりやすいダウンロード進捗",
+    "progressBody": "ストリーム動画ではダウンロードボタンにリアルタイム進捗を表示。直接ダウンロードは Chrome の組み込みマネージャーで素早く開始 — シンプルで馴染みやすい。",
+    "designedTitle": "誰でも使える設計",
+    "designedIntro": "コマンドライン不要、複雑な設定不要。誰でも使える無料 Chrome 拡張機能：",
+    "designedTags": "高速 · プライバシー重視 · 使いやすい · 技術知識不要",
+    "whoTitle": "こんな方におすすめ",
+    "whoIntro": "信頼できる FB 動画ダウンローダーをお探しの方に：",
+    "whoItems": [
+      "面白いクリップをアーカイブするコレクター",
+      "お気に入りのソーシャルコンテンツを整理するユーザー",
+      "参考資料を集めるクリエイター",
+      "教育動画を保存する学生",
+      "思い出を残す家族"
+    ],
+    "benefitsTitle": "メリット一覧",
+    "benefitsItems": [
+      "動画・画像・写真",
+      "フィード、Watch、Reels、ページ、グループ、埋め込みに対応",
+      "閲覧中の自動検出",
+      "対応メディアにワンクリックボタンを注入",
+      "利用可能時は最大 1080p の HD 画質",
+      "軽量 Manifest V3 Chrome 拡張機能",
+      "多言語インターフェース（幅広いロケール対応）"
+    ],
+    "howTitle": "使い方",
+    "howSteps": [
+      "Chrome ウェブストアからインストール",
+      "facebook.com または埋め込み動画のあるページを開く",
+      "いつも通り閲覧 — 拡張機能が動画と画像をスキャン",
+      "保存したい項目で「ダウンロード」をクリック",
+      "Chrome 経由でデバイスに保存（Chrome のダウンロードで管理）"
+    ],
+    "howTip": "ヒント：",
+    "howTipBody": "ダウンロード前にツールバーのポップアップで画質を設定できます。",
+    "steps": {
+      "1": {
+        "alt": "Chrome ウェブストアから Facebook 動画ダウンローダーをインストール",
+        "caption": "ステップ 1 — 拡張機能をインストール"
+      },
+      "2": {
+        "alt": "Facebook を閲覧し動画にダウンロード操作を表示",
+        "caption": "ステップ 2 — いつも通り Facebook を閲覧"
+      },
+      "3": {
+        "alt": "ダウンロードをクリックしてデバイスに保存",
+        "caption": "ステップ 3 — デバイスに保存"
+      }
+    },
+    "privacyTitle": "プライバシーとセキュリティ",
+    "privacyIntro": "プライバシーを重視して設計：",
+    "privacyItems": [
+      "ブラウザ経由でダウンロードを処理",
+      "第三者サーバーにパスワードを共有する必要なし",
+      "Chrome 経由のローカル・オンデバイス保存",
+      "拡張機能のワークフローに隠れた分析は記載なし"
+    ],
+    "privacyOutro": "閲覧はあなたの管理下に。ダウンロードしたコンテンツは責任を持ってご利用ください。",
+    "noticeTitle": "重要なお知らせ",
+    "noticeBody1": "Facebook Video Downloader は独立した Chrome 拡張機能です。Meta Platforms, Inc. または Facebook とは無関係で、承認・後援されていません。",
+    "noticeBody2": "著作権、クリエイターの権利、プラットフォームの利用規約を尊重してください。個人利用として保存する権利があるコンテンツのみダウンロードしてください。",
+    "storeLink": "Chrome ウェブストア — Facebook 動画ダウンローダー",
+    "homeLink": "TGVideoDown ホーム",
+    "seo": {
+      "title": "Facebook 動画ダウンローダー — Chrome 拡張機能 | TGVideoDown",
+      "description": "Facebook 動画ダウンローダー — Facebook の動画・画像・写真をワンクリックで保存。フィード、Watch、Reels、ページ、グループ、埋め込み向けの無料 Chrome 拡張機能。",
+      "ogTitle": "Facebook 動画ダウンローダー — Chrome 拡張機能 | TGVideoDown",
+      "ogDescription": "Facebook の動画・画像・写真を保存・整理。ページ、グループ、フィード、Watch、Reels、埋め込み向けの高速無料 Chrome 拡張機能。",
+      "keywords": "facebook 動画ダウンローダー, facebook ダウンローダー, facebook 動画 ダウンロード, facebook chrome 拡張機能, facebook reels ダウンロード, facebook watch ダウンロード"
     }
   }
 }

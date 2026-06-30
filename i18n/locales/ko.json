@@ -123,7 +123,8 @@
     "help": "고객센터",
     "contact": "문의하기",
     "privacy": "개인정보 처리방침",
-    "copyright": "© {year} TGVideoDown. All rights reserved."
+    "copyright": "© {year} TGVideoDown. All rights reserved.",
+    "guideFacebook": "Facebook 동영상 다운로더"
   },
   "about": {
     "hero": {
@@ -313,6 +314,117 @@
         "title": "10. 연락처",
         "content": "본 방침에 관한 질문, 우려 또는 요청이 있으시면 다음으로 연락하세요:"
       }
+    }
+  },
+  "facebookPage": {
+    "badge": "Chrome 확장 프로그램",
+    "title": "Facebook 동영상 다운로더 — Chrome 확장 프로그램",
+    "heroLead": "Facebook 동영상 다운로더 — 동영상, 이미지, 사진을 한 번의 클릭으로 저장하고 정리하세요. 페이지, 그룹, 피드, Watch, Reels 및 임베드 플레이어용 빠르고 무료인 Chrome 확장 프로그램.",
+    "heroSub": "일상적인 브라우징을 위한 가벼운 다운로더입니다. 사이트에 명확한 다운로드 컨트롤을 추가하여 페이지를 떠나지 않고 동영상과 이미지를 저장할 수 있습니다.",
+    "ctaInstall": "Chrome 웹 스토어에서 설치",
+    "ctaGet": "Facebook 동영상 다운로더 받기",
+    "intro": "뉴스 피드, 공개 페이지, 그룹, Watch, Reels 또는 프로필 동영상 탭에서 다시 보고 싶은 콘텐츠 — 튜토리얼, 라이브 클립, 추억 등 — 을 보관하는 데 도움이 됩니다.",
+    "heroImgAlt": "Facebook 동영상 다운로더 Chrome 확장 프로그램 인터페이스",
+    "whyTitle": "이 확장 프로그램을 선택하는 이유",
+    "whyIntro": "저장할 가치가 있는 동영상이 가득합니다 — 라이브 스트림, 릴스, 가이드, 개인적인 순간. Chrome 안에서 간단한 다운로드 워크플로를 이용하세요:",
+    "whyItems": [
+      "감지된 동영상과 이미지 원클릭 저장",
+      "스크롤 시 새 미디어 자동 감지(피드, Watch, Reels 등)",
+      "주요 섹션 전반에서 작동",
+      "외부 웹사이트의 임베드 플레이어",
+      "무료 — 계정 가입 불필요"
+    ],
+    "featuresTitle": "주요 기능",
+    "videosTitle": "플랫폼 전반에서 동영상 다운로드",
+    "videosIntro": "다음에서 클립 저장:",
+    "videoSources": [
+      "프로필 및 타임라인",
+      "그룹 및 커뮤니티",
+      "공개 페이지 및 크리에이터 페이지",
+      "뉴스 피드 게시물",
+      "Watch(시청 페이지 및 동영상 게시물 포함)",
+      "Reels",
+      "사용자 동영상 라이브러리 및 동영상 퍼머링크"
+    ],
+    "imagesTitle": "이미지 및 사진 다운로드",
+    "imagesBody": "동영상 외에도 피드 게시물의 이미지 다운로드를 지원 — 게시물에 표시된 사진을 개인 참고 및 오프라인 보기용으로 저장합니다.",
+    "embeddedTitle": "임베드 동영상 지원",
+    "embeddedBody": "임베드 플레이어가 있는 사이트를 탐색 중이신가요? 확장 프로그램이 임베드 동영상을 감지하고 동일한 편리한 다운로드 작업을 제공합니다.",
+    "qualityTitle": "품질을 직접 제어",
+    "qualityIntro": "확장 프로그램 팝업에서 선호하는 동영상 품질 설정:",
+    "qualityOptions": [
+      "기본값(사용 가능한 최저 품질, 데이터 절약)",
+      "가능 시 360p / 480p / 720p / 1080p"
+    ],
+    "qualityOutro": "설정에 가장 잘 맞는 품질을 선택하여 화질과 파일 크기의 균형을 맞출 수 있습니다.",
+    "progressTitle": "명확한 다운로드 진행률",
+    "progressBody": "스트림 기반 동영상은 다운로드 버튼에 실시간 진행률 표시. 직접 다운로드는 Chrome 내장 관리자로 빠르게 시작 — 간단하고 익숙합니다.",
+    "designedTitle": "누구나 사용 가능",
+    "designedIntro": "명령줄 없음. 복잡한 설정 없음. 누구나 쓸 수 있는 무료 Chrome 확장 프로그램:",
+    "designedTags": "빠름 · 프라이버시 중심 · 사용 쉬움 · 기술 지식 불필요",
+    "whoTitle": "누구를 위한 것인가요?",
+    "whoIntro": "신뢰할 수 있는 FB 동영상 다운로더가 필요하다면:",
+    "whoItems": [
+      "흥미로운 클립을 보관하는 수집가",
+      "즐겨 찾는 소셜 콘텐츠를 정리하는 사용자",
+      "참고 자료를 모으는 크리에이터",
+      "교육 동영상을 저장하는 학생",
+      "소중한 순간을 남기는 가족"
+    ],
+    "benefitsTitle": "한눈에 보는 장점",
+    "benefitsItems": [
+      "동영상, 이미지 및 사진",
+      "피드, Watch, Reels, 페이지, 그룹 및 임베드 지원",
+      "브라우징 중 자동 감지",
+      "지원 미디어에 원클릭 버튼 주입",
+      "가능 시 최대 1080p HD 품질",
+      "경량 Manifest V3 Chrome 웹 확장 프로그램",
+      "다국어 인터페이스(광범위한 로케일 지원)"
+    ],
+    "howTitle": "사용 방법",
+    "howSteps": [
+      "Chrome 웹 스토어에서 설치",
+      "facebook.com 또는 임베드 동영상이 있는 페이지 열기",
+      "평소처럼 탐색 — 확장 프로그램이 동영상과 이미지를 스캔",
+      "원하는 항목에서 다운로드 클릭",
+      "Chrome을 통해 기기에 저장(Chrome 다운로드에서 관리)"
+    ],
+    "howTip": "팁:",
+    "howTipBody": "다운로드 전 도구 모음 팝업에서 동영상 품질을 설정하세요.",
+    "steps": {
+      "1": {
+        "alt": "Chrome 웹 스토어에서 Facebook 동영상 다운로더 설치",
+        "caption": "1단계 — 확장 프로그램 설치"
+      },
+      "2": {
+        "alt": "Facebook 탐색 및 동영상 다운로드 컨트롤",
+        "caption": "2단계 — 평소처럼 Facebook 탐색"
+      },
+      "3": {
+        "alt": "다운로드 클릭 후 기기에 저장",
+        "caption": "3단계 — 기기에 저장"
+      }
+    },
+    "privacyTitle": "개인정보 및 보안",
+    "privacyIntro": "개인정보를 염두에 두고 설계:",
+    "privacyItems": [
+      "브라우저를 통해 다운로드 처리",
+      "제3자 서버에 비밀번호 공유 불필요",
+      "Chrome을 통한 로컬 온디바이스 저장",
+      "확장 프로그램 워크플로에 숨겨진 분석 없음"
+    ],
+    "privacyOutro": "브라우징은 사용자가 통제합니다. 다운로드한 콘텐츠는 책임감 있게 사용하세요.",
+    "noticeTitle": "중요 안내",
+    "noticeBody1": "Facebook Video Downloader는 독립적인 Chrome 확장 프로그램입니다. Meta Platforms, Inc. 또는 Facebook과 제휴, 승인, 후원 관계가 없습니다.",
+    "noticeBody2": "저작권, 크리에이터 권리 및 플랫폼 이용약관을 존중하세요. 개인 용도로 저장할 권리가 있는 콘텐츠만 다운로드하세요.",
+    "storeLink": "Chrome 웹 스토어 — Facebook 동영상 다운로더",
+    "homeLink": "TGVideoDown 홈",
+    "seo": {
+      "title": "Facebook 동영상 다운로더 — Chrome 확장 프로그램 | TGVideoDown",
+      "description": "Facebook 동영상 다운로더 — Facebook 동영상, 이미지, 사진을 한 번에 저장. 피드, Watch, Reels, 페이지, 그룹 및 임베드용 무료 Chrome 확장 프로그램.",
+      "ogTitle": "Facebook 동영상 다운로더 — Chrome 확장 프로그램 | TGVideoDown",
+      "ogDescription": "Facebook 동영상, 이미지, 사진 저장 및 정리. 페이지, 그룹, 피드, Watch, Reels 및 임베드용 빠른 무료 Chrome 확장 프로그램.",
+      "keywords": "facebook 동영상 다운로더, facebook 다운로더, facebook 동영상 다운로드, facebook chrome 확장 프로그램, facebook reels 다운로드, facebook watch 다운로드"
     }
   }
 }

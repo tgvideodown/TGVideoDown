@@ -119,6 +119,7 @@
     "guideHowTo": "How to download Telegram video",
     "guideAlt": "Telegram video download guide",
     "guidePrivate": "Private / restricted videos",
+    "guideFacebook": "Facebook Video Downloader",
     "support": "Support",
     "help": "Help Center",
     "contact": "Contact Us",
@@ -313,6 +314,117 @@
         "title": "10. Contact Information",
         "content": "If you have questions, concerns, or requests related to this policy, you can contact us at:"
       }
+    }
+  },
+  "facebookPage": {
+    "badge": "Chrome extension",
+    "title": "Facebook Video Downloader — Chrome Extension",
+    "heroLead": "Facebook Video Downloader — Save and organize videos, images, and photos in one click. A fast, free, and easy-to-use Chrome extension for pages, groups, feeds, Watch, Reels, and embedded players.",
+    "heroSub": "This lightweight downloader is built for everyday browsing. It adds clear download controls directly on the site, so you can save videos and images without leaving the page.",
+    "ctaInstall": "Install from Chrome Web Store",
+    "ctaGet": "Get Facebook Video Downloader",
+    "intro": "Whether you are on your News Feed, a public page, a group, Watch, Reels, or a profile video tab, it helps you keep content you want to revisit — tutorials, live clips, memories, and more.",
+    "heroImgAlt": "Facebook Video Downloader Chrome extension interface",
+    "whyTitle": "Why Choose This Extension?",
+    "whyIntro": "The platform is full of videos worth saving — live streams, reels, how-to guides, and personal moments. You get a simple download workflow right inside Chrome:",
+    "whyItems": [
+      "One-click saving on detected videos and images",
+      "Auto-detect new media as you scroll (Feed, Watch, Reels, and more)",
+      "Works across major sections",
+      "Embedded players on external websites",
+      "Free — no account signup required"
+    ],
+    "featuresTitle": "Key Features",
+    "videosTitle": "Download Videos Across the Platform",
+    "videosIntro": "Save clips from:",
+    "videoSources": [
+      "Profiles and timelines",
+      "Groups and communities",
+      "Public pages and creator pages",
+      "News Feed posts",
+      "Watch (including watch pages and video posts)",
+      "Reels",
+      "User video libraries and video permalinks"
+    ],
+    "imagesTitle": "Download Images & Photos",
+    "imagesBody": "Beyond video, the extension also supports image download on feed posts — save photos displayed in posts for personal reference and offline viewing.",
+    "embeddedTitle": "Embedded Video Support",
+    "embeddedBody": "Browsing a site with an embedded player? The extension can detect embedded videos and offer the same convenient download action while you browse.",
+    "qualityTitle": "Quality You Control",
+    "qualityIntro": "Open the extension popup to set your preferred video quality:",
+    "qualityOptions": [
+      "Default (lowest available, saves data)",
+      "360p / 480p / 720p / 1080p when available"
+    ],
+    "qualityOutro": "It picks the best match for your setting so you can balance quality and file size.",
+    "progressTitle": "Clear Download Progress",
+    "progressBody": "For stream-based videos, see real-time progress on the download button. Direct downloads start quickly through Chrome's built-in download manager — simple and familiar.",
+    "designedTitle": "Designed for Everyone",
+    "designedIntro": "No command line. No complicated setup. A free Chrome extension anyone can use:",
+    "designedTags": "Fast · Privacy-focused · Easy to use · No technical skills required",
+    "whoTitle": "Who Is It For?",
+    "whoIntro": "Ideal if you want a reliable FB video downloader for:",
+    "whoItems": [
+      "Collectors archiving interesting clips",
+      "Users organizing favorite social content",
+      "Creators gathering reference material",
+      "Students saving educational videos",
+      "Families keeping memorable moments"
+    ],
+    "benefitsTitle": "Benefits at a Glance",
+    "benefitsItems": [
+      "Videos, images, and photos",
+      "Supports Feed, Watch, Reels, pages, groups, and embeds",
+      "Automatic detection while you browse",
+      "One-click buttons injected on supported media",
+      "Optional HD quality up to 1080p when available",
+      "Lightweight Manifest V3 Chrome web extension",
+      "Multi-language interface (wide locale support)"
+    ],
+    "howTitle": "How to Use",
+    "howSteps": [
+      "Install from the Chrome Web Store",
+      "Open facebook.com or a page with an embedded video",
+      "Browse as usual — the extension scans for videos and images",
+      "Click Download on the item you want",
+      "Files save through Chrome to your device (manage in Chrome Downloads)"
+    ],
+    "howTip": "Tip:",
+    "howTipBody": "Use the toolbar popup to set video quality before downloading.",
+    "steps": {
+      "1": {
+        "alt": "Install Facebook Video Downloader from Chrome Web Store",
+        "caption": "Step 1 — Install the extension"
+      },
+      "2": {
+        "alt": "Browse Facebook with download controls on videos",
+        "caption": "Step 2 — Browse Facebook as usual"
+      },
+      "3": {
+        "alt": "Click download and save to your device",
+        "caption": "Step 3 — Save to your device"
+      }
+    },
+    "privacyTitle": "Privacy & Security",
+    "privacyIntro": "Built with privacy in mind:",
+    "privacyItems": [
+      "Downloads handled through your browser",
+      "No requirement to share passwords with third-party servers",
+      "Designed for local, on-device saving via Chrome",
+      "No hidden analytics described in the extension workflow"
+    ],
+    "privacyOutro": "Your browsing stays in your control. Always use downloaded content responsibly.",
+    "noticeTitle": "Important Notice",
+    "noticeBody1": "Facebook Video Downloader is an independent Chrome extension. It is not affiliated with, endorsed by, or sponsored by Meta Platforms, Inc. or Facebook.",
+    "noticeBody2": "Please respect copyright, creator rights, and the platform's Terms of Service. Only download content you have the right to save for personal use.",
+    "storeLink": "Chrome Web Store — Facebook Video Downloader",
+    "homeLink": "TGVideoDown Home",
+    "seo": {
+      "title": "Facebook Video Downloader — Chrome Extension | TGVideoDown",
+      "description": "Facebook Video Downloader — save videos, images, and photos from Facebook in one click. Free Chrome extension for Feed, Watch, Reels, pages, groups, and embedded players.",
+      "ogTitle": "Facebook Video Downloader — Chrome Extension | TGVideoDown",
+      "ogDescription": "Save and organize Facebook videos, images, and photos. Fast, free Chrome extension for pages, groups, feeds, Watch, Reels, and embeds.",
+      "keywords": "facebook video downloader, facebook downloader, download facebook video, facebook chrome extension, facebook reels download, facebook watch download"
     }
   }
 }
