@@ -16,7 +16,7 @@
             :to="localePath(item.path)"
             class="text-text hover:text-primary transition-colors duration-200 cursor-pointer"
           >
-            {{ $t(item.label) }}
+            {{ item.text || $t(item.label) }}
           </NuxtLink>
         </div>
 
@@ -55,7 +55,7 @@
           @click="mobileMenuOpen = false"
           class="block py-2 text-text hover:text-primary transition-colors cursor-pointer"
         >
-          {{ $t(item.label) }}
+          {{ item.text || $t(item.label) }}
         </NuxtLink>
         <a 
           :href="extensionStoreUrl" 
@@ -80,9 +80,10 @@ const mobileMenuOpen = ref(false)
 
 const navItems = [
   { path: '/', label: 'nav.home' },
+  { path: '/telegram-video-downloader', text: 'Telegram Downloader' },
   // { path: '/features', label: 'nav.features' },
   // { path: '/pricing', label: 'nav.pricing' },
-  { path: '/about', label: 'nav.about' },
-  { path: '/how-to-download-telegram-video', label: 'nav.guideHowTo' }
+  { path: '/how-to-download-telegram-videos', label: 'nav.guideHowTo' },
+  { path: '/about', label: 'nav.about' }
 ]
 </script>

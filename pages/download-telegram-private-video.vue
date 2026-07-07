@@ -56,9 +56,11 @@
 
           <p class="pt-6 border-t border-border">
             Related:
-            <NuxtLink :to="localePath('/how-to-download-telegram-video')" class="text-primary font-semibold hover:underline">How to download Telegram video</NuxtLink>
+            <NuxtLink :to="localePath('/how-to-download-telegram-videos')" class="text-primary font-semibold hover:underline">How to download Telegram videos</NuxtLink>
             ·
-            <NuxtLink :to="localePath('/telegram-video-download-guide')" class="text-primary font-semibold hover:underline">Download guide</NuxtLink>
+            <NuxtLink :to="localePath('/telegram-video-downloader-chrome-extension-guide')" class="text-primary font-semibold hover:underline">Chrome extension guide</NuxtLink>
+            ·
+            <NuxtLink :to="localePath('/download-telegram-files-without-login')" class="text-primary font-semibold hover:underline">Download files without login</NuxtLink>
             ·
             <NuxtLink :to="localePath('/download')" class="text-primary font-semibold hover:underline">Install</NuxtLink>
           </p>

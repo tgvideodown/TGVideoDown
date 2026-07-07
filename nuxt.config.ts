@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   routeRules: {
-    '/how-to-download-telegram-videos': { redirect: '/how-to-download-telegram-video' }
+    '/how-to-download-telegram-video': { redirect: '/how-to-download-telegram-videos' },
+    '/telegram-video-download-guide': { redirect: '/telegram-video-downloader-chrome-extension-guide' }
   },
 
   runtimeConfig: {
@@ -72,11 +73,11 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'TGVideoDown - Download Telegram Videos',
+      title: 'Telegram Video Downloader - Download Telegram Videos with TGVideoDown',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Companion site for the Telegram Media Downloader Chrome extension — install from the Chrome Web Store.' }
+        { name: 'description', content: 'TGVideoDown is a Telegram Video Downloader Chrome extension for saving Telegram videos, files, images, and audio. Fast, lightweight, privacy-minded, and no login on this site.' }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

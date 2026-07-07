@@ -69,11 +69,13 @@
             files (including 1GB+) are supported when your connection allows. For more context see
             <NuxtLink :to="localePath('/download-telegram-private-video')" class="text-primary font-semibold hover:underline">private / restricted videos</NuxtLink>
             and the
-            <NuxtLink :to="localePath('/telegram-video-download-guide')" class="text-primary font-semibold hover:underline">download guide</NuxtLink>.
+            <NuxtLink :to="localePath('/telegram-video-downloader-chrome-extension-guide')" class="text-primary font-semibold hover:underline">Chrome extension guide</NuxtLink>.
           </p>
 
           <p class="pt-6 border-t border-border">
             <a :href="extensionStoreUrl" target="_blank" rel="noopener noreferrer" class="text-primary font-semibold hover:underline">Chrome Web Store — TGVideoDown</a>
+            ·
+            <NuxtLink :to="localePath('/telegram-video-downloader')" class="text-primary font-semibold hover:underline">Telegram Video Downloader</NuxtLink>
             ·
             <NuxtLink :to="localePath('/download')" class="text-primary font-semibold hover:underline">Install page</NuxtLink>
             ·
@@ -93,13 +95,13 @@ const config = useRuntimeConfig()
 const extensionStoreUrl = config.public.extensionStoreUrl
 const localePath = useLocalePath()
 const siteUrl = config.public.siteUrl
-const canonical = `${siteUrl}/how-to-download-telegram-video`
+const canonical = `${siteUrl}/how-to-download-telegram-videos`
 
 useSeoMeta({
-  title: 'How to Download Telegram Video | Chrome Extension Tutorial',
+  title: 'How to Download Telegram Videos - TGVideoDown Guide',
   description:
     'Companion tutorial for Telegram Media Downloader: install the Chrome extension, use Telegram Web, save videos and files locally. No online downloader on this site.',
-  ogTitle: 'How to Download Telegram Video',
+  ogTitle: 'How to Download Telegram Videos',
   ogDescription: 'Step-by-step for the TGVideoDown Chrome extension — companion site, not an online parser.',
   ogUrl: canonical
 })

@@ -47,12 +47,18 @@
           <h2 class="text-2xl font-heading font-bold text-text pt-4">More articles</h2>
           <p>
             Step-by-step:
-            <NuxtLink :to="localePath('/how-to-download-telegram-video')" class="text-primary font-semibold hover:underline">How to download Telegram video</NuxtLink>.
+            <NuxtLink :to="localePath('/how-to-download-telegram-videos')" class="text-primary font-semibold hover:underline">How to download Telegram videos</NuxtLink>.
             Private or restricted contexts:
             <NuxtLink :to="localePath('/download-telegram-private-video')" class="text-primary font-semibold hover:underline">Private video notes</NuxtLink>.
+            No site account:
+            <NuxtLink :to="localePath('/download-telegram-files-without-login')" class="text-primary font-semibold hover:underline">Download Telegram files without login</NuxtLink>.
           </p>
 
           <p class="pt-6 border-t border-border">
+            <NuxtLink :to="localePath('/telegram-video-downloader')" class="text-primary font-semibold hover:underline">Telegram Video Downloader</NuxtLink>
+            ·
+            <NuxtLink :to="localePath('/telegram-video-downloader-chrome-extension-guide')" class="text-primary font-semibold hover:underline">Chrome extension guide</NuxtLink>
+            ·
             <NuxtLink :to="localePath('/download')" class="text-primary font-semibold hover:underline">Install page</NuxtLink>
             ·
             <NuxtLink :to="localePath('/')" class="text-primary font-semibold hover:underline">Home</NuxtLink>
@@ -70,13 +76,13 @@ const config = useRuntimeConfig()
 const extensionStoreUrl = config.public.extensionStoreUrl
 const localePath = useLocalePath()
 const siteUrl = config.public.siteUrl
-const canonical = `${siteUrl}/telegram-video-download-guide`
+const canonical = `${siteUrl}/telegram-video-downloader-chrome-extension-guide`
 
 useSeoMeta({
-  title: 'Telegram Video Download Guide | TGVideoDown Extension',
+  title: 'Telegram Video Downloader Chrome Extension Guide | TGVideoDown',
   description:
     'Overview of Telegram Media Downloader: Chrome extension for Telegram video and media — companion site, no online parser.',
-  ogTitle: 'Telegram Video Download Guide',
+  ogTitle: 'Telegram Video Downloader Chrome Extension Guide',
   ogDescription: 'TGVideoDown companion site and Chrome extension overview.',
   ogUrl: canonical
 })

@@ -40,13 +40,23 @@
           <h3 class="font-heading font-semibold mb-4">{{ $t('footer.guides') }}</h3>
           <ul class="space-y-2">
             <li>
-              <NuxtLink :to="localePath('/how-to-download-telegram-video')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+              <NuxtLink :to="localePath('/telegram-video-downloader')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                Telegram Video Downloader
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink :to="localePath('/how-to-download-telegram-videos')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
                 {{ $t('footer.guideHowTo') }}
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink :to="localePath('/telegram-video-download-guide')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                {{ $t('footer.guideAlt') }}
+              <NuxtLink :to="localePath('/telegram-video-downloader-chrome-extension-guide')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                Chrome extension guide
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink :to="localePath('/download-telegram-files-without-login')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                Download Telegram files without login
               </NuxtLink>
             </li>
             <li>
