@@ -125,6 +125,17 @@
         <NuxtLink :to="localePath('/')" class="btn-secondary bg-white text-primary hover:bg-gray-100 inline-block">
           {{ $t('about.cta.button') }}
         </NuxtLink>
+        <div class="mt-8 text-primary-100">
+          <p class="mb-2 text-sm font-semibold uppercase tracking-wide">
+            {{ $t('footer.contact') }}
+          </p>
+          <a
+            :href="`mailto:${contactEmail}`"
+            class="inline-flex min-h-11 items-center justify-center rounded-lg bg-white/10 px-4 py-2 text-base font-semibold text-white transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary"
+          >
+            {{ contactEmail }}
+          </a>
+        </div>
       </div>
     </section>
   </div>
@@ -132,6 +143,7 @@
 
 <script setup>
 const localePath = useLocalePath()
+const contactEmail = 'leorock8808@gmail.com'
 
 const values = [
   {

@@ -81,6 +81,7 @@ const mobileMenuOpen = ref(false)
 const navItems = [
   { path: '/', label: 'nav.home' },
   { path: '/telegram-video-downloader', text: 'Telegram Downloader' },
+  { path: '/blog', text: 'Blog' },
   // { path: '/features', label: 'nav.features' },
   // { path: '/pricing', label: 'nav.pricing' },
   { path: '/how-to-download-telegram-videos', label: 'nav.guideHowTo' },

@@ -3,8 +3,18 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   routeRules: {
-    '/how-to-download-telegram-video': { redirect: '/how-to-download-telegram-videos' },
-    '/telegram-video-download-guide': { redirect: '/telegram-video-downloader-chrome-extension-guide' }
+    '/how-to-download-telegram-video': {
+      redirect: { to: '/how-to-download-telegram-videos', statusCode: 301 }
+    },
+    '/telegram-video-download-guide': {
+      redirect: { to: '/blog/telegram-video-downloader-guide', statusCode: 301 }
+    },
+    '/telegram-video-downloader-guide': {
+      redirect: { to: '/blog/telegram-video-downloader-guide', statusCode: 301 }
+    },
+    '/download-telegram-private-video': {
+      redirect: { to: '/download-telegram-private-channel-video', statusCode: 301 }
+    }
   },
 
   runtimeConfig: {

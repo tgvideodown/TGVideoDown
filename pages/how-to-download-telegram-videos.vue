@@ -1,49 +1,58 @@
 <template>
-  <div class="pt-16 bg-white">
+  <div class="pt-16 bg-white" :dir="common.dir">
     <article class="section-padding">
       <div class="container-custom max-w-3xl">
         <header class="mb-12 text-center">
-          <p class="mb-3 text-sm font-semibold uppercase tracking-wide text-primary">Tutorial</p>
+          <p class="mb-3 text-sm font-semibold uppercase tracking-wide text-primary">{{ page.eyebrow }}</p>
           <h1 class="mb-6 text-3xl font-heading font-bold leading-tight text-text md:text-5xl">
-            How to Download Telegram Videos
+            {{ page.title }}
           </h1>
           <p class="text-lg leading-relaxed text-gray-700">
-            This guide shows how to download Telegram videos with TGVideoDown, a Telegram Video Downloader Chrome extension.
-            The site does not ask you to paste private links or create an account. You install the extension, open Telegram Web,
-            and save videos locally from Chrome.
+            {{ page.intro }}
           </p>
           <p class="mt-4 text-sm text-gray-500">
-            Updated <time datetime="2026-07-07">July 7, 2026</time>
+            {{ common.updated }} <time :datetime="common.dateMachine">{{ common.dateText }}</time>
           </p>
         </header>
 
         <figure class="mb-10 overflow-hidden rounded-lg border border-border bg-white shadow-sm">
           <img
             :src="imgInstall"
-            alt="Install TGVideoDown from the Chrome Web Store"
+            :alt="page.imageAlt"
             class="h-auto w-full object-contain"
             width="800"
             height="450"
           />
           <figcaption class="border-t border-border bg-gray-50 px-4 py-3 text-sm text-gray-600">
-            Start with the Chrome Web Store listing, then use the extension while browsing Telegram Web.
+            {{ page.caption }}
           </figcaption>
         </figure>
 
+        <div class="mb-10">
+          <ArticleInstallCta
+            :title="page.ctaTitle"
+            :description="page.ctaDescription"
+            :primary-label="common.installStore"
+            :secondary-label="page.ctaSecondary"
+            secondary-path="/blog/telegram-video-downloader-guide"
+          />
+        </div>
+
         <div class="space-y-8 text-gray-700">
           <section>
-            <h2 class="mb-3 text-2xl font-heading font-bold text-text">Before you start</h2>
-            <p class="leading-relaxed">
-              Make sure you are using Chrome on desktop and that the Telegram video is content you are allowed to save.
-              For private chats, channels, or groups, sign in only through official Telegram Web. TGVideoDown does not need
-              a separate website login.
-            </p>
+            <h2 class="mb-3 text-2xl font-heading font-bold text-text">{{ page.quickTitle }}</h2>
+            <p class="leading-relaxed">{{ page.quickText }}</p>
           </section>
 
           <section>
-            <h2 class="mb-4 text-2xl font-heading font-bold text-text">Step-by-step download workflow</h2>
+            <h2 class="mb-3 text-2xl font-heading font-bold text-text">{{ page.beforeTitle }}</h2>
+            <p class="leading-relaxed">{{ page.beforeText }}</p>
+          </section>
+
+          <section>
+            <h2 class="mb-4 text-2xl font-heading font-bold text-text">{{ page.stepsTitle }}</h2>
             <ol class="space-y-4">
-              <li v-for="step in steps" :key="step.title" class="rounded-lg border border-border bg-white p-5 shadow-sm">
+              <li v-for="step in page.steps" :key="step.title" class="rounded-lg border border-border bg-white p-5 shadow-sm">
                 <p class="mb-2 text-sm font-semibold text-primary">{{ step.number }}</p>
                 <h3 class="mb-2 text-lg font-heading font-semibold text-text">{{ step.title }}</h3>
                 <p class="leading-relaxed">{{ step.description }}</p>
@@ -52,51 +61,39 @@
           </section>
 
           <section>
-            <h2 class="mb-3 text-2xl font-heading font-bold text-text">Download one video or many files</h2>
-            <p class="leading-relaxed">
-              TGVideoDown is designed for simple single downloads and batch selection when supported media is detected.
-              That makes it useful when a Telegram channel has multiple videos, images, audio files, or documents you need
-              to organize locally.
-            </p>
+            <h2 class="mb-3 text-2xl font-heading font-bold text-text">{{ page.multiTitle }}</h2>
+            <p class="leading-relaxed">{{ page.multiText }}</p>
           </section>
 
           <figure class="overflow-hidden rounded-lg border border-border bg-white shadow-sm">
             <img
               :src="imgWorkflow"
-              alt="Use TGVideoDown with Telegram Web in Chrome"
+              :alt="page.workflowAlt"
               class="h-auto w-full object-contain"
               loading="lazy"
               width="800"
               height="450"
             />
             <figcaption class="border-t border-border bg-gray-50 px-4 py-3 text-sm text-gray-600">
-              The downloader workflow happens in Chrome while Telegram Web is open.
+              {{ page.workflowCaption }}
             </figcaption>
           </figure>
 
           <section>
-            <h2 class="mb-3 text-2xl font-heading font-bold text-text">Safety notes</h2>
-            <p class="leading-relaxed">
-              Avoid websites that ask for your Telegram password or claim to unlock content you cannot access. Use TGVideoDown
-              for personal backup and organization, respect copyright, and follow the rules of the Telegram groups or channels
-              you belong to.
-            </p>
+            <h2 class="mb-3 text-2xl font-heading font-bold text-text">{{ page.safetyTitle }}</h2>
+            <p class="leading-relaxed">{{ page.safetyText }}</p>
           </section>
 
           <section class="rounded-lg border border-primary/20 bg-primary-50/60 p-5">
-            <h2 class="mb-3 text-2xl font-heading font-bold text-text">Next reads</h2>
+            <h2 class="mb-3 text-2xl font-heading font-bold text-text">{{ page.relatedTitle }}</h2>
             <div class="grid gap-3 sm:grid-cols-2">
-              <NuxtLink :to="localePath('/telegram-video-downloader')" class="font-semibold text-primary hover:underline">
-                Telegram Video Downloader
-              </NuxtLink>
-              <NuxtLink :to="localePath('/telegram-video-downloader-chrome-extension-guide')" class="font-semibold text-primary hover:underline">
-                Chrome extension guide
-              </NuxtLink>
-              <NuxtLink :to="localePath('/download-telegram-files-without-login')" class="font-semibold text-primary hover:underline">
-                Download files without login
-              </NuxtLink>
-              <NuxtLink :to="localePath('/download-telegram-private-video')" class="font-semibold text-primary hover:underline">
-                Private and restricted videos
+              <NuxtLink
+                v-for="article in page.relatedLinks"
+                :key="article.path"
+                :to="localePath(article.path)"
+                class="font-semibold text-primary hover:underline"
+              >
+                {{ article.title }}
               </NuxtLink>
             </div>
           </section>
@@ -107,72 +104,45 @@
 </template>
 
 <script setup>
+import { getTelegramPageLocaleContent } from '~/data/telegramArticleLocaleContent'
 import imgInstall from '~/assets/8.png'
 import imgWorkflow from '~/assets/11.png'
 
 const config = useRuntimeConfig()
 const localePath = useLocalePath()
+const { locale } = useI18n()
 const siteUrl = config.public.siteUrl
-const extensionStoreUrl = config.public.extensionStoreUrl
-const canonical = `${siteUrl}/how-to-download-telegram-videos`
 
-const steps = [
-  {
-    number: 'Step 1',
-    title: 'Install TGVideoDown in Chrome',
-    description: 'Open the Chrome Web Store listing and add the Telegram Video Downloader extension to Chrome.'
-  },
-  {
-    number: 'Step 2',
-    title: 'Open Telegram Web',
-    description: 'Go to official Telegram Web in Chrome and open the chat, channel, or group where the video appears.'
-  },
-  {
-    number: 'Step 3',
-    title: 'Choose the video or files',
-    description: 'Use the extension controls to select the Telegram video, image, audio, or file you want to save.'
-  },
-  {
-    number: 'Step 4',
-    title: 'Save locally',
-    description: 'Download to your computer through Chrome, using single or batch selection when available.'
-  }
-]
+const content = computed(() => getTelegramPageLocaleContent(locale.value))
+const page = computed(() => content.value.howTo)
+const common = computed(() => content.value.common)
+const canonical = computed(() => `${siteUrl}${localePath(page.value.path)}`)
 
 useSeoMeta({
-  title: 'How to Download Telegram Videos - TGVideoDown Guide',
-  description:
-    'Learn how to download Telegram videos with TGVideoDown, a Telegram Video Downloader Chrome extension. Install, open Telegram Web, select videos or files, and save locally.',
-  ogTitle: 'How to Download Telegram Videos',
-  ogDescription:
-    'Step-by-step guide for downloading Telegram videos and files with the TGVideoDown Chrome extension.',
-  ogUrl: canonical,
+  title: () => page.value.seoTitle,
+  description: () => page.value.seoDescription,
+  ogTitle: () => page.value.ogTitle,
+  ogDescription: () => page.value.ogDescription,
+  ogUrl: () => canonical.value,
   twitterCard: 'summary_large_image',
-  keywords:
-    'how to download telegram videos, download telegram video, telegram video downloader, TGVideoDown, telegram chrome extension'
+  keywords: () => page.value.keywords
 })
 
-useHead({
-  link: [{ rel: 'canonical', href: canonical }],
+useHead(() => ({
+  htmlAttrs: { dir: common.value.dir },
+  link: [{ rel: 'canonical', href: canonical.value }],
   script: [
     {
       type: 'application/ld+json',
       children: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',
-        headline: 'How to Download Telegram Videos',
-        description:
-          'Step-by-step guide for downloading Telegram videos with the TGVideoDown Chrome extension.',
-        author: {
-          '@type': 'Organization',
-          name: 'TGVideoDown'
-        },
-        publisher: {
-          '@type': 'Organization',
-          name: 'TGVideoDown'
-        },
-        dateModified: '2026-07-07',
-        mainEntityOfPage: canonical
+        headline: page.value.title,
+        description: page.value.seoDescription,
+        author: { '@type': 'Organization', name: 'TGVideoDown' },
+        publisher: { '@type': 'Organization', name: 'TGVideoDown' },
+        dateModified: common.value.dateMachine,
+        mainEntityOfPage: canonical.value
       })
     },
     {
@@ -180,18 +150,13 @@ useHead({
       children: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'HowTo',
-        name: 'How to Download Telegram Videos',
+        name: page.value.title,
         totalTime: 'PT3M',
-        tool: [
-          {
-            '@type': 'HowToTool',
-            name: 'TGVideoDown Chrome Extension'
-          }
-        ],
-        step: steps.map((step) => ({
+        tool: [{ '@type': 'HowToTool', name: 'TGVideoDown Chrome Extension' }],
+        step: page.value.steps.map((item) => ({
           '@type': 'HowToStep',
-          name: step.title,
-          text: step.description
+          name: item.title,
+          text: item.description
         }))
       })
     },
@@ -201,27 +166,17 @@ useHead({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          {
-            '@type': 'ListItem',
-            position: 1,
-            name: 'Home',
-            item: siteUrl
-          },
+          { '@type': 'ListItem', position: 1, name: common.value.home, item: `${siteUrl}${localePath('/')}` },
           {
             '@type': 'ListItem',
             position: 2,
-            name: 'Telegram Video Downloader',
-            item: `${siteUrl}/telegram-video-downloader`
+            name: content.value.articles.downloader.title,
+            item: `${siteUrl}${localePath(content.value.articles.downloader.path)}`
           },
-          {
-            '@type': 'ListItem',
-            position: 3,
-            name: 'How to Download Telegram Videos',
-            item: canonical
-          }
+          { '@type': 'ListItem', position: 3, name: page.value.title, item: canonical.value }
         ]
       })
     }
   ]
-})
+}))
 </script>

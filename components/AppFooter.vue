@@ -32,6 +32,11 @@
                 {{ $t('nav.about') }}
               </NuxtLink>
             </li>
+            <li>
+              <NuxtLink :to="localePath('/blog')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                Blog
+              </NuxtLink>
+            </li>
           </ul>
         </div>
 
@@ -50,8 +55,18 @@
               </NuxtLink>
             </li>
             <li>
+              <NuxtLink :to="localePath('/blog/telegram-video-downloader-guide')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                Telegram video downloader guide
+              </NuxtLink>
+            </li>
+            <li>
               <NuxtLink :to="localePath('/telegram-video-downloader-chrome-extension-guide')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
                 Chrome extension guide
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink :to="localePath('/telegram-web-download-files')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                Telegram Web download files
               </NuxtLink>
             </li>
             <li>
@@ -60,8 +75,13 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink :to="localePath('/download-telegram-private-video')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                {{ $t('footer.guidePrivate') }}
+              <NuxtLink :to="localePath('/download-telegram-private-channel-video')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                Private channel video
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink :to="localePath('/telegram-vs-whatsapp-media-download')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                Telegram vs WhatsApp media
               </NuxtLink>
             </li>
             <li>
