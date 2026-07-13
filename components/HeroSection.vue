@@ -1,5 +1,5 @@
 <template>
-  <section class="relative pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden">
+  <section class="relative pt-10 pb-10 md:pt-12 md:pb-12 overflow-hidden">
     <!-- Background Gradient -->
     <div class="absolute inset-0 bg-gradient-to-br from-primary-50 via-white to-cta-50 opacity-50"></div>
     
