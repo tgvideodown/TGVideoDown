@@ -2,6 +2,8 @@ import { getBlogLocaleContent } from './blogLocaleContent.js'
 
 export const telegramPagePaths = {
   downloader: '/telegram-video-downloader',
+  extensionLanding: '/telegram-video-downloader-extension',
+  chromeLanding: '/telegram-video-downloader-chrome',
   mainGuide: '/blog/telegram-video-downloader-guide',
   howTo: '/how-to-download-telegram-videos',
   extensionGuide: '/telegram-video-downloader-chrome-extension-guide',
@@ -44,6 +46,8 @@ const en = {
   },
   titles: {
     downloader: 'Telegram Video Downloader',
+    extensionLanding: 'Telegram Video Downloader Extension',
+    chromeLanding: 'Telegram Video Downloader Chrome',
     mainGuide: 'Telegram Video Downloader Guide',
     howTo: 'How to Download Telegram Videos',
     extensionGuide: 'Telegram Video Downloader Chrome Extension Guide',
@@ -55,6 +59,10 @@ const en = {
   descriptions: {
     downloader:
       'TGVideoDown helps you download Telegram videos, files, images, audio, and GIFs from Telegram Web in Chrome with no TGVideoDown account login.',
+    extensionLanding:
+      'Use TGVideoDown as a Telegram video downloader extension for Chrome. Save Telegram videos, photos, audio, and files with single and batch downloads.',
+    chromeLanding:
+      'Download Telegram videos on Chrome with TGVideoDown. Install the free extension, open Telegram Web, select media, and save videos or files locally.',
     noLogin:
       'You do not need a TGVideoDown account to download Telegram files with the Chrome extension. Private Telegram files still use official Telegram Web access.'
   },
@@ -102,7 +110,19 @@ const en = {
     whatCanDownload: 'What you can download',
     noLoginWorkflow: 'No-login workflow',
     whyPasswordForm: 'Why this is better than a password form',
-    bestPractices: 'Best practices'
+    bestPractices: 'Best practices',
+    builtForChromeUsers: 'Built for Telegram users on Chrome',
+    whyExtensionLanding: 'Why use a downloader extension?',
+    supportedMedia: 'Supported Telegram media',
+    singleBatchDownloads: 'Single and batch downloads',
+    installSteps: 'How to install and use it',
+    extensionVsOnline: 'Extension workflow vs online downloader',
+    chromeHowTitle: 'How to download Telegram videos on Chrome?',
+    chromeUseCases: 'Where the Chrome workflow fits',
+    extensionFaq: 'Telegram Video Downloader Extension FAQ',
+    chromeFaq: 'Telegram Video Downloader Chrome FAQ',
+    extensionPage: 'Extension page',
+    chromePage: 'Chrome page'
   },
   body: {
     downloaderIntro:
@@ -171,6 +191,30 @@ const en = {
       'TGVideoDown works in Chrome while you browse Telegram Web. The companion site does not require an account.',
     noLoginWhy:
       'A third-party website that asks for your Telegram password creates unnecessary risk. A Chrome extension workflow lets Telegram Web handle access while TGVideoDown focuses on local saving.',
+    extensionLandingIntro:
+      'TGVideoDown is a Chrome extension built for people who want a Telegram video downloader extension without using a paste-link downloader. Install it once, open Telegram Web, and save supported videos, photos, audio, and files from Chrome.',
+    extensionLandingCaption:
+      'Use the extension inside Chrome while Telegram Web is open, instead of uploading links to a third-party downloader site.',
+    extensionLandingWhy:
+      'A browser extension fits Telegram because many videos and files are visible inside your Telegram Web session. TGVideoDown keeps access in official Telegram Web and focuses on local saving in Chrome.',
+    extensionLandingBatch:
+      'Use a single download when you only need one Telegram video, or use batch selection when multiple supported media items are available. This helps with channels, saved messages, and media-heavy chats.',
+    extensionLandingVsOnline:
+      'Online Telegram downloaders usually depend on public links or server-side parsing. TGVideoDown keeps the workflow in the browser: Telegram Web handles access, and the companion website does not process your Telegram links.',
+    extensionLandingCtaTitle: 'Install the Telegram downloader extension',
+    extensionLandingCtaDescription:
+      'Add TGVideoDown to Chrome, open Telegram Web, and save Telegram videos or files you are allowed to keep.',
+    chromeLandingIntro:
+      'Use TGVideoDown when you want a Telegram video downloader for Chrome. The workflow is simple: install the free extension, open Telegram Web in Chrome, choose the media, and download it locally.',
+    chromeLandingCaption:
+      'The Chrome workflow starts with the extension, then continues inside Telegram Web.',
+    chromeLandingHow:
+      'Chrome is the best desktop place for this workflow because the extension can work while Telegram Web is already open. You do not need to paste Telegram links into this website.',
+    chromeLandingUseCases:
+      'This page focuses on the Chrome workflow: install the extension, open Telegram Web, select a video or file, and save it locally. For broader product features, use the extension page.',
+    chromeLandingCtaTitle: 'Download Telegram videos on Chrome',
+    chromeLandingCtaDescription:
+      'Install TGVideoDown, open Telegram Web in Chrome, and download Telegram videos, photos, audio, or files that are visible to your account.',
     extensionIntro:
       'TGVideoDown is built for users who want a clear Chrome extension workflow for saving Telegram videos and files. This guide explains setup, scope, privacy, and troubleshooting.',
     extensionWhat:
@@ -284,6 +328,20 @@ const en = {
     telegramStrengths: ['Channels and archives', 'Desktop-friendly saving', 'Multiple file types', 'Batch organization'],
     whatsappStrengths: ['Simple personal chats', 'Built-in manual saves', 'Phone-first behavior', 'Different tool category'],
     extensionFeatureTitles: ['Video and file saving', 'Batch workflow', 'No site-side parser', 'Clear product scope'],
+    extensionLandingFeatures: [
+      'Telegram video downloader extension',
+      'Videos, photos, audio, and files',
+      'Single and batch downloads',
+      'No TGVideoDown account required',
+      'Works with Telegram Web in Chrome',
+      'Built for personal organization'
+    ],
+    chromeLandingUseCases: [
+      'Download Telegram videos on desktop Chrome',
+      'Save media from Telegram Web chats and channels',
+      'Use one workflow for videos, photos, audio, and files',
+      'Avoid paste-link downloader forms'
+    ],
     troubleshooting: [
       {
         problem: 'The download button does not appear',
@@ -358,6 +416,42 @@ const en = {
       {
         question: 'Can I download private Telegram media?',
         answer: 'Only media you can already access in official Telegram Web and are allowed to save. TGVideoDown cannot bypass permissions.'
+      }
+    ],
+    extensionLanding: [
+      {
+        question: 'What is a Telegram video downloader extension?',
+        answer: 'It is a browser extension that helps save supported Telegram videos and media while you use Telegram Web in Chrome.'
+      },
+      {
+        question: 'Does TGVideoDown support more than videos?',
+        answer: 'Yes. TGVideoDown is built for Telegram videos, photos, audio, GIFs, documents, and other supported files visible in Telegram Web.'
+      },
+      {
+        question: 'Can I batch download Telegram media?',
+        answer: 'Yes. TGVideoDown supports single downloads and batch selection when supported Telegram media is detected.'
+      },
+      {
+        question: 'Do I need a TGVideoDown account?',
+        answer: 'No. You do not need a TGVideoDown website account. Private Telegram access still belongs to official Telegram Web.'
+      }
+    ],
+    chromeLanding: [
+      {
+        question: 'How do I download Telegram videos on Chrome?',
+        answer: 'Install TGVideoDown from the Chrome Web Store, open Telegram Web in Chrome, select the Telegram video, and use the extension to save it locally.'
+      },
+      {
+        question: 'Is TGVideoDown a Chrome extension?',
+        answer: 'Yes. TGVideoDown is a Chrome extension for saving Telegram media from Telegram Web.'
+      },
+      {
+        question: 'Can it download Telegram files without login on this site?',
+        answer: 'Yes. TGVideoDown does not require a website login. Private Telegram content may still require official Telegram Web sign-in.'
+      },
+      {
+        question: 'Does the Chrome workflow support batch downloads?',
+        answer: 'Yes. Batch selection is supported when multiple compatible Telegram media items are available in the extension workflow.'
       }
     ]
   }
@@ -878,6 +972,65 @@ const titleOnlyLocales = Object.fromEntries(
 
 Object.assign(localePacks, titleOnlyLocales)
 
+const landingTitleOverrides = {
+  cn: {
+    extensionLanding: 'Telegram 视频下载器扩展',
+    chromeLanding: 'Telegram 视频下载器 Chrome'
+  },
+  tw: {
+    extensionLanding: 'Telegram 影片下載器擴充功能',
+    chromeLanding: 'Telegram 影片下載器 Chrome'
+  },
+  ja: {
+    extensionLanding: 'Telegram 動画ダウンローダー拡張機能',
+    chromeLanding: 'Telegram 動画ダウンローダー Chrome'
+  },
+  ko: {
+    extensionLanding: 'Telegram 동영상 다운로더 확장 프로그램',
+    chromeLanding: 'Telegram 동영상 다운로더 Chrome'
+  },
+  es: {
+    extensionLanding: 'Extensión para descargar videos de Telegram',
+    chromeLanding: 'Telegram Video Downloader Chrome'
+  },
+  de: {
+    extensionLanding: 'Telegram Video Downloader Erweiterung',
+    chromeLanding: 'Telegram Video Downloader Chrome'
+  },
+  fr: {
+    extensionLanding: 'Extension de téléchargement vidéo Telegram',
+    chromeLanding: 'Telegram Video Downloader Chrome'
+  },
+  id: {
+    extensionLanding: 'Ekstensi Pengunduh Video Telegram',
+    chromeLanding: 'Telegram Video Downloader Chrome'
+  },
+  ar: {
+    extensionLanding: 'إضافة تنزيل فيديو Telegram',
+    chromeLanding: 'تنزيل فيديو Telegram على Chrome'
+  },
+  pt: {
+    extensionLanding: 'Extensão para baixar vídeos do Telegram',
+    chromeLanding: 'Telegram Video Downloader Chrome'
+  },
+  tr: {
+    extensionLanding: 'Telegram Video İndirici Uzantısı',
+    chromeLanding: 'Telegram Video Downloader Chrome'
+  },
+  it: {
+    extensionLanding: 'Estensione downloader video Telegram',
+    chromeLanding: 'Telegram Video Downloader Chrome'
+  },
+  vi: {
+    extensionLanding: 'Tiện ích tải video Telegram',
+    chromeLanding: 'Telegram Video Downloader Chrome'
+  },
+  ru: {
+    extensionLanding: 'Расширение для скачивания видео Telegram',
+    chromeLanding: 'Telegram Video Downloader Chrome'
+  }
+}
+
 const useGuideDerivedCopy = (pack, blog, locale) => {
   if (locale === 'en' || locale === 'cn') {
     return pack
@@ -1042,6 +1195,70 @@ const useGuideDerivedCopy = (pack, blog, locale) => {
   })
 }
 
+const useLandingDerivedCopy = (pack, blog, locale) => {
+  if (locale === 'en') {
+    return pack
+  }
+
+  const guide = blog.guide
+  const useCases = guide.useCases?.length ? guide.useCases : en.guide?.useCases || []
+  const troubleshooting = guide.troubleshooting?.length ? guide.troubleshooting : en.lists.troubleshooting
+  const faqs = guide.faqs?.length ? guide.faqs : en.faqs.downloader
+  const titles = landingTitleOverrides[locale] || {}
+  const extensionTitle = titles.extensionLanding || `${pack.titles.downloader} Extension`
+  const chromeTitle = titles.chromeLanding || `${pack.titles.downloader} Chrome`
+  const listTitles = useCases.map((item) => item.title).filter(Boolean)
+  const listDescriptions = useCases.map((item) => item.description).filter(Boolean)
+
+  return mergeDeep(pack, {
+    titles: {
+      extensionLanding: extensionTitle,
+      chromeLanding: chromeTitle
+    },
+    descriptions: {
+      extensionLanding: guide.whatText,
+      chromeLanding: guide.quickText
+    },
+    labels: {
+      builtForChromeUsers: guide.eyebrow,
+      whyExtensionLanding: guide.whyTitle,
+      supportedMedia: guide.useCasesTitle,
+      singleBatchDownloads: listTitles[3] || guide.useCasesTitle,
+      installSteps: guide.howTitle,
+      extensionVsOnline: guide.whyTitle,
+      chromeHowTitle: guide.howTitle,
+      chromeUseCases: guide.useCasesTitle,
+      extensionFaq: `${extensionTitle} FAQ`,
+      chromeFaq: `${chromeTitle} FAQ`,
+      extensionPage: extensionTitle,
+      chromePage: chromeTitle
+    },
+    body: {
+      extensionLandingIntro: guide.intro,
+      extensionLandingCaption: guide.caption,
+      extensionLandingWhy: guide.whyText,
+      extensionLandingBatch: listDescriptions.join(' '),
+      extensionLandingVsOnline: guide.whyText,
+      extensionLandingCtaTitle: guide.ctaTitle,
+      extensionLandingCtaDescription: guide.ctaDescription,
+      chromeLandingIntro: guide.quickText,
+      chromeLandingCaption: guide.caption,
+      chromeLandingHow: guide.quickText,
+      chromeLandingUseCases: guide.whatText,
+      chromeLandingCtaTitle: guide.ctaTitle,
+      chromeLandingCtaDescription: guide.ctaDescription
+    },
+    lists: {
+      extensionLandingFeatures: listTitles.length ? listTitles : pack.lists.extensionLandingFeatures,
+      chromeLandingUseCases: listDescriptions.length ? listDescriptions : troubleshooting.map((item) => item.solution)
+    },
+    faqs: {
+      extensionLanding: faqs,
+      chromeLanding: faqs
+    }
+  })
+}
+
 const getBlogArticle = (blog, path, fallback) => {
   const article = blog.index.articles.find((item) => item.path === path)
   return {
@@ -1079,13 +1296,23 @@ const makeComparisonRows = (pack) =>
 
 export const getTelegramPageLocaleContent = (locale = 'en') => {
   const blog = getBlogLocaleContent(locale)
-  const pack = useGuideDerivedCopy(mergeDeep(en, localePacks[locale] || {}), blog, locale)
+  const pack = useLandingDerivedCopy(useGuideDerivedCopy(mergeDeep(en, localePacks[locale] || {}), blog, locale), blog, locale)
 
   const articles = {
     downloader: {
       title: pack.titles.downloader,
       path: telegramPagePaths.downloader,
       description: pack.descriptions.downloader
+    },
+    extensionLanding: {
+      title: pack.titles.extensionLanding,
+      path: telegramPagePaths.extensionLanding,
+      description: pack.descriptions.extensionLanding
+    },
+    chromeLanding: {
+      title: pack.titles.chromeLanding,
+      path: telegramPagePaths.chromeLanding,
+      description: pack.descriptions.chromeLanding
     },
     mainGuide: getBlogArticle(blog, telegramPagePaths.mainGuide, {
       title: pack.titles.mainGuide,
@@ -1119,6 +1346,8 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
   }
 
   const guideArticles = [
+    articles.extensionLanding,
+    articles.chromeLanding,
     articles.mainGuide,
     articles.howTo,
     articles.extensionGuide,
@@ -1134,6 +1363,95 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       dateMachine: pageDate
     },
     articles,
+    extensionLanding: {
+      path: telegramPagePaths.extensionLanding,
+      eyebrow: pack.labels.builtForChromeUsers,
+      title: articles.extensionLanding.title,
+      intro: pack.body.extensionLandingIntro,
+      imageAlt: `${articles.extensionLanding.title} workflow`,
+      caption: pack.body.extensionLandingCaption,
+      ctaTitle: pack.body.extensionLandingCtaTitle,
+      ctaDescription: pack.body.extensionLandingCtaDescription,
+      ctaSecondary: articles.chromeLanding.title,
+      supportTitle: pack.labels.supportedMedia,
+      supportText: pack.body.noLoginWhatCan,
+      features: withCardDescription(pack, pack.lists.extensionLandingFeatures),
+      mediaTypes: pack.lists.fileTypes.map((title) => ({
+        title,
+        description: pack.body.fileTypeDescription
+      })),
+      whyTitle: pack.labels.whyExtensionLanding,
+      whyText: pack.body.extensionLandingWhy,
+      batchTitle: pack.labels.singleBatchDownloads,
+      batchText: pack.body.extensionLandingBatch,
+      comparisonTitle: pack.labels.extensionVsOnline,
+      comparisonText: pack.body.extensionLandingVsOnline,
+      stepsTitle: pack.labels.installSteps,
+      steps: [step(pack, 'install', 0), step(pack, 'openWeb', 1), step(pack, 'chooseMedia', 2), step(pack, 'saveLocal', 3)],
+      relatedTitle: pack.labels.relatedGuides,
+      relatedLinks: [articles.chromeLanding, articles.howTo, articles.noLogin, articles.telegramWeb, articles.extensionGuide],
+      faqTitle: pack.labels.extensionFaq,
+      faqs: pack.faqs.extensionLanding,
+      seoTitle:
+        locale === 'en'
+          ? 'Telegram Video Downloader Extension - Chrome Media Downloader'
+          : `${articles.extensionLanding.title} - TGVideoDown`,
+      seoDescription:
+        locale === 'en'
+          ? 'TGVideoDown is a Telegram video downloader extension for Chrome. Download Telegram videos, photos, audio, and files with fast single and batch downloads.'
+          : articles.extensionLanding.description,
+      ogTitle:
+        locale === 'en'
+          ? 'Telegram Video Downloader Extension - Chrome Media Downloader'
+          : `${articles.extensionLanding.title} - TGVideoDown`,
+      ogDescription:
+        locale === 'en'
+          ? 'TGVideoDown is a Telegram video downloader extension for Chrome. Download Telegram videos, photos, audio, and files with fast single and batch downloads.'
+          : articles.extensionLanding.description,
+      keywords: 'telegram video downloader extension, telegram downloader extension, telegram chrome extension, TGVideoDown'
+    },
+    chromeLanding: {
+      path: telegramPagePaths.chromeLanding,
+      eyebrow: pack.labels.chromeGuide,
+      title: locale === 'en' ? 'Telegram Video Downloader Chrome Extension' : articles.chromeLanding.title,
+      intro: pack.body.chromeLandingIntro,
+      imageAlt: `${articles.chromeLanding.title} workflow`,
+      caption: pack.body.chromeLandingCaption,
+      ctaTitle: pack.body.chromeLandingCtaTitle,
+      ctaDescription: pack.body.chromeLandingCtaDescription,
+      ctaSecondary: articles.extensionLanding.title,
+      howTitle: pack.labels.chromeHowTitle,
+      howText: pack.body.chromeLandingHow,
+      steps: [step(pack, 'install', 0), step(pack, 'openWeb', 1), step(pack, 'chooseMedia', 2), step(pack, 'saveLocal', 3)],
+      useCasesTitle: pack.labels.chromeUseCases,
+      useCasesText: pack.body.chromeLandingUseCases,
+      useCases: pack.lists.chromeLandingUseCases.map((description, index) => ({
+        title: pack.lists.extensionLandingFeatures[index] || `${pack.common.stepLabels[index] || ''}`.trim() || description,
+        description
+      })),
+      mediaTitle: pack.labels.supportedMedia,
+      mediaTypes: pack.lists.fileTypes.map((title) => ({
+        title,
+        description: pack.body.fileTypeDescription
+      })),
+      relatedTitle: pack.labels.relatedGuides,
+      relatedLinks: [articles.extensionLanding, articles.howTo, articles.telegramWeb, articles.noLogin, articles.extensionGuide],
+      faqTitle: pack.labels.chromeFaq,
+      faqs: pack.faqs.chromeLanding,
+      seoTitle:
+        locale === 'en' ? 'Telegram Video Downloader Chrome - Free Extension' : `${articles.chromeLanding.title} - TGVideoDown`,
+      seoDescription:
+        locale === 'en'
+          ? 'Free Telegram video downloader Chrome extension for saving Telegram videos, photos, audio, and files from Telegram Web. Install TGVideoDown and download media locally.'
+          : articles.chromeLanding.description,
+      ogTitle:
+        locale === 'en' ? 'Telegram Video Downloader Chrome - Free Extension' : `${articles.chromeLanding.title} - TGVideoDown`,
+      ogDescription:
+        locale === 'en'
+          ? 'Free Telegram video downloader Chrome extension for saving Telegram videos, photos, audio, and files from Telegram Web. Install TGVideoDown and download media locally.'
+          : articles.chromeLanding.description,
+      keywords: 'telegram video downloader chrome, telegram video downloader chrome extension, TGVideoDown'
+    },
     downloader: {
       path: telegramPagePaths.downloader,
       eyebrow: pack.labels.extensionEyebrow,
@@ -1313,7 +1631,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       practicesTitle: pack.labels.bestPractices,
       practices: pack.lists.bestPractices,
       relatedTitle: pack.labels.relatedGuides,
-      relatedLinks: [articles.downloader, articles.howTo, articles.extensionGuide, articles.telegramWeb, articles.privateChannel, articles.mainGuide],
+      relatedLinks: [articles.extensionLanding, articles.chromeLanding, articles.downloader, articles.howTo, articles.extensionGuide, articles.telegramWeb, articles.privateChannel, articles.mainGuide],
       ...articleSeo(
         articles.noLogin.title,
         pack.body.noLoginIntro,
@@ -1344,7 +1662,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       troubleshootingTitle: pack.labels.troubleshooting,
       troubleshooting: pack.lists.troubleshooting,
       guideLinksTitle: pack.labels.guideLinks,
-      guideLinks: [articles.mainGuide, articles.downloader, articles.howTo, articles.telegramWeb, articles.privateChannel, articles.noLogin],
+      guideLinks: [articles.extensionLanding, articles.chromeLanding, articles.mainGuide, articles.downloader, articles.howTo, articles.telegramWeb, articles.privateChannel, articles.noLogin],
       ...articleSeo(
         articles.extensionGuide.title,
         pack.body.extensionIntro,

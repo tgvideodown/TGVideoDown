@@ -50,6 +50,16 @@
               </NuxtLink>
             </li>
             <li>
+              <NuxtLink :to="localePath('/telegram-video-downloader-extension')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                Telegram video downloader extension
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink :to="localePath('/telegram-video-downloader-chrome')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                Telegram video downloader Chrome
+              </NuxtLink>
+            </li>
+            <li>
               <NuxtLink :to="localePath('/how-to-download-telegram-videos')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
                 {{ $t('footer.guideHowTo') }}
               </NuxtLink>
