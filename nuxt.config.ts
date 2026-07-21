@@ -87,6 +87,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'msvalidate.01', content: '937D79DE13AC2EF3D392D947D295A3FD' },
         { name: 'description', content: 'TGVideoDown is a Telegram Video Downloader Chrome extension for saving Telegram videos, files, images, and audio. Fast, lightweight, privacy-minded, and no login on this site.' }
       ],
       link: [
