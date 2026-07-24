@@ -50,6 +50,11 @@
               </NuxtLink>
             </li>
             <li>
+              <NuxtLink :to="localePath('/telegram-media-downloader')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                Telegram Media Downloader
+              </NuxtLink>
+            </li>
+            <li>
               <NuxtLink :to="localePath('/telegram-video-downloader-extension')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
                 Telegram video downloader extension
               </NuxtLink>
@@ -77,6 +82,11 @@
             <li>
               <NuxtLink :to="localePath('/telegram-web-download-files')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
                 Telegram Web download files
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink :to="localePath('/download-telegram-photos')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                Download Telegram Photos
               </NuxtLink>
             </li>
             <li>

@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-lg border-b border-border">
+  <header ref="headerRef" class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-lg border-b border-border">
     <nav class="container-custom">
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
@@ -18,6 +18,45 @@
           >
             {{ item.text || $t(item.label) }}
           </NuxtLink>
+
+          <div class="relative">
+            <button
+              type="button"
+              class="flex items-center gap-1 text-text hover:text-primary transition-colors duration-200 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 focus-visible:ring-offset-2"
+              aria-haspopup="true"
+              :aria-expanded="guideMenuOpen"
+              aria-controls="desktop-guides-menu"
+              @click.stop="guideMenuOpen = !guideMenuOpen"
+              @keydown.escape="guideMenuOpen = false"
+            >
+              <span>{{ $t('footer.guides') }}</span>
+              <svg
+                class="h-4 w-4 transition-transform duration-200"
+                :class="{ 'rotate-180': guideMenuOpen }"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            <div
+              v-if="guideMenuOpen"
+              id="desktop-guides-menu"
+              class="absolute left-0 top-full mt-3 w-72 overflow-hidden rounded-lg border border-border bg-white shadow-lg"
+            >
+              <NuxtLink
+                v-for="item in guideItems"
+                :key="item.path"
+                :to="localePath(item.path)"
+                class="block px-4 py-3 text-sm text-text transition-colors duration-200 hover:bg-primary-50 hover:text-primary cursor-pointer focus:outline-none focus-visible:bg-primary-50 focus-visible:text-primary"
+                @click="closeMenus"
+              >
+                {{ item.text }}
+              </NuxtLink>
+            </div>
+          </div>
         </div>
 
         <!-- Language Switcher & CTA -->
@@ -57,6 +96,37 @@
         >
           {{ item.text || $t(item.label) }}
         </NuxtLink>
+
+        <button
+          type="button"
+          class="flex w-full items-center justify-between py-2 text-left text-text hover:text-primary transition-colors cursor-pointer"
+          :aria-expanded="mobileGuidesOpen"
+          aria-controls="mobile-guides-menu"
+          @click="mobileGuidesOpen = !mobileGuidesOpen"
+        >
+          <span>{{ $t('footer.guides') }}</span>
+          <svg
+            class="h-4 w-4 transition-transform duration-200"
+            :class="{ 'rotate-180': mobileGuidesOpen }"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div v-if="mobileGuidesOpen" id="mobile-guides-menu" class="space-y-1 border-l border-border pl-4">
+          <NuxtLink
+            v-for="item in guideItems"
+            :key="item.path"
+            :to="localePath(item.path)"
+            @click="closeMenus"
+            class="block py-2 text-sm text-gray-700 hover:text-primary transition-colors cursor-pointer"
+          >
+            {{ item.text }}
+          </NuxtLink>
+        </div>
+
         <a 
           :href="extensionStoreUrl" 
           target="_blank"
@@ -75,8 +145,12 @@
 const config = useRuntimeConfig()
 const extensionStoreUrl = config.public.extensionStoreUrl
 const localePath = useLocalePath()
+const route = useRoute()
 
 const mobileMenuOpen = ref(false)
+const mobileGuidesOpen = ref(false)
+const guideMenuOpen = ref(false)
+const headerRef = ref(null)
 
 const navItems = [
   { path: '/', label: 'nav.home' },
@@ -84,7 +158,44 @@ const navItems = [
   { path: '/blog', text: 'Blog' },
   // { path: '/features', label: 'nav.features' },
   // { path: '/pricing', label: 'nav.pricing' },
-  { path: '/how-to-download-telegram-videos', label: 'nav.guideHowTo' },
   { path: '/about', label: 'nav.about' }
 ]
+
+const guideItems = [
+  { path: '/telegram-media-downloader', text: 'Telegram Media Downloader' },
+  { path: '/download-telegram-photos', text: 'Download Telegram Photos' },
+  { path: '/how-to-download-telegram-videos', text: 'How to Download Telegram Videos' },
+  { path: '/telegram-web-download-files', text: 'Telegram Web Download Files' },
+  { path: '/telegram-video-downloader-chrome-extension-guide', text: 'Chrome Extension Guide' },
+  { path: '/download-telegram-files-without-login', text: 'Download Files Without Login' },
+  { path: '/download-telegram-private-channel-video', text: 'Private Channel Video' },
+  { path: '/telegram-vs-whatsapp-media-download', text: 'Telegram vs WhatsApp Media' }
+]
+
+const closeMenus = () => {
+  guideMenuOpen.value = false
+  mobileGuidesOpen.value = false
+  mobileMenuOpen.value = false
+}
+
+const handleDocumentClick = (event) => {
+  if (headerRef.value && !headerRef.value.contains(event.target)) {
+    guideMenuOpen.value = false
+  }
+}
+
+watch(
+  () => route.fullPath,
+  () => {
+    closeMenus()
+  }
+)
+
+onMounted(() => {
+  document.addEventListener('click', handleDocumentClick)
+})
+
+onUnmounted(() => {
+  document.removeEventListener('click', handleDocumentClick)
+})
 </script>

@@ -2,10 +2,12 @@ import { getBlogLocaleContent } from './blogLocaleContent.js'
 
 export const telegramPagePaths = {
   downloader: '/telegram-video-downloader',
+  mediaDownloader: '/telegram-media-downloader',
   extensionLanding: '/telegram-video-downloader-extension',
   chromeLanding: '/telegram-video-downloader-chrome',
   mainGuide: '/blog/telegram-video-downloader-guide',
   howTo: '/how-to-download-telegram-videos',
+  photos: '/download-telegram-photos',
   extensionGuide: '/telegram-video-downloader-chrome-extension-guide',
   noLogin: '/download-telegram-files-without-login',
   privateChannel: '/download-telegram-private-channel-video',
@@ -46,10 +48,12 @@ const en = {
   },
   titles: {
     downloader: 'Telegram Video Downloader',
+    mediaDownloader: 'Telegram Media Downloader',
     extensionLanding: 'Telegram Video Downloader Extension',
     chromeLanding: 'Telegram Video Downloader Chrome',
     mainGuide: 'Telegram Video Downloader Guide',
     howTo: 'How to Download Telegram Videos',
+    photos: 'Download Telegram Photos',
     extensionGuide: 'Telegram Video Downloader Chrome Extension Guide',
     noLogin: 'Download Telegram Files Without Login',
     privateChannel: 'Download Telegram Private Channel Video',
@@ -59,15 +63,21 @@ const en = {
   descriptions: {
     downloader:
       'TGVideoDown helps you download Telegram videos, files, images, audio, and GIFs from Telegram Web in Chrome with no TGVideoDown account login.',
+    mediaDownloader:
+      'Use TGVideoDown as a Telegram media downloader for Chrome. Save Telegram videos, photos, GIFs, audio, and files from Telegram Web with a local extension workflow.',
     extensionLanding:
       'Use TGVideoDown as a Telegram video downloader extension for Chrome. Save Telegram videos, photos, audio, and files with single and batch downloads.',
     chromeLanding:
       'Download Telegram videos on Chrome with TGVideoDown. Install the free extension, open Telegram Web, select media, and save videos or files locally.',
+    photos:
+      'Download Telegram photos from Telegram Web in Chrome with TGVideoDown. Save single images, photo albums, and supported media you are allowed to keep.',
     noLogin:
       'You do not need a TGVideoDown account to download Telegram files with the Chrome extension. Private Telegram files still use official Telegram Web access.'
   },
   labels: {
     extensionEyebrow: 'TGVideoDown Chrome Extension',
+    mediaDownloaderEyebrow: 'Telegram media downloader',
+    photosEyebrow: 'Telegram photo guide',
     tutorial: 'Tutorial',
     privateGuide: 'Private channel guide',
     webGuide: 'Telegram Web guide',
@@ -112,6 +122,8 @@ const en = {
     whyPasswordForm: 'Why this is better than a password form',
     bestPractices: 'Best practices',
     builtForChromeUsers: 'Built for Telegram users on Chrome',
+    mediaDownloaderSupport: 'One workflow for Telegram media',
+    photoAlbums: 'Photos, albums, and image posts',
     whyExtensionLanding: 'Why use a downloader extension?',
     supportedMedia: 'Supported Telegram media',
     singleBatchDownloads: 'Single and batch downloads',
@@ -121,6 +133,8 @@ const en = {
     chromeUseCases: 'Where the Chrome workflow fits',
     extensionFaq: 'Telegram Video Downloader Extension FAQ',
     chromeFaq: 'Telegram Video Downloader Chrome FAQ',
+    mediaDownloaderFaq: 'Telegram Media Downloader FAQ',
+    photosFaq: 'Download Telegram Photos FAQ',
     extensionPage: 'Extension page',
     chromePage: 'Chrome page'
   },
@@ -129,6 +143,16 @@ const en = {
       'TGVideoDown is a fast, lightweight Chrome extension for saving Telegram videos, images, audio, documents, and batch media from Telegram Web. Use it for personal backup and organization when you have permission to save the content.',
     downloaderCaption:
       'Download inside Chrome while browsing Telegram Web. This companion site explains the extension instead of parsing pasted links.',
+    mediaDownloaderIntro:
+      'TGVideoDown is a Telegram media downloader for Chrome users who want to save videos, photos, GIFs, audio, documents, and other supported Telegram Web files without pasting private links into an online downloader.',
+    mediaDownloaderCaption:
+      'Use TGVideoDown inside Chrome while Telegram Web is open, then save supported media locally.',
+    mediaDownloaderSupport:
+      'Telegram media can include channel videos, chat photos, GIFs, audio files, documents, and large archives. TGVideoDown keeps the workflow in your browser and helps save supported items that are already visible to your Telegram account.',
+    mediaDownloaderWhy:
+      'A browser extension is a better fit for Telegram media because many files depend on your active Telegram Web session. Telegram handles access, while TGVideoDown focuses on saving visible media locally in Chrome.',
+    mediaDownloaderBatch:
+      'Use single downloads when you only need one item, or batch selection when multiple supported media items are detected. This is useful for channels, saved messages, research folders, and media-heavy chats.',
     whyDifferent:
       'TGVideoDown is positioned as a Chrome extension for authorized local saving, not as a public paste-link downloader. You keep the workflow in Chrome and use official Telegram Web for access.',
     workflowText:
@@ -146,6 +170,19 @@ const en = {
       'Install TGVideoDown in Chrome, open Telegram Web, go to the chat or channel where the video appears, and use the extension controls to save it locally.',
     beforeHowTo:
       'Use desktop Chrome and make sure the Telegram video is content you are allowed to save. For private chats or channels, sign in only through official Telegram Web.',
+    photosIntro:
+      'This guide explains how to download Telegram photos with TGVideoDown. Install the Chrome extension, open Telegram Web, and save images or photo albums that are visible to your account.',
+    photosCaption:
+      'Save Telegram photos from Chrome while browsing Telegram Web.',
+    photosQuick:
+      'Install TGVideoDown, open Telegram Web in Chrome, go to the chat, channel, group, or saved message where the photo appears, and use the extension workflow to download the image locally.',
+    photosWhat:
+      'TGVideoDown can help save Telegram photos, image posts, GIFs, videos, audio, documents, and other supported files from Telegram Web. It does not unlock private content or ask you to upload Telegram links to this website.',
+    photosAlbums:
+      'For Telegram photo albums and media-heavy chats, open the message group in Telegram Web first. When supported items are detected, use the extension to save one image or select multiple media files when batch download is available.',
+    photosCtaTitle: 'Install TGVideoDown to save Telegram photos',
+    photosCtaDescription:
+      'Use the Chrome extension with Telegram Web and download photos or albums that you are allowed to keep.',
     multiDownload:
       'TGVideoDown supports single downloads and batch selection when supported media is detected, including videos, images, audio, documents, and other files.',
     workflowCaption: 'The downloader workflow happens in Chrome while Telegram Web is open.',
@@ -267,6 +304,14 @@ const en = {
       title: 'Download from Chrome',
       description: 'Save the detected file locally from Chrome, using batch selection when supported.'
     },
+    openPhoto: {
+      title: 'Open the photo message',
+      description: 'Go to the Telegram chat, group, channel, or saved message where the photo or image album appears.'
+    },
+    savePhoto: {
+      title: 'Save the photo locally',
+      description: 'Use TGVideoDown to download the visible photo to your computer, or select multiple supported images when available.'
+    },
     pinExtension: {
       title: 'Pin the extension',
       description: 'Pin TGVideoDown in Chrome if you use it often.'
@@ -342,6 +387,47 @@ const en = {
       'Use one workflow for videos, photos, audio, and files',
       'Avoid paste-link downloader forms'
     ],
+    mediaDownloaderFeatures: [
+      {
+        title: 'Videos, photos, and files',
+        description: 'Save supported Telegram Web media including videos, images, GIFs, audio, documents, and large files.'
+      },
+      {
+        title: 'Chrome extension workflow',
+        description: 'Keep Telegram access in official Telegram Web instead of sending private links to a server-side downloader.'
+      },
+      {
+        title: 'Single and batch saving',
+        description: 'Download one item or select multiple supported media files when the extension detects them.'
+      },
+      {
+        title: 'No TGVideoDown account',
+        description: 'The companion website does not require a login. Private Telegram access still belongs to Telegram Web.'
+      },
+      {
+        title: 'Personal organization',
+        description: 'Keep local copies for offline reference, backups, research, or file organization when you have permission.'
+      },
+      {
+        title: 'Clear access limits',
+        description: 'TGVideoDown helps save visible media; it does not bypass Telegram permissions or private channels.'
+      }
+    ],
+    mediaDownloaderTypes: [
+      'Telegram videos',
+      'Telegram photos',
+      'GIFs and image posts',
+      'Audio and voice media',
+      'Documents and files',
+      'Batch media selections'
+    ],
+    photoBestPractices: [
+      'Download only photos you are allowed to keep.',
+      'Use official Telegram Web for Telegram sign-in.',
+      'Open the original message or album before saving.',
+      'Use batch selection only for supported media you have permission to store.',
+      'Organize private photos responsibly after downloading.'
+    ],
     troubleshooting: [
       {
         problem: 'The download button does not appear',
@@ -374,6 +460,42 @@ const en = {
       {
         question: 'Can I use it for batch Telegram downloads?',
         answer: 'Yes. The extension supports single and batch selection for supported Telegram media workflows.'
+      }
+    ],
+    mediaDownloader: [
+      {
+        question: 'What is a Telegram media downloader?',
+        answer: 'It is a tool for saving supported Telegram media such as videos, photos, GIFs, audio, documents, and files. TGVideoDown does this through a Chrome extension while Telegram Web is open.'
+      },
+      {
+        question: 'Does TGVideoDown download Telegram photos too?',
+        answer: 'Yes. TGVideoDown can help save Telegram photos and image posts that are visible in Telegram Web, along with other supported media types.'
+      },
+      {
+        question: 'Do I need to paste Telegram links on this website?',
+        answer: 'No. The workflow stays in Chrome. Open Telegram Web, view the media there, and use the extension to save supported items locally.'
+      },
+      {
+        question: 'Can it download private Telegram media?',
+        answer: 'Only when that media is already visible to your Telegram account in official Telegram Web and you are allowed to save it. TGVideoDown cannot bypass access restrictions.'
+      }
+    ],
+    photos: [
+      {
+        question: 'How do I download Telegram photos on desktop?',
+        answer: 'Install TGVideoDown in Chrome, open Telegram Web, go to the chat or channel where the photo appears, and use the extension workflow to save the image locally.'
+      },
+      {
+        question: 'Can I download Telegram photo albums?',
+        answer: 'TGVideoDown can help with photo albums and batch media when supported items are detected in Telegram Web.'
+      },
+      {
+        question: 'Do I need a TGVideoDown login to download photos?',
+        answer: 'No. TGVideoDown does not require a website account. Private Telegram chats or channels may still require official Telegram Web sign-in.'
+      },
+      {
+        question: 'Can it save photos from private channels?',
+        answer: 'It can help save photos that are visible to your Telegram account in Telegram Web. It cannot unlock content you cannot access.'
       }
     ],
     privateChannel: [
@@ -1304,6 +1426,11 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       path: telegramPagePaths.downloader,
       description: pack.descriptions.downloader
     },
+    mediaDownloader: {
+      title: pack.titles.mediaDownloader,
+      path: telegramPagePaths.mediaDownloader,
+      description: pack.descriptions.mediaDownloader
+    },
     extensionLanding: {
       title: pack.titles.extensionLanding,
       path: telegramPagePaths.extensionLanding,
@@ -1322,6 +1449,11 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       title: pack.titles.howTo,
       description: pack.body.howToIntro
     }),
+    photos: {
+      title: pack.titles.photos,
+      path: telegramPagePaths.photos,
+      description: pack.descriptions.photos
+    },
     extensionGuide: getBlogArticle(blog, telegramPagePaths.extensionGuide, {
       title: pack.titles.extensionGuide,
       description: pack.body.extensionIntro
@@ -1346,10 +1478,12 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
   }
 
   const guideArticles = [
+    articles.mediaDownloader,
     articles.extensionLanding,
     articles.chromeLanding,
     articles.mainGuide,
     articles.howTo,
+    articles.photos,
     articles.extensionGuide,
     articles.noLogin,
     articles.privateChannel,
@@ -1389,7 +1523,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       stepsTitle: pack.labels.installSteps,
       steps: [step(pack, 'install', 0), step(pack, 'openWeb', 1), step(pack, 'chooseMedia', 2), step(pack, 'saveLocal', 3)],
       relatedTitle: pack.labels.relatedGuides,
-      relatedLinks: [articles.chromeLanding, articles.howTo, articles.noLogin, articles.telegramWeb, articles.extensionGuide],
+      relatedLinks: [articles.mediaDownloader, articles.chromeLanding, articles.photos, articles.howTo, articles.noLogin, articles.telegramWeb],
       faqTitle: pack.labels.extensionFaq,
       faqs: pack.faqs.extensionLanding,
       seoTitle:
@@ -1435,7 +1569,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
         description: pack.body.fileTypeDescription
       })),
       relatedTitle: pack.labels.relatedGuides,
-      relatedLinks: [articles.extensionLanding, articles.howTo, articles.telegramWeb, articles.noLogin, articles.extensionGuide],
+      relatedLinks: [articles.extensionLanding, articles.mediaDownloader, articles.photos, articles.howTo, articles.telegramWeb, articles.noLogin],
       faqTitle: pack.labels.chromeFaq,
       faqs: pack.faqs.chromeLanding,
       seoTitle:
@@ -1479,6 +1613,50 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
         'telegram video downloader, download telegram videos, TGVideoDown, telegram downloader chrome extension'
       )
     },
+    mediaDownloader: {
+      path: telegramPagePaths.mediaDownloader,
+      eyebrow: pack.labels.mediaDownloaderEyebrow,
+      title: articles.mediaDownloader.title,
+      intro: pack.body.mediaDownloaderIntro,
+      imageAlt: `${articles.mediaDownloader.title} workflow`,
+      caption: pack.body.mediaDownloaderCaption,
+      ctaTitle: 'Install the Telegram media downloader',
+      ctaDescription:
+        'Add TGVideoDown to Chrome, open Telegram Web, and save supported media that is visible to your account.',
+      ctaSecondary: articles.photos.title,
+      supportTitle: pack.labels.mediaDownloaderSupport,
+      supportText: pack.body.mediaDownloaderSupport,
+      features: pack.lists.mediaDownloaderFeatures,
+      mediaTitle: pack.labels.supportedMedia,
+      mediaTypes: pack.lists.mediaDownloaderTypes.map((title) => ({
+        title,
+        description: pack.body.fileTypeDescription
+      })),
+      whyTitle: pack.labels.whyExtension,
+      whyText: pack.body.mediaDownloaderWhy,
+      batchTitle: pack.labels.singleBatchDownloads,
+      batchText: pack.body.mediaDownloaderBatch,
+      stepsTitle: pack.labels.installSteps,
+      steps: [step(pack, 'install', 0), step(pack, 'openWeb', 1), step(pack, 'chooseMedia', 2), step(pack, 'saveLocal', 3)],
+      relatedTitle: pack.labels.relatedGuides,
+      relatedLinks: [articles.photos, articles.telegramWeb, articles.extensionLanding, articles.noLogin, articles.privateChannel, articles.mainGuide],
+      faqTitle: pack.labels.mediaDownloaderFaq,
+      faqs: pack.faqs.mediaDownloader,
+      seoTitle:
+        locale === 'en' ? 'Telegram Media Downloader - Save Videos, Photos and Files' : `${articles.mediaDownloader.title} - TGVideoDown`,
+      seoDescription:
+        locale === 'en'
+          ? 'Telegram media downloader for Chrome. Save Telegram videos, photos, GIFs, audio, documents, and files from Telegram Web with TGVideoDown.'
+          : articles.mediaDownloader.description,
+      ogTitle:
+        locale === 'en' ? 'Telegram Media Downloader - Save Videos, Photos and Files' : `${articles.mediaDownloader.title} - TGVideoDown`,
+      ogDescription:
+        locale === 'en'
+          ? 'Save Telegram videos, photos, GIFs, audio, documents, and files from Telegram Web with the TGVideoDown Chrome extension.'
+          : articles.mediaDownloader.description,
+      keywords:
+        'telegram media downloader, download telegram media, telegram photo downloader, telegram file downloader, TGVideoDown'
+    },
     howTo: {
       path: telegramPagePaths.howTo,
       eyebrow: pack.labels.tutorial,
@@ -1508,6 +1686,44 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
         pack.body.howToIntro,
         'how to download telegram videos, download telegram video, telegram video downloader, TGVideoDown'
       )
+    },
+    photos: {
+      path: telegramPagePaths.photos,
+      eyebrow: pack.labels.photosEyebrow,
+      title: articles.photos.title,
+      intro: pack.body.photosIntro,
+      imageAlt: articles.photos.title,
+      caption: pack.body.photosCaption,
+      quickTitle: pack.labels.quickAnswer,
+      quickText: pack.body.photosQuick,
+      ctaEyebrow: pack.labels.photosEyebrow,
+      ctaTitle: pack.body.photosCtaTitle,
+      ctaDescription: pack.body.photosCtaDescription,
+      ctaSecondary: articles.mediaDownloader.title,
+      whatTitle: pack.labels.whatCanDownload,
+      whatText: pack.body.photosWhat,
+      albumsTitle: pack.labels.photoAlbums,
+      albumsText: pack.body.photosAlbums,
+      stepsTitle: pack.labels.stepWorkflow,
+      steps: [step(pack, 'install', 0), step(pack, 'openWeb', 1), step(pack, 'openPhoto', 2), step(pack, 'savePhoto', 3)],
+      practicesTitle: pack.labels.bestPractices,
+      practices: pack.lists.photoBestPractices,
+      relatedTitle: pack.labels.relatedGuides,
+      relatedLinks: [articles.mediaDownloader, articles.telegramWeb, articles.howTo, articles.noLogin, articles.privateChannel, articles.extensionLanding],
+      faqTitle: pack.labels.photosFaq,
+      faqs: pack.faqs.photos,
+      seoTitle: locale === 'en' ? 'Download Telegram Photos - Save Images from Telegram Web' : `${articles.photos.title} - TGVideoDown`,
+      seoDescription:
+        locale === 'en'
+          ? 'Download Telegram photos from Telegram Web in Chrome. Use TGVideoDown to save single images, albums, and supported media locally.'
+          : articles.photos.description,
+      ogTitle: locale === 'en' ? 'Download Telegram Photos - Save Images from Telegram Web' : `${articles.photos.title} - TGVideoDown`,
+      ogDescription:
+        locale === 'en'
+          ? 'Save Telegram photos, image posts, and supported albums from Telegram Web with the TGVideoDown Chrome extension.'
+          : articles.photos.description,
+      keywords:
+        'download telegram photos, telegram photo downloader, save telegram photos, download telegram images, TGVideoDown'
     },
     privateChannel: {
       path: telegramPagePaths.privateChannel,
@@ -1567,7 +1783,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       tipsTitle: pack.labels.largeTips,
       tips: pack.lists.tips,
       relatedTitle: pack.labels.relatedGuides,
-      relatedLinks: [articles.mainGuide, articles.howTo, articles.privateChannel, articles.noLogin],
+      relatedLinks: [articles.mediaDownloader, articles.photos, articles.mainGuide, articles.howTo, articles.privateChannel, articles.noLogin],
       faqs: pack.faqs.telegramWeb,
       ...articleSeo(
         articles.telegramWeb.title,
@@ -1631,7 +1847,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       practicesTitle: pack.labels.bestPractices,
       practices: pack.lists.bestPractices,
       relatedTitle: pack.labels.relatedGuides,
-      relatedLinks: [articles.extensionLanding, articles.chromeLanding, articles.downloader, articles.howTo, articles.extensionGuide, articles.telegramWeb, articles.privateChannel, articles.mainGuide],
+      relatedLinks: [articles.mediaDownloader, articles.photos, articles.extensionLanding, articles.chromeLanding, articles.downloader, articles.howTo, articles.extensionGuide, articles.telegramWeb, articles.privateChannel, articles.mainGuide],
       ...articleSeo(
         articles.noLogin.title,
         pack.body.noLoginIntro,
@@ -1662,7 +1878,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       troubleshootingTitle: pack.labels.troubleshooting,
       troubleshooting: pack.lists.troubleshooting,
       guideLinksTitle: pack.labels.guideLinks,
-      guideLinks: [articles.extensionLanding, articles.chromeLanding, articles.mainGuide, articles.downloader, articles.howTo, articles.telegramWeb, articles.privateChannel, articles.noLogin],
+      guideLinks: [articles.mediaDownloader, articles.photos, articles.extensionLanding, articles.chromeLanding, articles.mainGuide, articles.downloader, articles.howTo, articles.telegramWeb, articles.privateChannel, articles.noLogin],
       ...articleSeo(
         articles.extensionGuide.title,
         pack.body.extensionIntro,
