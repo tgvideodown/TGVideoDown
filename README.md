@@ -1,90 +1,66 @@
 # TGVideoDown - Telegram Video Downloader
 
-A modern, static SaaS website built with Nuxt 3, Vue 3, Tailwind CSS, and i18n support.
+Official website source code of **TGVideoDown**, a Chrome Extension that helps users download Telegram videos, images, audio, GIFs, and files more easily.
+
+🌐 Website:
+https://tgvideodown.com
+
+🧩 Chrome Extension:
+[(放 Chrome Web Store 链接)](https://chromewebstore.google.com/detail/telegram-video-downloader/lmblmgpljbjhkbicffecgngnfnkckopm)
+
+
+## About TGVideoDown
+
+TGVideoDown is a Telegram media downloader Chrome Extension designed to make saving Telegram content easier.
+
+Supported media types:
+
+- 🎬 Telegram videos
+- 🖼️ Images
+- 🎵 Audio files
+- 🎞️ GIFs
+- 📁 Documents and files
+
 
 ## Features
 
 - 🚀 Built with Nuxt 3 and Vue 3
-- 🎨 Modern UI with Tailwind CSS
-- 🌍 Multi-language support (English, Chinese, Spanish)
-- 📱 Fully responsive design
-- ⚡ Static site generation ready
+- 🎨 Modern SaaS-style UI with Tailwind CSS
+- 🌍 Multi-language support
+- 📱 Responsive design
+- ⚡ Static site generation
+- 🔍 SEO-friendly pages
+
 
 ## Tech Stack
 
 - **Framework**: Nuxt 3
-- **UI**: Vue 3
+- **Frontend**: Vue 3
 - **Styling**: Tailwind CSS
-- **i18n**: @nuxtjs/i18n
-- **Language Support**: English (en), Chinese (cn), Spanish (es)
+- **Internationalization**: @nuxtjs/i18n
+- **Deployment**: Static hosting
+
+
+## Languages
+
+Currently supported:
+
+- English
+- Chinese
+- Spanish
+
 
 ## Getting Started
 
-### Prerequisites
+### Requirements
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
+
 
 ### Installation
 
-1. Install dependencies:
+Install dependencies:
+
 ```bash
 npm install
-```
-
-2. Start development server:
-```bash
-npm run dev
-```
-
-3. Build for production:
-```bash
-npm run build
-```
-
-4. Generate static site:
-```bash
-npm run generate
-```
-
-## Project Structure
-
-```
-├── assets/
-│   └── css/
-│       └── main.css          # Global styles
-├── components/
-│   ├── AppHeader.vue         # Header component
-│   ├── AppFooter.vue         # Footer component
-│   ├── LanguageSwitcher.vue  # Language switcher
-│   ├── HeroSection.vue       # Hero section
-│   ├── FeaturesSection.vue   # Features section
-│   ├── HowToUseSection.vue   # How to use (steps + screenshots)
-│   ├── CTASection.vue        # Call to action
-│   └── TestimonialsSection.vue # Testimonials
-├── layouts/
-│   └── default.vue           # Default layout
-├── locales/
-│   ├── en.json               # English translations
-│   ├── cn.json               # Chinese translations
-│   └── es.json               # Spanish translations
-├── pages/
-│   └── index.vue             # Home page
-├── nuxt.config.ts            # Nuxt configuration
-├── tailwind.config.js        # Tailwind configuration
-└── package.json
-```
-
-## Color Scheme
-
-Based on SaaS design guidelines:
-- **Primary**: #2563EB (Trust Blue)
-- **Secondary**: #3B82F6
-- **CTA**: #F97316 (Orange)
-- **Background**: #F8FAFC
-- **Text**: #1E293B
-- **Border**: #E2E8F0
-
-## License
-
-MIT
