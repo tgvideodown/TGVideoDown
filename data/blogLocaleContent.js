@@ -605,7 +605,7 @@ export const blogLocaleContent = {
       articles: [
         { category: 'Mulai di sini', intent: 'Panduan utama', title: 'Panduan Telegram Video Downloader', path: articlePaths.main, description: 'Panduan lengkap untuk memasang TGVideoDown, membuka Telegram Web, dan menyimpan video atau file dari Chrome.' },
         { category: 'Tutorial', intent: 'Langkah-langkah', title: 'Cara mengunduh video Telegram', path: articlePaths.howTo, description: 'Instruksi bertahap untuk pengguna yang ingin menyimpan video Telegram di Chrome desktop.' },
-        { category: 'Channel privat', intent: 'Media privat', title: 'Unduh video channel privat Telegram', path: articlePaths.privateChannel, description: 'Panduan aman untuk menyimpan video dari channel privat Telegram yang sudah dapat kamu akses.' },
+        { category: 'Channel privat', intent: 'Media privat', title: 'Download Video Telegram Privat', path: articlePaths.privateChannel, description: 'Panduan aman untuk download video Telegram privat dari channel dan grup yang sudah dapat kamu akses di Telegram Web.' },
         { category: 'Telegram Web', intent: 'File', title: 'Unduh file Telegram Web', path: articlePaths.telegramWeb, description: 'Cara menyimpan video, dokumen, gambar, audio, dan file lain di Telegram Web dengan Chrome.' },
         { category: 'Perbandingan', intent: 'Telegram vs WhatsApp', title: 'Unduhan media Telegram vs WhatsApp', path: articlePaths.comparison, description: 'Perbandingan alur penyimpanan media, akses file, dan batasan browser desktop.' },
         { category: 'Pengaturan', intent: 'Ekstensi Chrome', title: 'Panduan ekstensi Chrome Telegram Video Downloader', path: articlePaths.extensionGuide, description: 'Instalasi, izin, pemecahan masalah, dan catatan unduhan batch.' }
@@ -805,7 +805,7 @@ export const blogLocaleContent = {
       articles: [
         { category: 'Bắt đầu ở đây', intent: 'Hướng dẫn chính', title: 'Hướng dẫn Telegram Video Downloader', path: articlePaths.main, description: 'Hướng dẫn đầy đủ để cài TGVideoDown, mở Telegram Web và lưu video hoặc tệp từ Chrome.' },
         { category: 'Hướng dẫn', intent: 'Cách làm', title: 'Cách tải video Telegram', path: articlePaths.howTo, description: 'Hướng dẫn từng bước cho người muốn tải video Telegram trên Chrome máy tính.' },
-        { category: 'Kênh riêng tư', intent: 'Media riêng tư', title: 'Tải video kênh riêng tư Telegram', path: articlePaths.privateChannel, description: 'Cách lưu an toàn video từ kênh riêng tư Telegram mà bạn đã có quyền truy cập.' },
+        { category: 'Kênh riêng tư', intent: 'Media riêng tư', title: 'Tải Video Telegram Riêng Tư', path: articlePaths.privateChannel, description: 'Cách tải video Telegram riêng tư từ kênh và nhóm mà bạn đã có quyền xem trên Telegram Web.' },
         { category: 'Telegram Web', intent: 'Tệp', title: 'Tải tệp Telegram Web', path: articlePaths.telegramWeb, description: 'Cách lưu video, tài liệu, hình ảnh, âm thanh và tệp khác trong Telegram Web bằng Chrome.' },
         { category: 'So sánh', intent: 'Telegram vs WhatsApp', title: 'Tải media Telegram vs WhatsApp', path: articlePaths.comparison, description: 'So sánh quy trình lưu media, quyền truy cập tệp và giới hạn trình duyệt desktop.' },
         { category: 'Thiết lập', intent: 'Tiện ích Chrome', title: 'Hướng dẫn tiện ích Chrome Telegram Video Downloader', path: articlePaths.extensionGuide, description: 'Cài đặt, quyền, xử lý lỗi và ghi chú tải hàng loạt.' }

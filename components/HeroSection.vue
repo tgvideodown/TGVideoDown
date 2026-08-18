@@ -13,8 +13,8 @@
           <span class="text-sm font-semibold">{{ $t('hero.badge') }}</span>
         </div>
 
-        <!-- H1 Main Headline -->
-        <h1 class="text-4xl md:text-6xl font-heading font-bold text-text mb-4 leading-tight whitespace-pre-line">
+        <!-- H1: localized headline aligned with homeSeo.title (without brand suffix) -->
+        <h1 class="text-4xl md:text-5xl font-heading font-bold text-text mb-4 leading-tight whitespace-pre-line">
           {{ $t('hero.title') }}
         </h1>
 
@@ -27,6 +27,27 @@
         <p class="text-lg text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
           {{ $t('hero.subtitle') }}
         </p>
+
+        <!-- Store social proof -->
+        <a
+          :href="extensionStoreUrl"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="grid grid-cols-3 gap-3 sm:gap-6 max-w-xl mx-auto mb-8 rounded-2xl border border-primary/15 bg-white/90 px-4 py-4 sm:px-6 sm:py-5 hover:border-primary/40 transition-colors"
+        >
+          <div class="text-center">
+            <div class="text-xl sm:text-2xl font-heading font-bold text-text">{{ $t('hero.trustStats.usersValue') }}</div>
+            <div class="mt-1 text-xs sm:text-sm text-gray-600">{{ $t('hero.trustStats.usersLabel') }}</div>
+          </div>
+          <div class="text-center border-x border-border">
+            <div class="text-xl sm:text-2xl font-heading font-bold text-text">{{ $t('hero.trustStats.reviewsValue') }}</div>
+            <div class="mt-1 text-xs sm:text-sm text-gray-600">{{ $t('hero.trustStats.reviewsLabel') }}</div>
+          </div>
+          <div class="text-center">
+            <div class="text-xl sm:text-2xl font-heading font-bold text-primary">{{ $t('hero.trustStats.ratingValue') }}</div>
+            <div class="mt-1 text-xs sm:text-sm text-gray-600">{{ $t('hero.trustStats.ratingLabel') }}</div>
+          </div>
+        </a>
 
         <!-- Trust Badges -->
         <div class="flex flex-wrap items-center justify-center gap-3 mb-8">

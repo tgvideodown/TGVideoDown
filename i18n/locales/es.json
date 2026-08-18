@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "Extensión de Chrome · Sitio complementario",
-    "title": "Películas y vídeos privados con un clic\nde grupos y canales de Telegram",
+    "title": "Telegram Video Downloader — Extensión de Chrome",
     "h2": "Telegram Media Downloader — gratis y rápido",
     "subtitle": "Una extensión de Chrome gratuita y rápida que guarda vídeos, imágenes, audio y archivos de Telegram en tu ordenador. Interfaz sencilla, descargas individuales o por lotes, sin iniciar sesión en nuestro sitio. Solo para copias de seguridad y organización personales — asegúrate de tener permiso para guardar el contenido.",
     "ctaPrimary": "Instalar desde Chrome Web Store",
@@ -34,6 +34,14 @@
         "title": "1GB+ estable",
         "description": "Los archivos grandes se descargan de forma fiable cuando tu conexión lo permite."
       }
+    },
+    "trustStats": {
+      "usersValue": "1.000+",
+      "usersLabel": "usuarios de Chrome",
+      "reviewsValue": "100+",
+      "reviewsLabel": "reseñas",
+      "ratingValue": "4,9",
+      "ratingLabel": "puntuación en Chrome Web Store"
     }
   },
   "features": {
@@ -426,5 +434,12 @@
       "ogDescription": "Guarda y organiza videos, imágenes y fotos de Facebook. Extensión rápida y gratuita para páginas, grupos, feeds, Watch, Reels e integraciones.",
       "keywords": "descargador de videos de facebook, descargador facebook, descargar video facebook, extensión chrome facebook, descargar reels facebook, descargar watch facebook"
     }
+  },
+  "homeSeo": {
+    "title": "Telegram Video Downloader — Extensión de Chrome | TGVideoDown",
+    "description": "Descarga vídeos de Telegram de grupos privados, canales y chats con una extensión de Chrome gratuita. Un clic o por lotes. Sin inicio de sesión en este sitio.",
+    "ogTitle": "Telegram Video Downloader — Extensión de Chrome | TGVideoDown",
+    "ogDescription": "Extensión de Chrome gratuita para guardar vídeos y archivos de Telegram desde grupos, canales y chats.",
+    "keywords": "telegram video downloader, descargar video telegram, descargar video canal privado telegram, extensión chrome telegram"
   }
 }

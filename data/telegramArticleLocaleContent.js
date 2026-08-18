@@ -935,7 +935,7 @@ const localeAliases = {
       howTo: 'Cara Mengunduh Video Telegram',
       extensionGuide: 'Panduan Ekstensi Chrome Pengunduh Video Telegram',
       noLogin: 'Unduh File Telegram Tanpa Login',
-      privateChannel: 'Unduh Video Channel Privat Telegram',
+      privateChannel: 'Download Video Telegram Privat',
       telegramWeb: 'Unduh File Telegram Web',
       comparison: 'Unduhan Media Telegram vs WhatsApp'
     }
@@ -1051,7 +1051,7 @@ const localeAliases = {
       howTo: 'Cách tải video Telegram',
       extensionGuide: 'Hướng dẫn tiện ích Chrome tải video Telegram',
       noLogin: 'Tải file Telegram không cần đăng nhập',
-      privateChannel: 'Tải video kênh riêng tư Telegram',
+      privateChannel: 'Tải Video Telegram Riêng Tư',
       telegramWeb: 'Tải file từ Telegram Web',
       comparison: 'Tải media Telegram vs WhatsApp'
     }
@@ -1477,6 +1477,25 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
     })
   }
 
+  const privatePageSeo = {
+    id: {
+      description:
+        'Download video Telegram privat dari channel, grup, dan chat yang sudah bisa kamu buka di Telegram Web. Ekstensi Chrome TGVideoDown menyimpan file di komputer — tanpa login di situs ini.',
+      keywords:
+        'download video telegram privat, download video telegram private, unduh video channel privat telegram, telegram video downloader, unduh video telegram privat'
+    },
+    vi: {
+      description:
+        'Tải video Telegram riêng tư từ kênh, nhóm và chat bạn đã có quyền xem trên Telegram Web. Tiện ích Chrome TGVideoDown lưu file về máy — không cần đăng nhập trang này.',
+      keywords:
+        'tải video telegram riêng tư, tải video kênh riêng tư telegram, download telegram private video, telegram video downloader'
+    }
+  }[locale] || {
+    description: pack.body.privateIntro,
+    keywords:
+      'download telegram private channel video, telegram private video downloader, save telegram channel video, download video telegram private'
+  }
+
   const guideArticles = [
     articles.mediaDownloader,
     articles.extensionLanding,
@@ -1729,7 +1748,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       path: telegramPagePaths.privateChannel,
       eyebrow: pack.labels.privateGuide,
       title: articles.privateChannel.title,
-      intro: pack.body.privateIntro,
+      intro: privatePageSeo.description,
       noteTitle: pack.labels.importantAccessNote,
       noteText: pack.body.privateNote,
       imageAlt: articles.privateChannel.title,
@@ -1754,8 +1773,8 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       faqs: pack.faqs.privateChannel,
       ...articleSeo(
         articles.privateChannel.title,
-        pack.body.privateIntro,
-        'download telegram private channel video, telegram private video downloader, save telegram channel video'
+        privatePageSeo.description,
+        privatePageSeo.keywords
       )
     },
     telegramWeb: {

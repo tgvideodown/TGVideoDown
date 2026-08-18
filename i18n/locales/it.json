@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "Estensione Chrome · Sito complementare",
-    "title": "Film e video privati con un clic\ndai gruppi e canali Telegram",
+    "title": "Telegram Video Downloader — Estensione Chrome",
     "h2": "Telegram Media Downloader — gratis e veloce",
     "subtitle": "Un’estensione Chrome gratuita e veloce che salva video, immagini, audio e file da Telegram sul computer. Interfaccia semplice, download singoli o in batch, nessun accesso al nostro sito. Solo per backup e organizzazione personale — assicurati di avere il permesso di salvare i contenuti.",
     "ctaPrimary": "Installa da Chrome Web Store",
@@ -34,6 +34,14 @@
         "title": "1GB+ stabile",
         "description": "I file grandi si scaricano in modo affidabile quando la connessione lo consente."
       }
+    },
+    "trustStats": {
+      "usersValue": "1.000+",
+      "usersLabel": "utenti Chrome",
+      "reviewsValue": "100+",
+      "reviewsLabel": "recensioni",
+      "ratingValue": "4,9",
+      "ratingLabel": "voto Chrome Web Store"
     }
   },
   "features": {
@@ -426,5 +434,12 @@
       "ogDescription": "Salva e organizza video, immagini e foto Facebook. Estensione Chrome veloce e gratuita per pagine, gruppi, feed, Watch, Reels e incorporamenti.",
       "keywords": "downloader video facebook, downloader facebook, scaricare video facebook, estensione chrome facebook, scaricare reels facebook, scaricare watch facebook"
     }
+  },
+  "homeSeo": {
+    "title": "Telegram Video Downloader — Estensione Chrome | TGVideoDown",
+    "description": "Scarica video Telegram da gruppi privati, canali e chat con un’estensione Chrome gratuita. Un clic o in batch. Nessun login su questo sito.",
+    "ogTitle": "Telegram Video Downloader — Estensione Chrome | TGVideoDown",
+    "ogDescription": "Estensione Chrome gratuita per salvare localmente video e media Telegram da gruppi, canali e chat.",
+    "keywords": "telegram video downloader, scaricare video telegram, canale privato telegram, estensione chrome"
   }
 }

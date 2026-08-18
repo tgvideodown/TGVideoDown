@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "Chrome 扩展 · 配套网站",
-    "title": "一键保存电影与私密视频\n来自 Telegram 群组与频道",
+    "title": "Telegram 视频下载器 Chrome 扩展",
     "h2": "Telegram Media Downloader — 免费且快速",
     "subtitle": "免费、快速的 Chrome 扩展，可将 Telegram 视频、图片、音频和文件保存到电脑。界面简洁，支持单个或批量下载，无需在本站登录。仅供个人备份与整理 — 请确保您有权保存相关内容。",
     "ctaPrimary": "从 Chrome 网上应用店安装",
@@ -34,6 +34,14 @@
         "title": "1GB+ 稳定",
         "description": "在网络条件允许时，大文件可稳定下载。"
       }
+    },
+    "trustStats": {
+      "usersValue": "1,000+",
+      "usersLabel": "Chrome 用户",
+      "reviewsValue": "100+",
+      "reviewsLabel": "好评",
+      "ratingValue": "4.9",
+      "ratingLabel": "Chrome 网上应用店评分"
     }
   },
   "features": {
@@ -426,5 +434,12 @@
       "ogDescription": "保存与整理 Facebook 视频、图片与照片。适用于主页、群组、动态、Watch、Reels 与嵌入内容的快速免费 Chrome 扩展。",
       "keywords": "facebook 视频下载器, facebook 下载器, 下载 facebook 视频, facebook chrome 扩展, facebook reels 下载, facebook watch 下载"
     }
+  },
+  "homeSeo": {
+    "title": "Telegram 视频下载器 Chrome 扩展 | TGVideoDown",
+    "description": "Telegram 视频下载器，适用于私密群组、频道与聊天。用免费 Chrome 扩展保存视频、图片、音频和文件。支持一键与批量，本站无需登录。",
+    "ogTitle": "Telegram 视频下载器 Chrome 扩展 | TGVideoDown",
+    "ogDescription": "免费 Chrome 扩展，从 Telegram 群组、频道与聊天本地下载视频与媒体。",
+    "keywords": "telegram 视频下载器, telegram video downloader, 下载 telegram 视频, chrome 扩展, 私密频道"
   }
 }

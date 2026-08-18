@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "Extensão Chrome · Site complementar",
-    "title": "Filmes e vídeos privados em um clique\nde grupos e canais do Telegram",
+    "title": "Telegram Video Downloader — Extensão Chrome",
     "h2": "Telegram Media Downloader — grátis e rápido",
     "subtitle": "Uma extensão Chrome gratuita e rápida que salva vídeos, imagens, áudio e arquivos do Telegram no seu computador. Interface simples, downloads únicos ou em lote, sem login no nosso site. Apenas para backup e organização pessoais — certifique-se de ter permissão para salvar o conteúdo.",
     "ctaPrimary": "Instalar na Chrome Web Store",
@@ -34,6 +34,14 @@
         "title": "1GB+ estável",
         "description": "Arquivos grandes baixam de forma confiável quando sua conexão permite."
       }
+    },
+    "trustStats": {
+      "usersValue": "1.000+",
+      "usersLabel": "usuários Chrome",
+      "reviewsValue": "100+",
+      "reviewsLabel": "avaliações",
+      "ratingValue": "4,9",
+      "ratingLabel": "nota na Chrome Web Store"
     }
   },
   "features": {
@@ -426,5 +434,12 @@
       "ogDescription": "Salve e organize vídeos, imagens e fotos do Facebook. Extensão Chrome rápida e gratuita para páginas, grupos, feeds, Watch, Reels e incorporações.",
       "keywords": "baixador de vídeo facebook, baixador facebook, baixar vídeo facebook, extensão chrome facebook, baixar reels facebook, baixar watch facebook"
     }
+  },
+  "homeSeo": {
+    "title": "Telegram Video Downloader — Extensão Chrome | TGVideoDown",
+    "description": "Baixe vídeos do Telegram de grupos privados, canais e chats com uma extensão Chrome gratuita. Um clique ou em lote. Sem login neste site.",
+    "ogTitle": "Telegram Video Downloader — Extensão Chrome | TGVideoDown",
+    "ogDescription": "Extensão Chrome gratuita para baixar vídeos e mídia do Telegram de grupos, canais e chats. Salvamento local.",
+    "keywords": "telegram video downloader, baixar vídeo telegram, baixar vídeo canal privado telegram, extensão chrome telegram"
   }
 }

@@ -10,9 +10,9 @@
   },
   "hero": {
     "badge": "Tiện ích Chrome · Trang đồng hành",
-    "title": "Phim & video riêng tư một cú nhấp\ntừ nhóm & kênh Telegram",
-    "h2": "Telegram Media Downloader — miễn phí & nhanh",
-    "subtitle": "Tiện ích Chrome miễn phí, nhanh, lưu video, hình ảnh, âm thanh và tệp từ Telegram về máy tính. Giao diện đơn giản, tải đơn lẻ hoặc hàng loạt, không cần đăng nhập trên trang của chúng tôi. Chỉ để sao lưu và sắp xếp cá nhân — hãy đảm bảo bạn có quyền lưu nội dung.",
+    "title": "Telegram Video Downloader — Tiện ích Chrome",
+    "h2": "Tải video Telegram, gồm kênh riêng tư",
+    "subtitle": "Tiện ích Chrome miễn phí để tải video Telegram từ kênh, nhóm và chat — kể cả kênh riêng tư bạn đã có quyền xem trên Telegram Web. Một cú nhấp hoặc hàng loạt, lưu về máy, không cần đăng nhập trang này.",
     "ctaPrimary": "Cài từ Chrome Web Store",
     "ctaSecondary": "Tìm hiểu thêm",
     "trust": {
@@ -34,6 +34,14 @@
         "title": "Ổn định từ 1GB+",
         "description": "Tệp lớn tải ổn định khi kết nối cho phép."
       }
+    },
+    "trustStats": {
+      "usersValue": "1.000+",
+      "usersLabel": "người dùng Chrome",
+      "reviewsValue": "100+",
+      "reviewsLabel": "đánh giá",
+      "ratingValue": "4.9",
+      "ratingLabel": "điểm Chrome Web Store"
     }
   },
   "features": {
@@ -426,5 +434,12 @@
       "ogDescription": "Lưu và sắp xếp video, hình ảnh và ảnh Facebook. Tiện ích Chrome nhanh miễn phí cho trang, nhóm, bảng tin, Watch, Reels và nhúng.",
       "keywords": "trình tải video facebook, trình tải facebook, tải video facebook, tiện ích chrome facebook, tải reels facebook, tải watch facebook"
     }
+  },
+  "homeSeo": {
+    "title": "Telegram Video Downloader — Tiện ích Chrome | TGVideoDown",
+    "description": "Telegram video downloader cho kênh, nhóm và chat. Tải video Telegram riêng tư khi bạn đã có quyền xem trên Telegram Web. Tiện ích Chrome miễn phí, một cú nhấp hoặc hàng loạt, không cần đăng nhập trang này.",
+    "ogTitle": "Telegram Video Downloader — Tiện ích Chrome | TGVideoDown",
+    "ogDescription": "Tiện ích Chrome miễn phí để tải video Telegram từ kênh, nhóm và chat. Lưu cục bộ, một cú nhấp hoặc hàng loạt.",
+    "keywords": "tải video telegram riêng tư, telegram video downloader, tải video telegram, tiện ích chrome telegram, kênh riêng tư"
   }
 }

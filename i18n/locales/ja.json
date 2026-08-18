@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "Chrome 拡張機能 · 公式サイト",
-    "title": "ワンクリックで映画・限定動画を\nTelegram グループ・チャンネルから",
+    "title": "Telegram Video Downloader — Chrome 拡張機能",
     "h2": "Telegram Media Downloader — 無料で高速",
     "subtitle": "Telegram の動画、画像、音声、ファイルをパソコンに保存する無料で高速な Chrome 拡張機能。シンプルな UI、単一または一括ダウンロード、当サイトへのログインは不要です。個人用のバックアップ・整理のみ — 保存に適切な権限があることをご確認ください。",
     "ctaPrimary": "Chrome ウェブストアからインストール",
@@ -34,6 +34,14 @@
         "title": "1GB 以上も安定",
         "description": "回線状況が許す限り、大容量ファイルも安定してダウンロードできます。"
       }
+    },
+    "trustStats": {
+      "usersValue": "1,000+",
+      "usersLabel": "Chrome ユーザー",
+      "reviewsValue": "100+",
+      "reviewsLabel": "レビュー",
+      "ratingValue": "4.9",
+      "ratingLabel": "Chrome ウェブストア評価"
     }
   },
   "features": {
@@ -426,5 +434,12 @@
       "ogDescription": "Facebook の動画・画像・写真を保存・整理。ページ、グループ、フィード、Watch、Reels、埋め込み向けの高速無料 Chrome 拡張機能。",
       "keywords": "facebook 動画ダウンローダー, facebook ダウンローダー, facebook 動画 ダウンロード, facebook chrome 拡張機能, facebook reels ダウンロード, facebook watch ダウンロード"
     }
+  },
+  "homeSeo": {
+    "title": "Telegram Video Downloader — Chrome 拡張機能 | TGVideoDown",
+    "description": "非公開グループ・チャンネル・チャットから Telegram 動画を保存。無料の Chrome 拡張機能で動画・画像・音声・ファイルをワンクリックまたは一括保存。本サイトへのログインは不要。",
+    "ogTitle": "Telegram Video Downloader — Chrome 拡張機能 | TGVideoDown",
+    "ogDescription": "Telegram Web から動画やメディアをローカル保存する無料 Chrome 拡張機能。グループ・チャンネル対応。",
+    "keywords": "telegram video downloader, telegram 動画 ダウンロード, chrome 拡張機能, 非公開チャンネル"
   }
 }

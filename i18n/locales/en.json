@@ -35,6 +35,14 @@
         "title": "1GB+ stable",
         "description": "Large files download reliably when your connection allows."
       }
+    },
+    "trustStats": {
+      "usersValue": "1,000+",
+      "usersLabel": "Chrome users",
+      "reviewsValue": "100+",
+      "reviewsLabel": "reviews",
+      "ratingValue": "4.9",
+      "ratingLabel": "Chrome Web Store rating"
     }
   },
   "features": {
@@ -430,5 +438,12 @@
       "ogDescription": "Save and organize Facebook videos, images, and photos. Fast, free Chrome extension for pages, groups, feeds, Watch, Reels, and embeds.",
       "keywords": "facebook video downloader, facebook downloader, download facebook video, facebook chrome extension, facebook reels download, facebook watch download"
     }
+  },
+  "homeSeo": {
+    "title": "Telegram Video Downloader Chrome Extension | TGVideoDown",
+    "description": "Telegram video downloader for private groups, channels, and chats. Save videos, images, audio, and files with a free Chrome extension. One-click or batch. No login on this site.",
+    "ogTitle": "Telegram Video Downloader Chrome Extension | TGVideoDown",
+    "ogDescription": "Free Chrome extension to download Telegram videos and media from groups, channels, and chats. Local saves, one-click and batch.",
+    "keywords": "telegram video downloader, telegram video downloader chrome, telegram video downloader extension, download telegram video, download video telegram private, telegram media downloader"
   }
 }

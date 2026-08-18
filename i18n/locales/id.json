@@ -10,9 +10,9 @@
   },
   "hero": {
     "badge": "Ekstensi Chrome · Situs pendamping",
-    "title": "Film & video privat sekali klik\ndari grup & saluran Telegram",
-    "h2": "Telegram Media Downloader — gratis & cepat",
-    "subtitle": "Ekstensi Chrome gratis dan cepat yang menyimpan video, gambar, audio, dan file Telegram ke komputer Anda. UI sederhana, unduhan tunggal atau batch, tanpa login di situs kami. Hanya untuk cadangan dan pengaturan pribadi — pastikan Anda berhak menyimpan konten tersebut.",
+    "title": "Telegram Video Downloader — Ekstensi Chrome",
+    "h2": "Download video Telegram, termasuk channel privat",
+    "subtitle": "Ekstensi Chrome gratis untuk download video Telegram dari channel, grup, dan chat — termasuk yang privat yang sudah bisa kamu buka di Telegram Web. Satu klik atau batch, simpan di komputer, tanpa login di situs ini.",
     "ctaPrimary": "Pasang dari Chrome Web Store",
     "ctaSecondary": "Pelajari lebih lanjut",
     "trust": {
@@ -34,6 +34,14 @@
         "title": "1GB+ stabil",
         "description": "File besar terunduh andal saat koneksi memungkinkan."
       }
+    },
+    "trustStats": {
+      "usersValue": "1.000+",
+      "usersLabel": "pengguna Chrome",
+      "reviewsValue": "100+",
+      "reviewsLabel": "ulasan",
+      "ratingValue": "4,9",
+      "ratingLabel": "rating Chrome Web Store"
     }
   },
   "features": {
@@ -426,5 +434,12 @@
       "ogDescription": "Simpan dan atur video, gambar, dan foto Facebook. Ekstensi Chrome cepat dan gratis untuk halaman, grup, feed, Watch, Reels, dan tersemat.",
       "keywords": "pengunduh video facebook, pengunduh facebook, unduh video facebook, ekstensi chrome facebook, unduh reels facebook, unduh watch facebook"
     }
+  },
+  "homeSeo": {
+    "title": "Telegram Video Downloader — Ekstensi Chrome | TGVideoDown",
+    "description": "Telegram video downloader untuk channel, grup, dan chat. Download video Telegram privat yang sudah bisa kamu akses di Telegram Web. Ekstensi Chrome gratis, satu klik atau batch, tanpa login di situs ini.",
+    "ogTitle": "Telegram Video Downloader — Ekstensi Chrome | TGVideoDown",
+    "ogDescription": "Ekstensi Chrome gratis untuk download video Telegram dari channel, grup, dan chat. Simpan lokal, satu klik atau batch.",
+    "keywords": "download video telegram privat, download video telegram private, telegram video downloader, unduh video telegram, ekstensi chrome telegram"
   }
 }

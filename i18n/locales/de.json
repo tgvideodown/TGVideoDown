@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "Chrome-Erweiterung · Begleitwebsite",
-    "title": "Filme & private Videos mit einem Klick\naus Telegram-Gruppen & -Kanälen",
+    "title": "Telegram Video Downloader — Chrome-Erweiterung",
     "h2": "Telegram Media Downloader — kostenlos & schnell",
     "subtitle": "Eine kostenlose, schnelle Chrome-Erweiterung, die Telegram-Videos, Bilder, Audio und Dateien auf Ihren Computer speichert. Einfache Oberfläche, Einzel- oder Massendownloads, kein Login auf unserer Website. Nur für persönliche Sicherung und Organisation — stellen Sie sicher, dass Sie die Berechtigung zum Speichern haben.",
     "ctaPrimary": "Aus dem Chrome Web Store installieren",
@@ -34,6 +34,14 @@
         "title": "1GB+ stabil",
         "description": "Große Dateien laden zuverlässig herunter, wenn Ihre Verbindung es erlaubt."
       }
+    },
+    "trustStats": {
+      "usersValue": "1.000+",
+      "usersLabel": "Chrome-Nutzer",
+      "reviewsValue": "100+",
+      "reviewsLabel": "Bewertungen",
+      "ratingValue": "4,9",
+      "ratingLabel": "Chrome-Web-Store-Bewertung"
     }
   },
   "features": {
@@ -426,5 +434,12 @@
       "ogDescription": "Facebook-Videos, Bilder und Fotos speichern und organisieren. Schnelle, kostenlose Chrome-Erweiterung für Seiten, Gruppen, Feeds, Watch, Reels und Einbettungen.",
       "keywords": "facebook video downloader, facebook downloader, facebook video herunterladen, facebook chrome erweiterung, facebook reels download, facebook watch download"
     }
+  },
+  "homeSeo": {
+    "title": "Telegram Video Downloader — Chrome-Erweiterung | TGVideoDown",
+    "description": "Telegram-Videos aus privaten Gruppen, Kanälen und Chats speichern. Kostenlose Chrome-Erweiterung für Videos, Bilder, Audio und Dateien. Ein Klick oder Stapel. Kein Login auf dieser Website.",
+    "ogTitle": "Telegram Video Downloader — Chrome-Erweiterung | TGVideoDown",
+    "ogDescription": "Kostenlose Chrome-Erweiterung zum lokalen Speichern von Telegram-Videos und Medien aus Gruppen, Kanälen und Chats.",
+    "keywords": "telegram video downloader, telegram video herunterladen, privater kanal, chrome erweiterung"
   }
 }
