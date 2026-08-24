@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "Extension Chrome · Site compagnon",
-    "title": "Telegram Video Downloader — Extension Chrome",
+    "title": "Telegram Video Downloader",
     "h2": "Telegram Media Downloader — gratuit et rapide",
     "subtitle": "Une extension Chrome gratuite et rapide qui enregistre les vidéos, images, audio et fichiers Telegram sur votre ordinateur. Interface simple, téléchargement unitaire ou par lot, pas de compte sur notre site. Uniquement pour sauvegarde et organisation personnelles — assurez-vous d’avoir l’autorisation de conserver le contenu.",
     "ctaPrimary": "Installer depuis le Chrome Web Store",
@@ -436,9 +436,9 @@
     }
   },
   "homeSeo": {
-    "title": "Telegram Video Downloader — Extension Chrome | TGVideoDown",
-    "description": "Téléchargez des vidéos Telegram depuis des groupes privés, canaux et discussions. Extension Chrome gratuite, un clic ou par lot. Aucune connexion sur ce site.",
-    "ogTitle": "Telegram Video Downloader — Extension Chrome | TGVideoDown",
+    "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
+    "description": "Téléchargez des vidéos Telegram depuis des groupes privés, canaux et discussions. TGVideoDown est une extension Chrome gratuite pour vidéos, images, audio et fichiers. Un clic ou par lot. Aucune connexion sur ce site.",
+    "ogTitle": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "ogDescription": "Extension Chrome gratuite pour enregistrer localement les vidéos et médias Telegram depuis groupes, canaux et discussions.",
     "keywords": "telegram video downloader, télécharger vidéo telegram, canal privé telegram, extension chrome"
   }

@@ -1,4 +1,48 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+/** Landing pages merged into homepage to stop keyword cannibalization */
+const MERGE_TO_HOME_PATHS = [
+  '/telegram-video-downloader-chrome',
+  '/telegram-video-downloader-extension',
+  '/telegram-media-downloader',
+  '/download-telegram-photos'
+] as const
+
+const I18N_PREFIX_LOCALES = [
+  'ja',
+  'ko',
+  'ru',
+  'es',
+  'tw',
+  'cn',
+  'de',
+  'fr',
+  'id',
+  'ar',
+  'pt',
+  'tr',
+  'it',
+  'vi'
+] as const
+
+function buildMergeToHomeRouteRules() {
+  const rules: Record<string, { redirect: { to: string; statusCode: number } }> = {}
+
+  for (const path of MERGE_TO_HOME_PATHS) {
+    rules[path] = { redirect: { to: '/', statusCode: 301 } }
+    for (const locale of I18N_PREFIX_LOCALES) {
+      rules[`/${locale}${path}`] = { redirect: { to: `/${locale}`, statusCode: 301 } }
+    }
+  }
+
+  return rules
+}
+
+const mergedPageExcludeList = MERGE_TO_HOME_PATHS.flatMap((path) => [
+  path,
+  ...I18N_PREFIX_LOCALES.map((locale) => `/${locale}${path}`)
+])
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
@@ -14,7 +58,8 @@ export default defineNuxtConfig({
     },
     '/download-telegram-private-video': {
       redirect: { to: '/download-telegram-private-channel-video', statusCode: 301 }
-    }
+    },
+    ...buildMergeToHomeRouteRules()
   },
 
   runtimeConfig: {
@@ -32,7 +77,7 @@ export default defineNuxtConfig({
   site: {
     url: process.env.NUXT_SITE_URL || process.env.NUXT_PUBLIC_SITE_URL || 'https://tgvideodown.com'
   },
-  
+
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n',
@@ -83,12 +128,16 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Telegram Video Downloader Chrome Extension | TGVideoDown',
+      title: 'Telegram Video Downloader - Download Telegram Videos with TGVideoDown',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'msvalidate.01', content: '937D79DE13AC2EF3D392D947D295A3FD' },
-        { name: 'description', content: 'TGVideoDown is a Telegram Video Downloader Chrome extension for saving Telegram videos, files, images, and audio. Fast, lightweight, privacy-minded, and no login on this site.' }
+        {
+          name: 'description',
+          content:
+            'TGVideoDown is a Telegram Video Downloader Chrome extension for saving Telegram videos, files, images, and audio from private groups, channels, and chats. Fast, lightweight, privacy-minded, and no login on this site.'
+        }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -97,16 +146,30 @@ export default defineNuxtConfig({
       ]
     }
   },
+
+  sitemap: {
+    exclude: mergedPageExcludeList
+  },
+
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
     configPath: 'tailwind.config'
   },
+
   nitro: {
     preset: 'static',
     prerender: {
       autoSubfolderIndex: false,
       crawlLinks: true, // 保持自动爬取以生成所有页面
-      ignore: ['/pricing', '/features', '/cn/pricing', '/cn/features', '/es/pricing', '/es/features']
+      ignore: [
+        '/pricing',
+        '/features',
+        '/cn/pricing',
+        '/cn/features',
+        '/es/pricing',
+        '/es/features',
+        ...mergedPageExcludeList
+      ]
     }
-}
+  }
 })

@@ -1421,6 +1421,11 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
   const pack = useLandingDerivedCopy(useGuideDerivedCopy(mergeDeep(en, localePacks[locale] || {}), blog, locale), blog, locale)
 
   const articles = {
+    home: {
+      title: locale === 'en' ? 'Telegram Video Downloader' : pack.titles.downloader,
+      path: '/',
+      description: pack.descriptions.downloader
+    },
     downloader: {
       title: pack.titles.downloader,
       path: telegramPagePaths.downloader,
@@ -1497,12 +1502,9 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
   }
 
   const guideArticles = [
-    articles.mediaDownloader,
-    articles.extensionLanding,
-    articles.chromeLanding,
+    articles.home,
     articles.mainGuide,
     articles.howTo,
-    articles.photos,
     articles.extensionGuide,
     articles.noLogin,
     articles.privateChannel,
@@ -1542,7 +1544,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       stepsTitle: pack.labels.installSteps,
       steps: [step(pack, 'install', 0), step(pack, 'openWeb', 1), step(pack, 'chooseMedia', 2), step(pack, 'saveLocal', 3)],
       relatedTitle: pack.labels.relatedGuides,
-      relatedLinks: [articles.mediaDownloader, articles.chromeLanding, articles.photos, articles.howTo, articles.noLogin, articles.telegramWeb],
+      relatedLinks: [articles.home, articles.howTo, articles.noLogin, articles.telegramWeb],
       faqTitle: pack.labels.extensionFaq,
       faqs: pack.faqs.extensionLanding,
       seoTitle:
@@ -1588,7 +1590,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
         description: pack.body.fileTypeDescription
       })),
       relatedTitle: pack.labels.relatedGuides,
-      relatedLinks: [articles.extensionLanding, articles.mediaDownloader, articles.photos, articles.howTo, articles.telegramWeb, articles.noLogin],
+      relatedLinks: [articles.home, articles.howTo, articles.telegramWeb, articles.noLogin],
       faqTitle: pack.labels.chromeFaq,
       faqs: pack.faqs.chromeLanding,
       seoTitle:
@@ -1658,7 +1660,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       stepsTitle: pack.labels.installSteps,
       steps: [step(pack, 'install', 0), step(pack, 'openWeb', 1), step(pack, 'chooseMedia', 2), step(pack, 'saveLocal', 3)],
       relatedTitle: pack.labels.relatedGuides,
-      relatedLinks: [articles.photos, articles.telegramWeb, articles.extensionLanding, articles.noLogin, articles.privateChannel, articles.mainGuide],
+      relatedLinks: [articles.home, articles.telegramWeb, articles.noLogin, articles.privateChannel, articles.mainGuide],
       faqTitle: pack.labels.mediaDownloaderFaq,
       faqs: pack.faqs.mediaDownloader,
       seoTitle:
@@ -1728,7 +1730,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       practicesTitle: pack.labels.bestPractices,
       practices: pack.lists.photoBestPractices,
       relatedTitle: pack.labels.relatedGuides,
-      relatedLinks: [articles.mediaDownloader, articles.telegramWeb, articles.howTo, articles.noLogin, articles.privateChannel, articles.extensionLanding],
+      relatedLinks: [articles.home, articles.telegramWeb, articles.howTo, articles.noLogin, articles.privateChannel],
       faqTitle: pack.labels.photosFaq,
       faqs: pack.faqs.photos,
       seoTitle: locale === 'en' ? 'Download Telegram Photos - Save Images from Telegram Web' : `${articles.photos.title} - TGVideoDown`,
@@ -1802,7 +1804,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       tipsTitle: pack.labels.largeTips,
       tips: pack.lists.tips,
       relatedTitle: pack.labels.relatedGuides,
-      relatedLinks: [articles.mediaDownloader, articles.photos, articles.mainGuide, articles.howTo, articles.privateChannel, articles.noLogin],
+      relatedLinks: [articles.home, articles.mainGuide, articles.howTo, articles.privateChannel, articles.noLogin],
       faqs: pack.faqs.telegramWeb,
       ...articleSeo(
         articles.telegramWeb.title,
@@ -1866,7 +1868,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       practicesTitle: pack.labels.bestPractices,
       practices: pack.lists.bestPractices,
       relatedTitle: pack.labels.relatedGuides,
-      relatedLinks: [articles.mediaDownloader, articles.photos, articles.extensionLanding, articles.chromeLanding, articles.downloader, articles.howTo, articles.extensionGuide, articles.telegramWeb, articles.privateChannel, articles.mainGuide],
+      relatedLinks: [articles.home, articles.downloader, articles.howTo, articles.extensionGuide, articles.telegramWeb, articles.privateChannel, articles.mainGuide],
       ...articleSeo(
         articles.noLogin.title,
         pack.body.noLoginIntro,
@@ -1897,7 +1899,7 @@ export const getTelegramPageLocaleContent = (locale = 'en') => {
       troubleshootingTitle: pack.labels.troubleshooting,
       troubleshooting: pack.lists.troubleshooting,
       guideLinksTitle: pack.labels.guideLinks,
-      guideLinks: [articles.mediaDownloader, articles.photos, articles.extensionLanding, articles.chromeLanding, articles.mainGuide, articles.downloader, articles.howTo, articles.telegramWeb, articles.privateChannel, articles.noLogin],
+      guideLinks: [articles.home, articles.mainGuide, articles.downloader, articles.howTo, articles.telegramWeb, articles.privateChannel, articles.noLogin],
       ...articleSeo(
         articles.extensionGuide.title,
         pack.body.extensionIntro,

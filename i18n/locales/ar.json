@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "إضافة كروم · موقع مرافق",
-    "title": "Telegram Video Downloader — إضافة Chrome",
+    "title": "Telegram Video Downloader",
     "h2": "Telegram Media Downloader — مجاني وسريع",
     "subtitle": "إضافة كروم مجانية وسريعة تحفظ فيديوهات وصورًا وملفات صوتية وملفات من تيليجرام على جهازك. واجهة بسيطة، تنزيل فردي أو دفعة، دون تسجيل على موقعنا. للنسخ الاحتياطي والتنظيم الشخصي فقط — تأكد أن لديك إذنًا بحفظ المحتوى.",
     "ctaPrimary": "التثبيت من متجر كروم",
@@ -436,9 +436,9 @@
     }
   },
   "homeSeo": {
-    "title": "Telegram Video Downloader — إضافة Chrome | TGVideoDown",
-    "description": "نزّل فيديوهات Telegram من المجموعات والقنوات والمحادثات الخاصة بإضافة Chrome مجانية. نقرة واحدة أو دفعة. لا تسجيل دخول على هذا الموقع.",
-    "ogTitle": "Telegram Video Downloader — إضافة Chrome | TGVideoDown",
+    "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
+    "description": "نزّل فيديوهات Telegram من المجموعات والقنوات والمحادثات الخاصة. TGVideoDown إضافة Chrome مجانية للفيديو والصور والصوت والملفات. نقرة واحدة أو دفعة. لا تسجيل دخول على هذا الموقع.",
+    "ogTitle": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "ogDescription": "إضافة Chrome مجانية لحفظ فيديوهات ووسائط Telegram محليًا من المجموعات والقنوات والمحادثات.",
     "keywords": "telegram video downloader, تنزيل فيديو telegram, قناة خاصة, إضافة chrome"
   }

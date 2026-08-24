@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "Chrome 擴充功能 · 配套網站",
-    "title": "Telegram 影片下載器 Chrome 擴充功能",
+    "title": "Telegram 影片下載器",
     "h2": "Telegram Media Downloader — 免費且快速",
     "subtitle": "免費、快速的 Chrome 擴充功能，可將 Telegram 影片、圖片、音訊與檔案儲存到電腦。介面簡潔，支援單一或批次下載，無需在本站登入。僅供個人備份與整理 — 請確保您有權儲存相關內容。",
     "ctaPrimary": "從 Chrome 線上應用程式商店安裝",
@@ -436,9 +436,9 @@
     }
   },
   "homeSeo": {
-    "title": "Telegram 影片下載器 Chrome 擴充功能 | TGVideoDown",
-    "description": "Telegram 影片下載器，適用於私人社團、頻道與聊天。以免費 Chrome 擴充功能儲存影片、圖片、音訊與檔案。支援一鍵與批次，本站無需登入。",
-    "ogTitle": "Telegram 影片下載器 Chrome 擴充功能 | TGVideoDown",
+    "title": "Telegram 影片下載器 - 下載 Telegram 影片 | TGVideoDown",
+    "description": "Telegram 影片下載器，適用於私人社團、頻道與聊天。TGVideoDown 是免費 Chrome 擴充功能，可儲存影片、圖片、音訊與檔案。支援一鍵與批次，本站無需登入。",
+    "ogTitle": "Telegram 影片下載器 - 下載 Telegram 影片 | TGVideoDown",
     "ogDescription": "免費 Chrome 擴充功能，從 Telegram 社團、頻道與聊天本機下載影片與媒體。",
     "keywords": "telegram 影片下載器, telegram video downloader, 下載 telegram 影片, chrome 擴充功能, 私人頻道"
   }

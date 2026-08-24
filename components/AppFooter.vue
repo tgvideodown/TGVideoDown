@@ -40,28 +40,13 @@
           </ul>
         </div>
 
-        <!-- Guides (SEO) -->
+        <!-- Guides -->
         <div>
           <h3 class="font-heading font-semibold mb-4">{{ $t('footer.guides') }}</h3>
           <ul class="space-y-2">
             <li>
-              <NuxtLink :to="localePath('/telegram-video-downloader')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Telegram Video Downloader
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/telegram-media-downloader')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Telegram Media Downloader
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/telegram-video-downloader-extension')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Telegram video downloader extension
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/telegram-video-downloader-chrome')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Telegram video downloader Chrome
+              <NuxtLink :to="localePath('/download-telegram-private-channel-video')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                {{ $t('footer.guidePrivate') }}
               </NuxtLink>
             </li>
             <li>
@@ -71,42 +56,7 @@
             </li>
             <li>
               <NuxtLink :to="localePath('/blog/telegram-video-downloader-guide')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Telegram video downloader guide
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/telegram-video-downloader-chrome-extension-guide')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Chrome extension guide
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/telegram-web-download-files')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Telegram Web download files
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/download-telegram-photos')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Download Telegram Photos
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/download-telegram-files-without-login')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Download Telegram files without login
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/download-telegram-private-channel-video')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Private channel video
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/telegram-vs-whatsapp-media-download')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                Telegram vs WhatsApp media
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/facebook-video-download')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                {{ $t('footer.guideFacebook') }}
+                {{ $t('footer.guideAlt') }}
               </NuxtLink>
             </li>
           </ul>

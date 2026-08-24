@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "Chrome uzantısı · Yardımcı site",
-    "title": "Telegram Video Downloader — Chrome Uzantısı",
+    "title": "Telegram Video Downloader",
     "h2": "Telegram Media Downloader — ücretsiz ve hızlı",
     "subtitle": "Telegram videolarını, görsellerini, seslerini ve dosyalarını bilgisayarınıza kaydeden ücretsiz ve hızlı bir Chrome uzantısı. Basit arayüz, tekli veya toplu indirme, sitemizde hesap gerekmez. Yalnızca kişisel yedekleme ve düzenleme için — içeriği kaydetme izniniz olduğundan emin olun.",
     "ctaPrimary": "Chrome Web Mağazası'ndan yükle",
@@ -436,9 +436,9 @@
     }
   },
   "homeSeo": {
-    "title": "Telegram Video Downloader — Chrome Uzantısı | TGVideoDown",
-    "description": "Telegram video indirici: özel grup, kanal ve sohbetlerden video, görsel, ses ve dosya kaydedin. Ücretsiz Chrome uzantısı. Tek tık veya toplu. Bu sitede giriş yok.",
-    "ogTitle": "Telegram Video Downloader — Chrome Uzantısı | TGVideoDown",
+    "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
+    "description": "Telegram video indirici: özel grup, kanal ve sohbetlerden video, görsel, ses ve dosya kaydedin. TGVideoDown ücretsiz Chrome uzantısı. Tek tık veya toplu. Bu sitede giriş yok.",
+    "ogTitle": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "ogDescription": "Telegram grup, kanal ve sohbetlerinden video indirmek için ücretsiz Chrome uzantısı. Yerel kayıt, tek tık veya toplu.",
     "keywords": "telegram video indirici, telegram video downloader, telegram video indir, özel kanal, chrome uzantısı"
   }

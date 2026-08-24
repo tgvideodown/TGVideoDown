@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "Расширение Chrome · Сайт-компаньон",
-    "title": "Telegram Video Downloader — расширение Chrome",
+    "title": "Telegram Video Downloader",
     "h2": "Telegram Media Downloader — бесплатно и быстро",
     "subtitle": "Бесплатное быстрое расширение Chrome для сохранения видео, изображений, аудио и файлов из Telegram на компьютер. Простой интерфейс, одиночная или пакетная загрузка, вход на нашем сайте не требуется. Только для личного резервного копирования — убедитесь, что у вас есть право сохранять контент.",
     "ctaPrimary": "Установить из Chrome Web Store",
@@ -436,9 +436,9 @@
     }
   },
   "homeSeo": {
-    "title": "Telegram Video Downloader — расширение Chrome | TGVideoDown",
-    "description": "Скачивайте видео из Telegram из приватных групп, каналов и чатов. Бесплатное расширение Chrome: видео, фото, аудио и файлы. Один клик или пакетно. Без входа на этом сайте.",
-    "ogTitle": "Telegram Video Downloader — расширение Chrome | TGVideoDown",
+    "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
+    "description": "Скачивайте видео из Telegram из приватных групп, каналов и чатов. TGVideoDown — бесплатное расширение Chrome для видео, фото, аудио и файлов. Один клик или пакетно. Без входа на этом сайте.",
+    "ogTitle": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "ogDescription": "Бесплатное расширение Chrome для локального сохранения видео и медиа Telegram из групп, каналов и чатов.",
     "keywords": "telegram video downloader, скачать видео telegram, приватный канал, расширение chrome"
   }

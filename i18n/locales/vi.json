@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "Tiện ích Chrome · Trang đồng hành",
-    "title": "Telegram Video Downloader — Tiện ích Chrome",
+    "title": "Telegram Video Downloader",
     "h2": "Tải video Telegram, gồm kênh riêng tư",
     "subtitle": "Tiện ích Chrome miễn phí để tải video Telegram từ kênh, nhóm và chat — kể cả kênh riêng tư bạn đã có quyền xem trên Telegram Web. Một cú nhấp hoặc hàng loạt, lưu về máy, không cần đăng nhập trang này.",
     "ctaPrimary": "Cài từ Chrome Web Store",
@@ -436,9 +436,9 @@
     }
   },
   "homeSeo": {
-    "title": "Telegram Video Downloader — Tiện ích Chrome | TGVideoDown",
+    "title": "Telegram Video Downloader | TGVideoDown",
     "description": "Telegram video downloader cho kênh, nhóm và chat. Tải video Telegram riêng tư khi bạn đã có quyền xem trên Telegram Web. Tiện ích Chrome miễn phí, một cú nhấp hoặc hàng loạt, không cần đăng nhập trang này.",
-    "ogTitle": "Telegram Video Downloader — Tiện ích Chrome | TGVideoDown",
+    "ogTitle": "Telegram Video Downloader | TGVideoDown",
     "ogDescription": "Tiện ích Chrome miễn phí để tải video Telegram từ kênh, nhóm và chat. Lưu cục bộ, một cú nhấp hoặc hàng loạt.",
     "keywords": "tải video telegram riêng tư, telegram video downloader, tải video telegram, tiện ích chrome telegram, kênh riêng tư"
   }
