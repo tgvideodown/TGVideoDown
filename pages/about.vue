@@ -130,7 +130,7 @@
             {{ $t('footer.contact') }}
           </p>
           <a
-            :href="`mailto:${contactEmail}`"
+            :href="mailto"
             class="inline-flex min-h-11 items-center justify-center rounded-lg bg-white/10 px-4 py-2 text-base font-semibold text-white transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary"
           >
             {{ contactEmail }}
@@ -143,7 +143,7 @@
 
 <script setup>
 const localePath = useLocalePath()
-const contactEmail = 'leorock8808@gmail.com'
+const { email: contactEmail, mailto } = useSupportEmail()
 
 const values = [
   {

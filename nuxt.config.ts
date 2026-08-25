@@ -67,10 +67,15 @@ export default defineNuxtConfig({
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://tgvideodown.com',
       extensionStoreUrl: 'https://chromewebstore.google.com/detail/telegram-video-downloader/lmblmgpljbjhkbicffecgngnfnkckopm',
       facebookExtensionStoreUrl:
-        'https://chromewebstore.google.com/detail/facebook-video-downloader/jgeifchelmmplfbglkigaljkidfgpdmb',
+        'https://chromewebstore.google.com/detail/video-downloader-download/jgeifchelmmplfbglkigaljkidfgpdmb',
+      igDmBotStoreUrl:
+        'https://chromewebstore.google.com/detail/ig-dm-bot-%E2%80%93-bulk-instagra/iocffhjpcgaeefodaacffhidgobhdcjk',
+      igFollowerExportStoreUrl:
+        'https://chromewebstore.google.com/detail/ig-follower-export-tool-i/ncmdkkkbcmjiicgjfakjoigklahnnbih',
       extensionVersion: '5.2.0',
       /** Google Analytics 4 Measurement ID (gtag.js) */
-      gaId: process.env.NUXT_PUBLIC_GA_ID || 'G-DSKQVQZQY6'
+      gaId: process.env.NUXT_PUBLIC_GA_ID || 'G-DSKQVQZQY6',
+      supportEmail: 'support@tgvideodown.com'
     }
   },
 

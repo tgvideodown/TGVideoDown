@@ -67,8 +67,8 @@
           <h3 class="font-heading font-semibold mb-4">{{ $t('footer.support') }}</h3>
           <ul class="space-y-2">
             <li>
-              <a href="mailto:tgvideodown@example.com" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                {{ $t('footer.help') }}
+              <a :href="mailto" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                {{ email }}
               </a>
             </li>
             <li>
@@ -103,4 +103,5 @@
 
 <script setup>
 const localePath = useLocalePath()
+const { email, mailto } = useSupportEmail()
 </script>

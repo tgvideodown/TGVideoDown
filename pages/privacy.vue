@@ -153,8 +153,8 @@
             </h2>
             <p class="text-gray-700 mb-4" v-html="$t('privacy.sections.contact.content')"></p>
             <p class="text-gray-700">
-              <a href="mailto:tgvideodown@example.com" class="text-primary hover:underline">
-                tgvideodown@example.com
+              <a :href="mailto" class="text-primary hover:underline">
+                {{ email }}
               </a>
             </p>
           </div>
@@ -166,6 +166,7 @@
 
 <script setup>
 const lastUpdated = '2024-01-01'
+const { email, mailto } = useSupportEmail()
 
 useSeoMeta({
   title: 'Privacy Policy - TGVideoDown',

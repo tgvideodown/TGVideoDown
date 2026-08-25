@@ -232,6 +232,14 @@
         <p class="text-gray-700 leading-relaxed">
           {{ $t('facebookPage.privacyOutro') }}
         </p>
+        <p class="mt-6">
+          <NuxtLink
+            :to="localePath('/facebook-video-downloader-privacy')"
+            class="text-primary font-semibold hover:underline"
+          >
+            {{ $t('facebookPage.privacyPolicyLink') }}
+          </NuxtLink>
+        </p>
       </div>
     </section>
 
@@ -254,6 +262,8 @@
             {{ $t('facebookPage.storeLink') }}
           </a>
           ·
+          <a :href="mailto" class="text-primary font-semibold hover:underline">{{ email }}</a>
+          ·
           <NuxtLink :to="localePath('/')" class="text-primary font-semibold hover:underline">
             {{ $t('facebookPage.homeLink') }}
           </NuxtLink>
@@ -274,6 +284,7 @@ const facebookStoreUrl = config.public.facebookExtensionStoreUrl
 const localePath = useLocalePath()
 const siteUrl = config.public.siteUrl
 const { t, tm, locale } = useI18n()
+const { email, mailto } = useSupportEmail()
 
 /** tm() returns compiled AST for JSON arrays — use indexed t() for display strings */
 function i18nList(key) {
