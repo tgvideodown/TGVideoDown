@@ -128,11 +128,32 @@
     "guideAlt": "Telegram 视频下载指南",
     "guidePrivate": "私密 / 受限视频",
     "guideFacebook": "Facebook 视频下载器",
+    "extensions": "我们的扩展",
+    "extFacebook": "Facebook 视频下载器",
+    "extIgDm": "IG DM Bot",
+    "extIgExport": "IG 粉丝导出工具",
     "support": "支持",
     "help": "帮助中心",
     "contact": "联系我们",
     "privacy": "隐私政策",
     "copyright": "© {year} TGVideoDown. 保留所有权利。"
+  },
+  "extensionsSection": {
+    "title": "更多 Chrome 扩展",
+    "subtitle": "TGVideoDown 出品的免费浏览器工具 — 从 Chrome 应用商店安装。",
+    "learnMore": "了解更多",
+    "facebook": {
+      "title": "Facebook 视频下载器",
+      "description": "从动态、Watch、Reels、公共主页和群组保存 Facebook 视频、图片与照片。"
+    },
+    "igDm": {
+      "title": "IG DM Bot",
+      "description": "Instagram 批量私信：模板、漏斗过滤、新粉丝自动回复。"
+    },
+    "igExport": {
+      "title": "IG 粉丝导出工具",
+      "description": "将 Instagram 粉丝与关注列表导出为 CSV 或 Excel，支持快速或详细模式。"
+    }
   },
   "about": {
     "hero": {

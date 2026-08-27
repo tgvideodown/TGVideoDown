@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-text text-white">
     <div class="container-custom section-padding">
-      <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-6 gap-8">
         <!-- Brand -->
         <div class="col-span-1 md:col-span-2">
           <div class="flex items-center space-x-2 mb-4">
@@ -62,6 +62,21 @@
           </ul>
         </div>
 
+        <!-- Our Extensions -->
+        <div>
+          <h3 class="font-heading font-semibold mb-4">{{ $t('footer.extensions') }}</h3>
+          <ul class="space-y-2">
+            <li v-for="item in extensionLinks" :key="item.path">
+              <NuxtLink
+                :to="localePath(item.path)"
+                class="text-gray-300 hover:text-white transition-colors cursor-pointer"
+              >
+                {{ $t(item.labelKey) }}
+              </NuxtLink>
+            </li>
+          </ul>
+        </div>
+
         <!-- Support -->
         <div>
           <h3 class="font-heading font-semibold mb-4">{{ $t('footer.support') }}</h3>
@@ -102,6 +117,10 @@
 </template>
 
 <script setup>
+import { siteExtensionsFooter } from '~/data/siteExtensions.js'
+
 const localePath = useLocalePath()
 const { email, mailto } = useSupportEmail()
+
+const extensionLinks = siteExtensionsFooter
 </script>

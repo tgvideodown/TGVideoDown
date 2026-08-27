@@ -132,11 +132,32 @@
     "guideNoLogin": "Download Telegram files without login",
     "guidePrivate": "Private / restricted videos",
     "guideFacebook": "Facebook Video Downloader",
+    "extensions": "Our Extensions",
+    "extFacebook": "Facebook Video Downloader",
+    "extIgDm": "IG DM Bot",
+    "extIgExport": "IG Follower Export Tool",
     "support": "Support",
     "help": "Help Center",
     "contact": "Contact Us",
     "privacy": "Privacy Policy",
     "copyright": "© {year} TGVideoDown. All rights reserved."
+  },
+  "extensionsSection": {
+    "title": "More Chrome Extensions",
+    "subtitle": "Free browser tools from TGVideoDown — install from the Chrome Web Store.",
+    "learnMore": "Learn more",
+    "facebook": {
+      "title": "Facebook Video Downloader",
+      "description": "Save Facebook videos, images, and photos from Feed, Watch, Reels, pages, and groups."
+    },
+    "igDm": {
+      "title": "IG DM Bot",
+      "description": "Send bulk Instagram DMs with templates, funnel filters, and auto-replies for new followers."
+    },
+    "igExport": {
+      "title": "IG Follower Export Tool",
+      "description": "Export Instagram followers and following to CSV or Excel — fast or detailed mode."
+    }
   },
   "about": {
     "hero": {

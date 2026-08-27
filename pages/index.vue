@@ -11,6 +11,9 @@
 
     <!-- FAQ -->
     <FAQSection />
+
+    <!-- More Chrome extensions -->
+    <OurExtensionsSection />
     
     <!-- CTA Section -->
     <CTASection />
