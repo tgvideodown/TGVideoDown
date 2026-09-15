@@ -243,6 +243,8 @@
       </div>
     </section>
 
+    <ComplianceTermsSection product-name="Facebook Video Downloader" />
+
     <!-- Notice -->
     <section class="pb-16 md:pb-24">
       <div class="container-custom max-w-3xl mx-auto">
@@ -263,6 +265,10 @@
           </a>
           ·
           <a :href="mailto" class="text-primary font-semibold hover:underline">{{ email }}</a>
+          ·
+          <NuxtLink :to="localePath('/terms')" class="text-primary font-semibold hover:underline">
+            Terms
+          </NuxtLink>
           ·
           <NuxtLink :to="localePath('/')" class="text-primary font-semibold hover:underline">
             {{ $t('facebookPage.homeLink') }}

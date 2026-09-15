@@ -87,6 +87,16 @@
               </a>
             </li>
             <li>
+              <NuxtLink :to="localePath('/support')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                {{ $t('footer.supportPage') }}
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink :to="localePath('/terms')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                {{ $t('footer.terms') }}
+              </NuxtLink>
+            </li>
+            <li>
               <NuxtLink :to="localePath('/privacy')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">
                 {{ $t('footer.privacy') }}
               </NuxtLink>

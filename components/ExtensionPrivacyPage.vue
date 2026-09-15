@@ -46,6 +46,14 @@
           />
         </article>
 
+        <div class="mt-16 pt-8 border-t border-border">
+          <ComplianceTermsSection
+            :product-name="policy.extensionName"
+            embedded
+            :show-footer-links="false"
+          />
+        </div>
+
         <p class="mt-12 pt-6 border-t border-border text-center text-sm text-gray-600">
           <NuxtLink
             :to="localePath(`/${policy.landingSlug}`)"
@@ -55,6 +63,14 @@
           </NuxtLink>
           ·
           <a :href="mailto" class="text-primary font-semibold hover:underline">{{ email }}</a>
+          ·
+          <NuxtLink :to="localePath('/terms')" class="text-primary font-semibold hover:underline">
+            Terms
+          </NuxtLink>
+          ·
+          <NuxtLink :to="localePath('/support')" class="text-primary font-semibold hover:underline">
+            Support
+          </NuxtLink>
           ·
           <NuxtLink :to="localePath('/')" class="text-primary font-semibold hover:underline">
             TGVideoDown Home

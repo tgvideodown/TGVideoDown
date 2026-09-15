@@ -158,6 +158,20 @@
               </a>
             </p>
           </div>
+
+          <!-- Compliance (payment-platform audit) -->
+          <div class="mb-12">
+            <ComplianceTermsSection embedded :show-footer-links="false" />
+            <p class="mt-6 text-gray-700">
+              <NuxtLink :to="localePath('/terms')" class="text-primary font-semibold hover:underline">
+                Full Terms of Use
+              </NuxtLink>
+              ·
+              <NuxtLink :to="localePath('/support')" class="text-primary font-semibold hover:underline">
+                Support
+              </NuxtLink>
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -165,7 +179,8 @@
 </template>
 
 <script setup>
-const lastUpdated = '2024-01-01'
+const lastUpdated = '2026-09-15'
+const localePath = useLocalePath()
 const { email, mailto } = useSupportEmail()
 
 useSeoMeta({

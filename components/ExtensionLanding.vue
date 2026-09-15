@@ -88,6 +88,9 @@
       </div>
     </section>
 
+    <!-- Payment-platform audit / Terms of Use compliance -->
+    <ComplianceTermsSection :product-name="product.title" />
+
     <section class="pb-16 md:pb-24">
       <div class="container-custom max-w-3xl mx-auto">
         <div class="rounded-xl border border-amber-200 bg-amber-50 px-5 py-4 text-amber-950 text-sm leading-relaxed">
@@ -106,6 +109,10 @@
           </a>
           ·
           <a :href="mailto" class="text-primary font-semibold hover:underline">{{ email }}</a>
+          ·
+          <NuxtLink :to="localePath('/terms')" class="text-primary font-semibold hover:underline">
+            Terms
+          </NuxtLink>
           ·
           <NuxtLink :to="localePath('/')" class="text-primary font-semibold hover:underline">
             TGVideoDown Home
