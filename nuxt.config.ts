@@ -72,6 +72,9 @@ export default defineNuxtConfig({
         'https://chromewebstore.google.com/detail/ig-dm-bot-%E2%80%93-bulk-instagra/iocffhjpcgaeefodaacffhidgobhdcjk',
       igFollowerExportStoreUrl:
         'https://chromewebstore.google.com/detail/ig-follower-export-tool-i/ncmdkkkbcmjiicgjfakjoigklahnnbih',
+      /** Replace with the published Chrome Web Store listing when the ID is ready */
+      igCommentExporterStoreUrl:
+        'https://chromewebstore.google.com/search/Instagram%20Comment%20Exporter',
       extensionVersion: '5.2.0',
       /** Google Analytics 4 Measurement ID (gtag.js) */
       gaId: process.env.NUXT_PUBLIC_GA_ID || 'G-DSKQVQZQY6',

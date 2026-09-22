@@ -14,6 +14,11 @@ export const siteExtensions = [
     path: '/ig-follower-export-tool',
     titleKey: 'extensionsSection.igExport.title',
     descKey: 'extensionsSection.igExport.description'
+  },
+  {
+    path: '/ig-comment-exporter',
+    titleKey: 'extensionsSection.igComment.title',
+    descKey: 'extensionsSection.igComment.description'
   }
 ]
 
@@ -21,5 +26,6 @@ export const siteExtensions = [
 export const siteExtensionsFooter = [
   { path: '/facebook-video-download', labelKey: 'footer.extFacebook' },
   { path: '/ig-dm-bot', labelKey: 'footer.extIgDm' },
-  { path: '/ig-follower-export-tool', labelKey: 'footer.extIgExport' }
+  { path: '/ig-follower-export-tool', labelKey: 'footer.extIgExport' },
+  { path: '/ig-comment-exporter', labelKey: 'footer.extIgComment' }
 ]

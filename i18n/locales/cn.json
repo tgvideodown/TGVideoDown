@@ -132,6 +132,7 @@
     "extFacebook": "Facebook 视频下载器",
     "extIgDm": "IG DM Bot",
     "extIgExport": "IG 粉丝导出工具",
+    "extIgComment": "Instagram 评论导出",
     "support": "支持",
     "supportPage": "帮助与支持",
     "terms": "使用条款",
@@ -155,6 +156,10 @@
     "igExport": {
       "title": "IG 粉丝导出工具",
       "description": "将 Instagram 粉丝与关注列表导出为 CSV 或 Excel，支持快速或详细模式。"
+    },
+    "igComment": {
+      "title": "Instagram 评论导出",
+      "description": "将帖子、Reel、IGTV 的评论和回复导出为 CSV 或 Excel。"
     }
   },
   "about": {

@@ -18,12 +18,12 @@
       <div class="container-custom max-w-3xl mx-auto">
         <p class="text-gray-700 leading-relaxed mb-8">
           These Terms of Use apply to the TGVideoDown website and our Chrome extensions
-          (including Telegram Video Downloader, Facebook Video Downloader, IG DM Bot, and
-          IG Follower Export Tool). By installing or using our products, you agree to these terms.
+          (including Telegram Video Downloader, Facebook Video Downloader, IG DM Bot,
+          IG Follower Export Tool, and Instagram Comment Exporter). By installing or using our products, you agree to these terms.
         </p>
         <p class="text-gray-600 text-sm mb-10">
           本使用条款适用于 TGVideoDown 网站及我们的 Chrome 扩展（包括 Telegram 视频下载器、Facebook
-          视频下载器、IG DM Bot、IG Follower Export Tool）。安装或使用我们的产品即表示您同意本条款。
+          视频下载器、IG DM Bot、IG Follower Export Tool、Instagram 评论导出）。安装或使用我们的产品即表示您同意本条款。
         </p>
 
         <ComplianceTermsSection :show-footer-links="false" embedded />

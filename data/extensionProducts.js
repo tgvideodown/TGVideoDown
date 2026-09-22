@@ -147,5 +147,85 @@ export const extensionProducts = {
       keywords:
         'ig follower export, instagram follower export, export instagram followers csv, ig exporter chrome extension'
     }
+  },
+
+  igCommentExporter: {
+    slug: 'ig-comment-exporter',
+    privacySlug: 'privacy',
+    storeUrl:
+      'https://chromewebstore.google.com/search/Instagram%20Comment%20Exporter',
+    badge: 'Chrome extension',
+    title: 'Instagram Comment Exporter',
+    heroLead:
+      'Export Instagram post, Reel, and IGTV comments — plus replies — to Excel or CSV. Find engaged commenters for outreach, research, and moderation.',
+    heroSub:
+      'Paste a post URL or a username. Preview comments, pause and resume, and keep a local history. Free plan covers a limited batch; Pro removes the per-task cap.',
+    intro:
+      'Works in Chrome while you are signed in to Instagram. Exports stay on your device. Only export comments you are allowed to access, and follow Instagram’s terms.',
+    featuresTitle: 'Key Features',
+    featureGroups: [
+      {
+        title: 'What you can export',
+        items: [
+          'Comments and replies from a post, Reel, or IGTV URL',
+          'Comments across recent posts when you enter a username',
+          'Unique commenters for outreach and audience research',
+          'CSV and Excel with structured columns'
+        ]
+      },
+      {
+        title: 'Export columns',
+        items: [
+          'Comment id, text, and time',
+          'Username, profile URL, and avatar',
+          'Comment vs reply, plus parent comment id and parent username'
+        ]
+      },
+      {
+        title: 'Workflow',
+        items: [
+          'Preview comments before you download',
+          'Pause, resume, and keep local export history',
+          'Handles Instagram rate limits with a cooldown timer'
+        ]
+      },
+      {
+        title: 'Plans',
+        items: [
+          'Free: up to 50 comments per task',
+          'Store review: raise the free limit to 100 comments per task',
+          'Pro: unlimited comments per task (Instagram may still limit completeness)',
+          'Pro billing: $9.90 / month or $79.99 / year, with Google sign-in'
+        ]
+      }
+    ],
+    howTitle: 'How to Use',
+    howSteps: [
+      'Install Instagram Comment Exporter from the Chrome Web Store',
+      'Open Instagram in Chrome and sign in',
+      'Open the extension and choose a post URL or a username',
+      'Start the export — pause or resume if Instagram rate-limits the request',
+      'Preview the comments, then download CSV or Excel to your device'
+    ],
+    privacyTitle: 'Data Privacy',
+    privacyIntro: 'Comment exports are built in your browser from data visible in your Instagram session.',
+    privacyItems: [
+      'CSV and Excel files are saved locally through Chrome',
+      'We do not collect your Instagram password',
+      'Google sign-in is used only for Pro billing, not to read your Instagram DMs',
+      'Do not export private content you are not allowed to access'
+    ],
+    noticeTitle: 'Important Notice',
+    noticeBody1:
+      'Instagram Comment Exporter is an independent Chrome extension. It is not affiliated with, endorsed by, or sponsored by Instagram, LLC or Meta Platforms, Inc.',
+    noticeBody2:
+      'Use exported comments responsibly. Respect copyright, privacy laws, and Instagram’s Terms of Service. Do not use comment data for spam.',
+    seo: {
+      title: 'Instagram Comment Exporter — Export Comments to CSV/Excel | TGVideoDown',
+      description:
+        'Export Instagram post, Reel, and IGTV comments and replies to CSV or Excel. Pause, resume, and download locally. Free and Pro plans.',
+      keywords:
+        'instagram comment exporter, export instagram comments, ig comment export csv, instagram comments to excel, reel comments export'
+    }
   }
 }

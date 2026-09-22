@@ -10,7 +10,7 @@
         </p>
       </div>
 
-      <div class="grid gap-6 md:grid-cols-3 max-w-5xl mx-auto">
+      <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-4 max-w-6xl mx-auto">
         <NuxtLink
           v-for="item in siteExtensions"
           :key="item.path"

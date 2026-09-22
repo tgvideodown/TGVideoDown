@@ -136,6 +136,7 @@
     "extFacebook": "Facebook Video Downloader",
     "extIgDm": "IG DM Bot",
     "extIgExport": "IG Follower Export Tool",
+    "extIgComment": "Instagram Comment Exporter",
     "support": "Support",
     "supportPage": "Help & Support",
     "terms": "Terms of Use",
@@ -159,6 +160,10 @@
     "igExport": {
       "title": "IG Follower Export Tool",
       "description": "Export Instagram followers and following to CSV or Excel — fast or detailed mode."
+    },
+    "igComment": {
+      "title": "Instagram Comment Exporter",
+      "description": "Export post, Reel, and IGTV comments and replies to CSV or Excel."
     }
   },
   "about": {
