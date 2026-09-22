@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "product-ops",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  // 账号、密码、token 只放 Cloudflare Dashboard，部署时不要覆盖线上变量
+  "keep_vars": true,
+  "services": [
+    {
+      "binding": "BILLING_IGEXPORT",
+      "service": "ig-exporter-billing"
+    },
+    {
+      "binding": "BILLING_IGCOMMENT",
+      "service": "ig-comment-billing"
+    }
+  ]
+}

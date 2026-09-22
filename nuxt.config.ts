@@ -59,6 +59,15 @@ export default defineNuxtConfig({
     '/download-telegram-private-video': {
       redirect: { to: '/download-telegram-private-channel-video', statusCode: 301 }
     },
+    '/ops-x9f2a7': {
+      redirect: { to: '/dashboard', statusCode: 301 }
+    },
+    ...Object.fromEntries(
+      I18N_PREFIX_LOCALES.map((locale) => [
+        `/${locale}/ops-x9f2a7`,
+        { redirect: { to: `/${locale}/dashboard`, statusCode: 301 } }
+      ])
+    ),
     ...buildMergeToHomeRouteRules()
   },
 
@@ -156,7 +165,12 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
-    exclude: mergedPageExcludeList
+    exclude: [
+      ...mergedPageExcludeList,
+      '/dashboard',
+      '/ops-x9f2a7',
+      ...I18N_PREFIX_LOCALES.flatMap((l) => [`/${l}/dashboard`, `/${l}/ops-x9f2a7`])
+    ]
   },
 
   tailwindcss: {
