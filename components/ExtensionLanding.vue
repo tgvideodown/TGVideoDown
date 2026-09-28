@@ -56,6 +56,50 @@
       </div>
     </section>
 
+    <section v-if="product.pricing" id="pricing" class="section-padding">
+      <div class="container-custom max-w-3xl mx-auto">
+        <h2 class="text-2xl md:text-3xl font-heading font-bold text-text mb-3">
+          {{ $t('igExportPricing.title') }}
+        </h2>
+        <p class="text-gray-600 leading-relaxed mb-8">
+          {{ $t('igExportPricing.subtitle') }}
+        </p>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <article
+            v-for="plan in product.pricing.plans"
+            :key="plan.id"
+            class="rounded-xl border bg-white p-6 text-left"
+            :class="plan.featured ? 'border-primary shadow-md ring-1 ring-primary/20' : 'border-border'"
+          >
+            <p class="text-sm font-semibold text-primary mb-2">
+              {{ $t(`igExportPricing.${plan.id}.name`) }}
+            </p>
+            <p class="flex items-baseline gap-1 mb-1">
+              <span class="text-4xl font-heading font-bold text-text">{{ plan.price }}</span>
+              <span class="text-gray-500">{{ $t(`igExportPricing.${plan.id}.billed`) }}</span>
+            </p>
+            <p class="text-sm text-gray-500 mb-4">{{ $t(`igExportPricing.${plan.id}.hint`) }}</p>
+            <p class="text-xs uppercase tracking-wide text-gray-400 mb-3">
+              {{ $t('igExportPricing.currency') }}
+            </p>
+            <ul class="space-y-2 text-gray-700 text-sm">
+              <li
+                v-for="(item, j) in planItems(plan.id)"
+                :key="j"
+                class="flex gap-2"
+              >
+                <span class="text-green-600 font-bold shrink-0" aria-hidden="true">✔</span>
+                <span>{{ item }}</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+        <p class="mt-6 text-sm text-gray-500 leading-relaxed">
+          {{ $t('igExportPricing.note') }}
+        </p>
+      </div>
+    </section>
+
     <section class="section-padding">
       <div class="container-custom max-w-3xl mx-auto">
         <h2 class="text-2xl md:text-3xl font-heading font-bold text-text mb-6">
@@ -132,5 +176,11 @@ defineProps({
 })
 
 const localePath = useLocalePath()
+const { tm } = useI18n()
 const { email, mailto } = useSupportEmail()
+
+function planItems(planId) {
+  const items = tm(`igExportPricing.${planId}.items`)
+  return Array.isArray(items) ? items : []
+}
 </script>

@@ -435,6 +435,32 @@
       "keywords": "pengunduh video facebook, pengunduh facebook, unduh video facebook, ekstensi chrome facebook, unduh reels facebook, unduh watch facebook"
     }
   },
+  "igExportPricing": {
+    "title": "Harga",
+    "subtitle": "Harga langganan Pro untuk membuka ekspor tanpa batas. Mata uang adalah dolar AS (USD).",
+    "currency": "Mata uang: USD",
+    "note": "Halaman ini hanya menampilkan harga. Pembelian dilakukan di dalam ekstensi Chrome setelah diinstal dan masuk.",
+    "monthly": {
+      "name": "Bulanan",
+      "billed": "/ bulan",
+      "hint": "Ditagih bulanan dalam USD",
+      "items": [
+        "Ekspor follower dan following tanpa batas",
+        "Mode ekspor cepat dan detail",
+        "Unduh CSV / Excel"
+      ]
+    },
+    "annual": {
+      "name": "Tahunan",
+      "billed": "/ tahun",
+      "hint": "Ditagih tahunan dalam USD · sekitar $6.67 / bulan",
+      "items": [
+        "Semua fitur paket bulanan",
+        "Harga tahunan lebih hemat",
+        "Ekspor follower dan following tanpa batas"
+      ]
+    }
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader | TGVideoDown",
     "description": "Telegram video downloader untuk channel, grup, dan chat. Download video Telegram privat yang sudah bisa kamu akses di Telegram Web. Ekstensi Chrome gratis, satu klik atau batch, tanpa login di situs ini.",

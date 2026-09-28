@@ -140,6 +140,13 @@ export const extensionProducts = {
       'IG Follower Export Tool is an independent Chrome extension. It is not affiliated with, endorsed by, or sponsored by Instagram, LLC or Meta Platforms, Inc.',
     noticeBody2:
       'It is recommended not to use your primary Instagram account for heavy automated exports. Respect privacy laws and Instagram’s Terms of Service when using exported data.',
+    pricing: {
+      currency: 'USD',
+      plans: [
+        { id: 'monthly', price: '$9.99' },
+        { id: 'annual', price: '$79.99', featured: true }
+      ]
+    },
     seo: {
       title: 'IG Follower Export Tool — Export Instagram Followers | TGVideoDown',
       description:

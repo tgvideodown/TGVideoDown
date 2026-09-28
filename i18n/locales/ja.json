@@ -435,6 +435,32 @@
       "keywords": "facebook 動画ダウンローダー, facebook ダウンローダー, facebook 動画 ダウンロード, facebook chrome 拡張機能, facebook reels ダウンロード, facebook watch ダウンロード"
     }
   },
+  "igExportPricing": {
+    "title": "料金",
+    "subtitle": "無制限エクスポートを解除する Pro サブスクリプション料金です。通貨は米ドル（USD）です。",
+    "currency": "通貨：USD",
+    "note": "このページは料金の表示のみです。購入は Chrome 拡張機能内で、インストールしてログインした後に行えます。",
+    "monthly": {
+      "name": "月額",
+      "billed": "/ 月",
+      "hint": "毎月 USD で請求",
+      "items": [
+        "フォロワー / フォローの無制限エクスポート",
+        "高速モードと詳細モード",
+        "CSV / Excel ダウンロード"
+      ]
+    },
+    "annual": {
+      "name": "年額",
+      "billed": "/ 年",
+      "hint": "毎年 USD で請求 · 約 $6.67 / 月",
+      "items": [
+        "月額プランの全機能",
+        "よりお得な年額料金",
+        "フォロワー / フォローの無制限エクスポート"
+      ]
+    }
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "description": "非公開グループ・チャンネル・チャットから Telegram 動画を保存。TGVideoDown は無料の Chrome 拡張機能で動画・画像・音声・ファイルをワンクリックまたは一括保存。本サイトへのログインは不要。",

@@ -435,6 +435,32 @@
       "keywords": "facebook video downloader, facebook downloader, facebook video herunterladen, facebook chrome erweiterung, facebook reels download, facebook watch download"
     }
   },
+  "igExportPricing": {
+    "title": "Preise",
+    "subtitle": "Pro-Abo-Preise zum Freischalten des unbegrenzten Exports. Preise in US-Dollar (USD).",
+    "currency": "Währung: USD",
+    "note": "Diese Seite zeigt nur die Preise. Der Kauf erfolgt in der Chrome-Erweiterung nach Installation und Anmeldung.",
+    "monthly": {
+      "name": "Monatlich",
+      "billed": "/ Monat",
+      "hint": "Monatliche Abrechnung in USD",
+      "items": [
+        "Unbegrenzter Export von Followern und Following",
+        "Schneller und detaillierter Export",
+        "CSV- / Excel-Download"
+      ]
+    },
+    "annual": {
+      "name": "Jährlich",
+      "billed": "/ Jahr",
+      "hint": "Jährliche Abrechnung in USD · ca. $6.67 / Monat",
+      "items": [
+        "Alle Funktionen des Monatsplans",
+        "Günstigerer Jahrespreis",
+        "Unbegrenzter Export von Followern und Following"
+      ]
+    }
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "description": "Telegram-Videos aus privaten Gruppen, Kanälen und Chats speichern. TGVideoDown ist eine kostenlose Chrome-Erweiterung für Videos, Bilder, Audio und Dateien. Ein Klick oder Stapel. Kein Login auf dieser Website.",

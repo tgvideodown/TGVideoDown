@@ -463,6 +463,32 @@
       "keywords": "facebook 视频下载器, facebook 下载器, 下载 facebook 视频, facebook chrome 扩展, facebook reels 下载, facebook watch 下载"
     }
   },
+  "igExportPricing": {
+    "title": "价格",
+    "subtitle": "Pro 订阅价格如下，用于解锁不限量导出。货币为美元（USD）。",
+    "currency": "货币：USD",
+    "note": "本页仅展示价格。购买在 Chrome 扩展内完成，安装扩展并登录后即可订阅。",
+    "monthly": {
+      "name": "月付",
+      "billed": "/ 月",
+      "hint": "按月计费，美元结算",
+      "items": [
+        "不限量导出粉丝 / 关注列表",
+        "支持快速导出与详细导出",
+        "下载 CSV / Excel"
+      ]
+    },
+    "annual": {
+      "name": "年付",
+      "billed": "/ 年",
+      "hint": "按年计费，美元结算 · 约合 $6.67 / 月",
+      "items": [
+        "包含月付全部功能",
+        "更优惠的年付价格",
+        "不限量导出粉丝 / 关注列表"
+      ]
+    }
+  },
   "homeSeo": {
     "title": "Telegram 视频下载器 - 下载 Telegram 视频 | TGVideoDown",
     "description": "Telegram 视频下载器，适用于私密群组、频道与聊天。TGVideoDown 是免费 Chrome 扩展，可保存视频、图片、音频和文件。支持一键与批量，本站无需登录。",

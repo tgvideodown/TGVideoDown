@@ -435,6 +435,32 @@
       "keywords": "facebook 동영상 다운로더, facebook 다운로더, facebook 동영상 다운로드, facebook chrome 확장 프로그램, facebook reels 다운로드, facebook watch 다운로드"
     }
   },
+  "igExportPricing": {
+    "title": "가격",
+    "subtitle": "무제한 내보내기를 잠금 해제하는 Pro 구독 가격입니다. 통화는 미국 달러(USD)입니다.",
+    "currency": "통화: USD",
+    "note": "이 페이지는 가격만 표시합니다. 결제는 Chrome 확장 프로그램에서 설치 후 로그인하면 진행됩니다.",
+    "monthly": {
+      "name": "월간",
+      "billed": "/ 월",
+      "hint": "매월 USD로 청구",
+      "items": [
+        "팔로워 / 팔로잉 무제한 내보내기",
+        "빠른 내보내기 및 상세 내보내기",
+        "CSV / Excel 다운로드"
+      ]
+    },
+    "annual": {
+      "name": "연간",
+      "billed": "/ 년",
+      "hint": "매년 USD로 청구 · 약 $6.67 / 월",
+      "items": [
+        "월간 플랜의 모든 기능",
+        "더 저렴한 연간 가격",
+        "팔로워 / 팔로잉 무제한 내보내기"
+      ]
+    }
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "description": "비공개 그룹, 채널, 채팅에서 Telegram 동영상을 저장하세요. TGVideoDown은 무료 Chrome 확장 프로그램으로 동영상, 이미지, 오디오, 파일을 한 번 클릭 또는 일괄 저장합니다. 이 사이트 로그인은 필요 없습니다.",

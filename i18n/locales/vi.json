@@ -435,6 +435,32 @@
       "keywords": "trình tải video facebook, trình tải facebook, tải video facebook, tiện ích chrome facebook, tải reels facebook, tải watch facebook"
     }
   },
+  "igExportPricing": {
+    "title": "Bảng giá",
+    "subtitle": "Giá gói Pro để mở khóa xuất không giới hạn. Đơn vị tiền tệ là đô la Mỹ (USD).",
+    "currency": "Tiền tệ: USD",
+    "note": "Trang này chỉ hiển thị giá. Việc mua được thực hiện trong tiện ích Chrome sau khi cài đặt và đăng nhập.",
+    "monthly": {
+      "name": "Theo tháng",
+      "billed": "/ tháng",
+      "hint": "Thanh toán hàng tháng bằng USD",
+      "items": [
+        "Xuất follower và following không giới hạn",
+        "Chế độ xuất nhanh và chi tiết",
+        "Tải CSV / Excel"
+      ]
+    },
+    "annual": {
+      "name": "Theo năm",
+      "billed": "/ năm",
+      "hint": "Thanh toán hàng năm bằng USD · khoảng $6.67 / tháng",
+      "items": [
+        "Tất cả tính năng gói tháng",
+        "Giá năm tiết kiệm hơn",
+        "Xuất follower và following không giới hạn"
+      ]
+    }
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader | TGVideoDown",
     "description": "Telegram video downloader cho kênh, nhóm và chat. Tải video Telegram riêng tư khi bạn đã có quyền xem trên Telegram Web. Tiện ích Chrome miễn phí, một cú nhấp hoặc hàng loạt, không cần đăng nhập trang này.",

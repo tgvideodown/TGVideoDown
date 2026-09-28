@@ -435,6 +435,32 @@
       "keywords": "facebook video indirici, facebook indirici, facebook video indir, facebook chrome uzantısı, facebook reels indir, facebook watch indir"
     }
   },
+  "igExportPricing": {
+    "title": "Fiyatlar",
+    "subtitle": "Sınırsız dışa aktarmayı açan Pro abonelik fiyatları. Para birimi ABD dolarıdır (USD).",
+    "currency": "Para birimi: USD",
+    "note": "Bu sayfa yalnızca fiyatları gösterir. Satın alma, Chrome uzantısını yükleyip giriş yaptıktan sonra uzantı içinde yapılır.",
+    "monthly": {
+      "name": "Aylık",
+      "billed": "/ ay",
+      "hint": "Aylık USD olarak faturalandırılır",
+      "items": [
+        "Sınırsız takipçi ve takip edilen dışa aktarma",
+        "Hızlı ve ayrıntılı dışa aktarma modları",
+        "CSV / Excel indirme"
+      ]
+    },
+    "annual": {
+      "name": "Yıllık",
+      "billed": "/ yıl",
+      "hint": "Yıllık USD olarak faturalandırılır · yaklaşık $6.67 / ay",
+      "items": [
+        "Aylık plandaki tüm özellikler",
+        "Daha uygun yıllık fiyat",
+        "Sınırsız takipçi ve takip edilen dışa aktarma"
+      ]
+    }
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "description": "Telegram video indirici: özel grup, kanal ve sohbetlerden video, görsel, ses ve dosya kaydedin. TGVideoDown ücretsiz Chrome uzantısı. Tek tık veya toplu. Bu sitede giriş yok.",
