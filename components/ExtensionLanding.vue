@@ -176,11 +176,19 @@ defineProps({
 })
 
 const localePath = useLocalePath()
-const { tm } = useI18n()
+const { t, tm, rt } = useI18n()
 const { email, mailto } = useSupportEmail()
 
 function planItems(planId) {
   const items = tm(`igExportPricing.${planId}.items`)
-  return Array.isArray(items) ? items : []
+  if (!Array.isArray(items)) return []
+  return items.map((item) => {
+    if (typeof item === 'string') return item
+    try {
+      return rt(item)
+    } catch {
+      return typeof item?.b?.s === 'string' ? item.b.s : t(`igExportPricing.${planId}.items`)
+    }
+  })
 }
 </script>
