@@ -6,7 +6,8 @@
     "about": "概要",
     "download": "拡張機能を入手",
     "guideHowTo": "使い方",
-    "guideAlt": "ダウンロードガイド"
+    "guideAlt": "ダウンロードガイド",
+    "telegramDownloader": "Telegram ダウンローダー"
   },
   "hero": {
     "badge": "Chrome 拡張機能 · 公式サイト",
@@ -132,7 +133,17 @@
     "contact": "お問い合わせ",
     "privacy": "プライバシーポリシー",
     "copyright": "© {year} TGVideoDown. All rights reserved.",
-    "guideFacebook": "Facebook 動画ダウンローダー"
+    "guideFacebook": "Facebook 動画ダウンローダー",
+    "downloader": "Telegram 動画ダウンローダー",
+    "guideChrome": "Chrome 拡張機能ガイド",
+    "guideNoLogin": "ログインなしで Telegram ファイルを保存",
+    "extensions": "私たちの拡張機能",
+    "extFacebook": "Facebook 動画ダウンローダー",
+    "extIgDm": "IG DM Bot",
+    "extIgExport": "IG Follower Export Tool",
+    "extIgComment": "Instagram コメントエクスポーター",
+    "supportPage": "ヘルプとサポート",
+    "terms": "利用規約"
   },
   "about": {
     "hero": {
@@ -433,7 +444,8 @@
       "ogTitle": "Facebook 動画ダウンローダー — Chrome 拡張機能 | TGVideoDown",
       "ogDescription": "Facebook の動画・画像・写真を保存・整理。ページ、グループ、フィード、Watch、Reels、埋め込み向けの高速無料 Chrome 拡張機能。",
       "keywords": "facebook 動画ダウンローダー, facebook ダウンローダー, facebook 動画 ダウンロード, facebook chrome 拡張機能, facebook reels ダウンロード, facebook watch ダウンロード"
-    }
+    },
+    "privacyPolicyLink": "プライバシーポリシー全文を読む"
   },
   "igExportPricing": {
     "title": "料金",
@@ -467,5 +479,148 @@
     "ogTitle": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "ogDescription": "Telegram Web から動画やメディアをローカル保存する無料 Chrome 拡張機能。グループ・チャンネル対応。",
     "keywords": "telegram video downloader, telegram 動画 ダウンロード, chrome 拡張機能, 非公開チャンネル"
+  },
+  "extensionsSection": {
+    "title": "その他の Chrome 拡張機能",
+    "subtitle": "TGVideoDown の無料ブラウザツール — Chrome ウェブストアからインストール。",
+    "learnMore": "詳しく見る",
+    "facebook": {
+      "title": "Facebook 動画ダウンローダー",
+      "description": "フィード、Watch、Reels、ページ、グループから Facebook の動画・画像・写真を保存。"
+    },
+    "igDm": {
+      "title": "IG DM Bot",
+      "description": "テンプレート、ファネル絞り込み、新規フォロワーへの自動返信で Instagram DM を一括送信。"
+    },
+    "igExport": {
+      "title": "IG Follower Export Tool",
+      "description": "Instagram のフォロワーとフォロー中を CSV または Excel に書き出し。高速モードと詳細モード。"
+    },
+    "igComment": {
+      "title": "Instagram コメントエクスポーター",
+      "description": "投稿、Reel、IGTV のコメントと返信を CSV または Excel に書き出し。"
+    }
+  },
+  "extensionLanding": {
+    "privacyLink": "プライバシーポリシー全文を読む →",
+    "store": "Chrome ウェブストア",
+    "home": "TGVideoDown ホーム"
+  },
+  "policyChrome": {
+    "title": "プライバシーポリシー",
+    "operated": "運営：TGvideodown.com · 最終更新：{date}",
+    "operator": "運営：",
+    "updatedOn": "最終更新日：{date}"
+  },
+  "compliance": {
+    "title": "利用規約とコンプライアンス",
+    "introDefault": "TGVideoDown の製品およびサービスを利用することで、以下の条項に同意したものとみなされます。よくお読みください。",
+    "intro": "{product} を利用することで、以下の条項に同意したものとみなされます。よくお読みください。",
+    "items": {
+      "copyright": {
+        "title": "1. 著作権と知的財産",
+        "body": "ダウンロードできるのは、自ら権利を持つコンテンツ、使用許諾を受けたコンテンツ、または法令上ダウンロードできるコンテンツに限られます。第三者の権利を侵害しないようにする責任は利用者にあります。"
+      },
+      "access": {
+        "title": "2. アクセス制限の回避禁止",
+        "body": "非公開アカウントのコンテンツへのアクセスやダウンロード、ペイウォールや DRM の回避、その他のアクセス制御・技術的制限の迂回に、当社サービスを使用してはなりません。"
+      },
+      "dmca": {
+        "title": "3. 著作権 / DMCA に関する申立て",
+        "body": "著作物が許可なく使用またはダウンロードされたと思われる場合は、{email} までご連絡のうえ、侵害の詳細をお知らせください。"
+      },
+      "platform": {
+        "title": "4. プラットフォームに関する免責",
+        "body": "当社製品は Meta、Instagram、TikTok、ByteDance、Telegram、その他の第三者プラットフォームとの提携、承認、後援、公式な関係のいずれもありません。"
+      },
+      "privacy": {
+        "title": "5. プライバシー",
+        "body": "アカウントのパスワード、認証情報、Cookie、プライベートメッセージ、その他サービス提供に関係のない機密情報は収集しません。"
+      }
+    }
+  },
+  "termsPage": {
+    "title": "利用規約",
+    "updated": "運営：TGvideodown.com · 最終更新：2026年9月15日",
+    "intro": "本利用規約は TGVideoDown のウェブサイトおよび Chrome 拡張機能（Telegram 動画ダウンローダー、Facebook 動画ダウンローダー、IG DM Bot、IG Follower Export Tool、Instagram コメントエクスポーターを含む）に適用されます。製品をインストールまたは使用することで、本規約に同意したものとみなされます。",
+    "contactTitle": "お問い合わせ",
+    "emailLabel": "メール：",
+    "seoTitle": "利用規約 - TGVideoDown",
+    "seoDescription": "TGVideoDown の利用規約。著作権、アクセス制限、DMCA、プラットフォーム免責、プライバシーについて。"
+  },
+  "supportPage": {
+    "title": "サポート",
+    "lead": "TGVideoDown または Chrome 拡張機能でお困りですか？以下からご連絡ください。",
+    "contactTitle": "お問い合わせ",
+    "contactBody": "製品サポート、著作権 / DMCA の通知、プライバシーに関する質問はメールでご連絡ください：",
+    "relatedTitle": "関連ページ",
+    "seoTitle": "サポート - TGVideoDown",
+    "seoDescription": "製品の使い方、DMCA、プライバシーについて TGVideoDown サポートへお問い合わせください。"
+  },
+  "igExportPage": {
+    "badge": "Chrome 拡張機能",
+    "title": "IG Follower Export Tool - IG Tools",
+    "heroLead": "Instagram のフォロワーとフォロー中を、ワンクリックで Excel または CSV に書き出します。高速モードと、自己紹介・メール・プロフィール項目を含む詳細モードがあります。",
+    "heroSub": "マーケター、クリエイター、調査担当者が、分析、アウトリーチ計画、オーディエンス調査のために公開フォロワーデータを抽出できます。1 回の書き出しは最大 50,000 人です。",
+    "intro": "拡張機能のポップアップを開き、ユーザー名またはプロフィール URL を入力し、標準または詳細を選ぶと、構造化された CSV または Excel を端末に直接ダウンロードできます。",
+    "featuresTitle": "主な機能",
+    "groups": {
+      "modes": {
+        "title": "書き出しモード",
+        "items": [
+          "フォロワーまたはフォロー中を書き出し",
+          "最大 50,000 人",
+          "すばやく取り出す高速モード",
+          "自己紹介、メール、追加プロフィールを含む詳細モード",
+          "列の整った CSV と Excel"
+        ]
+      },
+      "columns": {
+        "title": "詳細モードの列",
+        "items": [
+          "ユーザー名、氏名、プロフィール画像 URL、認証状態",
+          "アカウント種別、非公開、自己紹介、職業",
+          "フォロワー数、フォロー数、投稿数",
+          "公開メール、電話、WhatsApp、外部 URL、都市、住所"
+        ]
+      },
+      "reliability": {
+        "title": "安定性",
+        "items": [
+          "Instagram のレート制限エラーを自動処理",
+          "制限時はクールダウン",
+          "結果を保存してダウンロード・確認"
+        ]
+      }
+    },
+    "howTitle": "使い方",
+    "howSteps": [
+      "Chrome ウェブストアから IG Follower Export Tool をインストール",
+      "Chrome ツールバーの拡張機能アイコンをクリック",
+      "「Export Instagram data」を選択",
+      "Instagram のユーザー名またはプロフィール URL を入力",
+      "追加項目が必要なら「Detailed」をオン",
+      "開始をクリックし、画面の手順に従う",
+      "完了後に CSV または Excel をダウンロード"
+    ],
+    "privacyTitle": "データのプライバシー",
+    "privacyIntro": "書き出しはお使いの端末上で行われ、ブラウザのセッションに表示されているデータが元になります。",
+    "privacyItems": [
+      "フォロワー一覧はパソコン上の CSV または Excel に保存",
+      "この拡張機能の利用に、当サイトのアカウントは不要",
+      "Instagram でアクセスが認められたデータだけを書き出す",
+      "Instagram のレート制限とプラットフォームの規則を守る"
+    ],
+    "noticeTitle": "重要なお知らせ",
+    "noticeBody1": "IG Follower Export Tool は独立した Chrome 拡張機能です。Instagram, LLC または Meta Platforms, Inc. とは無関係で、承認・後援されていません。",
+    "noticeBody2": "大量の自動書き出しにメインの Instagram アカウントを使わないことをおすすめします。書き出したデータの利用は、プライバシー関連法令と Instagram の利用規約に従ってください。",
+    "logoAlt": "IG Follower Export Tool",
+    "heroAlt": "Instagram のフォロワーを CSV と Excel に書き出す IG Follower Export Tool",
+    "howAlt": "IG Follower Export Tool で Instagram のフォロワーを書き出す手順",
+    "seo": {
+      "title": "IG Follower Export Tool - IG Tools {'|'} CSV & Excel",
+      "description": "IG Follower Export Tool は Instagram のフォロワーとフォロー中を CSV または Excel に書き出します。自己紹介とメールを含む高速・詳細モード。最大 50,000 件。",
+      "keywords": "IG Follower Export Tool, IG Tools, Instagram フォロワー 書き出し, フォロワー CSV"
+    }
   }
 }

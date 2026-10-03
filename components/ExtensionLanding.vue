@@ -5,6 +5,14 @@
         <p class="text-sm font-semibold text-primary uppercase tracking-wide mb-3">
           {{ product.badge }}
         </p>
+        <img
+          v-if="product.logo"
+          :src="product.logo.src"
+          :alt="product.logo.alt"
+          :width="product.logo.width"
+          :height="product.logo.height"
+          class="w-14 h-14 md:w-16 md:h-16 mx-auto mb-4 rounded-2xl"
+        />
         <h1 class="text-3xl md:text-5xl font-heading font-bold text-text mb-6 leading-tight">
           {{ product.title }}
         </h1>
@@ -28,7 +36,7 @@
               d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
             />
           </svg>
-          Install from Chrome Web Store
+          {{ $t('hero.ctaPrimary') }}
         </a>
       </div>
     </section>
@@ -36,6 +44,19 @@
     <section class="pb-12 md:pb-16">
       <div class="container-custom max-w-3xl mx-auto">
         <p class="text-gray-700 leading-relaxed text-center">{{ product.intro }}</p>
+        <figure
+          v-if="product.heroImage"
+          class="mt-10 rounded-xl overflow-hidden border border-border bg-white shadow-sm"
+        >
+          <img
+            :src="product.heroImage.src"
+            :alt="product.heroImage.alt"
+            :width="product.heroImage.width"
+            :height="product.heroImage.height"
+            class="w-full h-auto object-contain bg-gray-50"
+            loading="eager"
+          />
+        </figure>
       </div>
     </section>
 
@@ -108,6 +129,19 @@
         <ol class="list-decimal pl-6 space-y-3 text-gray-700">
           <li v-for="(step, i) in product.howSteps" :key="i">{{ step }}</li>
         </ol>
+        <figure
+          v-if="product.howImage"
+          class="mt-8 rounded-xl overflow-hidden border border-border bg-white shadow-sm"
+        >
+          <img
+            :src="product.howImage.src"
+            :alt="product.howImage.alt"
+            :width="product.howImage.width"
+            :height="product.howImage.height"
+            class="w-full h-auto object-contain bg-gray-50"
+            loading="lazy"
+          />
+        </figure>
       </div>
     </section>
 
@@ -127,13 +161,13 @@
           :to="localePath(`/${product.privacySlug}`)"
           class="text-primary font-semibold hover:underline"
         >
-          Read full Privacy Policy →
+          {{ $t('extensionLanding.privacyLink') }}
         </NuxtLink>
       </div>
     </section>
 
     <!-- Payment-platform audit / Terms of Use compliance -->
-    <ComplianceTermsSection :product-name="product.title" />
+    <ComplianceTermsSection :product-name="product.name || product.title" />
 
     <section class="pb-16 md:pb-24">
       <div class="container-custom max-w-3xl mx-auto">
@@ -149,17 +183,17 @@
             rel="noopener noreferrer"
             class="text-primary font-semibold hover:underline"
           >
-            Chrome Web Store
+            {{ $t('extensionLanding.store') }}
           </a>
           ·
           <a :href="mailto" class="text-primary font-semibold hover:underline">{{ email }}</a>
           ·
           <NuxtLink :to="localePath('/terms')" class="text-primary font-semibold hover:underline">
-            Terms
+            {{ $t('footer.terms') }}
           </NuxtLink>
           ·
           <NuxtLink :to="localePath('/')" class="text-primary font-semibold hover:underline">
-            TGVideoDown Home
+            {{ $t('extensionLanding.home') }}
           </NuxtLink>
         </p>
       </div>

@@ -7,15 +7,11 @@
             Facebook Video Downloader
           </p>
           <h1 class="text-4xl md:text-5xl font-heading font-bold text-text mb-4">
-            Privacy Policy
+            {{ t('policyChrome.title') }}
           </h1>
           <p class="text-lg text-gray-600">
-            Operated by TGvideodown.com · Last updated: August 25, 2026
+            {{ t('policyChrome.operated', { date: 'August 25, 2026' }) }}
           </p>
-          <nav class="mt-6 flex flex-wrap justify-center gap-4 text-sm font-semibold">
-            <a href="#english" class="text-primary hover:underline">English</a>
-            <a href="#chinese" class="text-primary hover:underline">简体中文</a>
-          </nav>
         </div>
       </div>
     </section>
@@ -23,7 +19,7 @@
     <section class="section-padding">
       <div class="container-custom max-w-4xl mx-auto prose prose-lg">
         <!-- English -->
-        <article id="english" class="mb-16 scroll-mt-24">
+        <article v-if="!showChinesePolicy" id="english" class="mb-16 scroll-mt-24">
           <p class="text-gray-700 leading-relaxed">
             This Privacy Policy describes how the <strong>Facebook Video Downloader</strong> browser extension
             ("Extension", "we", "us", or "our") collects, uses, and protects information when you install and use our Extension.
@@ -146,10 +142,7 @@
           </p>
         </article>
 
-        <hr class="border-border my-16" />
-
-        <!-- Chinese -->
-        <article id="chinese" class="scroll-mt-24">
+        <article v-if="showChinesePolicy" id="chinese" class="scroll-mt-24">
           <h2 class="text-3xl font-heading font-bold text-text mb-4">隐私政策</h2>
           <p class="text-gray-600 mb-6">
             <strong>Facebook 视频下载器（Facebook Video Downloader）</strong><br>
@@ -292,15 +285,15 @@
           <a :href="mailto" class="text-primary font-semibold hover:underline">{{ email }}</a>
           ·
           <NuxtLink :to="localePath('/terms')" class="text-primary font-semibold hover:underline">
-            Terms
+            {{ t('footer.terms') }}
           </NuxtLink>
           ·
           <NuxtLink :to="localePath('/support')" class="text-primary font-semibold hover:underline">
-            Support
+            {{ t('footer.support') }}
           </NuxtLink>
           ·
           <NuxtLink :to="localePath('/')" class="text-primary font-semibold hover:underline">
-            TGVideoDown Home
+            {{ t('extensionLanding.home') }}
           </NuxtLink>
         </p>
       </div>
@@ -313,6 +306,8 @@ const localePath = useLocalePath()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 const { email, mailto } = useSupportEmail()
+const { t, locale } = useI18n()
+const showChinesePolicy = computed(() => locale.value === 'cn' || locale.value === 'tw')
 
 const canonical = computed(() => `${siteUrl}${localePath('/facebook-video-downloader-privacy')}`)
 

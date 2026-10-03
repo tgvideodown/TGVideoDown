@@ -44,6 +44,7 @@ const mergedPageExcludeList = MERGE_TO_HOME_PATHS.flatMap((path) => [
 ])
 
 export default defineNuxtConfig({
+  telemetry: false,
   devtools: { enabled: true },
 
   routeRules: {

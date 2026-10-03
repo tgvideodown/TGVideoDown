@@ -6,7 +6,8 @@
     "about": "Giới thiệu",
     "download": "Tải tiện ích",
     "guideHowTo": "Cách dùng",
-    "guideAlt": "Hướng dẫn tải"
+    "guideAlt": "Hướng dẫn tải",
+    "telegramDownloader": "Trình tải Telegram"
   },
   "hero": {
     "badge": "Tiện ích Chrome · Trang đồng hành",
@@ -132,7 +133,17 @@
     "contact": "Liên hệ",
     "privacy": "Chính sách quyền riêng tư",
     "copyright": "© {year} TGVideoDown. Bảo lưu mọi quyền.",
-    "guideFacebook": "Trình tải video Facebook"
+    "guideFacebook": "Trình tải video Facebook",
+    "downloader": "Trình tải video Telegram",
+    "guideChrome": "Hướng dẫn tiện ích Chrome",
+    "guideNoLogin": "Tải tệp Telegram mà không cần đăng nhập website",
+    "extensions": "Tiện ích của chúng tôi",
+    "extFacebook": "Trình tải video Facebook",
+    "extIgDm": "IG DM Bot",
+    "extIgExport": "IG Follower Export Tool",
+    "extIgComment": "Xuất bình luận Instagram",
+    "supportPage": "Trợ giúp và hỗ trợ",
+    "terms": "Điều khoản sử dụng"
   },
   "about": {
     "hero": {
@@ -433,7 +444,8 @@
       "ogTitle": "Trình tải video Facebook — Tiện ích Chrome | TGVideoDown",
       "ogDescription": "Lưu và sắp xếp video, hình ảnh và ảnh Facebook. Tiện ích Chrome nhanh miễn phí cho trang, nhóm, bảng tin, Watch, Reels và nhúng.",
       "keywords": "trình tải video facebook, trình tải facebook, tải video facebook, tiện ích chrome facebook, tải reels facebook, tải watch facebook"
-    }
+    },
+    "privacyPolicyLink": "Đọc đầy đủ chính sách quyền riêng tư"
   },
   "igExportPricing": {
     "title": "Bảng giá",
@@ -467,5 +479,148 @@
     "ogTitle": "Telegram Video Downloader | TGVideoDown",
     "ogDescription": "Tiện ích Chrome miễn phí để tải video Telegram từ kênh, nhóm và chat. Lưu cục bộ, một cú nhấp hoặc hàng loạt.",
     "keywords": "tải video telegram riêng tư, telegram video downloader, tải video telegram, tiện ích chrome telegram, kênh riêng tư"
+  },
+  "extensionsSection": {
+    "title": "Thêm tiện ích Chrome",
+    "subtitle": "Công cụ trình duyệt miễn phí từ TGVideoDown — cài từ Chrome Web Store.",
+    "learnMore": "Tìm hiểu thêm",
+    "facebook": {
+      "title": "Trình tải video Facebook",
+      "description": "Lưu video, hình ảnh và ảnh Facebook từ Bảng tin, Watch, Reels, trang và nhóm."
+    },
+    "igDm": {
+      "title": "IG DM Bot",
+      "description": "Gửi DM Instagram hàng loạt với mẫu, bộ lọc phễu và trả lời tự động cho người theo dõi mới."
+    },
+    "igExport": {
+      "title": "IG Follower Export Tool",
+      "description": "Xuất người theo dõi và đang theo dõi trên Instagram ra CSV hoặc Excel — chế độ nhanh hoặc chi tiết."
+    },
+    "igComment": {
+      "title": "Xuất bình luận Instagram",
+      "description": "Xuất bình luận và phản hồi của bài viết, Reel và IGTV ra CSV hoặc Excel."
+    }
+  },
+  "extensionLanding": {
+    "privacyLink": "Đọc đầy đủ chính sách quyền riêng tư →",
+    "store": "Chrome Web Store",
+    "home": "Trang chủ TGVideoDown"
+  },
+  "policyChrome": {
+    "title": "Chính sách quyền riêng tư",
+    "operated": "Vận hành bởi TGvideodown.com · Cập nhật lần cuối: {date}",
+    "operator": "Vận hành bởi: ",
+    "updatedOn": "Cập nhật lần cuối: {date}"
+  },
+  "compliance": {
+    "title": "Điều khoản sử dụng và tuân thủ",
+    "introDefault": "Khi dùng sản phẩm và dịch vụ TGVideoDown, bạn đồng ý với các điều khoản sau. Hãy đọc kỹ.",
+    "intro": "Khi dùng {product}, bạn đồng ý với các điều khoản sau. Hãy đọc kỹ.",
+    "items": {
+      "copyright": {
+        "title": "1. Bản quyền và sở hữu trí tuệ",
+        "body": "Bạn chỉ được tải nội dung mà bạn sở hữu, được cấp phép hoặc có quyền tải theo luật. Bạn có trách nhiệm không xâm phạm quyền của bên thứ ba."
+      },
+      "access": {
+        "title": "2. Không được vượt hạn chế truy cập",
+        "body": "Không dùng dịch vụ để truy cập tài khoản riêng tư, vượt tường phí hoặc DRM, hay né các biện pháp kiểm soát kỹ thuật."
+      },
+      "dmca": {
+        "title": "3. Khiếu nại bản quyền / DMCA",
+        "body": "Nếu nội dung có bản quyền của bạn bị dùng hoặc tải xuống khi chưa được phép, hãy viết cho {email} và nêu chi tiết vi phạm."
+      },
+      "platform": {
+        "title": "4. Tuyên bố về nền tảng",
+        "body": "Sản phẩm của chúng tôi không liên kết, được xác nhận, tài trợ hay có quan hệ chính thức với Meta, Instagram, TikTok, ByteDance, Telegram hoặc nền tảng bên thứ ba khác."
+      },
+      "privacy": {
+        "title": "5. Quyền riêng tư",
+        "body": "Chúng tôi không thu thập mật khẩu, thông tin đăng nhập, cookie, tin nhắn riêng hay dữ liệu nhạy cảm khác không liên quan đến dịch vụ."
+      }
+    }
+  },
+  "termsPage": {
+    "title": "Điều khoản sử dụng",
+    "updated": "Vận hành bởi TGvideodown.com · Cập nhật lần cuối: 15 tháng 9 năm 2026",
+    "intro": "Các điều khoản này áp dụng cho website TGVideoDown và tiện ích Chrome của chúng tôi (gồm trình tải video Telegram, trình tải video Facebook, IG DM Bot, IG Follower Export Tool và xuất bình luận Instagram). Cài đặt hoặc sử dụng sản phẩm đồng nghĩa bạn đồng ý.",
+    "contactTitle": "Liên hệ",
+    "emailLabel": "Email:",
+    "seoTitle": "Điều khoản sử dụng - TGVideoDown",
+    "seoDescription": "Điều khoản TGVideoDown: bản quyền, hạn chế truy cập, DMCA, tuyên bố nền tảng và quyền riêng tư."
+  },
+  "supportPage": {
+    "title": "Hỗ trợ",
+    "lead": "Cần trợ giúp với TGVideoDown hoặc tiện ích Chrome? Liên hệ bên dưới.",
+    "contactTitle": "Liên hệ",
+    "contactBody": "Với hỗ trợ sản phẩm, thông báo bản quyền / DMCA hoặc câu hỏi về quyền riêng tư, hãy gửi email:",
+    "relatedTitle": "Trang liên quan",
+    "seoTitle": "Hỗ trợ - TGVideoDown",
+    "seoDescription": "Liên hệ hỗ trợ TGVideoDown về sản phẩm, DMCA và quyền riêng tư."
+  },
+  "igExportPage": {
+    "badge": "Tiện ích Chrome",
+    "title": "IG Follower Export Tool - IG Tools",
+    "logoAlt": "IG Follower Export Tool",
+    "heroLead": "Xuất người theo dõi và danh sách đang theo dõi trên Instagram ra Excel hoặc CSV bằng một lần nhấp. Chế độ nhanh hoặc chi tiết, kèm tiểu sử, email và trường hồ sơ.",
+    "heroSub": "Giúp marketing, nhà sáng tạo và nghiên cứu trích dữ liệu người theo dõi công khai. Tối đa 50.000 người mỗi lần xuất.",
+    "intro": "Mở cửa sổ tiện ích, nhập tên người dùng hoặc URL hồ sơ, chọn xuất chuẩn hoặc chi tiết, rồi tải CSV hoặc Excel về thiết bị.",
+    "featuresTitle": "Tính năng chính",
+    "groups": {
+      "modes": {
+        "title": "Chế độ xuất",
+        "items": [
+          "Người theo dõi hoặc đang theo dõi",
+          "Tối đa 50.000 người",
+          "Chế độ nhanh",
+          "Chế độ chi tiết với tiểu sử, email và trường khác",
+          "CSV và Excel có cột rõ ràng"
+        ]
+      },
+      "columns": {
+        "title": "Cột của chế độ chi tiết",
+        "items": [
+          "Tên người dùng, họ tên, URL ảnh, trạng thái xác minh",
+          "Loại tài khoản, riêng tư, tiểu sử, nghề nghiệp",
+          "Số người theo dõi, đang theo dõi, bài đăng",
+          "Email công khai, điện thoại, WhatsApp, URL ngoài, thành phố, địa chỉ"
+        ]
+      },
+      "reliability": {
+        "title": "Độ ổn định",
+        "items": [
+          "Tự xử lý giới hạn tốc độ của Instagram",
+          "Tạm dừng khi chạm giới hạn",
+          "Kết quả được lưu để tải xuống và xem lại"
+        ]
+      }
+    },
+    "howTitle": "Cách dùng",
+    "howSteps": [
+      "Cài IG Follower Export Tool từ Chrome Web Store",
+      "Nhấp biểu tượng trên thanh công cụ Chrome",
+      "Chọn “Export Instagram data”",
+      "Nhập tên người dùng hoặc URL hồ sơ",
+      "Bật “Detailed” nếu cần thêm trường",
+      "Nhấp Start và làm theo hướng dẫn",
+      "Tải CSV hoặc Excel khi hoàn tất"
+    ],
+    "privacyTitle": "Quyền riêng tư dữ liệu",
+    "privacyIntro": "Bản xuất được tạo trên thiết bị của bạn từ dữ liệu nhìn thấy trong phiên trình duyệt.",
+    "privacyItems": [
+      "Danh sách được lưu cục bộ dưới dạng CSV hoặc Excel",
+      "Không cần tài khoản trên website này",
+      "Chỉ xuất dữ liệu bạn được phép truy cập trên Instagram",
+      "Tuân thủ giới hạn và quy tắc của Instagram"
+    ],
+    "noticeTitle": "Lưu ý quan trọng",
+    "noticeBody1": "IG Follower Export Tool là tiện ích Chrome độc lập. Không liên kết, được xác nhận hay tài trợ bởi Instagram, LLC hoặc Meta Platforms, Inc.",
+    "noticeBody2": "Không nên dùng tài khoản Instagram chính cho việc xuất tự động với khối lượng lớn. Hãy tuân thủ luật quyền riêng tư và điều khoản của Instagram.",
+    "heroAlt": "IG Follower Export Tool xuất người theo dõi Instagram ra CSV và Excel",
+    "howAlt": "Cách xuất người theo dõi Instagram bằng IG Follower Export Tool",
+    "seo": {
+      "title": "IG Follower Export Tool - IG Tools {'|'} CSV & Excel",
+      "description": "IG Follower Export Tool xuất người theo dõi và đang theo dõi trên Instagram ra CSV hoặc Excel. Chế độ nhanh hoặc chi tiết, có tiểu sử và email. Tối đa 50.000 hồ sơ.",
+      "keywords": "IG Follower Export Tool, IG Tools, xuất người theo dõi Instagram, người theo dõi CSV"
+    }
   }
 }

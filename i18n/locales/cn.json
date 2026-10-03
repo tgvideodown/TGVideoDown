@@ -6,7 +6,8 @@
     "about": "关于",
     "download": "获取扩展",
     "guideHowTo": "使用说明",
-    "guideAlt": "下载指南"
+    "guideAlt": "下载指南",
+    "telegramDownloader": "Telegram 下载器"
   },
   "hero": {
     "badge": "Chrome 扩展 · 配套网站",
@@ -139,7 +140,10 @@
     "help": "帮助中心",
     "contact": "联系我们",
     "privacy": "隐私政策",
-    "copyright": "© {year} TGVideoDown. 保留所有权利。"
+    "copyright": "© {year} TGVideoDown. 保留所有权利。",
+    "downloader": "Telegram 视频下载器",
+    "guideChrome": "Chrome 扩展指南",
+    "guideNoLogin": "免登录下载 Telegram 文件"
   },
   "extensionsSection": {
     "title": "更多 Chrome 扩展",
@@ -461,7 +465,8 @@
       "ogTitle": "Facebook 视频下载器 — Chrome 扩展 | TGVideoDown",
       "ogDescription": "保存与整理 Facebook 视频、图片与照片。适用于主页、群组、动态、Watch、Reels 与嵌入内容的快速免费 Chrome 扩展。",
       "keywords": "facebook 视频下载器, facebook 下载器, 下载 facebook 视频, facebook chrome 扩展, facebook reels 下载, facebook watch 下载"
-    }
+    },
+    "privacyPolicyLink": "阅读完整隐私政策"
   },
   "igExportPricing": {
     "title": "价格",
@@ -495,5 +500,127 @@
     "ogTitle": "Telegram 视频下载器 - 下载 Telegram 视频 | TGVideoDown",
     "ogDescription": "免费 Chrome 扩展，从 Telegram 群组、频道与聊天本地下载视频与媒体。",
     "keywords": "telegram 视频下载器, telegram video downloader, 下载 telegram 视频, chrome 扩展, 私密频道"
+  },
+  "extensionLanding": {
+    "privacyLink": "阅读完整隐私政策 →",
+    "store": "Chrome 网上应用店",
+    "home": "TGVideoDown 首页"
+  },
+  "policyChrome": {
+    "title": "隐私政策",
+    "operated": "运营方：TGvideodown.com · 最后更新：{date}",
+    "operator": "运营方：",
+    "updatedOn": "最后更新日期：{date}"
+  },
+  "compliance": {
+    "title": "使用条款与合规说明",
+    "introDefault": "使用 TGVideoDown 产品与服务即表示您同意以下条款，请仔细阅读。",
+    "intro": "使用 {product} 即表示您同意以下条款，请仔细阅读。",
+    "items": {
+      "copyright": {
+        "title": "1. 版权和知识产权",
+        "body": "您仅可下载您拥有所有权、已获得使用许可或依法有权下载的内容。您有责任确保您对下载内容的使用不侵犯任何第三方的权利。"
+      },
+      "access": {
+        "title": "2. 不得规避访问限制",
+        "body": "您不得使用我们的服务访问或下载私人帐户中的内容，绕过付费墙或 DRM 保护，或规避任何访问控制或技术限制。"
+      },
+      "dmca": {
+        "title": "3. 版权/DMCA投诉",
+        "body": "如果您认为您的受版权保护的内容被他人未经授权使用或下载，请通过 {email} 联系我们，并提供涉嫌侵权的详细信息。"
+      },
+      "platform": {
+        "title": "4. 平台免责声明",
+        "body": "我们的产品与 Meta、Instagram、TikTok、字节跳动、Telegram 或任何其他第三方平台均无任何关联、认可、赞助或官方联系。"
+      },
+      "privacy": {
+        "title": "5. 隐私",
+        "body": "我们不会收集账户密码、身份验证凭证、cookie、私人消息或其他与提供服务无关的敏感信息。"
+      }
+    }
+  },
+  "termsPage": {
+    "title": "使用条款",
+    "updated": "运营方：TGvideodown.com · 最后更新：2026 年 9 月 15 日",
+    "intro": "本使用条款适用于 TGVideoDown 网站及我们的 Chrome 扩展（包括 Telegram 视频下载器、Facebook 视频下载器、IG DM Bot、IG Follower Export Tool、Instagram 评论导出）。安装或使用我们的产品即表示您同意本条款。",
+    "contactTitle": "联系我们",
+    "emailLabel": "电子邮箱：",
+    "seoTitle": "使用条款 - TGVideoDown",
+    "seoDescription": "TGVideoDown 产品使用条款：版权、访问限制、DMCA、平台免责声明与隐私。"
+  },
+  "supportPage": {
+    "title": "支持与帮助",
+    "lead": "使用 TGVideoDown 或我们的 Chrome 扩展时需要帮助？请通过下方方式联系我们。",
+    "contactTitle": "联系我们",
+    "contactBody": "产品支持、版权 / DMCA 投诉或隐私问题，请发送邮件至：",
+    "relatedTitle": "相关页面",
+    "seoTitle": "支持 - TGVideoDown",
+    "seoDescription": "联系 TGVideoDown 获取产品帮助、DMCA 与隐私相关支持。"
+  },
+  "igExportPage": {
+    "badge": "Chrome 扩展",
+    "title": "IG Follower Export Tool - IG Tools",
+    "heroLead": "一键将 Instagram 粉丝和关注列表导出为 Excel 或 CSV。支持快速导出，以及包含简介、邮箱和资料字段的详细导出。",
+    "heroSub": "面向营销人员、创作者和研究人员，提取公开粉丝数据，用于分析、触达规划和受众研究。单次最多导出 50,000 名粉丝。",
+    "intro": "打开扩展弹窗，输入用户名或主页链接，选择标准或详细导出，即可把结构化的 CSV 或 Excel 文件下载到你的设备。",
+    "featuresTitle": "主要功能",
+    "groups": {
+      "modes": {
+        "title": "导出模式",
+        "items": [
+          "导出粉丝或关注列表",
+          "单次最多 50,000 名粉丝",
+          "快速模式，尽快提取数据",
+          "详细模式，包含简介、邮箱和其他资料",
+          "CSV 与 Excel，列结构清晰"
+        ]
+      },
+      "columns": {
+        "title": "详细模式字段",
+        "items": [
+          "用户名、全名、头像链接、认证状态",
+          "账号类型、是否私密、简介、职业",
+          "粉丝数、关注数、作品数",
+          "公开邮箱、电话、WhatsApp、外链、城市、地址"
+        ]
+      },
+      "reliability": {
+        "title": "稳定性",
+        "items": [
+          "自动处理 Instagram 频率限制错误",
+          "触发限制后进入冷却",
+          "导出结果可保存、下载和复查"
+        ]
+      }
+    },
+    "howTitle": "使用方法",
+    "howSteps": [
+      "从 Chrome 网上应用店安装 IG Follower Export Tool",
+      "点击 Chrome 工具栏中的扩展图标",
+      "选择“导出 Instagram 数据”",
+      "输入 Instagram 用户名或主页链接",
+      "如需更多资料字段，可打开“详细”模式",
+      "点击开始，并按扩展内的说明操作",
+      "导出完成后下载 CSV 或 Excel 文件"
+    ],
+    "privacyTitle": "数据隐私",
+    "privacyIntro": "导出在你的设备上完成，数据来自当前浏览器会话中可见的内容。",
+    "privacyItems": [
+      "粉丝列表在本地导出为 CSV 或 Excel",
+      "使用扩展不需要在本网站注册账号",
+      "只导出你有权在 Instagram 上访问的数据",
+      "请遵守 Instagram 的频率限制和平台规则"
+    ],
+    "noticeTitle": "重要说明",
+    "noticeBody1": "IG Follower Export Tool 是独立的 Chrome 扩展，与 Instagram, LLC 或 Meta Platforms, Inc. 没有关联、认可或赞助关系。",
+    "noticeBody2": "不建议使用主账号进行大量自动导出。使用导出数据时，请遵守隐私法律和 Instagram 服务条款。",
+    "logoAlt": "IG Follower Export Tool",
+    "heroAlt": "IG Follower Export Tool 将 Instagram 粉丝导出为 CSV 和 Excel",
+    "howAlt": "使用 IG Follower Export Tool 导出 Instagram 粉丝的步骤",
+    "seo": {
+      "title": "IG Follower Export Tool - IG Tools {'|'} CSV 与 Excel",
+      "description": "IG Follower Export Tool 可将 Instagram 粉丝和关注列表导出为 CSV 或 Excel。支持快速或详细模式，包含简介和邮箱。单次最多 50,000 个资料。",
+      "keywords": "IG Follower Export Tool, IG Tools, Instagram 粉丝导出, 导出粉丝 CSV"
+    }
   }
 }

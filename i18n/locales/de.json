@@ -6,7 +6,8 @@
     "about": "Über uns",
     "download": "Erweiterung holen",
     "guideHowTo": "Anleitung",
-    "guideAlt": "Download-Anleitung"
+    "guideAlt": "Download-Anleitung",
+    "telegramDownloader": "Telegram-Downloader"
   },
   "hero": {
     "badge": "Chrome-Erweiterung · Begleitwebsite",
@@ -132,7 +133,17 @@
     "contact": "Kontakt",
     "privacy": "Datenschutz",
     "copyright": "© {year} TGVideoDown. Alle Rechte vorbehalten.",
-    "guideFacebook": "Facebook Video Downloader"
+    "guideFacebook": "Facebook Video Downloader",
+    "downloader": "Telegram-Video-Downloader",
+    "guideChrome": "Anleitung zur Chrome-Erweiterung",
+    "guideNoLogin": "Telegram-Dateien ohne Website-Login speichern",
+    "extensions": "Unsere Erweiterungen",
+    "extFacebook": "Facebook-Video-Downloader",
+    "extIgDm": "IG DM Bot",
+    "extIgExport": "IG Follower Export Tool",
+    "extIgComment": "Instagram-Kommentar-Export",
+    "supportPage": "Hilfe und Support",
+    "terms": "Nutzungsbedingungen"
   },
   "about": {
     "hero": {
@@ -433,7 +444,8 @@
       "ogTitle": "Facebook Video Downloader — Chrome-Erweiterung | TGVideoDown",
       "ogDescription": "Facebook-Videos, Bilder und Fotos speichern und organisieren. Schnelle, kostenlose Chrome-Erweiterung für Seiten, Gruppen, Feeds, Watch, Reels und Einbettungen.",
       "keywords": "facebook video downloader, facebook downloader, facebook video herunterladen, facebook chrome erweiterung, facebook reels download, facebook watch download"
-    }
+    },
+    "privacyPolicyLink": "Vollständige Datenschutzerklärung lesen"
   },
   "igExportPricing": {
     "title": "Preise",
@@ -467,5 +479,148 @@
     "ogTitle": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "ogDescription": "Kostenlose Chrome-Erweiterung zum lokalen Speichern von Telegram-Videos und Medien aus Gruppen, Kanälen und Chats.",
     "keywords": "telegram video downloader, telegram video herunterladen, privater kanal, chrome erweiterung"
+  },
+  "extensionsSection": {
+    "title": "Weitere Chrome-Erweiterungen",
+    "subtitle": "Kostenlose Browser-Tools von TGVideoDown — Installation über den Chrome Web Store.",
+    "learnMore": "Mehr erfahren",
+    "facebook": {
+      "title": "Facebook-Video-Downloader",
+      "description": "Speichere Facebook-Videos, Bilder und Fotos aus Feed, Watch, Reels, Seiten und Gruppen."
+    },
+    "igDm": {
+      "title": "IG DM Bot",
+      "description": "Instagram-Direktnachrichten in Menge senden: Vorlagen, Trichterfilter und Auto-Antworten."
+    },
+    "igExport": {
+      "title": "IG Follower Export Tool",
+      "description": "Instagram-Follower und Folge-ich-Liste als CSV oder Excel exportieren — schnell oder detailliert."
+    },
+    "igComment": {
+      "title": "Instagram-Kommentar-Export",
+      "description": "Kommentare und Antworten von Beiträgen, Reels und IGTV als CSV oder Excel exportieren."
+    }
+  },
+  "extensionLanding": {
+    "privacyLink": "Vollständige Datenschutzerklärung lesen →",
+    "store": "Chrome Web Store",
+    "home": "TGVideoDown Startseite"
+  },
+  "policyChrome": {
+    "title": "Datenschutzerklärung",
+    "operated": "Betrieben von TGvideodown.com · Zuletzt aktualisiert: {date}",
+    "operator": "Betrieben von: ",
+    "updatedOn": "Zuletzt aktualisiert: {date}"
+  },
+  "compliance": {
+    "title": "Nutzungsbedingungen und Compliance",
+    "introDefault": "Mit der Nutzung der Produkte und Dienste von TGVideoDown stimmst du diesen Bedingungen zu. Bitte lies sie aufmerksam.",
+    "intro": "Mit der Nutzung von {product} stimmst du diesen Bedingungen zu. Bitte lies sie aufmerksam.",
+    "items": {
+      "copyright": {
+        "title": "1. Urheberrecht und geistiges Eigentum",
+        "body": "Du darfst nur Inhalte herunterladen, die dir gehören, für die du eine Lizenz hast oder die du rechtmäßig speichern darfst. Du bist dafür verantwortlich, keine Rechte Dritter zu verletzen."
+      },
+      "access": {
+        "title": "2. Kein Umgehen von Zugriffsbeschränkungen",
+        "body": "Die Dienste dürfen nicht genutzt werden, um private Konten zu öffnen, Paywalls oder DRM zu umgehen oder technische Zugriffskontrollen zu unterlaufen."
+      },
+      "dmca": {
+        "title": "3. Urheberrechts- und DMCA-Beschwerden",
+        "body": "Wenn deine Inhalte ohne Erlaubnis verwendet oder heruntergeladen wurden, schreibe an {email} und schildere den mutmaßlichen Verstoß."
+      },
+      "platform": {
+        "title": "4. Hinweis zu Plattformen",
+        "body": "Unsere Produkte stehen in keiner Verbindung zu Meta, Instagram, TikTok, ByteDance, Telegram oder anderen Drittplattformen und werden von ihnen weder unterstützt noch gesponsert."
+      },
+      "privacy": {
+        "title": "5. Datenschutz",
+        "body": "Wir erfassen keine Passwörter, Zugangsdaten, Cookies, privaten Nachrichten oder andere sensible Daten, die für den Dienst nicht erforderlich sind."
+      }
+    }
+  },
+  "termsPage": {
+    "title": "Nutzungsbedingungen",
+    "updated": "Betrieben von TGvideodown.com · Zuletzt aktualisiert: 15. September 2026",
+    "intro": "Diese Bedingungen gelten für die Website von TGVideoDown und unsere Chrome-Erweiterungen (einschließlich Telegram-Video-Downloader, Facebook-Video-Downloader, IG DM Bot, IG Follower Export Tool und Instagram-Kommentar-Export). Mit der Installation oder Nutzung stimmst du ihnen zu.",
+    "contactTitle": "Kontakt",
+    "emailLabel": "E-Mail:",
+    "seoTitle": "Nutzungsbedingungen - TGVideoDown",
+    "seoDescription": "Nutzungsbedingungen von TGVideoDown: Urheberrecht, Zugriffsbeschränkungen, DMCA, Plattformhinweis und Datenschutz."
+  },
+  "supportPage": {
+    "title": "Support",
+    "lead": "Brauchst du Hilfe zu TGVideoDown oder unseren Chrome-Erweiterungen? Schreib uns unten.",
+    "contactTitle": "Kontakt",
+    "contactBody": "Für Produkthilfe, Urheberrechts- oder DMCA-Hinweise und Datenschutzfragen sende eine E-Mail:",
+    "relatedTitle": "Verwandte Seiten",
+    "seoTitle": "Support - TGVideoDown",
+    "seoDescription": "Kontaktiere den TGVideoDown-Support zu Produkt, DMCA und Datenschutz."
+  },
+  "igExportPage": {
+    "badge": "Chrome-Erweiterung",
+    "title": "IG Follower Export Tool - IG Tools",
+    "logoAlt": "IG Follower Export Tool",
+    "heroLead": "Exportiere Instagram-Follower und Folge-ich-Listen mit einem Klick nach Excel oder CSV. Schnellmodus oder Detailmodus mit Bio, E-Mail und Profilfeldern.",
+    "heroSub": "Für Marketing, Creator und Recherche: öffentliche Follower-Daten für Analyse und Zielgruppenarbeit. Bis zu 50.000 Follower pro Export.",
+    "intro": "Öffne das Fenster der Erweiterung, gib einen Benutzernamen oder eine Profil-URL ein, wähle Standard oder Detail und lade CSV oder Excel direkt auf dein Gerät.",
+    "featuresTitle": "Wichtige Funktionen",
+    "groups": {
+      "modes": {
+        "title": "Exportmodi",
+        "items": [
+          "Follower oder Folge-ich-Liste",
+          "Bis zu 50.000 Follower",
+          "Schneller Export",
+          "Detailmodus mit Bio, E-Mail und weiteren Feldern",
+          "CSV und Excel mit klaren Spalten"
+        ]
+      },
+      "columns": {
+        "title": "Spalten im Detailmodus",
+        "items": [
+          "Benutzername, voller Name, Profilbild-URL, Verifizierung",
+          "Kontotyp, privat, Biografie, Beruf",
+          "Follower, Folge-ich, Medienanzahl",
+          "Öffentliche E-Mail, Telefon, WhatsApp, externe URL, Stadt, Adresse"
+        ]
+      },
+      "reliability": {
+        "title": "Zuverlässigkeit",
+        "items": [
+          "Instagram-Ratenlimits werden automatisch behandelt",
+          "Pause, wenn ein Limit greift",
+          "Ergebnisse bleiben zum Download und zur Prüfung gespeichert"
+        ]
+      }
+    },
+    "howTitle": "So geht’s",
+    "howSteps": [
+      "IG Follower Export Tool im Chrome Web Store installieren",
+      "Auf das Symbol in der Chrome-Leiste klicken",
+      "„Export Instagram data“ wählen",
+      "Benutzername oder Profil-URL eingeben",
+      "Bei Bedarf „Detailed“ aktivieren",
+      "Start klicken und den Hinweisen folgen",
+      "CSV oder Excel nach Abschluss herunterladen"
+    ],
+    "privacyTitle": "Datenschutz der Exporte",
+    "privacyIntro": "Der Export entsteht auf deinem Gerät aus Daten, die in der aktuellen Browsersitzung sichtbar sind.",
+    "privacyItems": [
+      "Listen werden lokal als CSV oder Excel gespeichert",
+      "Für die Erweiterung ist kein Konto auf dieser Website nötig",
+      "Exportiere nur Daten, auf die du bei Instagram zugreifen darfst",
+      "Halte die Limits und Regeln von Instagram ein"
+    ],
+    "noticeTitle": "Wichtiger Hinweis",
+    "noticeBody1": "IG Follower Export Tool ist eine unabhängige Chrome-Erweiterung. Sie steht in keiner Verbindung zu Instagram, LLC oder Meta Platforms, Inc.",
+    "noticeBody2": "Nutze dein Hauptkonto bei Instagram nicht für umfangreiche automatische Exporte. Beachte Datenschutzrecht und die Nutzungsbedingungen von Instagram.",
+    "heroAlt": "IG Follower Export Tool exportiert Instagram-Follower nach CSV und Excel",
+    "howAlt": "So exportierst du Instagram-Follower mit IG Follower Export Tool",
+    "seo": {
+      "title": "IG Follower Export Tool - IG Tools {'|'} CSV & Excel",
+      "description": "IG Follower Export Tool exportiert Instagram-Follower und Folge-ich-Listen nach CSV oder Excel. Schnell oder detailliert, mit Bio und E-Mail. Bis zu 50.000 Profile.",
+      "keywords": "IG Follower Export Tool, IG Tools, Instagram Follower exportieren, Follower CSV"
+    }
   }
 }

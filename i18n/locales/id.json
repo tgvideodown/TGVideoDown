@@ -6,7 +6,8 @@
     "about": "Tentang",
     "download": "Dapatkan ekstensi",
     "guideHowTo": "Cara pakai",
-    "guideAlt": "Panduan unduh"
+    "guideAlt": "Panduan unduh",
+    "telegramDownloader": "Pengunduh Telegram"
   },
   "hero": {
     "badge": "Ekstensi Chrome · Situs pendamping",
@@ -132,7 +133,17 @@
     "contact": "Hubungi kami",
     "privacy": "Kebijakan privasi",
     "copyright": "© {year} TGVideoDown. Hak cipta dilindungi.",
-    "guideFacebook": "Pengunduh Video Facebook"
+    "guideFacebook": "Pengunduh Video Facebook",
+    "downloader": "Pengunduh video Telegram",
+    "guideChrome": "Panduan ekstensi Chrome",
+    "guideNoLogin": "Unduh file Telegram tanpa masuk ke situs",
+    "extensions": "Ekstensi kami",
+    "extFacebook": "Pengunduh video Facebook",
+    "extIgDm": "IG DM Bot",
+    "extIgExport": "IG Follower Export Tool",
+    "extIgComment": "Ekspor komentar Instagram",
+    "supportPage": "Bantuan dan dukungan",
+    "terms": "Ketentuan penggunaan"
   },
   "about": {
     "hero": {
@@ -433,7 +444,8 @@
       "ogTitle": "Pengunduh Video Facebook — Ekstensi Chrome | TGVideoDown",
       "ogDescription": "Simpan dan atur video, gambar, dan foto Facebook. Ekstensi Chrome cepat dan gratis untuk halaman, grup, feed, Watch, Reels, dan tersemat.",
       "keywords": "pengunduh video facebook, pengunduh facebook, unduh video facebook, ekstensi chrome facebook, unduh reels facebook, unduh watch facebook"
-    }
+    },
+    "privacyPolicyLink": "Baca kebijakan privasi lengkap"
   },
   "igExportPricing": {
     "title": "Harga",
@@ -467,5 +479,148 @@
     "ogTitle": "Telegram Video Downloader | TGVideoDown",
     "ogDescription": "Ekstensi Chrome gratis untuk download video Telegram dari channel, grup, dan chat. Simpan lokal, satu klik atau batch.",
     "keywords": "download video telegram privat, download video telegram private, telegram video downloader, unduh video telegram, ekstensi chrome telegram"
+  },
+  "extensionsSection": {
+    "title": "Ekstensi Chrome lainnya",
+    "subtitle": "Alat browser gratis dari TGVideoDown — pasang dari Chrome Web Store.",
+    "learnMore": "Pelajari lebih lanjut",
+    "facebook": {
+      "title": "Pengunduh video Facebook",
+      "description": "Simpan video, gambar, dan foto Facebook dari Feed, Watch, Reels, halaman, dan grup."
+    },
+    "igDm": {
+      "title": "IG DM Bot",
+      "description": "Kirim DM Instagram massal dengan templat, filter corong, dan balasan otomatis untuk pengikut baru."
+    },
+    "igExport": {
+      "title": "IG Follower Export Tool",
+      "description": "Ekspor pengikut dan mengikuti Instagram ke CSV atau Excel — mode cepat atau terperinci."
+    },
+    "igComment": {
+      "title": "Ekspor komentar Instagram",
+      "description": "Ekspor komentar dan balasan dari postingan, Reel, dan IGTV ke CSV atau Excel."
+    }
+  },
+  "extensionLanding": {
+    "privacyLink": "Baca kebijakan privasi lengkap →",
+    "store": "Chrome Web Store",
+    "home": "Beranda TGVideoDown"
+  },
+  "policyChrome": {
+    "title": "Kebijakan privasi",
+    "operated": "Dioperasikan oleh TGvideodown.com · Terakhir diperbarui: {date}",
+    "operator": "Dioperasikan oleh: ",
+    "updatedOn": "Terakhir diperbarui: {date}"
+  },
+  "compliance": {
+    "title": "Ketentuan penggunaan dan kepatuhan",
+    "introDefault": "Dengan menggunakan produk dan layanan TGVideoDown, Anda menyetujui ketentuan berikut. Harap baca dengan saksama.",
+    "intro": "Dengan menggunakan {product}, Anda menyetujui ketentuan berikut. Harap baca dengan saksama.",
+    "items": {
+      "copyright": {
+        "title": "1. Hak cipta dan kekayaan intelektual",
+        "body": "Anda hanya boleh mengunduh konten yang Anda miliki, yang Anda punya lisensinya, atau yang secara hukum boleh Anda unduh. Anda bertanggung jawab agar penggunaan tidak melanggar hak pihak ketiga."
+      },
+      "access": {
+        "title": "2. Dilarang melewati pembatasan akses",
+        "body": "Layanan tidak boleh dipakai untuk mengakses akun pribadi, melewati paywall atau DRM, atau menghindari kontrol akses teknis."
+      },
+      "dmca": {
+        "title": "3. Pengaduan hak cipta / DMCA",
+        "body": "Jika konten berhak cipta Anda digunakan atau diunduh tanpa izin, hubungi {email} dan sertakan rincian pelanggaran."
+      },
+      "platform": {
+        "title": "4. Pernyataan tentang platform",
+        "body": "Produk kami tidak berafiliasi, didukung, disponsori, atau memiliki hubungan resmi dengan Meta, Instagram, TikTok, ByteDance, Telegram, atau platform pihak ketiga lain."
+      },
+      "privacy": {
+        "title": "5. Privasi",
+        "body": "Kami tidak mengumpulkan kata sandi, kredensial, cookie, pesan pribadi, atau informasi sensitif lain yang tidak terkait dengan layanan."
+      }
+    }
+  },
+  "termsPage": {
+    "title": "Ketentuan penggunaan",
+    "updated": "Dioperasikan oleh TGvideodown.com · Terakhir diperbarui: 15 September 2026",
+    "intro": "Ketentuan ini berlaku untuk situs TGVideoDown dan ekstensi Chrome kami (termasuk pengunduh video Telegram, pengunduh video Facebook, IG DM Bot, IG Follower Export Tool, dan ekspor komentar Instagram). Dengan memasang atau menggunakan produk, Anda menyetujui ketentuan ini.",
+    "contactTitle": "Kontak",
+    "emailLabel": "Email:",
+    "seoTitle": "Ketentuan penggunaan - TGVideoDown",
+    "seoDescription": "Ketentuan TGVideoDown: hak cipta, pembatasan akses, DMCA, pernyataan platform, dan privasi."
+  },
+  "supportPage": {
+    "title": "Dukungan",
+    "lead": "Perlu bantuan dengan TGVideoDown atau ekstensi Chrome kami? Hubungi kami di bawah.",
+    "contactTitle": "Hubungi kami",
+    "contactBody": "Untuk dukungan produk, pemberitahuan hak cipta / DMCA, atau pertanyaan privasi, kirim email:",
+    "relatedTitle": "Halaman terkait",
+    "seoTitle": "Dukungan - TGVideoDown",
+    "seoDescription": "Hubungi dukungan TGVideoDown untuk bantuan produk, DMCA, dan privasi."
+  },
+  "igExportPage": {
+    "badge": "Ekstensi Chrome",
+    "title": "IG Follower Export Tool - IG Tools",
+    "logoAlt": "IG Follower Export Tool",
+    "heroLead": "Ekspor pengikut dan daftar mengikuti Instagram ke Excel atau CSV dalam satu klik. Mode cepat atau terperinci, dengan bio, email, dan bidang profil.",
+    "heroSub": "Membantu pemasar, kreator, dan peneliti mengambil data pengikut publik untuk analisis dan riset audiens. Hingga 50.000 pengikut per ekspor.",
+    "intro": "Buka popup ekstensi, masukkan nama pengguna atau URL profil, pilih ekspor standar atau terperinci, lalu unduh CSV atau Excel ke perangkat Anda.",
+    "featuresTitle": "Fitur utama",
+    "groups": {
+      "modes": {
+        "title": "Mode ekspor",
+        "items": [
+          "Ekspor pengikut atau mengikuti",
+          "Hingga 50.000 pengikut",
+          "Mode cepat",
+          "Mode terperinci dengan bio, email, dan bidang lain",
+          "CSV dan Excel dengan kolom yang rapi"
+        ]
+      },
+      "columns": {
+        "title": "Kolom mode terperinci",
+        "items": [
+          "Nama pengguna, nama lengkap, URL foto, status verifikasi",
+          "Jenis akun, status privat, bio, pekerjaan",
+          "Jumlah pengikut, mengikuti, dan media",
+          "Email publik, telepon, WhatsApp, URL eksternal, kota, alamat"
+        ]
+      },
+      "reliability": {
+        "title": "Keandalan",
+        "items": [
+          "Menangani batas permintaan Instagram secara otomatis",
+          "Mode jeda saat batas tercapai",
+          "Hasil disimpan untuk diunduh dan ditinjau"
+        ]
+      }
+    },
+    "howTitle": "Cara memakai",
+    "howSteps": [
+      "Pasang IG Follower Export Tool dari Chrome Web Store",
+      "Klik ikon ekstensi di bilah Chrome",
+      "Pilih “Export Instagram data”",
+      "Masukkan nama pengguna atau URL profil",
+      "Aktifkan “Detailed” jika perlu bidang tambahan",
+      "Klik Start dan ikuti petunjuk",
+      "Unduh CSV atau Excel setelah selesai"
+    ],
+    "privacyTitle": "Privasi data",
+    "privacyIntro": "Ekspor dibuat di perangkat Anda dari data yang terlihat di sesi browser.",
+    "privacyItems": [
+      "Daftar disimpan secara lokal sebagai CSV atau Excel",
+      "Tidak perlu akun di situs ini",
+      "Hanya ekspor data yang boleh Anda akses di Instagram",
+      "Patuhi batas dan kebijakan Instagram"
+    ],
+    "noticeTitle": "Pemberitahuan penting",
+    "noticeBody1": "IG Follower Export Tool adalah ekstensi Chrome independen. Tidak berafiliasi, didukung, atau disponsori oleh Instagram, LLC atau Meta Platforms, Inc.",
+    "noticeBody2": "Jangan gunakan akun Instagram utama untuk ekspor otomatis yang berat. Patuhi hukum privasi dan ketentuan Instagram.",
+    "heroAlt": "IG Follower Export Tool mengekspor pengikut Instagram ke CSV dan Excel",
+    "howAlt": "Cara mengekspor pengikut Instagram dengan IG Follower Export Tool",
+    "seo": {
+      "title": "IG Follower Export Tool - IG Tools {'|'} CSV & Excel",
+      "description": "IG Follower Export Tool mengekspor pengikut dan mengikuti Instagram ke CSV atau Excel. Mode cepat atau terperinci dengan bio dan email. Hingga 50.000 profil.",
+      "keywords": "IG Follower Export Tool, IG Tools, ekspor pengikut Instagram, pengikut CSV"
+    }
   }
 }

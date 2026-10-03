@@ -6,21 +6,17 @@
           <p class="text-sm font-semibold text-primary uppercase tracking-wide mb-3">
             {{ policy.extensionName }}
           </p>
-          <h1 class="text-4xl md:text-5xl font-heading font-bold text-text mb-4">Privacy Policy</h1>
+          <h1 class="text-4xl md:text-5xl font-heading font-bold text-text mb-4">{{ t('policyChrome.title') }}</h1>
           <p class="text-lg text-gray-600">
-            Operated by TGvideodown.com · Last updated: {{ policy.lastUpdated }}
+            {{ t('policyChrome.operated', { date: policy.lastUpdated }) }}
           </p>
-          <nav class="mt-6 flex flex-wrap justify-center gap-4 text-sm font-semibold">
-            <a href="#english" class="text-primary hover:underline">English</a>
-            <a href="#chinese" class="text-primary hover:underline">简体中文</a>
-          </nav>
         </div>
       </div>
     </section>
 
     <section class="section-padding">
       <div class="container-custom max-w-4xl mx-auto prose prose-lg">
-        <article id="english" class="mb-16 scroll-mt-24">
+        <article v-if="!showChinesePolicy" id="english" class="mb-16 scroll-mt-24">
           <p class="text-gray-700 leading-relaxed">{{ policy.en.intro }}</p>
           <PrivacyPolicySection
             v-for="(section, i) in policy.en.sections"
@@ -29,14 +25,12 @@
           />
         </article>
 
-        <hr class="border-border my-16" />
-
-        <article id="chinese" class="scroll-mt-24">
+        <article v-if="showChinesePolicy" id="chinese" class="scroll-mt-24">
           <h2 class="text-3xl font-heading font-bold text-text mb-4">{{ policy.cn.title }}</h2>
           <p class="text-gray-600 mb-6">
             <strong>{{ policy.extensionNameCn }}</strong><br>
-            运营方：TGvideodown.com<br>
-            最后更新日期：{{ policy.lastUpdated }}
+            {{ t('policyChrome.operator') }}TGvideodown.com<br>
+            {{ t('policyChrome.updatedOn', { date: policy.lastUpdated }) }}
           </p>
           <p class="text-gray-700 leading-relaxed">{{ policy.cn.intro }}</p>
           <PrivacyPolicySection
@@ -65,15 +59,15 @@
           <a :href="mailto" class="text-primary font-semibold hover:underline">{{ email }}</a>
           ·
           <NuxtLink :to="localePath('/terms')" class="text-primary font-semibold hover:underline">
-            Terms
+            {{ t('footer.terms') }}
           </NuxtLink>
           ·
           <NuxtLink :to="localePath('/support')" class="text-primary font-semibold hover:underline">
-            Support
+            {{ t('footer.support') }}
           </NuxtLink>
           ·
           <NuxtLink :to="localePath('/')" class="text-primary font-semibold hover:underline">
-            TGVideoDown Home
+            {{ t('extensionLanding.home') }}
           </NuxtLink>
         </p>
       </div>
@@ -97,6 +91,8 @@ const localePath = useLocalePath()
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 const { email, mailto } = useSupportEmail()
+const { t, locale } = useI18n()
+const showChinesePolicy = computed(() => locale.value === 'cn' || locale.value === 'tw')
 
 const canonical = computed(() => `${siteUrl}${localePath(props.privacyPath)}`)
 

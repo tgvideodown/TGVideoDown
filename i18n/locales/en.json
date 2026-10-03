@@ -500,5 +500,127 @@
     "ogTitle": "Telegram Video Downloader - Download Telegram Videos with TGVideoDown",
     "ogDescription": "Download Telegram videos and media with TGVideoDown. Free Chrome extension for private groups, channels, and chats. Single and batch downloads.",
     "keywords": "telegram video downloader, telegram video downloader chrome, telegram video downloader extension, download telegram video, download video telegram private, telegram media downloader"
+  },
+  "extensionLanding": {
+    "privacyLink": "Read full Privacy Policy →",
+    "store": "Chrome Web Store",
+    "home": "TGVideoDown Home"
+  },
+  "policyChrome": {
+    "title": "Privacy Policy",
+    "operated": "Operated by TGvideodown.com · Last updated: {date}",
+    "operator": "Operated by: ",
+    "updatedOn": "Last updated: {date}"
+  },
+  "compliance": {
+    "title": "Terms of Use & Compliance",
+    "introDefault": "By using TGVideoDown products and services, you agree to the following terms. Please read carefully.",
+    "intro": "By using {product}, you agree to the following terms. Please read carefully.",
+    "items": {
+      "copyright": {
+        "title": "1. Copyright and Intellectual Property",
+        "body": "You may only download content that you own, have a license to use, or are otherwise legally entitled to download. You are responsible for ensuring that your use of downloaded content does not infringe any third-party rights."
+      },
+      "access": {
+        "title": "2. No Bypassing Access Restrictions",
+        "body": "You may not use our services to access or download content from private accounts, bypass paywalls or DRM protection, or circumvent any access controls or technical restrictions."
+      },
+      "dmca": {
+        "title": "3. Copyright / DMCA Complaints",
+        "body": "If you believe your copyrighted content has been used or downloaded without authorization, please contact us at {email} and provide details of the alleged infringement."
+      },
+      "platform": {
+        "title": "4. Platform Disclaimer",
+        "body": "Our products have no affiliation, endorsement, sponsorship, or official relationship with Meta, Instagram, TikTok, ByteDance, Telegram, or any other third-party platform."
+      },
+      "privacy": {
+        "title": "5. Privacy",
+        "body": "We do not collect account passwords, authentication credentials, cookies, private messages, or other sensitive information unrelated to providing the service."
+      }
+    }
+  },
+  "termsPage": {
+    "title": "Terms of Use",
+    "updated": "Operated by TGvideodown.com · Last updated: September 15, 2026",
+    "intro": "These Terms of Use apply to the TGVideoDown website and our Chrome extensions (including Telegram Video Downloader, Facebook Video Downloader, IG DM Bot, IG Follower Export Tool, and Instagram Comment Exporter). By installing or using our products, you agree to these terms.",
+    "contactTitle": "Contact",
+    "emailLabel": "Email:",
+    "seoTitle": "Terms of Use - TGVideoDown",
+    "seoDescription": "Terms of Use for TGVideoDown products: copyright, access restrictions, DMCA, platform disclaimer, and privacy."
+  },
+  "supportPage": {
+    "title": "Support",
+    "lead": "Need help with TGVideoDown or our Chrome extensions? Contact us below.",
+    "contactTitle": "Contact Us",
+    "contactBody": "For product support, copyright / DMCA notices, or privacy questions, email:",
+    "relatedTitle": "Related pages",
+    "seoTitle": "Support - TGVideoDown",
+    "seoDescription": "Contact TGVideoDown support for product help, DMCA, and privacy questions."
+  },
+  "igExportPage": {
+    "badge": "Chrome extension",
+    "title": "IG Follower Export Tool - IG Tools",
+    "heroLead": "Export Instagram followers and following to Excel or CSV formats with one click. Fast export mode or detailed mode with bio, email, and profile fields.",
+    "heroSub": "Exporter for IG helps marketers, creators, and researchers extract public follower data for analysis, outreach planning, and audience research — up to 50,000 followers per export.",
+    "intro": "Open the extension popup, enter a username or profile URL, choose standard or detailed export, and download structured CSV or Excel files directly to your device.",
+    "featuresTitle": "Key Features",
+    "groups": {
+      "modes": {
+        "title": "Export modes",
+        "items": [
+          "Export followers or following",
+          "Export up to 50,000 followers",
+          "Fast export mode for quick data extraction",
+          "Detailed export mode with bio, email, and additional profile details",
+          "CSV and Excel formats with properly structured columns"
+        ]
+      },
+      "columns": {
+        "title": "Detailed mode columns",
+        "items": [
+          "Username, full name, profile picture URL, verified status",
+          "Account type, private status, biography, occupation",
+          "Follower count, following count, media count",
+          "Public email, phone, WhatsApp, external URL, city, address"
+        ]
+      },
+      "reliability": {
+        "title": "Reliability",
+        "items": [
+          "Automatically handles Instagram rate limit errors",
+          "Cooldown mode when rate limits are hit",
+          "Export results saved for download and review"
+        ]
+      }
+    },
+    "howTitle": "How to Use",
+    "howSteps": [
+      "Install IG Follower Export Tool from the Chrome Web Store",
+      "Click the extension icon in the Chrome toolbar",
+      "Select “Export Instagram data”",
+      "Enter an Instagram username or profile URL",
+      "Optionally enable “Detailed” for extra profile fields",
+      "Click Start and follow the in-app instructions",
+      "Download your CSV or Excel file when the export completes"
+    ],
+    "privacyTitle": "Data Privacy",
+    "privacyIntro": "Exports are generated on your device from data visible in your browser session.",
+    "privacyItems": [
+      "Follower lists are exported locally to CSV or Excel on your computer",
+      "We do not require an account on this website to use the extension",
+      "Only export data you are permitted to access on Instagram",
+      "Respect Instagram rate limits and platform policies"
+    ],
+    "noticeTitle": "Important Notice",
+    "noticeBody1": "IG Follower Export Tool is an independent Chrome extension. It is not affiliated with, endorsed by, or sponsored by Instagram, LLC or Meta Platforms, Inc.",
+    "noticeBody2": "It is recommended not to use your primary Instagram account for heavy automated exports. Respect privacy laws and Instagram’s Terms of Service when using exported data.",
+    "logoAlt": "IG Follower Export Tool",
+    "heroAlt": "IG Follower Export Tool exporting Instagram followers to CSV and Excel",
+    "howAlt": "How to export Instagram followers with IG Follower Export Tool",
+    "seo": {
+      "title": "IG Follower Export Tool - IG Tools {'|'} CSV & Excel",
+      "description": "IG Follower Export Tool exports Instagram followers and following to CSV or Excel. Fast or detailed mode with bio and email. Up to 50,000 profiles.",
+      "keywords": "IG Follower Export Tool, IG Tools, instagram follower export, export followers csv"
+    }
   }
 }

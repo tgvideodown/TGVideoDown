@@ -6,7 +6,8 @@
     "about": "關於",
     "download": "取得擴充功能",
     "guideHowTo": "使用說明",
-    "guideAlt": "下載指南"
+    "guideAlt": "下載指南",
+    "telegramDownloader": "Telegram 下載器"
   },
   "hero": {
     "badge": "Chrome 擴充功能 · 配套網站",
@@ -132,7 +133,17 @@
     "contact": "聯絡我們",
     "privacy": "隱私權政策",
     "copyright": "© {year} TGVideoDown. 保留所有權利。",
-    "guideFacebook": "Facebook 影片下載器"
+    "guideFacebook": "Facebook 影片下載器",
+    "downloader": "Telegram 影片下載器",
+    "guideChrome": "Chrome 擴充功能指南",
+    "guideNoLogin": "免登入下載 Telegram 檔案",
+    "extensions": "我們的擴充功能",
+    "extFacebook": "Facebook 影片下載器",
+    "extIgDm": "IG DM Bot",
+    "extIgExport": "IG 粉絲匯出工具",
+    "extIgComment": "Instagram 留言匯出",
+    "supportPage": "說明與支援",
+    "terms": "使用條款"
   },
   "about": {
     "hero": {
@@ -433,7 +444,8 @@
       "ogTitle": "Facebook 影片下載器 — Chrome 擴充功能 | TGVideoDown",
       "ogDescription": "儲存與整理 Facebook 影片、圖片與照片。適用於專頁、社團、動態、Watch、Reels 與嵌入內容的快速免費 Chrome 擴充功能。",
       "keywords": "facebook 影片下載器, facebook 下載器, 下載 facebook 影片, facebook chrome 擴充功能, facebook reels 下載, facebook watch 下載"
-    }
+    },
+    "privacyPolicyLink": "閱讀完整隱私權政策"
   },
   "igExportPricing": {
     "title": "價格",
@@ -467,5 +479,148 @@
     "ogTitle": "Telegram 影片下載器 - 下載 Telegram 影片 | TGVideoDown",
     "ogDescription": "免費 Chrome 擴充功能，從 Telegram 社團、頻道與聊天本機下載影片與媒體。",
     "keywords": "telegram 影片下載器, telegram video downloader, 下載 telegram 影片, chrome 擴充功能, 私人頻道"
+  },
+  "extensionsSection": {
+    "title": "更多 Chrome 擴充功能",
+    "subtitle": "TGVideoDown 的免費瀏覽器工具 — 請從 Chrome 線上應用程式商店安裝。",
+    "learnMore": "了解更多",
+    "facebook": {
+      "title": "Facebook 影片下載器",
+      "description": "從動態、Watch、Reels、粉絲專頁和社團儲存 Facebook 影片、圖片與照片。"
+    },
+    "igDm": {
+      "title": "IG DM Bot",
+      "description": "大量傳送 Instagram 私訊：範本、漏斗篩選，以及新粉絲自動回覆。"
+    },
+    "igExport": {
+      "title": "IG 粉絲匯出工具",
+      "description": "將 Instagram 粉絲與追蹤名單匯出為 CSV 或 Excel，支援快速或詳細模式。"
+    },
+    "igComment": {
+      "title": "Instagram 留言匯出",
+      "description": "將貼文、Reel 和 IGTV 的留言與回覆匯出為 CSV 或 Excel。"
+    }
+  },
+  "extensionLanding": {
+    "privacyLink": "閱讀完整隱私權政策 →",
+    "store": "Chrome 線上應用程式商店",
+    "home": "TGVideoDown 首頁"
+  },
+  "policyChrome": {
+    "title": "隱私權政策",
+    "operated": "營運方：TGvideodown.com · 最後更新：{date}",
+    "operator": "營運方：",
+    "updatedOn": "最後更新日期：{date}"
+  },
+  "compliance": {
+    "title": "使用條款與合規說明",
+    "introDefault": "使用 TGVideoDown 產品與服務即表示您同意以下條款，請仔細閱讀。",
+    "intro": "使用 {product} 即表示您同意以下條款，請仔細閱讀。",
+    "items": {
+      "copyright": {
+        "title": "1. 版權與智慧財產權",
+        "body": "您僅可下載您擁有所有權、已獲使用授權，或依法有權下載的內容。您有責任確保對下載內容的使用不侵害任何第三方權利。"
+      },
+      "access": {
+        "title": "2. 不得規避存取限制",
+        "body": "您不得使用我們的服務存取或下載私人帳號中的內容、繞過付費牆或 DRM 保護，或規避任何存取控制或技術限制。"
+      },
+      "dmca": {
+        "title": "3. 版權／DMCA 投訴",
+        "body": "如果您認為受版權保護的內容遭未經授權使用或下載，請透過 {email} 與我們聯絡，並提供涉嫌侵權的詳細資訊。"
+      },
+      "platform": {
+        "title": "4. 平台免責聲明",
+        "body": "我們的產品與 Meta、Instagram、TikTok、ByteDance、Telegram 或其他第三方平台均無關聯、認可、贊助或官方關係。"
+      },
+      "privacy": {
+        "title": "5. 隱私",
+        "body": "我們不會收集帳號密碼、身分驗證憑證、cookie、私人訊息，或其他與提供服務無關的敏感資訊。"
+      }
+    }
+  },
+  "termsPage": {
+    "title": "使用條款",
+    "updated": "營運方：TGvideodown.com · 最後更新：2026 年 9 月 15 日",
+    "intro": "本使用條款適用於 TGVideoDown 網站及我們的 Chrome 擴充功能（包括 Telegram 影片下載器、Facebook 影片下載器、IG DM Bot、IG Follower Export Tool、Instagram 留言匯出）。安裝或使用我們的產品即表示您同意本條款。",
+    "contactTitle": "聯絡我們",
+    "emailLabel": "電子郵件：",
+    "seoTitle": "使用條款 - TGVideoDown",
+    "seoDescription": "TGVideoDown 產品使用條款：版權、存取限制、DMCA、平台免責聲明與隱私。"
+  },
+  "supportPage": {
+    "title": "支援與說明",
+    "lead": "使用 TGVideoDown 或我們的 Chrome 擴充功能時需要協助？請透過下方方式聯絡我們。",
+    "contactTitle": "聯絡我們",
+    "contactBody": "產品支援、版權 / DMCA 投訴或隱私問題，請寄信至：",
+    "relatedTitle": "相關頁面",
+    "seoTitle": "支援 - TGVideoDown",
+    "seoDescription": "聯絡 TGVideoDown，取得產品協助、DMCA 與隱私相關支援。"
+  },
+  "igExportPage": {
+    "badge": "Chrome 擴充功能",
+    "title": "IG Follower Export Tool - IG Tools",
+    "heroLead": "一鍵將 Instagram 粉絲和追蹤名單匯出為 Excel 或 CSV。支援快速匯出，以及包含簡介、電子郵件和個人資料欄位的詳細匯出。",
+    "heroSub": "適合行銷人員、創作者與研究者擷取公開粉絲資料，用於分析、觸及規劃和受眾研究。單次最多匯出 50,000 名粉絲。",
+    "intro": "開啟擴充功能彈出視窗，輸入使用者名稱或個人檔案連結，選擇標準或詳細匯出，即可把結構化的 CSV 或 Excel 檔下載到你的裝置。",
+    "featuresTitle": "主要功能",
+    "groups": {
+      "modes": {
+        "title": "匯出模式",
+        "items": [
+          "匯出粉絲或追蹤名單",
+          "單次最多 50,000 名粉絲",
+          "快速模式，盡快擷取資料",
+          "詳細模式，包含簡介、電子郵件和其他資料",
+          "CSV 與 Excel，欄位結構清楚"
+        ]
+      },
+      "columns": {
+        "title": "詳細模式欄位",
+        "items": [
+          "使用者名稱、全名、頭像連結、驗證狀態",
+          "帳號類型、是否私人、簡介、職業",
+          "粉絲數、追蹤數、貼文數",
+          "公開電子郵件、電話、WhatsApp、外部連結、城市、地址"
+        ]
+      },
+      "reliability": {
+        "title": "穩定性",
+        "items": [
+          "自動處理 Instagram 頻率限制錯誤",
+          "觸發限制後進入冷卻",
+          "匯出結果可儲存、下載和複查"
+        ]
+      }
+    },
+    "howTitle": "使用方式",
+    "howSteps": [
+      "從 Chrome 線上應用程式商店安裝 IG Follower Export Tool",
+      "點選 Chrome 工具列中的擴充功能圖示",
+      "選擇「匯出 Instagram 資料」",
+      "輸入 Instagram 使用者名稱或個人檔案連結",
+      "如需更多資料欄位，可開啟「詳細」模式",
+      "點選開始，並依照擴充功能內的說明操作",
+      "匯出完成後下載 CSV 或 Excel 檔"
+    ],
+    "privacyTitle": "資料隱私",
+    "privacyIntro": "匯出在你的裝置上完成，資料來自目前瀏覽器工作階段中可見的內容。",
+    "privacyItems": [
+      "粉絲名單在本機匯出為 CSV 或 Excel",
+      "使用擴充功能不需要在本網站註冊帳號",
+      "只匯出你有權在 Instagram 上存取的資料",
+      "請遵守 Instagram 的頻率限制和平台規則"
+    ],
+    "noticeTitle": "重要說明",
+    "noticeBody1": "IG Follower Export Tool 是獨立的 Chrome 擴充功能，與 Instagram, LLC 或 Meta Platforms, Inc. 沒有關聯、認可或贊助關係。",
+    "noticeBody2": "不建議使用主要帳號進行大量自動匯出。使用匯出資料時，請遵守隱私法律和 Instagram 服務條款。",
+    "logoAlt": "IG Follower Export Tool",
+    "heroAlt": "IG Follower Export Tool 將 Instagram 粉絲匯出為 CSV 和 Excel",
+    "howAlt": "使用 IG Follower Export Tool 匯出 Instagram 粉絲的步驟",
+    "seo": {
+      "title": "IG Follower Export Tool - IG Tools {'|'} CSV 與 Excel",
+      "description": "IG Follower Export Tool 可將 Instagram 粉絲和追蹤名單匯出為 CSV 或 Excel。支援快速或詳細模式，包含簡介和電子郵件。單次最多 50,000 個資料。",
+      "keywords": "IG Follower Export Tool, IG Tools, Instagram 粉絲匯出, 匯出粉絲 CSV"
+    }
   }
 }

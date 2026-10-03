@@ -6,7 +6,8 @@
     "about": "소개",
     "download": "확장 프로그램 받기",
     "guideHowTo": "사용 방법",
-    "guideAlt": "다운로드 가이드"
+    "guideAlt": "다운로드 가이드",
+    "telegramDownloader": "Telegram 다운로더"
   },
   "hero": {
     "badge": "Chrome 확장 프로그램 · 동반 사이트",
@@ -132,7 +133,17 @@
     "contact": "문의하기",
     "privacy": "개인정보 처리방침",
     "copyright": "© {year} TGVideoDown. All rights reserved.",
-    "guideFacebook": "Facebook 동영상 다운로더"
+    "guideFacebook": "Facebook 동영상 다운로더",
+    "downloader": "Telegram 동영상 다운로더",
+    "guideChrome": "Chrome 확장 프로그램 가이드",
+    "guideNoLogin": "로그인 없이 Telegram 파일 저장",
+    "extensions": "우리 확장 프로그램",
+    "extFacebook": "Facebook 동영상 다운로더",
+    "extIgDm": "IG DM Bot",
+    "extIgExport": "IG Follower Export Tool",
+    "extIgComment": "Instagram 댓글 내보내기",
+    "supportPage": "도움말 및 지원",
+    "terms": "이용약관"
   },
   "about": {
     "hero": {
@@ -433,7 +444,8 @@
       "ogTitle": "Facebook 동영상 다운로더 — Chrome 확장 프로그램 | TGVideoDown",
       "ogDescription": "Facebook 동영상, 이미지, 사진 저장 및 정리. 페이지, 그룹, 피드, Watch, Reels 및 임베드용 빠른 무료 Chrome 확장 프로그램.",
       "keywords": "facebook 동영상 다운로더, facebook 다운로더, facebook 동영상 다운로드, facebook chrome 확장 프로그램, facebook reels 다운로드, facebook watch 다운로드"
-    }
+    },
+    "privacyPolicyLink": "개인정보 처리방침 전문 읽기"
   },
   "igExportPricing": {
     "title": "가격",
@@ -467,5 +479,148 @@
     "ogTitle": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "ogDescription": "Telegram 그룹·채널·채팅의 동영상과 미디어를 로컬에 저장하는 무료 Chrome 확장 프로그램.",
     "keywords": "telegram video downloader, 텔레그램 동영상 다운로드, 크롬 확장 프로그램, 비공개 채널"
+  },
+  "extensionsSection": {
+    "title": "다른 Chrome 확장 프로그램",
+    "subtitle": "TGVideoDown의 무료 브라우저 도구 — Chrome 웹스토어에서 설치하세요.",
+    "learnMore": "자세히 보기",
+    "facebook": {
+      "title": "Facebook 동영상 다운로더",
+      "description": "피드, Watch, Reels, 페이지, 그룹에서 Facebook 동영상·이미지·사진을 저장합니다."
+    },
+    "igDm": {
+      "title": "IG DM Bot",
+      "description": "템플릿, 퍼널 필터, 새 팔로워 자동 답장으로 Instagram DM을 대량 전송합니다."
+    },
+    "igExport": {
+      "title": "IG Follower Export Tool",
+      "description": "Instagram 팔로워와 팔로잉을 CSV 또는 Excel로 내보냅니다. 빠른 모드와 상세 모드."
+    },
+    "igComment": {
+      "title": "Instagram 댓글 내보내기",
+      "description": "게시물, Reel, IGTV의 댓글과 답글을 CSV 또는 Excel로 내보냅니다."
+    }
+  },
+  "extensionLanding": {
+    "privacyLink": "개인정보 처리방침 전문 읽기 →",
+    "store": "Chrome 웹스토어",
+    "home": "TGVideoDown 홈"
+  },
+  "policyChrome": {
+    "title": "개인정보 처리방침",
+    "operated": "운영: TGvideodown.com · 최종 업데이트: {date}",
+    "operator": "운영: ",
+    "updatedOn": "최종 업데이트: {date}"
+  },
+  "compliance": {
+    "title": "이용약관 및 준수 사항",
+    "introDefault": "TGVideoDown 제품과 서비스를 이용하면 다음 조항에 동의하는 것으로 봅니다. 자세히 읽어 주세요.",
+    "intro": "{product}을(를) 이용하면 다음 조항에 동의하는 것으로 봅니다. 자세히 읽어 주세요.",
+    "items": {
+      "copyright": {
+        "title": "1. 저작권 및 지식재산",
+        "body": "소유권, 사용 허락 또는 법령상 다운로드 권한이 있는 콘텐츠만 다운로드할 수 있습니다. 제3자의 권리를 침해하지 않을 책임은 이용자에게 있습니다."
+      },
+      "access": {
+        "title": "2. 접근 제한 우회 금지",
+        "body": "비공개 계정의 콘텐츠에 접근하거나 다운로드하고, 페이월 또는 DRM을 우회하거나, 접근 통제 및 기술적 제한을 회피하는 데 서비스를 사용할 수 없습니다."
+      },
+      "dmca": {
+        "title": "3. 저작권 / DMCA 신고",
+        "body": "저작물이 허가 없이 사용되거나 다운로드되었다고 판단되면 {email} 로 연락하고 침해 내용을 알려 주세요."
+      },
+      "platform": {
+        "title": "4. 플랫폼 면책",
+        "body": "당사 제품은 Meta, Instagram, TikTok, ByteDance, Telegram 또는 기타 제3자 플랫폼과 제휴, 승인, 후원, 공식 관계가 없습니다."
+      },
+      "privacy": {
+        "title": "5. 개인정보",
+        "body": "계정 비밀번호, 인증 정보, 쿠키, 비공개 메시지, 서비스 제공과 무관한 민감 정보는 수집하지 않습니다."
+      }
+    }
+  },
+  "termsPage": {
+    "title": "이용약관",
+    "updated": "운영: TGvideodown.com · 최종 업데이트: 2026년 9월 15일",
+    "intro": "본 이용약관은 TGVideoDown 웹사이트와 Chrome 확장 프로그램(Telegram 동영상 다운로더, Facebook 동영상 다운로더, IG DM Bot, IG Follower Export Tool, Instagram 댓글 내보내기 포함)에 적용됩니다. 제품을 설치하거나 사용하면 본 약관에 동의하는 것입니다.",
+    "contactTitle": "문의",
+    "emailLabel": "이메일:",
+    "seoTitle": "이용약관 - TGVideoDown",
+    "seoDescription": "TGVideoDown 이용약관: 저작권, 접근 제한, DMCA, 플랫폼 면책, 개인정보."
+  },
+  "supportPage": {
+    "title": "지원",
+    "lead": "TGVideoDown 또는 Chrome 확장 프로그램에 도움이 필요하신가요? 아래로 연락해 주세요.",
+    "contactTitle": "문의하기",
+    "contactBody": "제품 지원, 저작권 / DMCA 통지, 개인정보 관련 질문은 이메일로 보내 주세요:",
+    "relatedTitle": "관련 페이지",
+    "seoTitle": "지원 - TGVideoDown",
+    "seoDescription": "제품 도움, DMCA, 개인정보 문의는 TGVideoDown 지원팀으로 연락하세요."
+  },
+  "igExportPage": {
+    "badge": "Chrome 확장 프로그램",
+    "title": "IG Follower Export Tool - IG Tools",
+    "heroLead": "Instagram 팔로워와 팔로잉을 한 번에 Excel 또는 CSV로 내보냅니다. 빠른 모드와 소개, 이메일, 프로필 항목이 포함된 상세 모드가 있습니다.",
+    "heroSub": "마케터, 크리에이터, 리서치 담당자가 분석, 아웃리치, 오디언스 조사를 위해 공개 팔로워 데이터를 추출할 수 있습니다. 한 번에 최대 50,000명입니다.",
+    "intro": "확장 프로그램 팝업을 열고 사용자 이름 또는 프로필 URL을 입력한 뒤 표준 또는 상세 내보내기를 선택하면, 정리된 CSV 또는 Excel을 기기에 바로 받습니다.",
+    "featuresTitle": "주요 기능",
+    "groups": {
+      "modes": {
+        "title": "내보내기 모드",
+        "items": [
+          "팔로워 또는 팔로잉 내보내기",
+          "최대 50,000명",
+          "빠르게 추출하는 빠른 모드",
+          "소개, 이메일, 추가 프로필이 있는 상세 모드",
+          "열이 정리된 CSV와 Excel"
+        ]
+      },
+      "columns": {
+        "title": "상세 모드 열",
+        "items": [
+          "사용자 이름, 전체 이름, 프로필 사진 URL, 인증 여부",
+          "계정 유형, 비공개 여부, 소개, 직업",
+          "팔로워 수, 팔로잉 수, 게시물 수",
+          "공개 이메일, 전화, WhatsApp, 외부 URL, 도시, 주소"
+        ]
+      },
+      "reliability": {
+        "title": "안정성",
+        "items": [
+          "Instagram 요청 제한 오류를 자동 처리",
+          "제한 시 대기 모드",
+          "결과를 저장해 다운로드하고 검토"
+        ]
+      }
+    },
+    "howTitle": "사용 방법",
+    "howSteps": [
+      "Chrome 웹스토어에서 IG Follower Export Tool 설치",
+      "Chrome 도구막대의 확장 프로그램 아이콘 클릭",
+      "“Export Instagram data” 선택",
+      "Instagram 사용자 이름 또는 프로필 URL 입력",
+      "추가 항목이 필요하면 “Detailed” 켜기",
+      "시작을 누르고 안내를 따르기",
+      "완료 후 CSV 또는 Excel 다운로드"
+    ],
+    "privacyTitle": "데이터 개인정보",
+    "privacyIntro": "내보내기는 기기에서 이루어지며, 현재 브라우저 세션에 보이는 데이터가 원본입니다.",
+    "privacyItems": [
+      "팔로워 목록은 컴퓨터의 CSV 또는 Excel로 저장",
+      "이 웹사이트 계정 없이 확장 프로그램 사용 가능",
+      "Instagram에서 접근이 허용된 데이터만 내보내기",
+      "Instagram 요청 제한과 플랫폼 정책 준수"
+    ],
+    "noticeTitle": "중요 안내",
+    "noticeBody1": "IG Follower Export Tool은 독립 Chrome 확장 프로그램이며 Instagram, LLC 또는 Meta Platforms, Inc.와 제휴, 승인, 후원 관계가 없습니다.",
+    "noticeBody2": "대량 자동 내보내기에는 기본 Instagram 계정을 사용하지 않는 것이 좋습니다. 내보낸 데이터는 개인정보 법령과 Instagram 약관을 지켜 사용하세요.",
+    "logoAlt": "IG Follower Export Tool",
+    "heroAlt": "Instagram 팔로워를 CSV와 Excel로 내보내는 IG Follower Export Tool",
+    "howAlt": "IG Follower Export Tool로 Instagram 팔로워를 내보내는 방법",
+    "seo": {
+      "title": "IG Follower Export Tool - IG Tools {'|'} CSV & Excel",
+      "description": "IG Follower Export Tool은 Instagram 팔로워와 팔로잉을 CSV 또는 Excel로 내보냅니다. 소개와 이메일이 포함된 빠른·상세 모드. 최대 50,000개.",
+      "keywords": "IG Follower Export Tool, IG Tools, 인스타 팔로워 내보내기, 팔로워 CSV"
+    }
   }
 }

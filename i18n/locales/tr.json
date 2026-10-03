@@ -6,7 +6,8 @@
     "about": "Hakkında",
     "download": "Uzantıyı al",
     "guideHowTo": "Nasıl kullanılır",
-    "guideAlt": "İndirme kılavuzu"
+    "guideAlt": "İndirme kılavuzu",
+    "telegramDownloader": "Telegram indirici"
   },
   "hero": {
     "badge": "Chrome uzantısı · Yardımcı site",
@@ -132,7 +133,17 @@
     "contact": "Bize ulaşın",
     "privacy": "Gizlilik politikası",
     "copyright": "© {year} TGVideoDown. Tüm hakları saklıdır.",
-    "guideFacebook": "Facebook Video İndirici"
+    "guideFacebook": "Facebook Video İndirici",
+    "downloader": "Telegram video indirici",
+    "guideChrome": "Chrome eklentisi kılavuzu",
+    "guideNoLogin": "Siteye giriş yapmadan Telegram dosyalarını indir",
+    "extensions": "Eklentilerimiz",
+    "extFacebook": "Facebook video indirici",
+    "extIgDm": "IG DM Bot",
+    "extIgExport": "IG Follower Export Tool",
+    "extIgComment": "Instagram yorum dışa aktarma",
+    "supportPage": "Yardım ve destek",
+    "terms": "Kullanım koşulları"
   },
   "about": {
     "hero": {
@@ -433,7 +444,8 @@
       "ogTitle": "Facebook Video İndirici — Chrome Uzantısı | TGVideoDown",
       "ogDescription": "Facebook videolarını, görsellerini ve fotoğraflarını kaydedin ve düzenleyin. Sayfalar, gruplar, akış, Watch, Reels ve gömülü içerik için hızlı ücretsiz Chrome uzantısı.",
       "keywords": "facebook video indirici, facebook indirici, facebook video indir, facebook chrome uzantısı, facebook reels indir, facebook watch indir"
-    }
+    },
+    "privacyPolicyLink": "Gizlilik politikasının tamamını oku"
   },
   "igExportPricing": {
     "title": "Fiyatlar",
@@ -467,5 +479,148 @@
     "ogTitle": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "ogDescription": "Telegram grup, kanal ve sohbetlerinden video indirmek için ücretsiz Chrome uzantısı. Yerel kayıt, tek tık veya toplu.",
     "keywords": "telegram video indirici, telegram video downloader, telegram video indir, özel kanal, chrome uzantısı"
+  },
+  "extensionsSection": {
+    "title": "Diğer Chrome eklentileri",
+    "subtitle": "TGVideoDown’un ücretsiz tarayıcı araçları — Chrome Web Store’dan yükleyin.",
+    "learnMore": "Daha fazla bilgi",
+    "facebook": {
+      "title": "Facebook video indirici",
+      "description": "Facebook videolarını, görsellerini ve fotoğraflarını Akış, Watch, Reels, sayfalar ve gruplardan kaydedin."
+    },
+    "igDm": {
+      "title": "IG DM Bot",
+      "description": "Şablonlar, huni filtreleri ve yeni takipçilere otomatik yanıtla toplu Instagram DM gönderin."
+    },
+    "igExport": {
+      "title": "IG Follower Export Tool",
+      "description": "Instagram takipçilerini ve takip edilenleri CSV veya Excel’e aktarın — hızlı veya ayrıntılı mod."
+    },
+    "igComment": {
+      "title": "Instagram yorum dışa aktarma",
+      "description": "Gönderi, Reel ve IGTV yorumlarını ve yanıtlarını CSV veya Excel’e aktarın."
+    }
+  },
+  "extensionLanding": {
+    "privacyLink": "Gizlilik politikasının tamamını oku →",
+    "store": "Chrome Web Store",
+    "home": "TGVideoDown ana sayfa"
+  },
+  "policyChrome": {
+    "title": "Gizlilik politikası",
+    "operated": "İşleten: TGvideodown.com · Son güncelleme: {date}",
+    "operator": "İşleten: ",
+    "updatedOn": "Son güncelleme: {date}"
+  },
+  "compliance": {
+    "title": "Kullanım koşulları ve uyum",
+    "introDefault": "TGVideoDown ürün ve hizmetlerini kullanarak aşağıdaki koşulları kabul etmiş olursunuz. Lütfen dikkatle okuyun.",
+    "intro": "{product} ürününü kullanarak aşağıdaki koşulları kabul etmiş olursunuz. Lütfen dikkatle okuyun.",
+    "items": {
+      "copyright": {
+        "title": "1. Telif ve fikri mülkiyet",
+        "body": "Yalnızca sahibi olduğunuz, lisansınız bulunan veya yasal olarak indirme hakkınız olan içeriği indirebilirsiniz. Üçüncü taraf haklarını ihlal etmemek sizin sorumluluğunuzdadır."
+      },
+      "access": {
+        "title": "2. Erişim kısıtlarını aşmak yasaktır",
+        "body": "Hizmetler, gizli hesaplara erişmek, paywall veya DRM aşmak ya da teknik erişim kontrollerini dolanmak için kullanılamaz."
+      },
+      "dmca": {
+        "title": "3. Telif / DMCA bildirimleri",
+        "body": "Telifli içeriğinizin izinsiz kullanıldığını veya indirildiğini düşünüyorsanız {email} adresine yazın ve ihlali açıklayın."
+      },
+      "platform": {
+        "title": "4. Platform bildirimi",
+        "body": "Ürünlerimizin Meta, Instagram, TikTok, ByteDance, Telegram veya başka üçüncü taraf platformlarla bağlantısı, onayı, sponsorluğu veya resmi ilişkisi yoktur."
+      },
+      "privacy": {
+        "title": "5. Gizlilik",
+        "body": "Hesap parolalarını, kimlik bilgilerini, çerezleri, özel mesajları veya hizmetle ilgisi olmayan diğer hassas bilgileri toplamayız."
+      }
+    }
+  },
+  "termsPage": {
+    "title": "Kullanım koşulları",
+    "updated": "İşleten: TGvideodown.com · Son güncelleme: 15 Eylül 2026",
+    "intro": "Bu koşullar TGVideoDown web sitesi ve Chrome eklentilerimiz (Telegram video indirici, Facebook video indirici, IG DM Bot, IG Follower Export Tool ve Instagram yorum dışa aktarma dahil) için geçerlidir. Ürünleri yüklemek veya kullanmak bu koşulları kabul etmek demektir.",
+    "contactTitle": "İletişim",
+    "emailLabel": "E-posta:",
+    "seoTitle": "Kullanım koşulları - TGVideoDown",
+    "seoDescription": "TGVideoDown koşulları: telif, erişim kısıtları, DMCA, platform bildirimi ve gizlilik."
+  },
+  "supportPage": {
+    "title": "Destek",
+    "lead": "TGVideoDown veya Chrome eklentilerimiz için yardıma mı ihtiyacınız var? Aşağıdan yazın.",
+    "contactTitle": "Bize ulaşın",
+    "contactBody": "Ürün desteği, telif / DMCA bildirimleri veya gizlilik soruları için e-posta gönderin:",
+    "relatedTitle": "İlgili sayfalar",
+    "seoTitle": "Destek - TGVideoDown",
+    "seoDescription": "Ürün yardımı, DMCA ve gizlilik için TGVideoDown desteğiyle iletişime geçin."
+  },
+  "igExportPage": {
+    "badge": "Chrome eklentisi",
+    "title": "IG Follower Export Tool - IG Tools",
+    "logoAlt": "IG Follower Export Tool",
+    "heroLead": "Instagram takipçilerini ve takip edilenleri tek tıklamayla Excel veya CSV olarak dışa aktarın. Hızlı mod veya bio, e-posta ve profil alanlarını içeren ayrıntılı mod.",
+    "heroSub": "Pazarlama, içerik üreticileri ve araştırmacılar için herkese açık takipçi verisini analiz etmeye yarar. Dışa aktarma başına 50.000 kişiye kadar.",
+    "intro": "Eklenti penceresini açın, kullanıcı adı veya profil URL’si girin, standart ya da ayrıntılı dışa aktarmayı seçin ve CSV veya Excel dosyasını cihazınıza indirin.",
+    "featuresTitle": "Başlıca özellikler",
+    "groups": {
+      "modes": {
+        "title": "Dışa aktarma modları",
+        "items": [
+          "Takipçi veya takip edilenler",
+          "50.000 takipçiye kadar",
+          "Hızlı mod",
+          "Bio, e-posta ve ek alanlar içeren ayrıntılı mod",
+          "Düzenli sütunlu CSV ve Excel"
+        ]
+      },
+      "columns": {
+        "title": "Ayrıntılı mod sütunları",
+        "items": [
+          "Kullanıcı adı, tam ad, profil fotoğrafı URL’si, doğrulama",
+          "Hesap türü, gizli hesap, biyografi, meslek",
+          "Takipçi, takip edilen ve gönderi sayısı",
+          "Herkese açık e-posta, telefon, WhatsApp, dış URL, şehir, adres"
+        ]
+      },
+      "reliability": {
+        "title": "Güvenilirlik",
+        "items": [
+          "Instagram hız sınırlarını otomatik ele alır",
+          "Sınır dolunca bekleme modu",
+          "Sonuçlar indirmek ve gözden geçirmek için saklanır"
+        ]
+      }
+    },
+    "howTitle": "Nasıl kullanılır",
+    "howSteps": [
+      "IG Follower Export Tool’u Chrome Web Store’dan yükleyin",
+      "Chrome araç çubuğundaki simgeye tıklayın",
+      "“Export Instagram data” seçin",
+      "Instagram kullanıcı adı veya profil URL’si girin",
+      "Ek alanlar için “Detailed” seçeneğini açın",
+      "Start’a basın ve yönergeleri izleyin",
+      "Bitince CSV veya Excel dosyasını indirin"
+    ],
+    "privacyTitle": "Veri gizliliği",
+    "privacyIntro": "Dışa aktarma, tarayıcı oturumunda görünen verilerden cihazınızda oluşturulur.",
+    "privacyItems": [
+      "Listeler bilgisayarda CSV veya Excel olarak kaydedilir",
+      "Bu sitede hesap gerekmez",
+      "Yalnızca Instagram’da erişme hakkınız olan veriyi aktarın",
+      "Instagram sınırlarına ve kurallarına uyun"
+    ],
+    "noticeTitle": "Önemli uyarı",
+    "noticeBody1": "IG Follower Export Tool bağımsız bir Chrome eklentisidir. Instagram, LLC veya Meta Platforms, Inc. ile bağlantılı, onaylı veya sponsorlu değildir.",
+    "noticeBody2": "Yoğun otomatik dışa aktarma için birincil Instagram hesabınızı kullanmayın. Gizlilik yasalarına ve Instagram koşullarına uyun.",
+    "heroAlt": "IG Follower Export Tool, Instagram takipçilerini CSV ve Excel’e aktarır",
+    "howAlt": "IG Follower Export Tool ile Instagram takipçilerini dışa aktarma",
+    "seo": {
+      "title": "IG Follower Export Tool - IG Tools {'|'} CSV & Excel",
+      "description": "IG Follower Export Tool, Instagram takipçilerini ve takip edilenleri CSV veya Excel’e aktarır. Bio ve e-posta içeren hızlı veya ayrıntılı mod. 50.000 profile kadar.",
+      "keywords": "IG Follower Export Tool, IG Tools, Instagram takipçi dışa aktarma, takipçi CSV"
+    }
   }
 }

@@ -80,7 +80,26 @@ export const extensionProducts = {
     storeUrl:
       'https://chromewebstore.google.com/detail/ig-follower-export-tool-i/ncmdkkkbcmjiicgjfakjoigklahnnbih',
     badge: 'Chrome extension',
-    title: 'IG Follower Export Tool — Export Followers to CSV/Excel',
+    name: 'IG Follower Export Tool',
+    title: 'IG Follower Export Tool - IG Tools',
+    logo: {
+      src: '/images/ig-follower-export/logo.png',
+      alt: 'IG Follower Export Tool',
+      width: 128,
+      height: 128
+    },
+    heroImage: {
+      src: '/images/ig-follower-export/ig-follower-export-tool-dashboard.webp',
+      alt: 'IG Follower Export Tool exporting Instagram followers to CSV and Excel',
+      width: 1200,
+      height: 750
+    },
+    howImage: {
+      src: '/images/ig-follower-export/ig-follower-export-tool-steps.webp',
+      alt: 'How to export Instagram followers with IG Follower Export Tool',
+      width: 1200,
+      height: 750
+    },
     heroLead:
       'Export Instagram followers and following to Excel or CSV formats with one click. Fast export mode or detailed mode with bio, email, and profile fields.',
     heroSub:
@@ -148,11 +167,11 @@ export const extensionProducts = {
       ]
     },
     seo: {
-      title: 'IG Follower Export Tool — Export Instagram Followers | TGVideoDown',
+      title: 'IG Follower Export Tool - IG Tools | CSV & Excel',
       description:
-        'Export Instagram followers and following to CSV or Excel with one click. Fast or detailed mode with bio, email, and profile fields. Up to 50,000 followers.',
+        'IG Follower Export Tool exports Instagram followers and following to CSV or Excel. Fast or detailed mode with bio and email. Up to 50,000 profiles.',
       keywords:
-        'ig follower export, instagram follower export, export instagram followers csv, ig exporter chrome extension'
+        'IG Follower Export Tool, IG Tools, instagram follower export, export followers csv'
     }
   },
 

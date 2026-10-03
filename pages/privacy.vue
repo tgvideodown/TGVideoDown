@@ -164,11 +164,11 @@
             <ComplianceTermsSection embedded :show-footer-links="false" />
             <p class="mt-6 text-gray-700">
               <NuxtLink :to="localePath('/terms')" class="text-primary font-semibold hover:underline">
-                Full Terms of Use
+                {{ $t('footer.terms') }}
               </NuxtLink>
               ·
               <NuxtLink :to="localePath('/support')" class="text-primary font-semibold hover:underline">
-                Support
+                {{ $t('footer.support') }}
               </NuxtLink>
             </p>
           </div>

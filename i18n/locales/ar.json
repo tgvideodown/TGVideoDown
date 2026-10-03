@@ -6,7 +6,8 @@
     "about": "من نحن",
     "download": "احصل على الإضافة",
     "guideHowTo": "طريقة الاستخدام",
-    "guideAlt": "دليل التنزيل"
+    "guideAlt": "دليل التنزيل",
+    "telegramDownloader": "أداة تنزيل Telegram"
   },
   "hero": {
     "badge": "إضافة كروم · موقع مرافق",
@@ -132,7 +133,17 @@
     "contact": "اتصل بنا",
     "privacy": "سياسة الخصوصية",
     "copyright": "© {year} TGVideoDown. جميع الحقوق محفوظة.",
-    "guideFacebook": "مُنزّل فيديو Facebook"
+    "guideFacebook": "مُنزّل فيديو Facebook",
+    "downloader": "أداة تنزيل فيديو Telegram",
+    "guideChrome": "دليل إضافة Chrome",
+    "guideNoLogin": "تنزيل ملفات Telegram دون تسجيل الدخول إلى الموقع",
+    "extensions": "إضافاتنا",
+    "extFacebook": "أداة تنزيل فيديو Facebook",
+    "extIgDm": "IG DM Bot",
+    "extIgExport": "IG Follower Export Tool",
+    "extIgComment": "تصدير تعليقات Instagram",
+    "supportPage": "المساعدة والدعم",
+    "terms": "شروط الاستخدام"
   },
   "about": {
     "hero": {
@@ -433,7 +444,8 @@
       "ogTitle": "مُنزّل فيديو Facebook — إضافة Chrome | TGVideoDown",
       "ogDescription": "احفظ ونظّم فيديوهات وصور Facebook. إضافة Chrome سريعة ومجانية للصفحات والمجموعات والخلاصات وWatch وReels والتضمين.",
       "keywords": "مُنزّل فيديو facebook, مُنزّل facebook, تنزيل فيديو facebook, إضافة chrome facebook, تنزيل reels facebook, تنزيل watch facebook"
-    }
+    },
+    "privacyPolicyLink": "اقرأ سياسة الخصوصية كاملة"
   },
   "igExportPricing": {
     "title": "الأسعار",
@@ -467,5 +479,148 @@
     "ogTitle": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "ogDescription": "إضافة Chrome مجانية لحفظ فيديوهات ووسائط Telegram محليًا من المجموعات والقنوات والمحادثات.",
     "keywords": "telegram video downloader, تنزيل فيديو telegram, قناة خاصة, إضافة chrome"
+  },
+  "extensionsSection": {
+    "title": "المزيد من إضافات Chrome",
+    "subtitle": "أدوات متصفح مجانية من TGVideoDown — ثبّتها من Chrome Web Store.",
+    "learnMore": "اعرف المزيد",
+    "facebook": {
+      "title": "أداة تنزيل فيديو Facebook",
+      "description": "احفظ فيديوهات وصور Facebook من الخلاصة وWatch وReels والصفحات والمجموعات."
+    },
+    "igDm": {
+      "title": "IG DM Bot",
+      "description": "أرسل رسائل Instagram المباشرة بكميات كبيرة مع قوالب ومرشحات وتلقّي الرد على المتابعين الجدد."
+    },
+    "igExport": {
+      "title": "IG Follower Export Tool",
+      "description": "صدّر متابعي Instagram ومن تتابعهم إلى CSV أو Excel — وضع سريع أو مفصّل."
+    },
+    "igComment": {
+      "title": "تصدير تعليقات Instagram",
+      "description": "صدّر تعليقات المنشورات وReel وIGTV والردود إلى CSV أو Excel."
+    }
+  },
+  "extensionLanding": {
+    "privacyLink": "اقرأ سياسة الخصوصية كاملة →",
+    "store": "Chrome Web Store",
+    "home": "الصفحة الرئيسية لـ TGVideoDown"
+  },
+  "policyChrome": {
+    "title": "سياسة الخصوصية",
+    "operated": "تُشغّله TGvideodown.com · آخر تحديث: {date}",
+    "operator": "الجهة المشغّلة: ",
+    "updatedOn": "آخر تحديث: {date}"
+  },
+  "compliance": {
+    "title": "شروط الاستخدام والامتثال",
+    "introDefault": "باستخدام منتجات TGVideoDown وخدماتها، فإنك توافق على الشروط التالية. يُرجى قراءتها بعناية.",
+    "intro": "باستخدام {product}، فإنك توافق على الشروط التالية. يُرجى قراءتها بعناية.",
+    "items": {
+      "copyright": {
+        "title": "1. حقوق النشر والملكية الفكرية",
+        "body": "لا يجوز تنزيل إلا المحتوى الذي تملكه أو لديك ترخيص باستخدامه أو يحق لك تنزيله قانونًا. أنت مسؤول عن عدم انتهاك حقوق الغير."
+      },
+      "access": {
+        "title": "2. يُحظر تجاوز قيود الوصول",
+        "body": "لا يجوز استخدام الخدمات للوصول إلى الحسابات الخاصة أو تجاوز جدران الدفع أو حماية DRM أو أي ضوابط تقنية."
+      },
+      "dmca": {
+        "title": "3. شكاوى حقوق النشر / DMCA",
+        "body": "إذا استُخدم محتواك المحمي أو نُزّل دون إذن، فراسل {email} مع تفاصيل الانتهاك المزعوم."
+      },
+      "platform": {
+        "title": "4. إخلاء المسؤولية عن المنصات",
+        "body": "منتجاتنا غير تابعة أو معتمدة أو مدعومة أو ذات علاقة رسمية مع Meta أو Instagram أو TikTok أو ByteDance أو Telegram أو أي منصة أخرى."
+      },
+      "privacy": {
+        "title": "5. الخصوصية",
+        "body": "لا نجمع كلمات المرور أو بيانات الاعتماد أو ملفات تعريف الارتباط أو الرسائل الخاصة أو معلومات حساسة أخرى لا تتعلق بتقديم الخدمة."
+      }
+    }
+  },
+  "termsPage": {
+    "title": "شروط الاستخدام",
+    "updated": "تُشغّله TGvideodown.com · آخر تحديث: 15 سبتمبر 2026",
+    "intro": "تنطبق هذه الشروط على موقع TGVideoDown وإضافات Chrome لدينا (بما في ذلك أداة تنزيل فيديو Telegram وأداة Facebook وIG DM Bot وIG Follower Export Tool وتصدير تعليقات Instagram). تثبيت المنتجات أو استخدامها يعني موافقتك.",
+    "contactTitle": "التواصل",
+    "emailLabel": "البريد:",
+    "seoTitle": "شروط الاستخدام - TGVideoDown",
+    "seoDescription": "شروط TGVideoDown: حقوق النشر، قيود الوصول، DMCA، إخلاء مسؤولية المنصات، والخصوصية."
+  },
+  "supportPage": {
+    "title": "الدعم",
+    "lead": "هل تحتاج مساعدة بخصوص TGVideoDown أو إضافات Chrome؟ تواصل معنا أدناه.",
+    "contactTitle": "اتصل بنا",
+    "contactBody": "لدعم المنتج أو إشعارات حقوق النشر / DMCA أو أسئلة الخصوصية، أرسل بريدًا إلى:",
+    "relatedTitle": "صفحات ذات صلة",
+    "seoTitle": "الدعم - TGVideoDown",
+    "seoDescription": "تواصل مع دعم TGVideoDown بخصوص المنتج وDMCA والخصوصية."
+  },
+  "igExportPage": {
+    "badge": "إضافة Chrome",
+    "title": "IG Follower Export Tool - IG Tools",
+    "logoAlt": "IG Follower Export Tool",
+    "heroLead": "صدّر متابعي Instagram ومن تتابعهم إلى Excel أو CSV بنقرة واحدة. وضع سريع أو مفصّل يشمل النبذة والبريد وحقول الملف الشخصي.",
+    "heroSub": "يساعد المسوّقين وصنّاع المحتوى والباحثين على استخراج بيانات المتابعين العامة. حتى 50,000 متابع في كل عملية.",
+    "intro": "افتح نافذة الإضافة، وأدخل اسم المستخدم أو رابط الملف، واختر التصدير العادي أو المفصّل، ثم نزّل ملف CSV أو Excel إلى جهازك.",
+    "featuresTitle": "المزايا الرئيسية",
+    "groups": {
+      "modes": {
+        "title": "أوضاع التصدير",
+        "items": [
+          "تصدير المتابعين أو من تتابعهم",
+          "حتى 50,000 متابع",
+          "وضع سريع",
+          "وضع مفصّل يشمل النبذة والبريد وحقولًا إضافية",
+          "CSV وExcel بأعمدة منظمة"
+        ]
+      },
+      "columns": {
+        "title": "أعمدة الوضع المفصّل",
+        "items": [
+          "اسم المستخدم والاسم الكامل ورابط الصورة وحالة التوثيق",
+          "نوع الحساب والخصوصية والنبذة والمهنة",
+          "عدد المتابعين ومن تتابعهم والمنشورات",
+          "البريد العام والهاتف وWhatsApp والرابط الخارجي والمدينة والعنوان"
+        ]
+      },
+      "reliability": {
+        "title": "الموثوقية",
+        "items": [
+          "يعالج حدود طلبات Instagram تلقائيًا",
+          "وضع تهدئة عند بلوغ الحد",
+          "تُحفظ النتائج للتنزيل والمراجعة"
+        ]
+      }
+    },
+    "howTitle": "طريقة الاستخدام",
+    "howSteps": [
+      "ثبّت IG Follower Export Tool من Chrome Web Store",
+      "انقر أيقونة الإضافة في شريط Chrome",
+      "اختر “Export Instagram data”",
+      "أدخل اسم مستخدم Instagram أو رابط الملف",
+      "فعّل “Detailed” إذا احتجت حقولًا إضافية",
+      "انقر Start واتبع التعليمات",
+      "نزّل CSV أو Excel عند الاكتمال"
+    ],
+    "privacyTitle": "خصوصية البيانات",
+    "privacyIntro": "يُنشأ التصدير على جهازك من البيانات الظاهرة في جلسة المتصفح.",
+    "privacyItems": [
+      "تُحفظ القوائم محليًا بصيغة CSV أو Excel",
+      "لا يلزم حساب على هذا الموقع",
+      "صدّر فقط البيانات المسموح لك بالوصول إليها على Instagram",
+      "التزم بحدود Instagram وسياسات المنصة"
+    ],
+    "noticeTitle": "تنبيه مهم",
+    "noticeBody1": "IG Follower Export Tool إضافة Chrome مستقلة. ليست تابعة أو معتمدة أو مدعومة من Instagram, LLC أو Meta Platforms, Inc.",
+    "noticeBody2": "لا يُنصح باستخدام حساب Instagram الأساسي لعمليات التصدير الآلي الكثيفة. التزم بقوانين الخصوصية وشروط Instagram.",
+    "heroAlt": "IG Follower Export Tool يصدّر متابعي Instagram إلى CSV وExcel",
+    "howAlt": "كيفية تصدير متابعي Instagram باستخدام IG Follower Export Tool",
+    "seo": {
+      "title": "IG Follower Export Tool - IG Tools {'|'} CSV & Excel",
+      "description": "يصدّر IG Follower Export Tool متابعي Instagram ومن تتابعهم إلى CSV أو Excel. وضع سريع أو مفصّل يشمل النبذة والبريد. حتى 50,000 ملفًا.",
+      "keywords": "IG Follower Export Tool, IG Tools, تصدير متابعي Instagram, متابعون CSV"
+    }
   }
 }
