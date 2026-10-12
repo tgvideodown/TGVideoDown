@@ -5,6 +5,13 @@
         <p class="text-sm font-semibold text-primary uppercase tracking-wide mb-3">
           {{ $t('igExportUninstall.kicker') }}
         </p>
+        <img
+          :src="logo.src"
+          :alt="logo.alt"
+          :width="logo.width"
+          :height="logo.height"
+          class="w-14 h-14 md:w-16 md:h-16 mx-auto mb-4 rounded-2xl"
+        />
         <h1 class="text-3xl md:text-4xl font-heading font-bold text-text mb-4 leading-tight">
           {{ $t('igExportUninstall.title') }}
         </h1>
@@ -61,10 +68,16 @@
 import { extensionProducts } from '~/data/extensionProducts.js'
 
 const PROMO_CODE = 'IGTOOLS30'
-const storeUrl = extensionProducts.igFollowerExport.storeUrl
+const product = extensionProducts.igFollowerExport
+const storeUrl = product.storeUrl
 const localePath = useLocalePath()
 const config = useRuntimeConfig()
 const { t, tm, locale } = useI18n()
+
+const logo = computed(() => ({
+  ...product.logo,
+  alt: t('igExportPage.logoAlt'),
+}))
 
 const promoCode = PROMO_CODE
 const copied = ref(false)
