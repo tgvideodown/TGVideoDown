@@ -494,6 +494,23 @@
       ]
     }
   },
+  "igExportUninstall": {
+    "kicker": "已卸载",
+    "title": "感谢试用 IG Follower Export Tool",
+    "lead": "欢迎随时回来。重新安装后输入兑换码，即可获得 1 个月 Pro。",
+    "codeLabel": "30 天 Pro 兑换码",
+    "codeHint": "复制兑换码，重新安装扩展，然后在升级套餐下方粘贴。",
+    "copy": "复制兑换码",
+    "copied": "已复制",
+    "cta": "前往 Chrome 网上应用店重新安装",
+    "steps": [
+      "从 Chrome 网上应用店重新安装 IG Follower Export Tool",
+      "在扩展中用 Google 账号登录",
+      "打开升级套餐，在下方输入 IGTOOLS30"
+    ],
+    "seoTitle": "卸载 - IG Follower Export Tool",
+    "seoDescription": "感谢试用 IG Follower Export Tool。重新安装后使用兑换码 IGTOOLS30 可获得 1 个月 Pro。"
+  },
   "homeSeo": {
     "title": "Telegram 视频下载器 - 下载 Telegram 视频 | TGVideoDown",
     "description": "Telegram 视频下载器，适用于私密群组、频道与聊天。TGVideoDown 是免费 Chrome 扩展，可保存视频、图片、音频和文件。支持一键与批量，本站无需登录。",

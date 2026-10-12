@@ -170,7 +170,12 @@ export default defineNuxtConfig({
       ...mergedPageExcludeList,
       '/dashboard',
       '/ops-x9f2a7',
-      ...I18N_PREFIX_LOCALES.flatMap((l) => [`/${l}/dashboard`, `/${l}/ops-x9f2a7`])
+      '/ig-follower-export-tool/uninstall',
+      ...I18N_PREFIX_LOCALES.flatMap((l) => [
+        `/${l}/dashboard`,
+        `/${l}/ops-x9f2a7`,
+        `/${l}/ig-follower-export-tool/uninstall`
+      ])
     ]
   },
 
@@ -184,6 +189,10 @@ export default defineNuxtConfig({
     prerender: {
       autoSubfolderIndex: false,
       crawlLinks: true, // 保持自动爬取以生成所有页面
+      routes: [
+        '/ig-follower-export-tool/uninstall',
+        ...I18N_PREFIX_LOCALES.map((locale) => `/${locale}/ig-follower-export-tool/uninstall`)
+      ],
       ignore: [
         '/pricing',
         '/features',

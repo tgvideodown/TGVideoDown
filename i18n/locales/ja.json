@@ -473,6 +473,23 @@
       ]
     }
   },
+  "igExportUninstall": {
+    "kicker": "アンインストール完了",
+    "title": "IG Follower Export Tool をご利用ありがとうございました",
+    "lead": "いつでも戻ってきてください。再インストール後にコードを入力すると、1か月分の Pro が付与されます。",
+    "codeLabel": "30日 Pro コード",
+    "codeHint": "コードをコピーし、拡張機能を再インストールして、アップグレードプランの下に貼り付けてください。",
+    "copy": "コードをコピー",
+    "copied": "コピーしました",
+    "cta": "Chrome ウェブストアから再インストール",
+    "steps": [
+      "Chrome ウェブストアから IG Follower Export Tool を再インストールする",
+      "拡張機能で Google アカウントにログインする",
+      "アップグレードを開き、プランの下に IGTOOLS30 を入力する"
+    ],
+    "seoTitle": "アンインストール - IG Follower Export Tool",
+    "seoDescription": "IG Follower Export Tool をご利用ありがとうございました。再インストール後、コード IGTOOLS30 で 1か月の Pro を受け取れます。"
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "description": "非公開グループ・チャンネル・チャットから Telegram 動画を保存。TGVideoDown は無料の Chrome 拡張機能で動画・画像・音声・ファイルをワンクリックまたは一括保存。本サイトへのログインは不要。",

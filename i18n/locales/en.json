@@ -494,6 +494,23 @@
       ]
     }
   },
+  "igExportUninstall": {
+    "kicker": "Uninstall confirmed",
+    "title": "Thanks for trying IG Follower Export Tool",
+    "lead": "Come back anytime. Use this code after you reinstall to unlock 1 month of Pro.",
+    "codeLabel": "Your 30-day Pro code",
+    "codeHint": "Copy the code, reinstall the extension, then paste it under the upgrade plans.",
+    "copy": "Copy code",
+    "copied": "Copied",
+    "cta": "Reinstall from Chrome Web Store",
+    "steps": [
+      "Reinstall IG Follower Export Tool from the Chrome Web Store",
+      "Sign in with Google in the extension",
+      "Open Upgrade and enter IGTOOLS30 under the plans"
+    ],
+    "seoTitle": "Uninstall - IG Follower Export Tool",
+    "seoDescription": "Thanks for trying IG Follower Export Tool. Reinstall and use code IGTOOLS30 for 1 month of Pro."
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader - Download Telegram Videos with TGVideoDown",
     "description": "TGVideoDown is a Telegram Video Downloader Chrome extension for saving Telegram videos, images, audio, and files from private groups, channels, and chats. Fast single and batch downloads. No login on this site.",

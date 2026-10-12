@@ -473,6 +473,23 @@
       ]
     }
   },
+  "igExportUninstall": {
+    "kicker": "Đã gỡ cài đặt",
+    "title": "Cảm ơn bạn đã dùng thử IG Follower Export Tool",
+    "lead": "Quay lại bất cứ lúc nào. Sau khi cài lại, mã này mở khóa 1 tháng Pro.",
+    "codeLabel": "Mã Pro 30 ngày của bạn",
+    "codeHint": "Sao chép mã, cài lại tiện ích, rồi dán bên dưới các gói nâng cấp.",
+    "copy": "Sao chép mã",
+    "copied": "Đã sao chép",
+    "cta": "Cài lại từ Chrome Web Store",
+    "steps": [
+      "Cài lại IG Follower Export Tool từ Chrome Web Store",
+      "Đăng nhập Google trong tiện ích",
+      "Mở Nâng cấp và nhập IGTOOLS30 bên dưới các gói"
+    ],
+    "seoTitle": "Gỡ cài đặt - IG Follower Export Tool",
+    "seoDescription": "Cảm ơn bạn đã dùng thử IG Follower Export Tool. Cài lại và dùng IGTOOLS30 để nhận 1 tháng Pro."
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader | TGVideoDown",
     "description": "Telegram video downloader cho kênh, nhóm và chat. Tải video Telegram riêng tư khi bạn đã có quyền xem trên Telegram Web. Tiện ích Chrome miễn phí, một cú nhấp hoặc hàng loạt, không cần đăng nhập trang này.",

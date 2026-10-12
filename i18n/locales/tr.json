@@ -473,6 +473,23 @@
       ]
     }
   },
+  "igExportUninstall": {
+    "kicker": "Kaldırma onaylandı",
+    "title": "IG Follower Export Tool’u denediğiniz için teşekkürler",
+    "lead": "İstediğiniz zaman geri gelin. Yeniden yükledikten sonra bu kod 1 aylık Pro açar.",
+    "codeLabel": "30 günlük Pro kodunuz",
+    "codeHint": "Kodu kopyalayın, uzantıyı yeniden yükleyin ve yükseltme planlarının altına yapıştırın.",
+    "copy": "Kodu kopyala",
+    "copied": "Kopyalandı",
+    "cta": "Chrome Web Store’dan yeniden yükle",
+    "steps": [
+      "IG Follower Export Tool’u Chrome Web Store’dan yeniden yükleyin",
+      "Uzantıda Google ile oturum açın",
+      "Yükselt’i açın ve planların altına IGTOOLS30 girin"
+    ],
+    "seoTitle": "Kaldır - IG Follower Export Tool",
+    "seoDescription": "IG Follower Export Tool’u denediğiniz için teşekkürler. Yeniden yükleyip IGTOOLS30 ile 1 aylık Pro alın."
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "description": "Telegram video indirici: özel grup, kanal ve sohbetlerden video, görsel, ses ve dosya kaydedin. TGVideoDown ücretsiz Chrome uzantısı. Tek tık veya toplu. Bu sitede giriş yok.",
