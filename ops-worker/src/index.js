@@ -37,11 +37,23 @@ export default {
           return json({ error: 'unauthorized' }, 401)
         }
         const productId = url.searchParams.get('product') || ''
-        const days = Math.min(30, Math.max(1, Number(url.searchParams.get('days')) || 14))
+        const days = Math.min(30, Math.max(1, Number(url.searchParams.get('days')) || 30))
         const products = getProducts(env)
         const product = products.find((p) => p.id === productId)
         if (!product) return json({ error: 'unknown_product' }, 404)
         const data = await fetchProductSummary(product, days, env)
+        return json(data)
+      }
+
+      if (request.method === 'GET' && path === '/api/records') {
+        if (!(await isAuthed(request, env))) {
+          return json({ error: 'unauthorized' }, 401)
+        }
+        const productId = url.searchParams.get('product') || ''
+        const products = getProducts(env)
+        const product = products.find((p) => p.id === productId)
+        if (!product) return json({ error: 'unknown_product' }, 404)
+        const data = await fetchProductRecords(product, url, env)
         return json(data)
       }
 
@@ -103,6 +115,42 @@ function failSummary(product, error, extra = {}) {
     productId: product.id,
     name: product.name,
     ...extra,
+  }
+}
+
+async function fetchProductRecords(product, url, env) {
+  if (!product.summaryUrl) return failSummary(product, 'summary_url_missing')
+  if (!product.token) {
+    return failSummary(product, 'token_not_configured', {
+      hint: 'Set TOKEN_* secret / var for this product',
+    })
+  }
+  const target = new URL(product.summaryUrl)
+  target.pathname = '/v1/analytics/records'
+  target.search = ''
+  target.searchParams.set('kind', url.searchParams.get('kind') === 'payments' ? 'payments' : 'purchases')
+  target.searchParams.set('page', String(Math.max(1, Number(url.searchParams.get('page')) || 1)))
+  const day = String(url.searchParams.get('day') || '').trim()
+  if (day) target.searchParams.set('day', day)
+  const request = new Request(target.toString(), {
+    method: 'GET',
+    headers: {
+      Authorization: `Bearer ${product.token}`,
+      Accept: 'application/json',
+    },
+  })
+  try {
+    const bindingFetch = product.binding && env?.[product.binding]?.fetch
+    const resp = bindingFetch
+      ? await env[product.binding].fetch(request)
+      : await fetch(request)
+    const data = await resp.json().catch(() => ({}))
+    if (!resp.ok) {
+      return failSummary(product, data.error || `http_${resp.status}`)
+    }
+    return { ok: true, productId: product.id, name: product.name, ...data }
+  } catch (error) {
+    return failSummary(product, String(error?.message || error))
   }
 }
 
@@ -292,51 +340,8 @@ function renderLogin(error = '') {
 }
 
 async function renderDashboard(env) {
-  const products = getProducts(env)
-  const summaries = await Promise.all(products.map((p) => fetchProductSummary(p, 14, env)))
-  const cards = summaries
-    .map((s) => {
-      if (!s.ok) {
-        return `<section class="card">
-          <h2>${escapeHtml(s.name || s.productId)}</h2>
-          <p class="err">拉取失败：${escapeHtml(s.error)}${s.hint ? ' · ' + escapeHtml(s.hint) : ''}</p>
-        </section>`
-      }
-      const today = s.today || {}
-      const events = today.events || {}
-      const dayRows = (s.days || [])
-        .slice(0, 7)
-        .map(
-          (d) => `<tr>
-            <td>${escapeHtml(d.day)}</td>
-            <td>${d.dau}</td>
-            <td>${d.newInstalls}</td>
-            <td>${Number(d.events?.export_start || 0)}</td>
-            <td>${Number(d.events?.checkout_start || 0)}</td>
-            <td>${Number(d.events?.payment_confirmed || 0)}</td>
-          </tr>`,
-        )
-        .join('')
-      return `<section class="card">
-        <div class="head">
-          <h2>${escapeHtml(s.name || s.productId)}</h2>
-          <span class="pill">在线 ${s.onlineNow ?? 0}</span>
-        </div>
-        <div class="grid">
-          <div><div class="label">今日 DAU</div><div class="value">${today.dau || 0}</div></div>
-          <div><div class="label">新安装</div><div class="value">${today.newInstalls || 0}</div></div>
-          <div><div class="label">导出</div><div class="value">${Number(events.export_start || 0)}</div></div>
-          <div><div class="label">购买点击</div><div class="value">${Number(events.checkout_start || 0)}</div></div>
-          <div><div class="label">支付确认</div><div class="value">${Number(events.payment_confirmed || 0)}</div></div>
-        </div>
-        <h3>近 7 天</h3>
-        <table>
-          <thead><tr><th>日期</th><th>DAU</th><th>新安装</th><th>导出</th><th>购买</th><th>支付</th></tr></thead>
-          <tbody>${dayRows || '<tr><td colspan="6">暂无</td></tr>'}</tbody>
-        </table>
-      </section>`
-    })
-    .join('')
+  const products = getProducts(env).map((p) => ({ id: p.id, name: p.name }))
+  const boot = JSON.stringify(products).replace(/</g, '\\u003c')
 
   return `<!doctype html>
 <html lang="zh-CN">
@@ -351,19 +356,29 @@ async function renderDashboard(env) {
     .top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}
     h1{margin:0;font-size:22px}
     .sub{color:#94a3b8;font-size:13px}
+    .tabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+    .tab{border:1px solid #334155;background:#0f172a;color:#e5e7eb;border-radius:999px;padding:8px 14px;cursor:pointer}
+    .tab.active{background:#38bdf8;color:#0f172a;border-color:#38bdf8;font-weight:700}
     .card{background:#111827;border:1px solid #1f2937;border-radius:16px;padding:16px;margin-bottom:16px}
-    .head{display:flex;justify-content:space-between;align-items:center}
+    .head{display:flex;justify-content:space-between;align-items:center;gap:12px}
     h2{margin:0;font-size:16px}
     h3{margin:16px 0 8px;font-size:13px;color:#94a3b8}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-top:12px}
     .label{font-size:11px;color:#94a3b8}
     .value{font-size:22px;font-weight:750;color:#38bdf8;margin-top:4px}
+    .linkish{background:none;border:0;padding:0;color:#38bdf8;font:inherit;font-weight:750;cursor:pointer;text-decoration:underline}
     .pill{background:#0f172a;border:1px solid #334155;border-radius:999px;padding:4px 10px;font-size:12px}
     table{width:100%;border-collapse:collapse;font-size:13px}
     th,td{text-align:left;padding:8px 6px;border-bottom:1px solid #1f2937}
     th{color:#94a3b8;font-weight:600}
     .err{color:#fca5a5}
-    button,a.btn{border:0;border-radius:10px;padding:8px 12px;background:#334155;color:#e5e7eb;text-decoration:none;font-size:13px;cursor:pointer}
+    .pager{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:12px;color:#94a3b8;font-size:13px}
+    .pager button,.logout{border:0;border-radius:10px;padding:8px 12px;background:#334155;color:#e5e7eb;font-size:13px;cursor:pointer}
+    .logout{margin:0}
+    .mask{position:fixed;inset:0;background:rgba(2,6,23,.72);display:none;align-items:flex-start;justify-content:center;padding:48px 16px;overflow:auto}
+    .mask.open{display:flex}
+    .panel{width:min(980px,100%);background:#111827;border:1px solid #1f2937;border-radius:16px;padding:16px}
+    .note{color:#94a3b8;font-size:12px;margin:8px 0 12px}
   </style>
 </head>
 <body>
@@ -373,10 +388,253 @@ async function renderDashboard(env) {
         <h1>产品数据后台</h1>
         <p class="sub">更新于 ${escapeHtml(new Date().toISOString())} · 数据来自各插件 Worker</p>
       </div>
-      <form method="POST" action="/logout"><button type="submit">退出登录</button></form>
+      <form method="POST" action="/logout"><button class="logout" type="submit">退出登录</button></form>
     </div>
-    ${cards}
+    <div class="tabs" id="tabs"></div>
+    <section class="card" id="summary"></section>
   </main>
+  <div class="mask" id="mask">
+    <div class="panel">
+      <div class="head">
+        <h2 id="detailTitle">详情</h2>
+        <button type="button" id="detailClose">关闭</button>
+      </div>
+      <p class="note" id="detailNote"></p>
+      <div id="detailBody"></div>
+    </div>
+  </div>
+  <script>
+    const products = ${boot}
+    const PAGE = 20
+    let currentId = products[0] ? products[0].id : ''
+    let summary = null
+    let dayPage = 1
+    let detail = { kind: 'purchases', day: '', page: 1 }
+
+    const tabsEl = document.getElementById('tabs')
+    const summaryEl = document.getElementById('summary')
+    const mask = document.getElementById('mask')
+
+    function el(tag, text, className) {
+      const node = document.createElement(tag)
+      if (className) node.className = className
+      if (text != null) node.textContent = text
+      return node
+    }
+
+    function planLabel(plan) {
+      if (plan === 'monthly') return '月付'
+      if (plan === 'annual') return '年付'
+      if (plan === 'quarterly') return '季付'
+      return plan || '—'
+    }
+
+    function statusLabel(status) {
+      if (status === 'paid') return '已支付'
+      if (status === 'pending') return '待支付'
+      return status || '—'
+    }
+
+    function money(cents, currency) {
+      const amount = (Number(cents) || 0) / 100
+      return (currency || 'usd').toUpperCase() + ' ' + amount.toFixed(2)
+    }
+
+    function when(ms) {
+      const n = Number(ms) || 0
+      if (!n) return '—'
+      return new Date(n).toLocaleString('zh-CN', { hour12: false, timeZone: 'Asia/Shanghai' })
+    }
+
+    function renderTabs() {
+      tabsEl.replaceChildren()
+      products.forEach((product) => {
+        const button = el('button', product.name, 'tab' + (product.id === currentId ? ' active' : ''))
+        button.type = 'button'
+        button.addEventListener('click', () => {
+          currentId = product.id
+          dayPage = 1
+          renderTabs()
+          loadSummary()
+        })
+        tabsEl.appendChild(button)
+      })
+    }
+
+    function pager(page, total, onPage) {
+      const pages = Math.max(1, Math.ceil(total / PAGE))
+      const bar = el('div', '', 'pager')
+      const prev = el('button', '上一页')
+      prev.type = 'button'
+      prev.disabled = page <= 1
+      prev.addEventListener('click', () => onPage(page - 1))
+      const next = el('button', '下一页')
+      next.type = 'button'
+      next.disabled = page >= pages
+      next.addEventListener('click', () => onPage(page + 1))
+      bar.append(prev, el('span', '第 ' + page + ' / ' + pages + ' 页 · 共 ' + total + ' 条'), next)
+      return bar
+    }
+
+    function renderSummary() {
+      summaryEl.replaceChildren()
+      if (!summary) {
+        summaryEl.appendChild(el('p', '加载中…'))
+        return
+      }
+      if (!summary.ok) {
+        summaryEl.appendChild(el('p', '拉取失败：' + (summary.error || 'unknown'), 'err'))
+        return
+      }
+      const today = summary.today || {}
+      const events = today.events || {}
+      const head = el('div', '', 'head')
+      head.append(el('h2', summary.name || currentId), el('span', '在线 ' + (summary.onlineNow || 0), 'pill'))
+      const grid = el('div', '', 'grid')
+      ;[
+        ['今日 DAU', today.dau || 0],
+        ['新安装', today.newInstalls || 0],
+        ['导出', Number(events.export_start || 0)],
+      ].forEach(([label, value]) => {
+        const box = el('div')
+        box.append(el('div', label, 'label'), el('div', String(value), 'value'))
+        grid.appendChild(box)
+      })
+      grid.appendChild(metric('购买点击', Number(events.checkout_start || 0), 'purchases', ''))
+      grid.appendChild(metric('支付确认', Number(events.payment_confirmed || 0), 'payments', ''))
+      summaryEl.append(head, grid, el('h3', '按日 · 每页 20 天'))
+
+      const days = summary.days || []
+      const slice = days.slice((dayPage - 1) * PAGE, dayPage * PAGE)
+      const table = document.createElement('table')
+      const thead = document.createElement('thead')
+      const hr = document.createElement('tr')
+      ;['日期', 'DAU', '新安装', '导出', '购买', '支付'].forEach((name) => hr.appendChild(el('th', name)))
+      thead.appendChild(hr)
+      const tbody = document.createElement('tbody')
+      if (!slice.length) {
+        const tr = document.createElement('tr')
+        const td = el('td', '暂无')
+        td.colSpan = 6
+        tr.appendChild(td)
+        tbody.appendChild(tr)
+      }
+      slice.forEach((day) => {
+        const tr = document.createElement('tr')
+        tr.append(
+          el('td', day.day || ''),
+          el('td', String(day.dau || 0)),
+          el('td', String(day.newInstalls || 0)),
+          el('td', String(Number(day.events && day.events.export_start || 0))),
+        )
+        tr.appendChild(countCell(Number(day.events && day.events.checkout_start || 0), 'purchases', day.day))
+        tr.appendChild(countCell(Number(day.events && day.events.payment_confirmed || 0), 'payments', day.day))
+        tbody.appendChild(tr)
+      })
+      table.append(thead, tbody)
+      summaryEl.append(table, pager(dayPage, days.length, (page) => {
+        dayPage = page
+        renderSummary()
+      }))
+    }
+
+    function metric(label, value, kind, day) {
+      const box = el('div')
+      const button = el('button', String(value), 'linkish value')
+      button.type = 'button'
+      button.addEventListener('click', () => openDetail(kind, day))
+      box.append(el('div', label, 'label'), button)
+      return box
+    }
+
+    function countCell(value, kind, day) {
+      const td = document.createElement('td')
+      const button = el('button', String(value), 'linkish')
+      button.type = 'button'
+      button.addEventListener('click', () => openDetail(kind, day))
+      td.appendChild(button)
+      return td
+    }
+
+    async function loadSummary() {
+      summary = null
+      renderSummary()
+      const resp = await fetch('/api/summary?product=' + encodeURIComponent(currentId) + '&days=30')
+      summary = await resp.json()
+      renderSummary()
+    }
+
+    function openDetail(kind, day) {
+      detail = { kind, day: day || '', page: 1 }
+      mask.classList.add('open')
+      loadDetail()
+    }
+
+    async function loadDetail() {
+      const title = document.getElementById('detailTitle')
+      const note = document.getElementById('detailNote')
+      const body = document.getElementById('detailBody')
+      const product = products.find((item) => item.id === currentId)
+      title.textContent = (product ? product.name + ' · ' : '') + (detail.kind === 'payments' ? '已支付' : '购买') + (detail.day ? ' · ' + detail.day : '')
+      note.textContent = detail.kind === 'payments'
+        ? '名单来自成功支付的结账记录，按支付时间。上方「支付确认」是插件当时等到开通的次数，两边不必相等。'
+        : '名单是成功打开结账页的记录，含尚未支付。按打开时间。'
+      body.replaceChildren(el('p', '加载中…'))
+      const params = new URLSearchParams({
+        product: currentId,
+        kind: detail.kind,
+        page: String(detail.page),
+      })
+      if (detail.day) params.set('day', detail.day)
+      const resp = await fetch('/api/records?' + params.toString())
+      const data = await resp.json()
+      body.replaceChildren()
+      if (!data.ok) {
+        body.appendChild(el('p', '拉取失败：' + (data.error || 'unknown'), 'err'))
+        return
+      }
+      const table = document.createElement('table')
+      const thead = document.createElement('thead')
+      const hr = document.createElement('tr')
+      ;['时间', '邮箱', '方案', '状态', '金额', '订单号'].forEach((name) => hr.appendChild(el('th', name)))
+      thead.appendChild(hr)
+      const tbody = document.createElement('tbody')
+      const items = data.items || []
+      if (!items.length) {
+        const tr = document.createElement('tr')
+        const td = el('td', '暂无记录')
+        td.colSpan = 6
+        tr.appendChild(td)
+        tbody.appendChild(tr)
+      }
+      items.forEach((item) => {
+        const tr = document.createElement('tr')
+        const stamp = detail.kind === 'payments' ? item.paidAt || item.createdAt : item.createdAt
+        tr.append(
+          el('td', when(stamp)),
+          el('td', item.email || '—'),
+          el('td', planLabel(item.plan)),
+          el('td', statusLabel(item.status)),
+          el('td', money(item.amountCents, item.currency)),
+          el('td', item.orderId || '—'),
+        )
+        tbody.appendChild(tr)
+      })
+      table.append(thead, tbody)
+      body.append(table, pager(data.page || 1, data.total || 0, (page) => {
+        detail.page = page
+        loadDetail()
+      }))
+    }
+
+    document.getElementById('detailClose').addEventListener('click', () => mask.classList.remove('open'))
+    mask.addEventListener('click', (event) => {
+      if (event.target === mask) mask.classList.remove('open')
+    })
+    renderTabs()
+    if (currentId) loadSummary()
+    else summaryEl.appendChild(el('p', '还没有配置产品', 'err'))
+  </script>
 </body>
 </html>`
 }
