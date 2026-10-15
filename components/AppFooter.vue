@@ -105,6 +105,22 @@
         </div>
       </div>
 
+      <div class="border-t border-gray-700 mt-8 pt-8">
+        <h3 class="font-heading font-semibold mb-3">{{ $t('footer.friendLinks') }}</h3>
+        <ul class="flex flex-wrap gap-x-6 gap-y-2">
+          <li v-for="link in friendLinks" :key="link.href">
+            <a
+              :href="link.href"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-300 hover:text-white transition-colors cursor-pointer"
+            >
+              {{ link.label }}
+            </a>
+          </li>
+        </ul>
+      </div>
+
       <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
         <p class="text-gray-400 text-sm">
           {{ $t('footer.copyright', { year: new Date().getFullYear() }) }}
@@ -133,4 +149,8 @@ const localePath = useLocalePath()
 const { email, mailto } = useSupportEmail()
 
 const extensionLinks = siteExtensionsFooter
+
+const friendLinks = [
+  { href: 'https://ig-exporter.com/', label: 'IG Exporter' }
+]
 </script>

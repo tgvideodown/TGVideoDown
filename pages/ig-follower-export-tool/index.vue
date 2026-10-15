@@ -80,14 +80,14 @@ useHead(() => ({
         description: product.value.seo.description,
         image: ogImage.value,
         url: canonical.value,
-        installUrl: product.value.storeUrl,
-        offers: {
-          '@type': 'AggregateOffer',
-          lowPrice: '9.99',
-          highPrice: '79.99',
-          priceCurrency: 'USD',
-          offerCount: 2
-        }
+        installUrl: product.value.storeUrl
+        // offers: {
+        //   '@type': 'AggregateOffer',
+        //   lowPrice: '9.99',
+        //   highPrice: '79.99',
+        //   priceCurrency: 'USD',
+        //   offerCount: 2
+        // }
       })
     }
   ]
