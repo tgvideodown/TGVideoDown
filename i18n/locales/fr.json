@@ -39,10 +39,13 @@
     "trustStats": {
       "usersValue": "1 000+",
       "usersLabel": "utilisateurs Chrome",
-      "reviewsValue": "100+",
+      "reviewsValue": "295",
       "reviewsLabel": "avis",
       "ratingValue": "4,9",
-      "ratingLabel": "note Chrome Web Store"
+      "ratingLabel": "note Chrome Web Store",
+      "scoreCaption": "sur 5",
+      "recentTitle": "Avis récents",
+      "seeAll": "Voir tous les avis"
     }
   },
   "features": {

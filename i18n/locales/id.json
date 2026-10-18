@@ -39,10 +39,13 @@
     "trustStats": {
       "usersValue": "1.000+",
       "usersLabel": "pengguna Chrome",
-      "reviewsValue": "100+",
+      "reviewsValue": "295",
       "reviewsLabel": "ulasan",
       "ratingValue": "4,9",
-      "ratingLabel": "rating Chrome Web Store"
+      "ratingLabel": "rating Chrome Web Store",
+      "scoreCaption": "dari 5",
+      "recentTitle": "Ulasan terbaru",
+      "seeAll": "Lihat semua ulasan"
     }
   },
   "features": {

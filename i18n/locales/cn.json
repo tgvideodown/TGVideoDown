@@ -39,10 +39,13 @@
     "trustStats": {
       "usersValue": "1,000+",
       "usersLabel": "Chrome 用户",
-      "reviewsValue": "100+",
+      "reviewsValue": "295",
       "reviewsLabel": "好评",
       "ratingValue": "4.9",
-      "ratingLabel": "Chrome 网上应用店评分"
+      "ratingLabel": "Chrome 网上应用店评分",
+      "scoreCaption": "满分 5 分",
+      "recentTitle": "最新评论",
+      "seeAll": "查看全部评论"
     }
   },
   "features": {

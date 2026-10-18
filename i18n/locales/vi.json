@@ -39,10 +39,13 @@
     "trustStats": {
       "usersValue": "1.000+",
       "usersLabel": "người dùng Chrome",
-      "reviewsValue": "100+",
+      "reviewsValue": "295",
       "reviewsLabel": "đánh giá",
       "ratingValue": "4.9",
-      "ratingLabel": "điểm Chrome Web Store"
+      "ratingLabel": "điểm Chrome Web Store",
+      "scoreCaption": "trên 5",
+      "recentTitle": "Đánh giá gần đây",
+      "seeAll": "Xem mọi đánh giá"
     }
   },
   "features": {

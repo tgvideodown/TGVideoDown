@@ -28,26 +28,7 @@
           {{ $t('hero.subtitle') }}
         </p>
 
-        <!-- Store social proof -->
-        <a
-          :href="extensionStoreUrl"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="grid grid-cols-3 gap-3 sm:gap-6 max-w-xl mx-auto mb-8 rounded-2xl border border-primary/15 bg-white/90 px-4 py-4 sm:px-6 sm:py-5 hover:border-primary/40 transition-colors"
-        >
-          <div class="text-center">
-            <div class="text-xl sm:text-2xl font-heading font-bold text-text">{{ $t('hero.trustStats.usersValue') }}</div>
-            <div class="mt-1 text-xs sm:text-sm text-gray-600">{{ $t('hero.trustStats.usersLabel') }}</div>
-          </div>
-          <div class="text-center border-x border-border">
-            <div class="text-xl sm:text-2xl font-heading font-bold text-text">{{ $t('hero.trustStats.reviewsValue') }}</div>
-            <div class="mt-1 text-xs sm:text-sm text-gray-600">{{ $t('hero.trustStats.reviewsLabel') }}</div>
-          </div>
-          <div class="text-center">
-            <div class="text-xl sm:text-2xl font-heading font-bold text-primary">{{ $t('hero.trustStats.ratingValue') }}</div>
-            <div class="mt-1 text-xs sm:text-sm text-gray-600">{{ $t('hero.trustStats.ratingLabel') }}</div>
-          </div>
-        </a>
+        <StoreProof />
 
         <!-- Trust Badges -->
         <div class="flex flex-wrap items-center justify-center gap-3 mb-8">

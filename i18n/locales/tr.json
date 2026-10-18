@@ -39,10 +39,13 @@
     "trustStats": {
       "usersValue": "1.000+",
       "usersLabel": "Chrome kullanıcısı",
-      "reviewsValue": "100+",
+      "reviewsValue": "295",
       "reviewsLabel": "yorum",
       "ratingValue": "4,9",
-      "ratingLabel": "Chrome Web Mağazası puanı"
+      "ratingLabel": "Chrome Web Mağazası puanı",
+      "scoreCaption": "5 üzerinden",
+      "recentTitle": "Son yorumlar",
+      "seeAll": "Tüm yorumları gör"
     }
   },
   "features": {
