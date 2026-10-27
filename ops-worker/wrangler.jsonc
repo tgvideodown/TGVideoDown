@@ -13,6 +13,13 @@
     {
       "binding": "BILLING_IGCOMMENT",
       "service": "ig-comment-billing"
+    },
+    {
+      "binding": "BILLING_FBDOWNLOAD",
+      "service": "fb-downloader-billing"
     }
-  ]
+  ],
+  "vars": {
+    "TOKEN_FBDOWNLOAD": "fbOps_7kQm2nVx9pL4sR8wT3yH6cD1aB5e"
+  }
 }

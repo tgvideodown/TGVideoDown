@@ -69,17 +69,7 @@ export default {
   },
 }
 
-function getProducts(env) {
-  // Prefer JSON config; fallback to built-in registry.
-  try {
-    if (env.OPS_PRODUCTS_JSON) {
-      const parsed = JSON.parse(env.OPS_PRODUCTS_JSON)
-      if (Array.isArray(parsed) && parsed.length) return parsed.map(normalizeProduct)
-    }
-  } catch (e) {
-    console.error('OPS_PRODUCTS_JSON invalid', e)
-  }
-
+function builtinProducts(env) {
   return [
     normalizeProduct({
       id: 'igexport',
@@ -95,7 +85,31 @@ function getProducts(env) {
       token: env.TOKEN_IGCOMMENT || '',
       binding: 'BILLING_IGCOMMENT',
     }),
+    normalizeProduct({
+      id: 'fbdownload',
+      name: 'Facebook Video Downloader',
+      summaryUrl: 'https://fb-downloader-billing.leorock8808.workers.dev/v1/analytics/summary',
+      token: env.TOKEN_FBDOWNLOAD || '',
+      binding: 'BILLING_FBDOWNLOAD',
+    }),
   ]
+}
+
+function getProducts(env) {
+  let products = []
+  try {
+    if (env.OPS_PRODUCTS_JSON) {
+      const parsed = JSON.parse(env.OPS_PRODUCTS_JSON)
+      if (Array.isArray(parsed) && parsed.length) products = parsed.map(normalizeProduct)
+    }
+  } catch (e) {
+    console.error('OPS_PRODUCTS_JSON invalid', e)
+  }
+  if (!products.length) products = builtinProducts(env)
+  for (const builtin of builtinProducts(env)) {
+    if (!products.some((item) => item.id === builtin.id)) products.push(builtin)
+  }
+  return products
 }
 
 function normalizeProduct(p) {
@@ -535,7 +549,7 @@ async function renderDashboard(env) {
       ;[
         ['今日 DAU', today.dau || 0],
         ['新安装', today.newInstalls || 0],
-        ['导出', Number(events.export_start || 0)],
+        [currentId === 'fbdownload' ? '下载' : '导出', Number(events[currentId === 'fbdownload' ? 'download_start' : 'export_start'] || 0)],
       ].forEach(([label, value]) => {
         const box = el('div')
         box.append(el('div', label, 'label'), el('div', String(value), 'value'))
@@ -557,7 +571,10 @@ async function renderDashboard(env) {
       const table = document.createElement('table')
       const thead = document.createElement('thead')
       const hr = document.createElement('tr')
-      ;['日期', 'DAU', '新安装', '导出', '购买', '好评', '优惠码', '支付'].forEach((name) => hr.appendChild(el('th', name)))
+      ;(currentId === 'fbdownload'
+        ? ['日期', 'DAU', '新安装', '下载', '转录', '好评', '优惠码', '支付']
+        : ['日期', 'DAU', '新安装', '导出', '购买', '好评', '优惠码', '支付']
+      ).forEach((name) => hr.appendChild(el('th', name)))
       thead.appendChild(hr)
       const tbody = document.createElement('tbody')
       if (!slice.length) {
@@ -573,9 +590,9 @@ async function renderDashboard(env) {
           el('td', day.day || ''),
           el('td', String(day.dau || 0)),
           el('td', String(day.newInstalls || 0)),
-          el('td', String(Number(day.events && day.events.export_start || 0))),
+          el('td', String(Number(day.events && day.events[currentId === 'fbdownload' ? 'download_start' : 'export_start'] || 0))),
         )
-        tr.appendChild(countCell(Number(day.events && day.events.checkout_start || 0), 'purchases', day.day))
+        tr.appendChild(countCell(Number(day.events && day.events[currentId === 'fbdownload' ? 'transcribe_start' : 'checkout_start'] || 0), 'purchases', day.day))
         tr.appendChild(el('td', String(Number(day.events && day.events.review_granted || 0))))
         tr.appendChild(el('td', String(Number(day.events && day.events.promo_redeem || 0))))
         tr.appendChild(countCell(paidCount(day), 'payments', day.day))
@@ -594,15 +611,28 @@ async function renderDashboard(env) {
 
     function funnel(events, paid) {
       const row = el('div', '', 'funnel')
-      ;[
-        ['打开', evCount(events, 'options_open')],
-        ['开始导出', evCount(events, 'export_start')],
-        ['导出完成', evCount(events, 'export_complete')],
-        ['次数用尽', evCount(events, 'quota_blocked')],
-        ['打开价格', evCount(events, 'plans_open')],
-        ['打开结账', evCount(events, 'checkout_start')],
-        ['已支付', paid],
-      ].forEach(([label, value], index) => {
+      const steps = currentId === 'fbdownload'
+        ? [
+            ['打开', evCount(events, 'popup_open')],
+            ['开始下载', evCount(events, 'download_start')],
+            ['下载完成', evCount(events, 'download_complete')],
+            ['次数用尽', evCount(events, 'quota_blocked')],
+            ['打开价格', evCount(events, 'plans_open')],
+            ['打开结账', evCount(events, 'checkout_start')],
+            ['开始转录', evCount(events, 'transcribe_start')],
+            ['转录完成', evCount(events, 'transcribe_complete')],
+            ['已支付', paid],
+          ]
+        : [
+            ['打开', evCount(events, 'options_open')],
+            ['开始导出', evCount(events, 'export_start')],
+            ['导出完成', evCount(events, 'export_complete')],
+            ['次数用尽', evCount(events, 'quota_blocked')],
+            ['打开价格', evCount(events, 'plans_open')],
+            ['打开结账', evCount(events, 'checkout_start')],
+            ['已支付', paid],
+          ]
+      steps.forEach(([label, value], index) => {
         if (index) row.appendChild(el('span', '→', 'arrow'))
         const step = el('div', '', 'step')
         step.append(el('div', label, 'label'), el('div', String(value), 'value'))
