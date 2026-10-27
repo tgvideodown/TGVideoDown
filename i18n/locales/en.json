@@ -515,6 +515,14 @@
     "seoTitle": "Uninstall - IG Follower Export Tool",
     "seoDescription": "Thanks for trying IG Follower Export Tool. Reinstall and use code IGTOOLS30 for 1 month of Pro."
   },
+  "tgUninstall": {
+    "kicker": "Uninstalled",
+    "title": "The updated Telegram extension is free",
+    "lead": "You can use the newer Telegram video downloader for free. It does not charge any fee.",
+    "cta": "Use the free extension",
+    "seoTitle": "Uninstall - Telegram Video Downloader",
+    "seoDescription": "The updated Telegram video downloader extension is free to use. There is no charge."
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader - Download Telegram Videos with TGVideoDown",
     "description": "TGVideoDown is a Telegram Video Downloader Chrome extension for saving Telegram videos, images, audio, and files from private groups, channels, and chats. Fast single and batch downloads. No login on this site.",

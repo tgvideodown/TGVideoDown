@@ -494,6 +494,14 @@
     "seoTitle": "Удаление - IG Follower Export Tool",
     "seoDescription": "Спасибо за IG Follower Export Tool. После переустановки код IGTOOLS30 даёт 1 месяц Pro."
   },
+  "tgUninstall": {
+    "kicker": "Удаление завершено",
+    "title": "Обновлённое расширение Telegram бесплатное",
+    "lead": "Обновлённый загрузчик видео из Telegram можно использовать бесплатно. Никакой оплаты нет.",
+    "cta": "Использовать бесплатно",
+    "seoTitle": "Удаление - Telegram Video Downloader",
+    "seoDescription": "Обновлённое расширение для скачивания видео из Telegram бесплатное, без оплаты."
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "description": "Скачивайте видео из Telegram из приватных групп, каналов и чатов. TGVideoDown — бесплатное расширение Chrome для видео, фото, аудио и файлов. Один клик или пакетно. Без входа на этом сайте.",

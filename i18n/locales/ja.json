@@ -494,6 +494,14 @@
     "seoTitle": "アンインストール - IG Follower Export Tool",
     "seoDescription": "IG Follower Export Tool をご利用ありがとうございました。再インストール後、コード IGTOOLS30 で 1か月の Pro を受け取れます。"
   },
+  "tgUninstall": {
+    "kicker": "アンインストール完了",
+    "title": "新しい Telegram 拡張機能は無料です",
+    "lead": "更新版の Telegram 動画ダウンローダーは無料で使えます。料金は一切かかりません。",
+    "cta": "無料で使う",
+    "seoTitle": "アンインストール - Telegram 動画ダウンローダー",
+    "seoDescription": "更新版の Telegram 動画ダウンローダーは無料で、料金はかかりません。"
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "description": "非公開グループ・チャンネル・チャットから Telegram 動画を保存。TGVideoDown は無料の Chrome 拡張機能で動画・画像・音声・ファイルをワンクリックまたは一括保存。本サイトへのログインは不要。",

@@ -17,6 +17,10 @@
     {
       "binding": "BILLING_FBDOWNLOAD",
       "service": "fb-downloader-billing"
+    },
+    {
+      "binding": "BILLING_TGDOWNLOAD",
+      "service": "tg-downloader-billing"
     }
   ],
   "vars": {

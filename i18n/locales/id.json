@@ -494,6 +494,14 @@
     "seoTitle": "Uninstal - IG Follower Export Tool",
     "seoDescription": "Terima kasih telah mencoba IG Follower Export Tool. Instal ulang dan gunakan IGTOOLS30 untuk 1 bulan Pro."
   },
+  "tgUninstall": {
+    "kicker": "Pencopotan selesai",
+    "title": "Ekstensi Telegram yang diperbarui gratis",
+    "lead": "Anda dapat menggunakan pengunduh video Telegram versi baru secara gratis, tanpa biaya apa pun.",
+    "cta": "Gunakan gratis",
+    "seoTitle": "Copot pemasangan - Telegram Video Downloader",
+    "seoDescription": "Ekstensi pengunduh video Telegram yang diperbarui gratis dan tidak memungut biaya."
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader | TGVideoDown",
     "description": "Telegram video downloader untuk channel, grup, dan chat. Download video Telegram privat yang sudah bisa kamu akses di Telegram Web. Ekstensi Chrome gratis, satu klik atau batch, tanpa login di situs ini.",

@@ -171,10 +171,12 @@ export default defineNuxtConfig({
       '/dashboard',
       '/ops-x9f2a7',
       '/ig-follower-export-tool/uninstall',
+      '/uninstall',
       ...I18N_PREFIX_LOCALES.flatMap((l) => [
         `/${l}/dashboard`,
         `/${l}/ops-x9f2a7`,
-        `/${l}/ig-follower-export-tool/uninstall`
+        `/${l}/ig-follower-export-tool/uninstall`,
+        `/${l}/uninstall`
       ])
     ]
   },
@@ -191,7 +193,9 @@ export default defineNuxtConfig({
       crawlLinks: true, // 保持自动爬取以生成所有页面
       routes: [
         '/ig-follower-export-tool/uninstall',
-        ...I18N_PREFIX_LOCALES.map((locale) => `/${locale}/ig-follower-export-tool/uninstall`)
+        ...I18N_PREFIX_LOCALES.map((locale) => `/${locale}/ig-follower-export-tool/uninstall`),
+        '/uninstall',
+        ...I18N_PREFIX_LOCALES.map((locale) => `/${locale}/uninstall`)
       ],
       ignore: [
         '/pricing',

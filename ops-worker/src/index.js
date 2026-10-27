@@ -92,6 +92,13 @@ function builtinProducts(env) {
       token: env.TOKEN_FBDOWNLOAD || '',
       binding: 'BILLING_FBDOWNLOAD',
     }),
+    normalizeProduct({
+      id: 'tgdownload',
+      name: 'Telegram Media Downloader',
+      summaryUrl: 'https://tg-downloader-billing.leorock8808.workers.dev/v1/analytics/summary',
+      token: env.TOKEN_TGDOWNLOAD || '',
+      binding: 'BILLING_TGDOWNLOAD',
+    }),
   ]
 }
 
@@ -462,6 +469,7 @@ async function renderDashboard(env) {
 
     function planLabel(plan) {
       if (plan === 'monthly') return '月付'
+      if (plan === 'lifetime') return '终身'
       if (plan === 'annual') return '年付'
       if (plan === 'quarterly') return '季付'
       return plan || '—'
@@ -549,15 +557,20 @@ async function renderDashboard(env) {
       ;[
         ['今日 DAU', today.dau || 0],
         ['新安装', today.newInstalls || 0],
-        [currentId === 'fbdownload' ? '下载' : '导出', Number(events[currentId === 'fbdownload' ? 'download_start' : 'export_start'] || 0)],
+        [currentId === 'igexport' || currentId === 'igcomment' ? '导出' : '下载', Number(events[currentId === 'igexport' || currentId === 'igcomment' ? 'export_start' : 'download_start'] || 0)],
       ].forEach(([label, value]) => {
         const box = el('div')
         box.append(el('div', label, 'label'), el('div', String(value), 'value'))
         grid.appendChild(box)
       })
       grid.appendChild(metric('购买点击', Number(events.checkout_start || 0), 'purchases', ''))
-      grid.appendChild(plainMetric('好评领取', Number(events.review_granted || 0)))
-      grid.appendChild(plainMetric('优惠码兑换', Number(events.promo_redeem || 0)))
+      if (currentId === 'tgdownload') {
+        grid.appendChild(plainMetric('下载完成', Number(events.download_complete || 0)))
+        grid.appendChild(plainMetric('点击好评', Number(events.review_click || 0)))
+      } else {
+        grid.appendChild(plainMetric('好评领取', Number(events.review_granted || 0)))
+        grid.appendChild(plainMetric('优惠码兑换', Number(events.promo_redeem || 0)))
+      }
       grid.appendChild(metric('已支付', paidCount(today), 'payments', ''))
       grid.appendChild(plainMetric('昨日也来过', Number(today.returning1 || 0)))
       grid.appendChild(plainMetric('7 天前也来过', Number(today.returning7 || 0)))
@@ -573,7 +586,9 @@ async function renderDashboard(env) {
       const hr = document.createElement('tr')
       ;(currentId === 'fbdownload'
         ? ['日期', 'DAU', '新安装', '下载', '转录', '好评', '优惠码', '支付']
-        : ['日期', 'DAU', '新安装', '导出', '购买', '好评', '优惠码', '支付']
+        : currentId === 'tgdownload'
+          ? ['日期', 'DAU', '新安装', '下载', '完成', '购买', '好评', '支付']
+          : ['日期', 'DAU', '新安装', '导出', '购买', '好评', '优惠码', '支付']
       ).forEach((name) => hr.appendChild(el('th', name)))
       thead.appendChild(hr)
       const tbody = document.createElement('tbody')
@@ -590,11 +605,17 @@ async function renderDashboard(env) {
           el('td', day.day || ''),
           el('td', String(day.dau || 0)),
           el('td', String(day.newInstalls || 0)),
-          el('td', String(Number(day.events && day.events[currentId === 'fbdownload' ? 'download_start' : 'export_start'] || 0))),
+          el('td', String(Number(day.events && day.events[currentId === 'igexport' || currentId === 'igcomment' ? 'export_start' : 'download_start'] || 0))),
         )
-        tr.appendChild(countCell(Number(day.events && day.events[currentId === 'fbdownload' ? 'transcribe_start' : 'checkout_start'] || 0), 'purchases', day.day))
-        tr.appendChild(el('td', String(Number(day.events && day.events.review_granted || 0))))
-        tr.appendChild(el('td', String(Number(day.events && day.events.promo_redeem || 0))))
+        if (currentId === 'tgdownload') {
+          tr.appendChild(el('td', String(Number(day.events && day.events.download_complete || 0))))
+          tr.appendChild(countCell(Number(day.events && day.events.checkout_start || 0), 'purchases', day.day))
+          tr.appendChild(el('td', String(Number(day.events && day.events.review_click || 0))))
+        } else {
+          tr.appendChild(countCell(Number(day.events && day.events[currentId === 'fbdownload' ? 'transcribe_start' : 'checkout_start'] || 0), 'purchases', day.day))
+          tr.appendChild(el('td', String(Number(day.events && day.events.review_granted || 0))))
+          tr.appendChild(el('td', String(Number(day.events && day.events.promo_redeem || 0))))
+        }
         tr.appendChild(countCell(paidCount(day), 'payments', day.day))
         tbody.appendChild(tr)
       })
@@ -623,7 +644,18 @@ async function renderDashboard(env) {
             ['转录完成', evCount(events, 'transcribe_complete')],
             ['已支付', paid],
           ]
-        : [
+        : currentId === 'tgdownload'
+          ? [
+              ['打开', evCount(events, 'popup_open')],
+              ['开始下载', evCount(events, 'download_start')],
+              ['下载完成', evCount(events, 'download_complete')],
+              ['次数用尽', evCount(events, 'quota_blocked')],
+              ['打开价格', evCount(events, 'plans_open')],
+              ['点击好评', evCount(events, 'review_click')],
+              ['打开结账', evCount(events, 'checkout_start')],
+              ['已支付', paid],
+            ]
+          : [
             ['打开', evCount(events, 'options_open')],
             ['开始导出', evCount(events, 'export_start')],
             ['导出完成', evCount(events, 'export_complete')],
@@ -669,6 +701,21 @@ async function renderDashboard(env) {
     }
 
     function breakdownBlock(breakdown) {
+      if (currentId === 'tgdownload') {
+        const wrap = el('div', '', 'split')
+        wrap.append(
+          dimTable('打开价格的来源', pairsOf(breakdown, 'plans_open', 'source', { popup: '插件弹窗', limit: '次数用尽' })),
+          dimTable('结账方案', pairsOf(breakdown, 'checkout_start', 'plan', { monthly: '月付', lifetime: '终身' })),
+        )
+        const second = el('div', '', 'split')
+        second.append(
+          dimTable('下载方式', pairsOf(breakdown, 'download_start', 'kind', { single: '单个', batch: '批量' })),
+          dimTable('下载失败', pairsOf(breakdown, 'download_failed', 'reason', { download_error: '下载失败' })),
+        )
+        const block = el('div')
+        block.append(wrap, second)
+        return block
+      }
       const wrap = el('div', '', 'split')
       wrap.append(
         dimTable('导出失败原因', pairsOf(breakdown, 'export_failed', 'reason', {

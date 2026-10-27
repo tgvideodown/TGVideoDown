@@ -494,6 +494,14 @@
     "seoTitle": "Gỡ cài đặt - IG Follower Export Tool",
     "seoDescription": "Cảm ơn bạn đã dùng thử IG Follower Export Tool. Cài lại và dùng IGTOOLS30 để nhận 1 tháng Pro."
   },
+  "tgUninstall": {
+    "kicker": "Đã gỡ cài đặt",
+    "title": "Tiện ích Telegram bản mới hoàn toàn miễn phí",
+    "lead": "Bạn có thể dùng bản cập nhật của tiện ích tải video Telegram miễn phí, không thu bất kỳ khoản phí nào.",
+    "cta": "Dùng miễn phí",
+    "seoTitle": "Gỡ cài đặt - Telegram Video Downloader",
+    "seoDescription": "Tiện ích tải video Telegram bản cập nhật được dùng miễn phí, không thu phí."
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader | TGVideoDown",
     "description": "Telegram video downloader cho kênh, nhóm và chat. Tải video Telegram riêng tư khi bạn đã có quyền xem trên Telegram Web. Tiện ích Chrome miễn phí, một cú nhấp hoặc hàng loạt, không cần đăng nhập trang này.",

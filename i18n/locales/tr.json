@@ -494,6 +494,14 @@
     "seoTitle": "Kaldır - IG Follower Export Tool",
     "seoDescription": "IG Follower Export Tool’u denediğiniz için teşekkürler. Yeniden yükleyip IGTOOLS30 ile 1 aylık Pro alın."
   },
+  "tgUninstall": {
+    "kicker": "Kaldırma tamamlandı",
+    "title": "Güncellenmiş Telegram eklentisi ücretsiz",
+    "lead": "Telegram video indiricisinin yeni sürümünü ücretsiz kullanabilirsiniz. Herhangi bir ücret yok.",
+    "cta": "Ücretsiz kullan",
+    "seoTitle": "Kaldırma - Telegram Video Downloader",
+    "seoDescription": "Güncellenmiş Telegram video indirici eklentisi ücretsizdir, herhangi bir ücret yoktur."
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "description": "Telegram video indirici: özel grup, kanal ve sohbetlerden video, görsel, ses ve dosya kaydedin. TGVideoDown ücretsiz Chrome uzantısı. Tek tık veya toplu. Bu sitede giriş yok.",

@@ -515,6 +515,14 @@
     "seoTitle": "卸载 - IG Follower Export Tool",
     "seoDescription": "感谢试用 IG Follower Export Tool。重新安装后使用兑换码 IGTOOLS30 可获得 1 个月 Pro。"
   },
+  "tgUninstall": {
+    "kicker": "已卸载",
+    "title": "更新版 Telegram 插件可以免费使用",
+    "lead": "你可以免费使用更新版本的 Telegram 视频下载插件，不收取任何费用。",
+    "cta": "免费使用",
+    "seoTitle": "卸载 - Telegram 视频下载",
+    "seoDescription": "更新版 Telegram 视频下载插件可以免费使用，不收取任何费用。"
+  },
   "homeSeo": {
     "title": "Telegram 视频下载器 - 下载 Telegram 视频 | TGVideoDown",
     "description": "Telegram 视频下载器，适用于私密群组、频道与聊天。TGVideoDown 是免费 Chrome 扩展，可保存视频、图片、音频和文件。支持一键与批量，本站无需登录。",

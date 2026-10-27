@@ -494,6 +494,14 @@
     "seoTitle": "Disinstalla - IG Follower Export Tool",
     "seoDescription": "Grazie per aver provato IG Follower Export Tool. Reinstalla e usa IGTOOLS30 per 1 mese di Pro."
   },
+  "tgUninstall": {
+    "kicker": "Disinstallazione completata",
+    "title": "L'estensione Telegram aggiornata è gratuita",
+    "lead": "Puoi usare gratis la nuova versione del downloader video di Telegram. Non c’è alcun costo.",
+    "cta": "Usala gratis",
+    "seoTitle": "Disinstallazione - Telegram Video Downloader",
+    "seoDescription": "L'estensione aggiornata per scaricare i video di Telegram è gratuita e non ha costi."
+  },
   "homeSeo": {
     "title": "Telegram Video Downloader - Download Telegram Videos | TGVideoDown",
     "description": "Scarica video Telegram da gruppi privati, canali e chat. TGVideoDown è un’estensione Chrome gratuita per video, immagini, audio e file. Un clic o in batch. Nessun login su questo sito.",

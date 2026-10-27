@@ -494,6 +494,14 @@
     "seoTitle": "解除安裝 - IG Follower Export Tool",
     "seoDescription": "感謝試用 IG Follower Export Tool。重新安裝後使用兌換碼 IGTOOLS30 可獲得 1 個月 Pro。"
   },
+  "tgUninstall": {
+    "kicker": "已解除安裝",
+    "title": "更新版 Telegram 外掛可以免費使用",
+    "lead": "你可以免費使用更新版本的 Telegram 影片下載外掛，不收取任何費用。",
+    "cta": "免費使用",
+    "seoTitle": "解除安裝 - Telegram 影片下載",
+    "seoDescription": "更新版 Telegram 影片下載外掛可以免費使用，不收取任何費用。"
+  },
   "homeSeo": {
     "title": "Telegram 影片下載器 - 下載 Telegram 影片 | TGVideoDown",
     "description": "Telegram 影片下載器，適用於私人社團、頻道與聊天。TGVideoDown 是免費 Chrome 擴充功能，可儲存影片、圖片、音訊與檔案。支援一鍵與批次，本站無需登入。",
