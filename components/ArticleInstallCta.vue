@@ -22,6 +22,8 @@
 </template>
 
 <script setup>
+import { withStoreUtm } from '~/utils/storeUtm'
+
 const props = defineProps({
   eyebrow: {
     type: String,
@@ -56,7 +58,7 @@ const props = defineProps({
 
 const config = useRuntimeConfig()
 const localePath = useLocalePath()
-const resolvedStoreUrl = computed(
-  () => props.storeUrl || config.public.extensionStoreUrl
+const resolvedStoreUrl = computed(() =>
+  withStoreUtm(props.storeUrl || config.public.extensionStoreUrl)
 )
 </script>

@@ -87,7 +87,7 @@ const config = useRuntimeConfig()
 const localePath = useLocalePath()
 const { locale } = useI18n()
 const siteUrl = config.public.siteUrl
-const extensionStoreUrl = config.public.extensionStoreUrl
+const extensionStoreUrl = useExtensionStoreUrl()
 const copy = computed(() => getBlogLocaleContent(locale.value))
 const articles = computed(() => copy.value.index.articles)
 const featuredArticles = computed(() => articles.value.slice(0, 4))

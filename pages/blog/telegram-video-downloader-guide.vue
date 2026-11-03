@@ -136,7 +136,7 @@ const config = useRuntimeConfig()
 const localePath = useLocalePath()
 const { locale } = useI18n()
 const siteUrl = config.public.siteUrl
-const extensionStoreUrl = config.public.extensionStoreUrl
+const extensionStoreUrl = useExtensionStoreUrl()
 const copy = computed(() => getBlogLocaleContent(locale.value))
 const guide = computed(() => copy.value.guide)
 const canonical = computed(() => `${siteUrl}${localePath('/blog/telegram-video-downloader-guide')}`)

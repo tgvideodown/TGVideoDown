@@ -99,7 +99,7 @@ const config = useRuntimeConfig()
 const localePath = useLocalePath()
 const { locale } = useI18n()
 const siteUrl = config.public.siteUrl
-const extensionStoreUrl = config.public.extensionStoreUrl
+const extensionStoreUrl = useExtensionStoreUrl()
 
 const content = computed(() => getTelegramPageLocaleContent(locale.value))
 const page = computed(() => content.value.extensionGuide)

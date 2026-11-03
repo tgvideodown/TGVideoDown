@@ -36,7 +36,7 @@ const config = useRuntimeConfig()
 const localePath = useLocalePath()
 const { t } = useI18n()
 
-const storeUrl = config.public.extensionStoreUrl
+const storeUrl = useExtensionStoreUrl()
 
 const canonical = computed(
   () => `${config.public.siteUrl}${localePath('/uninstall')}`,

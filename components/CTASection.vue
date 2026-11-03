@@ -28,6 +28,5 @@
 </template>
 
 <script setup>
-const config = useRuntimeConfig()
-const extensionStoreUrl = config.public.extensionStoreUrl
+const extensionStoreUrl = useExtensionStoreUrl()
 </script>

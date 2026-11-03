@@ -74,8 +74,7 @@
 </template>
 
 <script setup>
-const config = useRuntimeConfig()
-const extensionStoreUrl = config.public.extensionStoreUrl
+const extensionStoreUrl = useExtensionStoreUrl()
 const localePath = useLocalePath()
 
 const mobileMenuOpen = ref(false)

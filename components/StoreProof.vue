@@ -53,10 +53,12 @@
 </template>
 
 <script setup>
+import { withStoreUtm } from '~/utils/storeUtm'
+
 const config = useRuntimeConfig()
 const { t } = useI18n()
 
-const reviewsUrl = `${config.public.extensionStoreUrl}/reviews`
+const reviewsUrl = withStoreUtm(`${config.public.extensionStoreUrl}/reviews`)
 const ratingValue = computed(() => t('hero.trustStats.ratingValue'))
 
 const reviews = [

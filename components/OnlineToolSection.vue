@@ -166,8 +166,7 @@
 const SAMPLE_URL = 'https://t.me/durov/444'
 const LOADING_MS = 10000
 
-const config = useRuntimeConfig()
-const extensionStoreUrl = config.public.extensionStoreUrl
+const extensionStoreUrl = useExtensionStoreUrl()
 
 const url = ref('')
 const phase = ref('idle') // idle | loading | result

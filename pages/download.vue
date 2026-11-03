@@ -114,7 +114,7 @@
 
 <script setup>
 const config = useRuntimeConfig()
-const extensionStoreUrl = config.public.extensionStoreUrl
+const extensionStoreUrl = useExtensionStoreUrl()
 const extensionVersion = config.public.extensionVersion
 
 useSeoMeta({

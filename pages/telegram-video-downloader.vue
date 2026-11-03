@@ -121,7 +121,7 @@ const config = useRuntimeConfig()
 const localePath = useLocalePath()
 const { locale } = useI18n()
 const siteUrl = config.public.siteUrl
-const extensionStoreUrl = config.public.extensionStoreUrl
+const extensionStoreUrl = useExtensionStoreUrl()
 
 const content = computed(() => getTelegramPageLocaleContent(locale.value))
 const page = computed(() => content.value.downloader)
@@ -151,7 +151,7 @@ useHead(() => ({
         applicationCategory: 'BrowserApplication',
         operatingSystem: 'Chrome',
         url: canonical.value,
-        downloadUrl: extensionStoreUrl,
+        downloadUrl: config.public.extensionStoreUrl,
         description: page.value.seoDescription,
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }
       })
