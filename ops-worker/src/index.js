@@ -412,6 +412,11 @@ async function renderDashboard(env) {
     .mask.open{display:flex}
     .panel{width:min(980px,100%);background:#fff;border-radius:4px;padding:16px}
     .note{color:#909399;font-size:12px;margin:8px 0 12px;line-height:1.5}
+    .chart-box{margin-top:8px;border:1px solid #ebeef5;border-radius:4px;padding:12px;background:#fafbfc}
+    .chart-legend{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 8px;font-size:12px;color:#606266}
+    .chart-legend span{display:inline-flex;align-items:center;gap:6px}
+    .chart-legend i{width:10px;height:10px;border-radius:50%;display:inline-block}
+    .chart-box canvas{width:100%;height:240px;display:block}
     @media (max-width:800px){.split{grid-template-columns:1fr}.top{align-items:flex-start;flex-direction:column}}
   </style>
 </head>
@@ -577,6 +582,8 @@ async function renderDashboard(env) {
       summaryEl.append(head, grid, el('h3', '今日漏斗'), funnel(events, paidCount(today)))
       summaryEl.appendChild(el('p', '漏斗是次数，同一个人可以计多次。回访是安装编号去重：今天来过、而且昨天或 7 天前也来过。', 'note'))
       summaryEl.appendChild(breakdownBlock(today.breakdown || {}))
+      summaryEl.appendChild(el('h3', '近 30 日趋势'))
+      summaryEl.appendChild(dayChart(summary.days || []))
       summaryEl.appendChild(el('h3', '按日'))
 
       const days = summary.days || []
@@ -755,6 +762,102 @@ async function renderDashboard(env) {
       const block = el('div')
       block.append(wrap, second)
       return block
+    }
+
+    function actionKey() {
+      return currentId === 'igexport' || currentId === 'igcomment' ? 'export_start' : 'download_start'
+    }
+
+    function actionLabel() {
+      return currentId === 'igexport' || currentId === 'igcomment' ? '导出' : '下载'
+    }
+
+    function dayChart(days) {
+      const wrap = el('div', '', 'chart-box')
+      if (!days.length) {
+        wrap.appendChild(el('p', '暂无趋势数据', 'note'))
+        return wrap
+      }
+      const points = days.slice().reverse()
+      const series = [
+        { name: 'DAU', color: '#409eff', values: points.map((d) => Number(d.dau || 0)) },
+        { name: '新安装', color: '#67c23a', values: points.map((d) => Number(d.newInstalls || 0)) },
+        { name: actionLabel(), color: '#e6a23c', values: points.map((d) => Number((d.events && d.events[actionKey()]) || 0)) },
+        { name: '支付', color: '#f56c6c', values: points.map((d) => Number(paidCount(d) || 0)) },
+      ]
+      const legend = el('div', '', 'chart-legend')
+      series.forEach((item) => {
+        const chip = el('span', item.name)
+        const dot = document.createElement('i')
+        dot.style.background = item.color
+        chip.prepend(dot)
+        legend.appendChild(chip)
+      })
+      const canvas = document.createElement('canvas')
+      wrap.append(legend, canvas)
+      requestAnimationFrame(() => drawLineChart(canvas, points.map((d) => d.day || ''), series))
+      return wrap
+    }
+
+    function drawLineChart(canvas, labels, series) {
+      const dpr = window.devicePixelRatio || 1
+      const width = canvas.clientWidth || 800
+      const height = canvas.clientHeight || 240
+      canvas.width = Math.round(width * dpr)
+      canvas.height = Math.round(height * dpr)
+      const ctx = canvas.getContext('2d')
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
+      ctx.clearRect(0, 0, width, height)
+
+      const pad = { top: 12, right: 16, bottom: 36, left: 40 }
+      const plotW = width - pad.left - pad.right
+      const plotH = height - pad.top - pad.bottom
+      const maxVal = Math.max(1, ...series.flatMap((item) => item.values))
+      const niceMax = Math.ceil(maxVal / 4) * 4 || 4
+      const n = labels.length
+      const xAt = (i) => pad.left + (n <= 1 ? plotW / 2 : (plotW * i) / (n - 1))
+      const yAt = (v) => pad.top + plotH - (plotH * v) / niceMax
+
+      ctx.strokeStyle = '#ebeef5'
+      ctx.fillStyle = '#909399'
+      ctx.font = '11px sans-serif'
+      ctx.lineWidth = 1
+      for (let i = 0; i <= 4; i++) {
+        const value = (niceMax * i) / 4
+        const y = yAt(value)
+        ctx.beginPath()
+        ctx.moveTo(pad.left, y)
+        ctx.lineTo(width - pad.right, y)
+        ctx.stroke()
+        ctx.fillText(String(Math.round(value)), 4, y + 3)
+      }
+
+      const labelStep = Math.max(1, Math.ceil(n / 8))
+      labels.forEach((label, i) => {
+        if (i % labelStep && i !== n - 1) return
+        const text = String(label).slice(5)
+        const x = xAt(i)
+        ctx.fillText(text, x - 14, height - 12)
+      })
+
+      series.forEach((item) => {
+        ctx.strokeStyle = item.color
+        ctx.fillStyle = item.color
+        ctx.lineWidth = 2
+        ctx.beginPath()
+        item.values.forEach((value, i) => {
+          const x = xAt(i)
+          const y = yAt(value)
+          if (i === 0) ctx.moveTo(x, y)
+          else ctx.lineTo(x, y)
+        })
+        ctx.stroke()
+        item.values.forEach((value, i) => {
+          ctx.beginPath()
+          ctx.arc(xAt(i), yAt(value), 2.5, 0, Math.PI * 2)
+          ctx.fill()
+        })
+      })
     }
 
     function paidCount(row) {
