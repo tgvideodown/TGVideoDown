@@ -3,7 +3,7 @@
     :href="reviewsUrl"
     target="_blank"
     rel="noopener noreferrer"
-    class="block max-w-3xl mx-auto mb-8 rounded-2xl border border-primary/15 bg-white/90 px-5 py-5 sm:px-6 sm:py-6 text-left shadow-sm hover:border-primary/40 transition-colors"
+    class="block max-w-3xl mx-auto rounded-2xl border border-primary/15 bg-white/90 px-5 py-5 sm:px-6 sm:py-6 text-left shadow-sm hover:border-primary/40 transition-colors"
   >
     <div class="flex flex-col sm:flex-row sm:items-center gap-5 sm:gap-8">
       <div class="flex items-center gap-4 sm:pr-8 sm:border-r sm:border-border">

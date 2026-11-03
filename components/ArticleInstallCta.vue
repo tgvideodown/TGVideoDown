@@ -7,7 +7,7 @@
     </p>
     <div class="flex flex-col gap-3 sm:flex-row">
       <a
-        :href="extensionStoreUrl"
+        :href="resolvedStoreUrl"
         target="_blank"
         rel="noopener noreferrer"
         class="btn-primary text-center"
@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-defineProps({
+const props = defineProps({
   eyebrow: {
     type: String,
     default: 'Get TGVideoDown'
@@ -47,10 +47,16 @@ defineProps({
   secondaryPath: {
     type: String,
     default: '/telegram-video-downloader-chrome-extension-guide'
+  },
+  storeUrl: {
+    type: String,
+    default: ''
   }
 })
 
 const config = useRuntimeConfig()
 const localePath = useLocalePath()
-const extensionStoreUrl = config.public.extensionStoreUrl
+const resolvedStoreUrl = computed(
+  () => props.storeUrl || config.public.extensionStoreUrl
+)
 </script>

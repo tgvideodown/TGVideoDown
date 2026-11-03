@@ -48,6 +48,31 @@
       "seeAll": "Vedi tutte le recensioni"
     }
   },
+  "onlineTool": {
+    "kicker": "Strumento online",
+    "freeBadge": "Gratis",
+    "title": "Incolla un link pubblico di Telegram",
+    "lead": "Controlla qui un URL pubblico. Chat private e la maggior parte dei media limitati richiedono ancora l’estensione Chrome su Telegram Web.",
+    "inputLabel": "URL del post Telegram",
+    "placeholder": "https://t.me/channel/123",
+    "paste": "Incolla",
+    "clear": "Cancella",
+    "submit": "Trova file →",
+    "loadingCta": "Verifica…",
+    "loadingLabel": "Ricerca del post",
+    "loadingHint": "Di solito richiede circa 10 secondi.",
+    "privacyNote": "Nessun accesso e nessun salvataggio video",
+    "trySample": "Prova un esempio pubblico",
+    "pasteFailed": "Impossibile leggere gli appunti. Incolla il link manualmente.",
+    "errorEmpty": "Incolla un link di post Telegram.",
+    "errorInvalid": "Inserisci un URL pubblico Telegram valido, come https://t.me/channel/123.",
+    "resultTitle": "Questo link richiede Telegram Web",
+    "resultBody": "La ricerca pubblica è limitata. Installa l’estensione Chrome e apri la chat in Telegram Web per scaricare i media già visibili.",
+    "resultCta": "Usa l’estensione Chrome",
+    "bannerTitle": "Scarichi video privati o multipli?",
+    "bannerBody": "L’estensione Chrome funziona con i media visibili nella sessione Telegram Web e aggiunge i controlli batch.",
+    "bannerCta": "Ottieni l’estensione"
+  },
   "features": {
     "title": "Cosa offre l’estensione",
     "subtitle": "Anche come su Chrome Web Store — questo sito presenta solo il prodotto",

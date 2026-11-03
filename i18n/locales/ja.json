@@ -48,6 +48,31 @@
       "seeAll": "すべてのレビューを見る"
     }
   },
+  "onlineTool": {
+    "kicker": "オンラインツール",
+    "freeBadge": "無料",
+    "title": "公開 Telegram 投稿リンクを貼り付け",
+    "lead": "ここで公開投稿 URL を確認できます。非公開チャットや制限付きメディアは、Telegram Web 上の Chrome 拡張機能が必要です。",
+    "inputLabel": "Telegram 投稿 URL",
+    "placeholder": "https://t.me/channel/123",
+    "paste": "貼り付け",
+    "clear": "クリア",
+    "submit": "ファイルを探す →",
+    "loadingCta": "確認中…",
+    "loadingLabel": "投稿を検索しています",
+    "loadingHint": "通常約 10 秒かかります。",
+    "privacyNote": "ログイン不要・動画は保存しません",
+    "trySample": "公開サンプルを試す",
+    "pasteFailed": "クリップボードを読めませんでした。手動で貼り付けてください。",
+    "errorEmpty": "Telegram 投稿リンクを貼り付けてください。",
+    "errorInvalid": "https://t.me/channel/123 のような有効な公開 Telegram 投稿 URL を入力してください。",
+    "resultTitle": "このリンクには Telegram Web が必要です",
+    "resultBody": "公開ページの照会には制限があります。Chrome 拡張機能をインストールし、Telegram Web でチャットを開いて、既に表示できるメディアをダウンロードしてください。",
+    "resultCta": "Chrome 拡張機能を使う",
+    "bannerTitle": "非公開または複数動画をダウンロードしますか？",
+    "bannerBody": "Chrome 拡張機能は Telegram Web セッションで見えるメディアに対応し、一括操作もできます。",
+    "bannerCta": "拡張機能を入手"
+  },
   "features": {
     "title": "拡張機能でできること",
     "subtitle": "Chrome ウェブストアのハイライトと同じ — 当サイトは製品紹介のみです",

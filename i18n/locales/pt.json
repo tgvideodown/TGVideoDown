@@ -48,6 +48,31 @@
       "seeAll": "Ver todas as avaliações"
     }
   },
+  "onlineTool": {
+    "kicker": "Ferramenta online",
+    "freeBadge": "Grátis",
+    "title": "Cole um link público do Telegram",
+    "lead": "Verifique aqui um URL público. Chats privados e a maioria das mídias restritas ainda precisam da extensão do Chrome no Telegram Web.",
+    "inputLabel": "URL da publicação do Telegram",
+    "placeholder": "https://t.me/channel/123",
+    "paste": "Colar",
+    "clear": "Limpar",
+    "submit": "Encontrar arquivo →",
+    "loadingCta": "Verificando…",
+    "loadingLabel": "Procurando a publicação",
+    "loadingHint": "Geralmente leva cerca de 10 segundos.",
+    "privacyNote": "Sem login e sem armazenamento de vídeo",
+    "trySample": "Testar um exemplo público",
+    "pasteFailed": "Não foi possível ler a área de transferência. Cole o link manualmente.",
+    "errorEmpty": "Cole um link de publicação do Telegram.",
+    "errorInvalid": "Digite um URL público válido do Telegram, como https://t.me/channel/123.",
+    "resultTitle": "Este link precisa do Telegram Web",
+    "resultBody": "A consulta pública é limitada. Instale a extensão do Chrome e abra o chat no Telegram Web para baixar a mídia que você já consegue ver.",
+    "resultCta": "Usar a extensão do Chrome",
+    "bannerTitle": "Baixando vídeos privados ou vários arquivos?",
+    "bannerBody": "A extensão do Chrome funciona com a mídia visível na sua sessão do Telegram Web e adiciona controles em lote.",
+    "bannerCta": "Obter a extensão"
+  },
   "features": {
     "title": "O que a extensão oferece",
     "subtitle": "Os mesmos destaques da Chrome Web Store — este site apenas apresenta o produto",

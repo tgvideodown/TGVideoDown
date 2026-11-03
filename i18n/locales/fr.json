@@ -48,6 +48,31 @@
       "seeAll": "Voir tous les avis"
     }
   },
+  "onlineTool": {
+    "kicker": "Outil en ligne",
+    "freeBadge": "Gratuit",
+    "title": "Collez un lien public Telegram",
+    "lead": "Vérifiez ici une URL publique. Les chats privés et la plupart des médias restreints nécessitent toujours l’extension Chrome sur Telegram Web.",
+    "inputLabel": "URL de publication Telegram",
+    "placeholder": "https://t.me/channel/123",
+    "paste": "Coller",
+    "clear": "Effacer",
+    "submit": "Trouver le fichier →",
+    "loadingCta": "Vérification…",
+    "loadingLabel": "Recherche de la publication",
+    "loadingHint": "Cela prend généralement environ 10 secondes.",
+    "privacyNote": "Sans connexion ni stockage vidéo",
+    "trySample": "Essayer un exemple public",
+    "pasteFailed": "Impossible de lire le presse-papiers. Collez le lien manuellement.",
+    "errorEmpty": "Collez un lien de publication Telegram.",
+    "errorInvalid": "Entrez une URL publique Telegram valide, comme https://t.me/channel/123.",
+    "resultTitle": "Ce lien nécessite Telegram Web",
+    "resultBody": "La recherche publique est limitée. Installez l’extension Chrome et ouvrez le chat dans Telegram Web pour télécharger les médias déjà visibles.",
+    "resultCta": "Utiliser l’extension Chrome",
+    "bannerTitle": "Télécharger des vidéos privées ou plusieurs fichiers ?",
+    "bannerBody": "L’extension Chrome fonctionne avec les médias visibles dans votre session Telegram Web et ajoute le téléchargement par lots.",
+    "bannerCta": "Obtenir l’extension"
+  },
   "features": {
     "title": "Ce que propose l’extension",
     "subtitle": "Les mêmes points forts que sur le Chrome Web Store — ce site présente seulement le produit",

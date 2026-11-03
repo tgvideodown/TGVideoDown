@@ -48,6 +48,31 @@
       "seeAll": "Все отзывы"
     }
   },
+  "onlineTool": {
+    "kicker": "Онлайн-инструмент",
+    "freeBadge": "Бесплатно",
+    "title": "Вставьте публичную ссылку на пост Telegram",
+    "lead": "Проверьте публичный URL здесь. Приватные чаты и большинство ограниченных медиа по-прежнему требуют расширение Chrome в Telegram Web.",
+    "inputLabel": "URL поста Telegram",
+    "placeholder": "https://t.me/channel/123",
+    "paste": "Вставить",
+    "clear": "Очистить",
+    "submit": "Найти файл →",
+    "loadingCta": "Проверка…",
+    "loadingLabel": "Ищем пост",
+    "loadingHint": "Обычно это занимает около 10 секунд.",
+    "privacyNote": "Без входа и без хранения видео",
+    "trySample": "Попробовать публичный пример",
+    "pasteFailed": "Не удалось прочитать буфер. Вставьте ссылку вручную.",
+    "errorEmpty": "Вставьте ссылку на пост Telegram.",
+    "errorInvalid": "Введите корректный публичный URL Telegram, например https://t.me/channel/123.",
+    "resultTitle": "Этой ссылке нужен Telegram Web",
+    "resultBody": "Публичный поиск ограничен. Установите расширение Chrome и откройте чат в Telegram Web, чтобы скачать уже доступные медиа.",
+    "resultCta": "Использовать расширение Chrome",
+    "bannerTitle": "Скачиваете приватные или несколько видео?",
+    "bannerBody": "Расширение Chrome работает с медиа из сессии Telegram Web и добавляет пакетную загрузку.",
+    "bannerCta": "Получить расширение"
+  },
   "features": {
     "title": "Что даёт расширение",
     "subtitle": "Те же пункты, что в Chrome Web Store — этот сайт только представляет продукт",

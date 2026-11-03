@@ -48,6 +48,31 @@
       "seeAll": "Xem mọi đánh giá"
     }
   },
+  "onlineTool": {
+    "kicker": "Công cụ trực tuyến",
+    "freeBadge": "Miễn phí",
+    "title": "Dán liên kết bài đăng Telegram công khai",
+    "lead": "Kiểm tra URL bài đăng công khai tại đây. Chat riêng và hầu hết nội dung hạn chế vẫn cần tiện ích Chrome trên Telegram Web.",
+    "inputLabel": "URL bài đăng Telegram",
+    "placeholder": "https://t.me/channel/123",
+    "paste": "Dán",
+    "clear": "Xóa",
+    "submit": "Tìm tệp →",
+    "loadingCta": "Đang kiểm tra…",
+    "loadingLabel": "Đang tìm bài đăng",
+    "loadingHint": "Thường mất khoảng 10 giây.",
+    "privacyNote": "Không đăng nhập và không lưu video",
+    "trySample": "Thử mẫu công khai",
+    "pasteFailed": "Không đọc được clipboard. Hãy dán liên kết thủ công.",
+    "errorEmpty": "Hãy dán liên kết bài đăng Telegram.",
+    "errorInvalid": "Nhập URL bài đăng Telegram công khai hợp lệ, ví dụ https://t.me/channel/123.",
+    "resultTitle": "Liên kết này cần Telegram Web",
+    "resultBody": "Tra cứu công khai bị giới hạn. Cài tiện ích Chrome và mở chat trên Telegram Web để tải media bạn đã xem được.",
+    "resultCta": "Dùng tiện ích Chrome",
+    "bannerTitle": "Tải video riêng tư hoặc nhiều video?",
+    "bannerBody": "Tiện ích Chrome xử lý media hiển thị trong phiên Telegram Web và hỗ trợ tải hàng loạt.",
+    "bannerCta": "Nhận tiện ích"
+  },
   "features": {
     "title": "Tiện ích mang lại gì",
     "subtitle": "Giống điểm nổi bật trên Chrome Web Store — trang này chỉ giới thiệu sản phẩm",

@@ -48,6 +48,31 @@
       "seeAll": "Tüm yorumları gör"
     }
   },
+  "onlineTool": {
+    "kicker": "Çevrimiçi araç",
+    "freeBadge": "Ücretsiz",
+    "title": "Herkese açık bir Telegram gönderi bağlantısı yapıştırın",
+    "lead": "Burada herkese açık bir gönderi URL’sini kontrol edin. Özel sohbetler ve çoğu kısıtlı medya için Telegram Web’de Chrome uzantısı gerekir.",
+    "inputLabel": "Telegram gönderi URL’si",
+    "placeholder": "https://t.me/channel/123",
+    "paste": "Yapıştır",
+    "clear": "Temizle",
+    "submit": "Dosyayı bul →",
+    "loadingCta": "Kontrol ediliyor…",
+    "loadingLabel": "Gönderi aranıyor",
+    "loadingHint": "Genellikle yaklaşık 10 saniye sürer.",
+    "privacyNote": "Giriş yok ve video saklanmaz",
+    "trySample": "Herkese açık örneği dene",
+    "pasteFailed": "Pano okunamadı. Bağlantıyı elle yapıştırın.",
+    "errorEmpty": "Lütfen bir Telegram gönderi bağlantısı yapıştırın.",
+    "errorInvalid": "https://t.me/channel/123 gibi geçerli bir herkese açık Telegram URL’si girin.",
+    "resultTitle": "Bu bağlantı Telegram Web gerektirir",
+    "resultBody": "Herkese açık sorgulama sınırlıdır. Chrome uzantısını kurun ve Telegram Web’de sohbeti açarak zaten görebildiğiniz medyayı indirin.",
+    "resultCta": "Chrome uzantısını kullan",
+    "bannerTitle": "Özel veya birden fazla video mu indiriyorsunuz?",
+    "bannerBody": "Chrome uzantısı Telegram Web oturumunuzda görünen medyayla çalışır ve toplu indirme ekler.",
+    "bannerCta": "Uzantıyı al"
+  },
   "features": {
     "title": "Uzantının sundukları",
     "subtitle": "Chrome Web Mağazası'ndakiyle aynı öne çıkanlar — bu site yalnızca ürünü tanıtır",

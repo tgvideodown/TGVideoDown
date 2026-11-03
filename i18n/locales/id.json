@@ -48,6 +48,31 @@
       "seeAll": "Lihat semua ulasan"
     }
   },
+  "onlineTool": {
+    "kicker": "Alat online",
+    "freeBadge": "Gratis",
+    "title": "Tempel tautan postingan Telegram publik",
+    "lead": "Periksa URL postingan publik di sini. Obrolan privat dan sebagian besar media terbatas tetap membutuhkan ekstensi Chrome di Telegram Web.",
+    "inputLabel": "URL postingan Telegram",
+    "placeholder": "https://t.me/channel/123",
+    "paste": "Tempel",
+    "clear": "Hapus",
+    "submit": "Cari file →",
+    "loadingCta": "Memeriksa…",
+    "loadingLabel": "Mencari postingan",
+    "loadingHint": "Biasanya sekitar 10 detik.",
+    "privacyNote": "Tanpa login dan tanpa menyimpan video",
+    "trySample": "Coba contoh publik",
+    "pasteFailed": "Tidak bisa membaca papan klip. Tempel tautan secara manual.",
+    "errorEmpty": "Tempel tautan postingan Telegram.",
+    "errorInvalid": "Masukkan URL postingan Telegram publik yang valid, seperti https://t.me/channel/123.",
+    "resultTitle": "Tautan ini membutuhkan Telegram Web",
+    "resultBody": "Pencarian publik terbatas. Pasang ekstensi Chrome dan buka chat di Telegram Web untuk mengunduh media yang sudah bisa Anda lihat.",
+    "resultCta": "Gunakan ekstensi Chrome",
+    "bannerTitle": "Mengunduh video privat atau banyak video?",
+    "bannerBody": "Ekstensi Chrome bekerja dengan media yang terlihat di sesi Telegram Web Anda dan menambah kontrol batch.",
+    "bannerCta": "Dapatkan ekstensi"
+  },
   "features": {
     "title": "Yang ditawarkan ekstensi",
     "subtitle": "Sama seperti di Chrome Web Store — situs ini hanya memperkenalkan produk",

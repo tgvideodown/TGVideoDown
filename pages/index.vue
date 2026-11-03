@@ -2,6 +2,13 @@
   <div class="pt-16">
     <!-- Hero Section -->
     <HeroSection />
+
+    <!-- Online tool (peek into first viewport) -->
+    <OnlineToolSection />
+
+    <div class="container-custom pb-10 md:pb-12">
+      <StoreProof />
+    </div>
     
     <!-- Features Section -->
     <FeaturesSection />

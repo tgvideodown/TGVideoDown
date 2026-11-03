@@ -1,5 +1,6 @@
 const articlePaths = {
   main: '/blog/telegram-video-downloader-guide',
+  restricted: '/blog/download-telegram-restricted-videos',
   howTo: '/how-to-download-telegram-videos',
   privateChannel: '/download-telegram-private-channel-video',
   telegramWeb: '/telegram-web-download-files',
@@ -45,6 +46,14 @@ export const blogLocaleContent = {
           path: articlePaths.main,
           description:
             'A complete guide to installing TGVideoDown, opening Telegram Web, and saving videos or files from Chrome.'
+        },
+        {
+          category: 'Restricted saving',
+          intent: 'Can’t save',
+          title: 'How to Download Restricted Telegram Videos',
+          path: articlePaths.restricted,
+          description:
+            'Photos, academic PDFs, channel clips, and adult media when Telegram hides the save button — desktop export with TGVideoDown.'
         },
         {
           category: 'Tutorial',
@@ -233,6 +242,14 @@ export const blogLocaleContent = {
           title: 'Telegram 视频下载器指南',
           path: articlePaths.main,
           description: '完整说明如何安装 TGVideoDown、打开 Telegram Web，并从 Chrome 保存视频或文件。'
+        },
+        {
+          category: '不可保存',
+          intent: '限制保存',
+          title: '如何在 Telegram 下载不可保存的视频',
+          path: articlePaths.restricted,
+          description:
+            '图片、学术 PDF、频道短视频与成人向片源：当 Telegram 关掉保存按钮时，用 TGVideoDown 在桌面导出。'
         },
         {
           category: '教程',
@@ -1453,9 +1470,48 @@ const guideFromIndex = (localePack, locale) => {
   }
 }
 
+const restrictedArticleByLocale = {
+  en: {
+    category: 'Restricted saving',
+    intent: 'Can’t save',
+    title: 'How to Download Restricted Telegram Videos',
+    path: articlePaths.restricted,
+    description:
+      'Photos, academic PDFs, channel clips, and adult media when Telegram hides the save button — desktop export with TGVideoDown.'
+  },
+  cn: {
+    category: '不可保存',
+    intent: '限制保存',
+    title: '如何在 Telegram 下载不可保存的视频',
+    path: articlePaths.restricted,
+    description:
+      '图片、学术 PDF、频道短视频与成人向片源：当 Telegram 关掉保存按钮时，用 TGVideoDown 在桌面导出。'
+  },
+  tw: {
+    category: '不可儲存',
+    intent: '限制儲存',
+    title: '如何在 Telegram 下載不可儲存的影片',
+    path: articlePaths.restricted,
+    description:
+      '圖片、學術 PDF、頻道短影音與成人向片源：當 Telegram 關閉儲存按鈕時，用 TGVideoDown 在桌面匯出。'
+  }
+}
+
+function withRestrictedArticle(locale, articles = []) {
+  const card = restrictedArticleByLocale[locale] || restrictedArticleByLocale.en
+  const withoutDup = articles.filter((item) => item.path !== articlePaths.restricted)
+  if (!withoutDup.length) return [card]
+  const [first, ...rest] = withoutDup
+  return [first, card, ...rest]
+}
+
 export const getBlogLocaleContent = (locale) => {
   const localePack = blogLocaleContent[locale] || blogLocaleContent.en
   const fallback = blogLocaleContent.en
+  const mergedIndex = {
+    ...fallback.index,
+    ...localePack.index
+  }
 
   return {
     common: {
@@ -1463,8 +1519,8 @@ export const getBlogLocaleContent = (locale) => {
       ...localePack.common
     },
     index: {
-      ...fallback.index,
-      ...localePack.index
+      ...mergedIndex,
+      articles: withRestrictedArticle(locale, mergedIndex.articles)
     },
     guide: {
       ...fallback.guide,

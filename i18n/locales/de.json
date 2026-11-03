@@ -48,6 +48,31 @@
       "seeAll": "Alle Bewertungen ansehen"
     }
   },
+  "onlineTool": {
+    "kicker": "Online-Tool",
+    "freeBadge": "Kostenlos",
+    "title": "Öffentlichen Telegram-Beitragslink einfügen",
+    "lead": "Prüfe hier eine öffentliche Beitrags-URL. Private Chats und die meisten eingeschränkten Medien brauchen weiterhin die Chrome-Erweiterung in Telegram Web.",
+    "inputLabel": "Telegram-Beitrags-URL",
+    "placeholder": "https://t.me/channel/123",
+    "paste": "Einfügen",
+    "clear": "Löschen",
+    "submit": "Datei finden →",
+    "loadingCta": "Prüfen…",
+    "loadingLabel": "Beitrag wird gesucht",
+    "loadingHint": "Das dauert meist etwa 10 Sekunden.",
+    "privacyNote": "Kein Login und keine Videospeicherung",
+    "trySample": "Öffentliches Beispiel testen",
+    "pasteFailed": "Zwischenablage konnte nicht gelesen werden. Link manuell einfügen.",
+    "errorEmpty": "Bitte einen Telegram-Beitragslink einfügen.",
+    "errorInvalid": "Bitte eine gültige öffentliche Telegram-URL eingeben, z. B. https://t.me/channel/123.",
+    "resultTitle": "Dieser Link braucht Telegram Web",
+    "resultBody": "Die öffentliche Abfrage ist begrenzt. Installiere die Chrome-Erweiterung und öffne den Chat in Telegram Web, um sichtbare Medien herunterzuladen.",
+    "resultCta": "Chrome-Erweiterung nutzen",
+    "bannerTitle": "Private oder mehrere Videos laden?",
+    "bannerBody": "Die Chrome-Erweiterung arbeitet mit Medien aus deiner Telegram-Web-Sitzung und bietet Batch-Steuerung.",
+    "bannerCta": "Erweiterung holen"
+  },
   "features": {
     "title": "Was die Erweiterung bietet",
     "subtitle": "Wie im Chrome Web Store — diese Website stellt nur das Produkt vor",

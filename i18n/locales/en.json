@@ -48,6 +48,31 @@
       "seeAll": "See all reviews"
     }
   },
+  "onlineTool": {
+    "kicker": "Online tool",
+    "freeBadge": "Free",
+    "title": "Paste a public Telegram post link",
+    "lead": "Check a public post URL here. Private chats and most restricted media still need the Chrome extension on Telegram Web.",
+    "inputLabel": "Telegram post URL",
+    "placeholder": "https://t.me/channel/123",
+    "paste": "Paste",
+    "clear": "Clear",
+    "submit": "Find file →",
+    "loadingCta": "Checking…",
+    "loadingLabel": "Looking up the post",
+    "loadingHint": "This usually takes about 10 seconds.",
+    "privacyNote": "No login and no video storage",
+    "trySample": "Try a public sample",
+    "pasteFailed": "Could not read the clipboard. Paste the link manually.",
+    "errorEmpty": "Please paste a Telegram post link.",
+    "errorInvalid": "Please enter a valid public Telegram post URL, like https://t.me/channel/123.",
+    "resultTitle": "This link needs Telegram Web",
+    "resultBody": "Public page lookup is limited. Install the Chrome extension and open the chat in Telegram Web to download the media you can already see.",
+    "resultCta": "Use the Chrome extension",
+    "bannerTitle": "Downloading private or multiple videos?",
+    "bannerBody": "The Chrome extension works with media visible in your Telegram Web session and adds batch controls.",
+    "bannerCta": "Get the extension"
+  },
   "features": {
     "title": "What the extension offers",
     "subtitle": "Same highlights as on the Chrome Web Store — this site only introduces the product",

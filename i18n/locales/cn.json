@@ -48,6 +48,31 @@
       "seeAll": "查看全部评论"
     }
   },
+  "onlineTool": {
+    "kicker": "在线工具",
+    "freeBadge": "免费",
+    "title": "粘贴公开 Telegram 帖子链接",
+    "lead": "在这里检查公开帖子链接。私密聊天和多数受限媒体仍需在 Telegram Web 中使用 Chrome 扩展。",
+    "inputLabel": "Telegram 帖子链接",
+    "placeholder": "https://t.me/channel/123",
+    "paste": "粘贴",
+    "clear": "清除",
+    "submit": "查找文件 →",
+    "loadingCta": "检查中…",
+    "loadingLabel": "正在查找帖子",
+    "loadingHint": "大约需要 10 秒。",
+    "privacyNote": "无需登录，不存储视频",
+    "trySample": "试用公开示例",
+    "pasteFailed": "无法读取剪贴板，请手动粘贴链接。",
+    "errorEmpty": "请粘贴 Telegram 帖子链接。",
+    "errorInvalid": "请输入有效的公开 Telegram 帖子链接，例如 https://t.me/channel/123。",
+    "resultTitle": "此链接需要 Telegram Web",
+    "resultBody": "网页公开查询能力有限。请安装 Chrome 扩展，并在 Telegram Web 中打开对应聊天，下载你已经能看到的媒体。",
+    "resultCta": "使用 Chrome 扩展",
+    "bannerTitle": "要下载私密或批量视频？",
+    "bannerBody": "Chrome 扩展可处理你在 Telegram Web 会话中可见的媒体，并支持批量操作。",
+    "bannerCta": "获取扩展"
+  },
   "features": {
     "title": "扩展能做什么",
     "subtitle": "与 Chrome 网上应用店介绍一致 — 本站仅作产品说明",

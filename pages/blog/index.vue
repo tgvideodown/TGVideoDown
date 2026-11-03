@@ -101,7 +101,7 @@ useSeoMeta({
   ogUrl: () => canonical.value,
   twitterCard: 'summary_large_image',
   keywords:
-    'telegram video downloader blog, how to download telegram video, telegram web download files, download telegram private channel video'
+    'telegram video downloader blog, download restricted telegram video, how to download telegram video, telegram web download files, download telegram private channel video'
 })
 
 useHead({

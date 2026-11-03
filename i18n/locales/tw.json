@@ -48,6 +48,31 @@
       "seeAll": "查看全部評論"
     }
   },
+  "onlineTool": {
+    "kicker": "線上工具",
+    "freeBadge": "免費",
+    "title": "貼上公開 Telegram 貼文連結",
+    "lead": "在此檢查公開貼文連結。私人聊天與多數受限媒體仍需在 Telegram Web 使用 Chrome 擴充功能。",
+    "inputLabel": "Telegram 貼文連結",
+    "placeholder": "https://t.me/channel/123",
+    "paste": "貼上",
+    "clear": "清除",
+    "submit": "尋找檔案 →",
+    "loadingCta": "檢查中…",
+    "loadingLabel": "正在尋找貼文",
+    "loadingHint": "大約需要 10 秒。",
+    "privacyNote": "無需登入，不儲存影片",
+    "trySample": "試用公開範例",
+    "pasteFailed": "無法讀取剪貼簿，請手動貼上連結。",
+    "errorEmpty": "請貼上 Telegram 貼文連結。",
+    "errorInvalid": "請輸入有效的公開 Telegram 貼文連結，例如 https://t.me/channel/123。",
+    "resultTitle": "此連結需要 Telegram Web",
+    "resultBody": "網頁公開查詢能力有限。請安裝 Chrome 擴充功能，並在 Telegram Web 開啟對應聊天，下載你已能看到的媒體。",
+    "resultCta": "使用 Chrome 擴充功能",
+    "bannerTitle": "要下載私人或批量影片？",
+    "bannerBody": "Chrome 擴充功能可處理你在 Telegram Web 工作階段中可見的媒體，並支援批量操作。",
+    "bannerCta": "取得擴充功能"
+  },
   "features": {
     "title": "擴充功能能做什麼",
     "subtitle": "與 Chrome 線上應用程式商店介紹一致 — 本站僅作產品說明",
