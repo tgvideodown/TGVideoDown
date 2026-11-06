@@ -21,6 +21,10 @@
     {
       "binding": "BILLING_TGDOWNLOAD",
       "service": "tg-downloader-billing"
+    },
+    {
+      "binding": "SITE_IGWEB",
+      "service": "ig-exporter-api"
     }
   ],
   "vars": {

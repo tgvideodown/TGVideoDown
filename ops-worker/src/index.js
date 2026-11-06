@@ -99,6 +99,14 @@ function builtinProducts(env) {
       token: env.TOKEN_TGDOWNLOAD || '',
       binding: 'BILLING_TGDOWNLOAD',
     }),
+    normalizeProduct({
+      id: 'igweb',
+      name: 'IG Exporter 官网',
+      kind: 'site',
+      summaryUrl: 'https://api.ig-exporter.com/v1/analytics/summary',
+      token: env.TOKEN_IGWEB || '',
+      binding: 'SITE_IGWEB',
+    }),
   ]
 }
 
@@ -123,6 +131,7 @@ function normalizeProduct(p) {
   return {
     id: String(p.id || '').trim(),
     name: String(p.name || p.id || 'Product').trim(),
+    kind: p.kind === 'site' ? 'site' : 'extension',
     summaryUrl: String(p.summaryUrl || '').trim(),
     token: String(p.token || '').trim(),
     binding: String(p.binding || '').trim(),
@@ -363,7 +372,7 @@ function renderLogin(error = '') {
 }
 
 async function renderDashboard(env) {
-  const products = getProducts(env).map((p) => ({ id: p.id, name: p.name }))
+  const products = getProducts(env).map((p) => ({ id: p.id, name: p.name, kind: p.kind }))
   const boot = JSON.stringify(products).replace(/</g, '\\u003c')
 
   return `<!doctype html>
@@ -507,12 +516,16 @@ async function renderDashboard(env) {
       })
     }
 
+    function isSite() {
+      const product = products.find((item) => item.id === currentId)
+      return Boolean(product && product.kind === 'site')
+    }
+
     function renderViews() {
       viewsEl.replaceChildren()
-      ;[
-        ['stats', '日志'],
-        ['payments', '支付'],
-      ].forEach(([id, label]) => {
+      if (isSite()) view = 'stats'
+      const tabs = isSite() ? [['stats', '日志']] : [['stats', '日志'], ['payments', '支付']]
+      tabs.forEach(([id, label]) => {
         const button = el('button', label, 'tab' + (view === id ? ' active' : ''))
         button.type = 'button'
         button.addEventListener('click', () => {
@@ -552,6 +565,10 @@ async function renderDashboard(env) {
       }
       if (!summary.ok) {
         summaryEl.appendChild(el('p', '拉取失败：' + (summary.error || 'unknown'), 'err'))
+        return
+      }
+      if (isSite()) {
+        renderSiteSummary()
         return
       }
       const today = summary.today || {}
@@ -635,6 +652,218 @@ async function renderDashboard(env) {
 
     function evCount(events, name) {
       return Number(events && events[name] || 0)
+    }
+
+    const SITE_PAGES = {
+      home: '首页',
+      features: '功能',
+      pricing: '价格',
+      quick_start: '快速上手',
+      supported_fields: '字段说明',
+      troubleshooting: '故障排查',
+      support: '支持',
+      blog: '博客列表',
+      blog_post: '博客文章',
+      engagement: '互动率计算器',
+      uninstall: 'IG 插件卸载页',
+      fb_home: 'FB 下载器落地页',
+      fb_uninstall: 'FB 插件卸载页',
+      legal: '隐私 / 条款',
+      other: '其他',
+    }
+    const SITE_STORES = { chrome: 'Chrome 商店', edge: 'Edge 商店', facebook: 'FB 下载器' }
+    const SITE_PLACEMENTS = {
+      header: '顶栏',
+      menu: '手机菜单',
+      hero: '首屏',
+      cta: '页尾横幅',
+      page: '正文',
+      lookup: '查询结果',
+      uninstall: '卸载页',
+    }
+    const SITE_REASONS = {
+      username_required: '用户名为空或无效',
+      profile_not_found: '账号不存在',
+      hiker_insufficient_funds: 'Hiker 余额不足',
+      hiker_request_failed: 'Hiker 请求失败',
+      hiker_not_configured: 'Hiker 未配置',
+      rate_limited_hour: '超出每小时次数',
+      rate_limited_day: '超出每日次数',
+      rate_limited_global: '超出全站每日上限',
+      rate_limited_insight: '超出 AI 点评次数',
+      turnstile_required: '未通过人机验证',
+      turnstile_failed: '人机验证失败',
+      deepseek_not_configured: 'DeepSeek 未配置',
+      deepseek_failed: 'DeepSeek 出错',
+      followers_and_rate_required: '手动输入缺数据',
+      other: '其他错误',
+    }
+    const SITE_LOCALES = { en: 'English', es: 'Español', pt: 'Português', ja: '日本語', ko: '한국어', cn: '中文' }
+
+    function sitePageCount(row, page) {
+      const pages = (((row.breakdown || {}).page_view || {}).page) || {}
+      return Number(pages[page] || 0)
+    }
+
+    function mergedPairs(breakdown, sources, labels) {
+      const totals = {}
+      sources.forEach(([event, dim]) => {
+        const values = (((breakdown || {})[event] || {})[dim]) || {}
+        Object.keys(values).forEach((key) => {
+          totals[key] = (totals[key] || 0) + Number(values[key] || 0)
+        })
+      })
+      return Object.keys(totals)
+        .sort((a, b) => totals[b] - totals[a])
+        .map((key) => [labels[key] || key, totals[key]])
+    }
+
+    function renderSiteSummary() {
+      const today = summary.today || {}
+      const events = today.events || {}
+      const breakdown = today.breakdown || {}
+      const head = el('div', '', 'head')
+      head.append(el('h2', summary.name || currentId), el('span', '在线 ' + (summary.onlineNow || 0), 'pill'))
+      const grid = el('div', '', 'grid')
+      ;[
+        ['今日访客', today.dau || 0],
+        ['新访客', today.newInstalls || 0],
+        ['浏览量', evCount(events, 'page_view')],
+        ['安装点击', evCount(events, 'install_click')],
+        ['账号查询', evCount(events, 'lookup_start')],
+        ['查询成功', evCount(events, 'lookup_success')],
+        ['互动率分析', evCount(events, 'analyze_start')],
+        ['分析成功', evCount(events, 'analyze_success')],
+        ['手动算 AI 点评', evCount(events, 'insight_success')],
+        ['卸载页访问', sitePageCount(today, 'uninstall') + sitePageCount(today, 'fb_uninstall')],
+        ['昨日也来过', today.returning1 || 0],
+        ['7 天前也来过', today.returning7 || 0],
+      ].forEach(([label, value]) => grid.appendChild(plainMetric(label, Number(value) || 0)))
+      summaryEl.append(head, grid)
+
+      summaryEl.appendChild(el('h3', '今日转化'))
+      summaryEl.appendChild(steps([
+        ['访客', today.dau || 0],
+        ['浏览', evCount(events, 'page_view')],
+        ['安装点击', evCount(events, 'install_click')],
+      ]))
+      summaryEl.appendChild(steps([
+        ['账号查询', evCount(events, 'lookup_start')],
+        ['查询成功', evCount(events, 'lookup_success')],
+        ['查询后点安装', Number(breakdown.install_click?.placement?.lookup || 0)],
+      ]))
+      summaryEl.appendChild(steps([
+        ['互动率分析', evCount(events, 'analyze_start')],
+        ['分析成功', evCount(events, 'analyze_success')],
+        ['带 AI 点评', Number(breakdown.analyze_success?.insight?.['1'] || 0)],
+      ]))
+      summaryEl.appendChild(el('p', '访客按浏览器里的匿名编号去重，同一个人换浏览器或清缓存会算新访客。查询和分析在服务端计数，包含被人机验证和限流拦下的请求；缓存命中不消耗 Hiker 额度。安装点击只是点了商店按钮，不等于装上。', 'note'))
+
+      const first = el('div', '', 'split')
+      first.append(
+        dimTable('各页面浏览', mergedPairs(breakdown, [['page_view', 'page']], SITE_PAGES)),
+        dimTable('安装点击', [
+          ...mergedPairs(breakdown, [['install_click', 'store']], SITE_STORES),
+          ...mergedPairs(breakdown, [['install_click', 'placement']], SITE_PLACEMENTS),
+        ]),
+      )
+      const second = el('div', '', 'split')
+      second.append(
+        dimTable('账号查询失败原因', mergedPairs(breakdown, [['lookup_failed', 'reason']], SITE_REASONS)),
+        dimTable('互动率分析失败原因', mergedPairs(breakdown, [['analyze_failed', 'reason'], ['insight_failed', 'reason']], SITE_REASONS)),
+      )
+      const third = el('div', '', 'split')
+      third.append(
+        dimTable('缓存命中', [
+          ...mergedPairs(breakdown, [['lookup_success', 'cache']], { hit: '查询 · 命中缓存', miss: '查询 · 实时拉取' }),
+          ...mergedPairs(breakdown, [['analyze_success', 'cache']], { hit: '分析 · 命中缓存', miss: '分析 · 实时拉取' }),
+          ...mergedPairs(breakdown, [['lookup_success', 'result'], ['analyze_success', 'result']], { private: '私密账号', public: '公开账号' }),
+        ]),
+        dimTable('浏览语言', mergedPairs(breakdown, [['page_view', 'locale']], SITE_LOCALES)),
+      )
+      summaryEl.append(first, second, third)
+
+      const days = summary.days || []
+      summaryEl.appendChild(el('h3', '近 30 日趋势'))
+      summaryEl.appendChild(lineChartBox(days, [
+        { name: '访客', color: '#409eff', pick: (d) => d.dau },
+        { name: '账号查询', color: '#67c23a', pick: (d) => evCount(d.events, 'lookup_start') },
+        { name: '互动率分析', color: '#e6a23c', pick: (d) => evCount(d.events, 'analyze_start') },
+        { name: '安装点击', color: '#f56c6c', pick: (d) => evCount(d.events, 'install_click') },
+      ]))
+
+      summaryEl.appendChild(el('h3', '按日'))
+      const columns = ['日期', '访客', '新访客', '浏览', '账号查询', '互动率分析', '安装点击', '卸载页']
+      const table = document.createElement('table')
+      const thead = document.createElement('thead')
+      const hr = document.createElement('tr')
+      columns.forEach((name) => hr.appendChild(el('th', name)))
+      thead.appendChild(hr)
+      const tbody = document.createElement('tbody')
+      const slice = days.slice((dayPage - 1) * PAGE, dayPage * PAGE)
+      if (!slice.length) {
+        const tr = document.createElement('tr')
+        const td = el('td', '暂无')
+        td.colSpan = columns.length
+        tr.appendChild(td)
+        tbody.appendChild(tr)
+      }
+      slice.forEach((day) => {
+        const tr = document.createElement('tr')
+        ;[
+          day.day || '',
+          day.dau || 0,
+          day.newInstalls || 0,
+          evCount(day.events, 'page_view'),
+          evCount(day.events, 'lookup_start'),
+          evCount(day.events, 'analyze_start'),
+          evCount(day.events, 'install_click'),
+          sitePageCount(day, 'uninstall') + sitePageCount(day, 'fb_uninstall'),
+        ].forEach((value) => tr.appendChild(el('td', String(value))))
+        tbody.appendChild(tr)
+      })
+      table.append(thead, tbody)
+      summaryEl.append(table, pager(dayPage, days.length, (page) => {
+        dayPage = page
+        renderSummary()
+      }))
+    }
+
+    function steps(list) {
+      const row = el('div', '', 'funnel')
+      list.forEach(([label, value], index) => {
+        if (index) row.appendChild(el('span', '→', 'arrow'))
+        const step = el('div', '', 'step')
+        step.append(el('div', label, 'label'), el('div', String(Number(value) || 0), 'value'))
+        row.appendChild(step)
+      })
+      return row
+    }
+
+    function lineChartBox(days, defs) {
+      const wrap = el('div', '', 'chart-box')
+      if (!days.length) {
+        wrap.appendChild(el('p', '暂无趋势数据', 'note'))
+        return wrap
+      }
+      const points = days.slice().reverse()
+      const series = defs.map((def) => ({
+        name: def.name,
+        color: def.color,
+        values: points.map((d) => Number(def.pick(d) || 0)),
+      }))
+      const legend = el('div', '', 'chart-legend')
+      series.forEach((item) => {
+        const chip = el('span', item.name)
+        const dot = document.createElement('i')
+        dot.style.background = item.color
+        chip.prepend(dot)
+        legend.appendChild(chip)
+      })
+      const canvas = document.createElement('canvas')
+      wrap.append(legend, canvas)
+      requestAnimationFrame(() => drawLineChart(canvas, points.map((d) => d.day || ''), series))
+      return wrap
     }
 
     function funnel(events, paid) {
@@ -896,7 +1125,7 @@ async function renderDashboard(env) {
       const resp = await fetch('/api/summary?product=' + encodeURIComponent(currentId) + '&days=30')
       summary = await resp.json()
       renderSummary()
-      loadPayments()
+      if (!isSite()) loadPayments()
     }
 
     async function fetchRecords(kind, page) {
@@ -1098,6 +1327,8 @@ async function renderDashboard(env) {
       currentId = productEl.value
       dayPage = 1
       paymentPage = 1
+      renderViews()
+      applyView()
       loadSummary()
     })
     renderViews()
