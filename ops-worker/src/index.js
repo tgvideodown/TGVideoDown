@@ -669,6 +669,10 @@ async function renderDashboard(env) {
       fb_home: 'FB 下载器落地页',
       fb_uninstall: 'FB 插件卸载页',
       legal: '隐私 / 条款',
+      about: '关于我们',
+      guide_following: '指南 · 导出关注列表',
+      guide_excel: '指南 · 导出到 Excel',
+      guide_compare: '指南 · 导出方法对比',
       other: '其他',
     }
     const SITE_STORES = { chrome: 'Chrome 商店', edge: 'Edge 商店', facebook: 'FB 下载器' }
@@ -679,6 +683,7 @@ async function renderDashboard(env) {
       cta: '页尾横幅',
       page: '正文',
       lookup: '查询结果',
+      list_preview: '名单预览下方',
       uninstall: '卸载页',
     }
     const SITE_REASONS = {
@@ -696,8 +701,13 @@ async function renderDashboard(env) {
       deepseek_not_configured: 'DeepSeek 未配置',
       deepseek_failed: 'DeepSeek 出错',
       followers_and_rate_required: '手动输入缺数据',
+      rate_limited_list: '超出每天 3 次预览',
+      rate_limited_list_global: '超出全站预览上限',
+      private_account: '私密账号',
+      list_type_required: '未选粉丝或关注',
       other: '其他错误',
     }
+    const SITE_LIST_TYPES = { followers: '粉丝', following: '关注' }
     const SITE_LOCALES = { en: 'English', es: 'Español', pt: 'Português', ja: '日本語', ko: '한국어', cn: '中文' }
 
     function sitePageCount(row, page) {
@@ -735,6 +745,9 @@ async function renderDashboard(env) {
         ['互动率分析', evCount(events, 'analyze_start')],
         ['分析成功', evCount(events, 'analyze_success')],
         ['手动算 AI 点评', evCount(events, 'insight_success')],
+        ['名单预览', evCount(events, 'list_start')],
+        ['预览成功', evCount(events, 'list_success')],
+        ['预览后点安装', Number(breakdown.install_click?.placement?.list_preview || 0)],
         ['卸载页访问', sitePageCount(today, 'uninstall') + sitePageCount(today, 'fb_uninstall')],
         ['昨日也来过', today.returning1 || 0],
         ['7 天前也来过', today.returning7 || 0],
@@ -756,6 +769,11 @@ async function renderDashboard(env) {
         ['互动率分析', evCount(events, 'analyze_start')],
         ['分析成功', evCount(events, 'analyze_success')],
         ['带 AI 点评', Number(breakdown.analyze_success?.insight?.['1'] || 0)],
+      ]))
+      summaryEl.appendChild(steps([
+        ['名单预览', evCount(events, 'list_start')],
+        ['预览成功', evCount(events, 'list_success')],
+        ['预览后点安装', Number(breakdown.install_click?.placement?.list_preview || 0)],
       ]))
       summaryEl.appendChild(el('p', '访客按浏览器里的匿名编号去重，同一个人换浏览器或清缓存会算新访客。查询和分析在服务端计数，包含被人机验证和限流拦下的请求；缓存命中不消耗 Hiker 额度。安装点击只是点了商店按钮，不等于装上。', 'note'))
 
@@ -781,7 +799,15 @@ async function renderDashboard(env) {
         ]),
         dimTable('浏览语言', mergedPairs(breakdown, [['page_view', 'locale']], SITE_LOCALES)),
       )
-      summaryEl.append(first, second, third)
+      const fourth = el('div', '', 'split')
+      fourth.append(
+        dimTable('名单预览', [
+          ...mergedPairs(breakdown, [['list_success', 'type']], SITE_LIST_TYPES),
+          ...mergedPairs(breakdown, [['list_success', 'cache']], { hit: '命中缓存', miss: '实时拉取（消耗 Hiker）' }),
+        ]),
+        dimTable('名单预览失败原因', mergedPairs(breakdown, [['list_failed', 'reason']], SITE_REASONS)),
+      )
+      summaryEl.append(first, second, third, fourth)
 
       const days = summary.days || []
       summaryEl.appendChild(el('h3', '近 30 日趋势'))
@@ -789,11 +815,12 @@ async function renderDashboard(env) {
         { name: '访客', color: '#409eff', pick: (d) => d.dau },
         { name: '账号查询', color: '#67c23a', pick: (d) => evCount(d.events, 'lookup_start') },
         { name: '互动率分析', color: '#e6a23c', pick: (d) => evCount(d.events, 'analyze_start') },
+        { name: '名单预览', color: '#9b59b6', pick: (d) => evCount(d.events, 'list_start') },
         { name: '安装点击', color: '#f56c6c', pick: (d) => evCount(d.events, 'install_click') },
       ]))
 
       summaryEl.appendChild(el('h3', '按日'))
-      const columns = ['日期', '访客', '新访客', '浏览', '账号查询', '互动率分析', '安装点击', '卸载页']
+      const columns = ['日期', '访客', '新访客', '浏览', '账号查询', '互动率分析', '名单预览', '安装点击', '卸载页']
       const table = document.createElement('table')
       const thead = document.createElement('thead')
       const hr = document.createElement('tr')
@@ -817,6 +844,7 @@ async function renderDashboard(env) {
           evCount(day.events, 'page_view'),
           evCount(day.events, 'lookup_start'),
           evCount(day.events, 'analyze_start'),
+          evCount(day.events, 'list_start'),
           evCount(day.events, 'install_click'),
           sitePageCount(day, 'uninstall') + sitePageCount(day, 'fb_uninstall'),
         ].forEach((value) => tr.appendChild(el('td', String(value))))
