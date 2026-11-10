@@ -673,6 +673,10 @@ async function renderDashboard(env) {
       guide_following: '指南 · 导出关注列表',
       guide_excel: '指南 · 导出到 Excel',
       guide_compare: '指南 · 导出方法对比',
+      guide_export_tool: '商店名官方页',
+      tool_viewer: '工具 · 粉丝查看器',
+      tool_tracker: '工具 · 粉丝追踪器',
+      guide_recent: '指南 · 最近关注',
       other: '其他',
     }
     const SITE_STORES = { chrome: 'Chrome 商店', edge: 'Edge 商店', facebook: 'FB 下载器' }
@@ -684,6 +688,7 @@ async function renderDashboard(env) {
       page: '正文',
       lookup: '查询结果',
       list_preview: '名单预览下方',
+      compare: '对比工具下方',
       uninstall: '卸载页',
     }
     const SITE_REASONS = {
@@ -748,6 +753,7 @@ async function renderDashboard(env) {
         ['名单预览', evCount(events, 'list_start')],
         ['预览成功', evCount(events, 'list_success')],
         ['预览后点安装', Number(breakdown.install_click?.placement?.list_preview || 0)],
+        ['对比工具使用', evCount(events, 'compare_run')],
         ['卸载页访问', sitePageCount(today, 'uninstall') + sitePageCount(today, 'fb_uninstall')],
         ['昨日也来过', today.returning1 || 0],
         ['7 天前也来过', today.returning7 || 0],
