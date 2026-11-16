@@ -670,6 +670,9 @@ async function renderDashboard(env) {
       fb_uninstall: 'FB 插件卸载页',
       legal: '隐私 / 条款',
       about: '关于我们',
+      dashboard: '网站工作台',
+      tools_index: '免费工具列表',
+      tools_page: '免费工具详情',
       guide_following: '指南 · 导出关注列表',
       guide_excel: '指南 · 导出到 Excel',
       guide_compare: '指南 · 导出方法对比',
@@ -677,6 +680,11 @@ async function renderDashboard(env) {
       tool_viewer: '工具 · 粉丝查看器',
       tool_tracker: '工具 · 粉丝追踪器',
       guide_recent: '指南 · 最近关注',
+      tool_fonts: '工具 · 字体转换器',
+      guide_download_list: '长尾 · 下载粉丝名单',
+      guide_chrome_extension: '长尾 · Chrome 扩展导出',
+      guide_ig_export_extension: '长尾 · IG export extension',
+      guide_followers_export_tool: '长尾 · followers export tool',
       other: '其他',
     }
     const SITE_STORES = { chrome: 'Chrome 商店', edge: 'Edge 商店', facebook: 'FB 下载器' }
@@ -687,10 +695,16 @@ async function renderDashboard(env) {
       cta: '页尾横幅',
       page: '正文',
       lookup: '查询结果',
+      lookup_limit: '查询次数用尽',
       list_preview: '名单预览下方',
       compare: '对比工具下方',
       uninstall: '卸载页',
+      pricing: '价格页按钮',
+      free_tool: '免费工具页',
+      dashboard_paused: '工作台暂停提示',
     }
+    const SITE_DEVICES = { desktop: '电脑', mobile: '手机' }
+    const SITE_AFTER = { lookup: '查过主页后', list: '预览名单后', compare: '用过对比后' }
     const SITE_REASONS = {
       username_required: '用户名为空或无效',
       profile_not_found: '账号不存在',
@@ -733,10 +747,22 @@ async function renderDashboard(env) {
         .map((key) => [labels[key] || key, totals[key]])
     }
 
+    function installAfter(breakdown, key, fallbackPlacements) {
+      const byAfter = Number((((breakdown.install_click || {}).after) || {})[key] || 0)
+      if (byAfter) return byAfter
+      return fallbackPlacements.reduce(
+        (sum, placement) => sum + Number((((breakdown.install_click || {}).placement) || {})[placement] || 0),
+        0
+      )
+    }
+
     function renderSiteSummary() {
       const today = summary.today || {}
       const events = today.events || {}
       const breakdown = today.breakdown || {}
+      const lookupInstalls = installAfter(breakdown, 'lookup', ['lookup', 'lookup_limit'])
+      const previewInstalls = installAfter(breakdown, 'list', ['list_preview'])
+      const compareInstalls = installAfter(breakdown, 'compare', ['compare'])
       const head = el('div', '', 'head')
       head.append(el('h2', summary.name || currentId), el('span', '在线 ' + (summary.onlineNow || 0), 'pill'))
       const grid = el('div', '', 'grid')
@@ -752,8 +778,12 @@ async function renderDashboard(env) {
         ['手动算 AI 点评', evCount(events, 'insight_success')],
         ['名单预览', evCount(events, 'list_start')],
         ['预览成功', evCount(events, 'list_success')],
-        ['预览后点安装', Number(breakdown.install_click?.placement?.list_preview || 0)],
+        ['预览后点安装', previewInstalls],
+        ['预览名单下载', evCount(events, 'list_download')],
         ['对比工具使用', evCount(events, 'compare_run')],
+        ['对比结果下载', evCount(events, 'compare_download')],
+        ['上次以来新增触发', evCount(events, 'since_last')],
+        ['字体复制', evCount(events, 'font_copy')],
         ['卸载页访问', sitePageCount(today, 'uninstall') + sitePageCount(today, 'fb_uninstall')],
         ['昨日也来过', today.returning1 || 0],
         ['7 天前也来过', today.returning7 || 0],
@@ -769,7 +799,7 @@ async function renderDashboard(env) {
       summaryEl.appendChild(steps([
         ['账号查询', evCount(events, 'lookup_start')],
         ['查询成功', evCount(events, 'lookup_success')],
-        ['查询后点安装', Number(breakdown.install_click?.placement?.lookup || 0)],
+        ['查询后点安装', lookupInstalls],
       ]))
       summaryEl.appendChild(steps([
         ['互动率分析', evCount(events, 'analyze_start')],
@@ -779,16 +809,42 @@ async function renderDashboard(env) {
       summaryEl.appendChild(steps([
         ['名单预览', evCount(events, 'list_start')],
         ['预览成功', evCount(events, 'list_success')],
-        ['预览后点安装', Number(breakdown.install_click?.placement?.list_preview || 0)],
+        ['预览后点安装', previewInstalls],
       ]))
-      summaryEl.appendChild(el('p', '访客按浏览器里的匿名编号去重，同一个人换浏览器或清缓存会算新访客。查询和分析在服务端计数，包含被人机验证和限流拦下的请求；缓存命中不消耗 Hiker 额度。安装点击只是点了商店按钮，不等于装上。', 'note'))
+      summaryEl.appendChild(steps([
+        ['对比工具', evCount(events, 'compare_run')],
+        ['对比后点安装', compareInstalls],
+        ['对比结果下载', evCount(events, 'compare_download')],
+      ]))
+      summaryEl.appendChild(el('p', '访客按浏览器里的匿名编号去重，同一个人换浏览器或清缓存会算新访客。查询和分析在服务端计数，包含被人机验证和限流拦下的请求；缓存命中不消耗 Hiker 额度。安装点击只是点了商店按钮，不等于装上。重点看下面「按按钮位置」和「按所在页面」。商店链接已带 utm_campaign=页面、utm_content=按钮，可对照 Chrome/Edge 后台。', 'note'))
+
+      summaryEl.appendChild(el('h3', '安装点击归因'))
+      const installSplit = el('div', '', 'split')
+      installSplit.append(
+        dimTable('按按钮位置', mergedPairs(breakdown, [['install_click', 'placement']], SITE_PLACEMENTS)),
+        dimTable('按所在页面', mergedPairs(breakdown, [['install_click', 'page']], SITE_PAGES)),
+      )
+      const installSplit2 = el('div', '', 'split')
+      installSplit2.append(
+        dimTable('按商店', mergedPairs(breakdown, [['install_click', 'store']], SITE_STORES)),
+        dimTable('按设备', mergedPairs(breakdown, [['install_click', 'device']], SITE_DEVICES)),
+      )
+      const installSplit3 = el('div', '', 'split')
+      installSplit3.append(
+        dimTable('安装前做过什么', mergedPairs(breakdown, [['install_click', 'after']], SITE_AFTER)),
+        dimTable('名单/对比下载格式', [
+          ...mergedPairs(breakdown, [['list_download', 'format'], ['compare_download', 'format']], { csv: 'CSV', excel: 'Excel' }),
+          ...mergedPairs(breakdown, [['list_download', 'type']], SITE_LIST_TYPES),
+        ]),
+      )
+      summaryEl.append(installSplit, installSplit2, installSplit3)
 
       const first = el('div', '', 'split')
       first.append(
         dimTable('各页面浏览', mergedPairs(breakdown, [['page_view', 'page']], SITE_PAGES)),
-        dimTable('安装点击', [
-          ...mergedPairs(breakdown, [['install_click', 'store']], SITE_STORES),
-          ...mergedPairs(breakdown, [['install_click', 'placement']], SITE_PLACEMENTS),
+        dimTable('浏览语言 / 设备', [
+          ...mergedPairs(breakdown, [['page_view', 'locale']], SITE_LOCALES),
+          ...mergedPairs(breakdown, [['page_view', 'device']], SITE_DEVICES),
         ]),
       )
       const second = el('div', '', 'split')
@@ -803,15 +859,18 @@ async function renderDashboard(env) {
           ...mergedPairs(breakdown, [['analyze_success', 'cache']], { hit: '分析 · 命中缓存', miss: '分析 · 实时拉取' }),
           ...mergedPairs(breakdown, [['lookup_success', 'result'], ['analyze_success', 'result']], { private: '私密账号', public: '公开账号' }),
         ]),
-        dimTable('浏览语言', mergedPairs(breakdown, [['page_view', 'locale']], SITE_LOCALES)),
-      )
-      const fourth = el('div', '', 'split')
-      fourth.append(
         dimTable('名单预览', [
           ...mergedPairs(breakdown, [['list_success', 'type']], SITE_LIST_TYPES),
           ...mergedPairs(breakdown, [['list_success', 'cache']], { hit: '命中缓存', miss: '实时拉取（消耗 Hiker）' }),
         ]),
+      )
+      const fourth = el('div', '', 'split')
+      fourth.append(
         dimTable('名单预览失败原因', mergedPairs(breakdown, [['list_failed', 'reason']], SITE_REASONS)),
+        dimTable('预览下载', [
+          ...mergedPairs(breakdown, [['list_download', 'format']], { csv: 'CSV', excel: 'Excel' }),
+          ...mergedPairs(breakdown, [['list_download', 'type']], SITE_LIST_TYPES),
+        ]),
       )
       summaryEl.append(first, second, third, fourth)
 
