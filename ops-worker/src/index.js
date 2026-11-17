@@ -107,6 +107,13 @@ function builtinProducts(env) {
       token: env.TOKEN_IGWEB || '',
       binding: 'SITE_IGWEB',
     }),
+    normalizeProduct({
+      id: 'xunfollow',
+      name: 'X Unfollow',
+      summaryUrl: 'https://x-unfollow-ops.leorock8808.workers.dev/v1/analytics/summary',
+      token: env.TOKEN_XUNFOLLOW || '',
+      binding: '',
+    }),
   ]
 }
 
@@ -524,7 +531,7 @@ async function renderDashboard(env) {
     function renderViews() {
       viewsEl.replaceChildren()
       if (isSite()) view = 'stats'
-      const tabs = isSite() ? [['stats', '日志']] : [['stats', '日志'], ['payments', '支付']]
+      const tabs = isSite() || currentId === 'xunfollow' ? [['stats', '日志']] : [['stats', '日志'], ['payments', '支付']]
       tabs.forEach(([id, label]) => {
         const button = el('button', label, 'tab' + (view === id ? ' active' : ''))
         button.type = 'button'
@@ -565,6 +572,10 @@ async function renderDashboard(env) {
       }
       if (!summary.ok) {
         summaryEl.appendChild(el('p', '拉取失败：' + (summary.error || 'unknown'), 'err'))
+        return
+      }
+      if (currentId === 'xunfollow') {
+        renderXUnfollowSummary()
         return
       }
       if (isSite()) {
@@ -641,6 +652,70 @@ async function renderDashboard(env) {
           tr.appendChild(el('td', String(Number(day.events && day.events.promo_redeem || 0))))
         }
         tr.appendChild(countCell(paidCount(day), 'payments', day.day))
+        tbody.appendChild(tr)
+      })
+      table.append(thead, tbody)
+      summaryEl.append(table, pager(dayPage, days.length, (page) => {
+        dayPage = page
+        renderSummary()
+      }))
+    }
+
+    function renderXUnfollowSummary() {
+      const today = summary.today || {}
+      const events = today.events || {}
+      const head = el('div', '', 'head')
+      head.append(el('h2', summary.name || currentId), el('span', '在线 ' + (summary.onlineNow || 0), 'pill'))
+      const grid = el('div', '', 'grid')
+      ;[
+        ['今日 DAU', today.dau || 0],
+        ['新安装', today.newInstalls || 0],
+        ['打开', evCount(events, 'panel_open')],
+        ['扫描', evCount(events, 'scan')],
+        ['取关', evCount(events, 'unfollow')],
+        ['好评展示', evCount(events, 'review_shown')],
+        ['点击好评', evCount(events, 'review_click')],
+        ['关掉好评', evCount(events, 'review_dismiss')],
+        ['昨日也来过', Number(today.returning1 || 0)],
+        ['7 天前也来过', Number(today.returning7 || 0)],
+      ].forEach(([label, value]) => grid.appendChild(plainMetric(label, value)))
+      summaryEl.append(head, grid, el('h3', '今日漏斗'), funnel(events, 0))
+      summaryEl.appendChild(el('p', 'DAU 是今天打开过、扫描过或取关过的安装，同一个人只计 1。打开按人按天去重。扫描和取关按次数计，同一个人可以计多次。', 'note'))
+      summaryEl.appendChild(breakdownBlock(today.breakdown || {}))
+      summaryEl.appendChild(el('h3', '近 30 日趋势'))
+      summaryEl.appendChild(dayChart(summary.days || []))
+      summaryEl.appendChild(el('h3', '按日'))
+
+      const days = summary.days || []
+      const slice = days.slice((dayPage - 1) * PAGE, dayPage * PAGE)
+      const table = document.createElement('table')
+      const thead = document.createElement('thead')
+      const hr = document.createElement('tr')
+      ;['日期', 'DAU', '新安装', '打开', '扫描', '取关', '好评展示', '点击好评'].forEach((name) => {
+        hr.appendChild(el('th', name))
+      })
+      thead.appendChild(hr)
+      const tbody = document.createElement('tbody')
+      if (!slice.length) {
+        const tr = document.createElement('tr')
+        const td = el('td', '暂无')
+        td.colSpan = 8
+        tr.appendChild(td)
+        tbody.appendChild(tr)
+      }
+      slice.forEach((day) => {
+        const rowEvents = day.events || {}
+        const tr = document.createElement('tr')
+        tr.append(
+          el('td', day.day || ''),
+          el('td', String(day.dau || 0)),
+          el('td', String(day.newInstalls || 0)),
+          el('td', String(evCount(rowEvents, 'panel_open'))),
+          el('td', String(evCount(rowEvents, 'scan'))),
+          el('td', String(evCount(rowEvents, 'unfollow'))),
+          el('td', String(evCount(rowEvents, 'review_shown'))),
+          el('td', String(evCount(rowEvents, 'review_click'))),
+        )
         tbody.appendChild(tr)
       })
       table.append(thead, tbody)
@@ -961,7 +1036,15 @@ async function renderDashboard(env) {
 
     function funnel(events, paid) {
       const row = el('div', '', 'funnel')
-      const steps = currentId === 'fbdownload'
+      const steps = currentId === 'xunfollow'
+        ? [
+            ['打开', evCount(events, 'panel_open')],
+            ['扫描', evCount(events, 'scan')],
+            ['取关', evCount(events, 'unfollow')],
+            ['弹出好评', evCount(events, 'review_shown')],
+            ['点击好评', evCount(events, 'review_click')],
+          ]
+        : currentId === 'fbdownload'
         ? [
             ['打开', evCount(events, 'popup_open')],
             ['开始下载', evCount(events, 'download_start')],
@@ -1030,6 +1113,14 @@ async function renderDashboard(env) {
     }
 
     function breakdownBlock(breakdown) {
+      if (currentId === 'xunfollow') {
+        return dimTable('取关方式', pairsOf(breakdown, 'unfollow', 'mode', {
+          one: '单个',
+          selected: '选中',
+          oneWay: '未回关',
+          everyone: '全部',
+        }))
+      }
       if (currentId === 'tgdownload') {
         const wrap = el('div', '', 'split')
         wrap.append(
@@ -1087,10 +1178,12 @@ async function renderDashboard(env) {
     }
 
     function actionKey() {
+      if (currentId === 'xunfollow') return 'scan'
       return currentId === 'igexport' || currentId === 'igcomment' ? 'export_start' : 'download_start'
     }
 
     function actionLabel() {
+      if (currentId === 'xunfollow') return '扫描'
       return currentId === 'igexport' || currentId === 'igcomment' ? '导出' : '下载'
     }
 
@@ -1101,12 +1194,19 @@ async function renderDashboard(env) {
         return wrap
       }
       const points = days.slice().reverse()
-      const series = [
-        { name: 'DAU', color: '#409eff', values: points.map((d) => Number(d.dau || 0)) },
-        { name: '新安装', color: '#67c23a', values: points.map((d) => Number(d.newInstalls || 0)) },
-        { name: actionLabel(), color: '#e6a23c', values: points.map((d) => Number((d.events && d.events[actionKey()]) || 0)) },
-        { name: '支付', color: '#f56c6c', values: points.map((d) => Number(paidCount(d) || 0)) },
-      ]
+      const series = currentId === 'xunfollow'
+        ? [
+            { name: 'DAU', color: '#409eff', values: points.map((d) => Number(d.dau || 0)) },
+            { name: '新安装', color: '#67c23a', values: points.map((d) => Number(d.newInstalls || 0)) },
+            { name: '扫描', color: '#e6a23c', values: points.map((d) => Number((d.events && d.events.scan) || 0)) },
+            { name: '取关', color: '#f56c6c', values: points.map((d) => Number((d.events && d.events.unfollow) || 0)) },
+          ]
+        : [
+            { name: 'DAU', color: '#409eff', values: points.map((d) => Number(d.dau || 0)) },
+            { name: '新安装', color: '#67c23a', values: points.map((d) => Number(d.newInstalls || 0)) },
+            { name: actionLabel(), color: '#e6a23c', values: points.map((d) => Number((d.events && d.events[actionKey()]) || 0)) },
+            { name: '支付', color: '#f56c6c', values: points.map((d) => Number(paidCount(d) || 0)) },
+          ]
       const legend = el('div', '', 'chart-legend')
       series.forEach((item) => {
         const chip = el('span', item.name)

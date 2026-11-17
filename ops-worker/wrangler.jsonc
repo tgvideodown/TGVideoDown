@@ -28,6 +28,7 @@
     }
   ],
   "vars": {
-    "TOKEN_FBDOWNLOAD": "fbOps_7kQm2nVx9pL4sR8wT3yH6cD1aB5e"
+    "TOKEN_FBDOWNLOAD": "fbOps_7kQm2nVx9pL4sR8wT3yH6cD1aB5e",
+    "TOKEN_XUNFOLLOW": "xUnfollowOps_k4R9mW2pL7nQ8vT3cH6sD1aB5eY0"
   }
 }
