@@ -25,10 +25,15 @@
     {
       "binding": "SITE_IGWEB",
       "service": "ig-exporter-api"
+    },
+    {
+      "binding": "OPS_IGEXPORT_VEST",
+      "service": "igexport-vest-ops"
     }
   ],
   "vars": {
     "TOKEN_FBDOWNLOAD": "fbOps_7kQm2nVx9pL4sR8wT3yH6cD1aB5e",
-    "TOKEN_XUNFOLLOW": "xUnfollowOps_k4R9mW2pL7nQ8vT3cH6sD1aB5eY0"
+    "TOKEN_XUNFOLLOW": "xUnfollowOps_k4R9mW2pL7nQ8vT3cH6sD1aB5eY0",
+    "TOKEN_IGEXPORT_VEST": "igVestOps_9kQm2nVx7pL4sR8wT3yH6cD1aB5e"
   }
 }

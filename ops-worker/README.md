@@ -28,6 +28,7 @@ Workers & Pages → `product-ops` → Settings → Variables and Secrets
 - `TOKEN_IGEXPORT`
 - `TOKEN_IGCOMMENT`
 - `TOKEN_IGWEB`（IG Exporter 官网，对应 `ig-exporter-api` 的 `ANALYTICS_VIEW_TOKEN`）
+- `TOKEN_IGEXPORT_VEST`（免费版 IG Follower Export Tool，对应 `igexport-vest-ops` 的 `ANALYTICS_VIEW_TOKEN`）
 
 `wrangler.jsonc` 已开启 `keep_vars`，之后 `npx wrangler deploy` 不会覆盖网页上改过的值。
 

@@ -114,6 +114,13 @@ function builtinProducts(env) {
       token: env.TOKEN_XUNFOLLOW || '',
       binding: '',
     }),
+    normalizeProduct({
+      id: 'igexport-vest',
+      name: 'IG Follower Export Tool (Free)',
+      summaryUrl: 'https://igexport-vest-ops.leorock8808.workers.dev/v1/analytics/summary',
+      token: env.TOKEN_IGEXPORT_VEST || '',
+      binding: 'OPS_IGEXPORT_VEST',
+    }),
   ]
 }
 
