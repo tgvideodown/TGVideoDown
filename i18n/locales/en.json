@@ -477,10 +477,10 @@
     "privacyTitle": "Privacy & Security",
     "privacyIntro": "Built with privacy in mind:",
     "privacyItems": [
-      "Downloads handled through your browser",
-      "No requirement to share passwords with third-party servers",
-      "Designed for local, on-device saving via Chrome",
-      "No hidden analytics described in the extension workflow"
+      "Core downloads and Ads Library saves run on your device via Chrome",
+      "We never ask for your Facebook password",
+      "Optional Google sign-in is used only for VIP, credits, and transcription",
+      "Billing, analytics, and optional transcription are described in the full Privacy Policy"
     ],
     "privacyOutro": "Your browsing stays in your control. Always use downloaded content responsibly.",
     "privacyPolicyLink": "Read full Privacy Policy",
