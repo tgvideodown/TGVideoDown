@@ -74,8 +74,15 @@
 </template>
 
 <script setup>
-const extensionStoreUrl = useExtensionStoreUrl()
+const route = useRoute()
+const currentStoreUrl = useExtensionStoreUrl()
+const legacyStoreUrl = useLegacyExtensionStoreUrl()
 const localePath = useLocalePath()
+const extensionStoreUrl = computed(() =>
+  route.path.replace(/\/$/, '').endsWith('/uninstall')
+    ? legacyStoreUrl.value
+    : currentStoreUrl.value
+)
 
 const mobileMenuOpen = ref(false)
 

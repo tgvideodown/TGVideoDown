@@ -524,6 +524,22 @@
     "title": "Ekstensi Telegram yang diperbarui gratis",
     "lead": "Anda dapat menggunakan pengunduh video Telegram versi baru secara gratis, tanpa biaya apa pun.",
     "cta": "Gunakan gratis",
+    "pointsTitle": "Yang tetap gratis",
+    "points": [
+      "Tanpa biaya dan tanpa langganan",
+      "Tanpa login di situs ini",
+      "Video, gambar, audio, dan file",
+      "Satu file atau beberapa sekaligus"
+    ],
+    "stepsTitle": "Pasang lagi dalam tiga langkah",
+    "steps": [
+      "Buka halaman Chrome Web Store",
+      "Tambahkan ekstensi kembali ke Chrome",
+      "Buka Telegram Web dan simpan media yang dibutuhkan"
+    ],
+    "helpTitle": "Mencopot karena ada masalah?",
+    "helpBody": "Ceritakan apa yang terjadi. Sertakan versi Chrome dan chat atau file yang tidak terunduh.",
+    "helpCta": "Email dukungan",
     "seoTitle": "Copot pemasangan - Telegram Video Downloader",
     "seoDescription": "Ekstensi pengunduh video Telegram yang diperbarui gratis dan tidak memungut biaya."
   },

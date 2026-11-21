@@ -524,6 +524,22 @@
     "title": "Güncellenmiş Telegram eklentisi ücretsiz",
     "lead": "Telegram video indiricisinin yeni sürümünü ücretsiz kullanabilirsiniz. Herhangi bir ücret yok.",
     "cta": "Ücretsiz kullan",
+    "pointsTitle": "Ücretsiz kalanlar",
+    "points": [
+      "Ücret yok, abonelik yok",
+      "Bu sitede oturum açmak gerekmez",
+      "Video, görsel, ses ve dosyalar",
+      "Tek dosya veya birden fazlası"
+    ],
+    "stepsTitle": "Üç adımda yeniden yükle",
+    "steps": [
+      "Chrome Web Store sayfasını aç",
+      "Eklentiyi Chrome’a yeniden ekle",
+      "Telegram Web’i aç ve gereken medyayı kaydet"
+    ],
+    "helpTitle": "Bir sorun yüzünden mi kaldırdınız?",
+    "helpBody": "Ne olduğunu yazın. Chrome sürümünü ve inmeyen sohbeti veya dosyayı belirtin.",
+    "helpCta": "Desteğe e-posta",
     "seoTitle": "Kaldırma - Telegram Video Downloader",
     "seoDescription": "Güncellenmiş Telegram video indirici eklentisi ücretsizdir, herhangi bir ücret yoktur."
   },

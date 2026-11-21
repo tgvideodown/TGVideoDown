@@ -75,7 +75,10 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://tgvideodown.com',
-      extensionStoreUrl: 'https://chromewebstore.google.com/detail/telegram-video-downloader/lmblmgpljbjhkbicffecgngnfnkckopm',
+      extensionStoreUrl: 'https://chromewebstore.google.com/detail/telegram%E5%AA%92%E4%BD%93%E4%B8%8B%E8%BD%BD%E5%99%A8-tg-video-do/nihpnkobgpmbfbjplbgalmnmggmijcde',
+      /** /uninstall keeps the previous listing */
+      legacyExtensionStoreUrl:
+        'https://chromewebstore.google.com/detail/telegram-video-downloader/lmblmgpljbjhkbicffecgngnfnkckopm',
       facebookExtensionStoreUrl:
         'https://chromewebstore.google.com/detail/video-downloader-download/jgeifchelmmplfbglkigaljkidfgpdmb',
       igDmBotStoreUrl:

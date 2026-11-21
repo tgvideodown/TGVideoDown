@@ -524,6 +524,22 @@
     "title": "L'estensione Telegram aggiornata è gratuita",
     "lead": "Puoi usare gratis la nuova versione del downloader video di Telegram. Non c’è alcun costo.",
     "cta": "Usala gratis",
+    "pointsTitle": "Cosa resta gratuito",
+    "points": [
+      "Nessun costo e nessun abbonamento",
+      "Nessun accesso su questo sito",
+      "Video, immagini, audio e file",
+      "Un file o più file insieme"
+    ],
+    "stepsTitle": "Reinstallala in tre passaggi",
+    "steps": [
+      "Apri la scheda del Chrome Web Store",
+      "Aggiungi di nuovo l’estensione a Chrome",
+      "Apri Telegram Web e salva i media che ti servono"
+    ],
+    "helpTitle": "Disinstallata per un problema?",
+    "helpBody": "Raccontaci cosa è successo. Indica la versione di Chrome e la chat o il file che non si è scaricato.",
+    "helpCta": "Scrivi al supporto",
     "seoTitle": "Disinstallazione - Telegram Video Downloader",
     "seoDescription": "L'estensione aggiornata per scaricare i video di Telegram è gratuita e non ha costi."
   },

@@ -545,6 +545,22 @@
     "title": "更新版 Telegram 插件可以免费使用",
     "lead": "你可以免费使用更新版本的 Telegram 视频下载插件，不收取任何费用。",
     "cta": "免费使用",
+    "pointsTitle": "这些仍然免费",
+    "points": [
+      "不收费，也没有订阅",
+      "本站无需登录",
+      "视频、图片、音频和文件",
+      "单个保存，或一次批量下载"
+    ],
+    "stepsTitle": "三步重新安装",
+    "steps": [
+      "打开 Chrome 网上应用店页面",
+      "把插件添加回 Chrome",
+      "打开 Telegram 网页版，保存需要的媒体"
+    ],
+    "helpTitle": "因为出问题才卸载？",
+    "helpBody": "把遇到的情况发给我们，写上 Chrome 版本，以及哪个聊天或文件没有下载成功。",
+    "helpCta": "发邮件给支持",
     "seoTitle": "卸载 - Telegram 视频下载",
     "seoDescription": "更新版 Telegram 视频下载插件可以免费使用，不收取任何费用。"
   },

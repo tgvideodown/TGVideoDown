@@ -524,6 +524,22 @@
     "title": "Tiện ích Telegram bản mới hoàn toàn miễn phí",
     "lead": "Bạn có thể dùng bản cập nhật của tiện ích tải video Telegram miễn phí, không thu bất kỳ khoản phí nào.",
     "cta": "Dùng miễn phí",
+    "pointsTitle": "Những gì vẫn miễn phí",
+    "points": [
+      "Không phí, không gói đăng ký",
+      "Không cần đăng nhập trang này",
+      "Video, hình ảnh, âm thanh và tệp",
+      "Một tệp hoặc nhiều tệp cùng lúc"
+    ],
+    "stepsTitle": "Cài lại trong ba bước",
+    "steps": [
+      "Mở trang trên Chrome Web Store",
+      "Thêm lại tiện ích vào Chrome",
+      "Mở Telegram Web và lưu media bạn cần"
+    ],
+    "helpTitle": "Gỡ vì gặp lỗi?",
+    "helpBody": "Hãy kể chuyện đã xảy ra. Ghi phiên bản Chrome và cuộc trò chuyện hoặc tệp không tải được.",
+    "helpCta": "Gửi email hỗ trợ",
     "seoTitle": "Gỡ cài đặt - Telegram Video Downloader",
     "seoDescription": "Tiện ích tải video Telegram bản cập nhật được dùng miễn phí, không thu phí."
   },

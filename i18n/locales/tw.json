@@ -524,6 +524,22 @@
     "title": "更新版 Telegram 外掛可以免費使用",
     "lead": "你可以免費使用更新版本的 Telegram 影片下載外掛，不收取任何費用。",
     "cta": "免費使用",
+    "pointsTitle": "這些仍然免費",
+    "points": [
+      "不收費，也沒有訂閱",
+      "本站無需登入",
+      "影片、圖片、音訊和檔案",
+      "單一儲存，或一次批次下載"
+    ],
+    "stepsTitle": "三步重新安裝",
+    "steps": [
+      "開啟 Chrome 線上應用程式商店頁面",
+      "把外掛加回 Chrome",
+      "開啟 Telegram 網頁版，儲存需要的媒體"
+    ],
+    "helpTitle": "因為出問題才解除安裝？",
+    "helpBody": "把遇到的情況寄給我們，寫上 Chrome 版本，以及哪個聊天或檔案沒有下載成功。",
+    "helpCta": "寄信給支援",
     "seoTitle": "解除安裝 - Telegram 影片下載",
     "seoDescription": "更新版 Telegram 影片下載外掛可以免費使用，不收取任何費用。"
   },

@@ -545,6 +545,22 @@
     "title": "The updated Telegram extension is free",
     "lead": "You can use the newer Telegram video downloader for free. It does not charge any fee.",
     "cta": "Use the free extension",
+    "pointsTitle": "What stays free",
+    "points": [
+      "No fee and no subscription",
+      "No login on this website",
+      "Videos, images, audio, and files",
+      "One file or a batch at once"
+    ],
+    "stepsTitle": "Install it again in three steps",
+    "steps": [
+      "Open the Chrome Web Store listing",
+      "Add the extension back to Chrome",
+      "Open Telegram Web and save the media you need"
+    ],
+    "helpTitle": "Uninstalled because something failed?",
+    "helpBody": "Tell us what happened. Include your Chrome version and which chat or file did not download.",
+    "helpCta": "Email support",
     "seoTitle": "Uninstall - Telegram Video Downloader",
     "seoDescription": "The updated Telegram video downloader extension is free to use. There is no charge."
   },

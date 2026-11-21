@@ -6,7 +6,7 @@ Official website source code of **TGVideoDown**, a Chrome Extension that helps u
 https://tgvideodown.com
 
 🧩 Chrome Extension:
-[(放 Chrome Web Store 链接)](https://chromewebstore.google.com/detail/telegram-video-downloader/lmblmgpljbjhkbicffecgngnfnkckopm) 
+[(放 Chrome Web Store 链接)](https://chromewebstore.google.com/detail/telegram%E5%AA%92%E4%BD%93%E4%B8%8B%E8%BD%BD%E5%99%A8-tg-video-do/nihpnkobgpmbfbjplbgalmnmggmijcde) 
 
 
 ## About TGVideoDown

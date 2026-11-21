@@ -524,6 +524,22 @@
     "title": "Die neue Telegram-Erweiterung ist kostenlos",
     "lead": "Die aktualisierte Telegram-Video-Downloader-Erweiterung kannst du kostenlos nutzen. Es fallen keine Gebühren an.",
     "cta": "Kostenlos verwenden",
+    "pointsTitle": "Das bleibt kostenlos",
+    "points": [
+      "Keine Gebühr und kein Abo",
+      "Keine Anmeldung auf dieser Website",
+      "Videos, Bilder, Audio und Dateien",
+      "Eine Datei oder mehrere auf einmal"
+    ],
+    "stepsTitle": "In drei Schritten neu installieren",
+    "steps": [
+      "Die Chrome-Web-Store-Seite öffnen",
+      "Die Erweiterung wieder zu Chrome hinzufügen",
+      "Telegram Web öffnen und die Medien speichern"
+    ],
+    "helpTitle": "Wegen eines Fehlers deinstalliert?",
+    "helpBody": "Schreib uns, was passiert ist. Nenne deine Chrome-Version und den Chat oder die Datei, die nicht heruntergeladen wurde.",
+    "helpCta": "Support per E-Mail",
     "seoTitle": "Deinstallation - Telegram Video Downloader",
     "seoDescription": "Die aktualisierte Telegram-Erweiterung ist kostenlos und erhebt keine Gebühren."
   },
